@@ -188,8 +188,7 @@
                </div> <!-- End div id navigation -->
                
                <div id="titleBar">
-               <p align="center"><span class="projectTitle">Selected Entries from the Lucius Clark Smith Diaries,<br/>
-                  30 July 1862 to 31 December 1862</span></p>
+               <p align="center"><span class="projectTitle">Journal of a Tour to Europe</span><br/>by Samuel Sullivan Cox</p>
                <hr/>
             </div> <!-- END titleBar -->
             </div> <!-- END masthead -->

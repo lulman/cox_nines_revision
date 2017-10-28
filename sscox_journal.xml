@@ -3,7 +3,7 @@
    <teiHeader type="AACR2"><fileDesc>
          
          <titleStmt>
-            <title>Samuel Sullivan Cox's "Journal of a Tour to Europe" (1851): Electronic Text Edition.</title>
+            <title>Samuel Sullivan Cox's "Journal of a Tour to Europe" (1851)</title>
              
             <editor role="editor">Andrea Avenido</editor>
             <editor role="editor">Puja Batra-Wells</editor>
@@ -22,10 +22,11 @@
             <editor role="editor">Mike Liddy</editor>
             <editor role="editor">Nick Long</editor>
             <editor role="editor">Jennifer Lee Schneider</editor>
-            <editor role="principal">H. Lewis Ulman</editor>
+            <editor role="principal editor"><persName ref="HLU">H. Lewis Ulman</persName></editor>
             <editor role="editor">Victoria R. Urban</editor>
             <editor role="editor">Derrick Whan</editor>
             <editor role="editor">Derek Craig Zoladz</editor>
+            <editor role="proofreader">Envera Dukaj</editor>
             
             <respStmt>
                <resp>Creation of initial machine-readable transcript: </resp>
@@ -57,12 +58,20 @@
                   <addrLine n="3">1858 Neil Avenue Mall</addrLine>
                   <addrLine n="4">Columbus, OH 43210</addrLine>
                </address>
-            </publisher><pubPlace>Columbus, OH</pubPlace><idno type="CallNumber">XRAR7766532</idno><availability status="unknown">
+            </publisher><pubPlace>Columbus, OH</pubPlace><idno type="CallNumber">XRAR7766532</idno>
+            
+            <availability>
+               <p>The Samuel Sullivan Cox journal is the property of the Rare Books and Manuscripts
+                  Library of The Ohio State University Libraries. Any use of the material should
+                  acknowledge such ownership.</p>
                <p xml:id="CreativeCommons">
-                  &lt;a rel="license" href="http://creativecommons.org/licenses/by-nc-sa/3.0/"&gt;&lt;img alt="Creative Commons License" style="border-width:0" src="http://creativecommons.org/images/public/somerights20.png"/&gt;&lt;/a&gt;&lt;br/&gt;This work is licensed under a &lt;a rel="license" href="http://creativecommons.org/licenses/by-nc-sa/3.0/"&gt;Creative Commons Attribution-Noncommercial-Share Alike 3.0  License&lt;/a&gt;.&lt;br/&gt;
-                  This license does not transfer any rights regarding material used in the edition by permission of a third party.
+                  <![CDATA[<a rel="license" href="http://creativecommons.org/licenses/by-nc-sa/3.0/"><img alt="Creative Commons License" style="border-width:0" src="http://creativecommons.org/images/public/somerights20.png"/></a><br/>This work is licensed under a <a rel="license" href="http://creativecommons.org/licenses/by-nc-sa/3.0/">Creative Commons Attribution-Noncommercial-Share Alike 3.0  License</a>.<br/>
+                  This license does not transfer any rights regarding material used in the edition by permission of a third party.]]>
                </p>
-            </availability><date>2007-03-15</date></publicationStmt>
+            </availability>
+            
+            <date>2007-03-15</date>
+         </publicationStmt>
          
          <sourceDesc>
             <biblFull>
@@ -77,19 +86,26 @@
                
                <extent>164 pp.</extent>
                
-               <publicationStmt><p>The Samuel Sullivan Cox journal is the property of the Rare Books and Manuscripts
+               <publicationStmt>
+                  <p>The Samuel Sullivan Cox journal is the property of the Rare Books and Manuscripts
                      Library of The Ohio State University Libraries. Any use of the material should
                      acknowledge such ownership. The Ohio State University holds copyright to 
-                     all images of manuscript pages used in the edition.</p></publicationStmt>
+                     all images of manuscript pages used in the edition.</p>
+               </publicationStmt>
                
                <notesStmt>
-                  <note type="descriptive" resp="#ed" xml:id="CoxSourceDescription" anchored="true">
-                     <figure rend="embedImg">
+                  <note type="descriptive" resp="ed">
+                     <p>
+                        <figure rend="embed" n="250">
                         <head>Cox journal before restoration</head>
+                        <graphic url="./image_sscox_orig_spine.jpg"/>
                         <figDesc>
-                           <ref target="https://images.asc.ohio-state.edu/is/image/mediamanager/7/7bc00fe2-6086-4ca6-9e2a-7745f9ebf818.jpg?scale=0.2&amp;rgn=80,30,260,260&amp;fmt=png"/>
+                           Cox journal before restoration
                         </figDesc>
                      </figure>
+                     SPEC.RARE.73
+                     </p>
+                     
                      <p>
                         Samuel Sullivan Cox's "Journal of a Tour to Europe" is a leather-bound
                         notebook approximately 6.5 in. (16.5 cm.) tall by 4 in. (10 cm.) wide. Its pages
@@ -135,13 +151,7 @@
                         <ref target="http://people.cohums.ohio-state.edu/ulman1/SSCoxJournal/CoxZoom.cfm?file=/c/c0ff75ca-4d03-41b4-a49d-c8d8ee1d6474.jpg">first page of his initial entry</ref>).
                      </p>
                   </note>
-                  <note type="introductory" resp="#ed" xml:id="CoxIntroduction" anchored="true">
-                     <figure rend="embedImg">
-                        <head>S. S. Cox (Cox and Northrup)</head>
-                        <figDesc>
-                           <ref target="https://images.asc.ohio-state.edu/is/image/mediamanager/2/2c42d7d0-4e7c-463d-ac04-8c5df05bec9c.jpg?scale=0.4&amp;rgn=500,100,180,280&amp;fmt=png"/>
-                        </figDesc>
-                     </figure>
+                  <note type="introductory" resp="ed">
                      <p>Samuel Sullivan Cox (1824–1889) served as a Democratic congressman
                         in the United States House of Representative from 1856 until his death, save
                         for a few short interruptions, first representing his native Ohio (he was
