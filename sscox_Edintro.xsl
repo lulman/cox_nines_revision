@@ -137,9 +137,9 @@
                            <li><a href="./sscox_journal.html#london">London</a></li>
                            <li><a href="./sscox_journal.html#paris">Paris and Southern France</a></li>
                            <li><a href="./sscox_journal.html#sardinia">Sardinia and Tuscany</a></li>
-                           <li><a href="./sscox_journal.html#rome">"Eternal Rome" and the Kingdom of the Two Sicilies</a></li>
+                           <li><a href="./sscox_journal.html#rome">"Eternal Rome"</a></li>
                            <li><a href="./sscox_journal.html#orient">The "Dreamy Orient"</a></li>
-                           <li><a href="./sscox_journal.html#trieste">Trieste, Venetia, and Lombardy</a></li>
+                           <li><a href="./sscox_journal.html#trieste">Trieste</a></li>
                         </ul>
                      </li>
                      <li class="link"><a class="main"  href="./sscox_journal.html#projectDescription">Editorial Introduction</a>
@@ -670,12 +670,11 @@
       </p>
    </xsl:template>
    <xsl:template match="tei:q[@rend='block']">
-      <br/>
-      <br/>
       <div class="blockquote">
+        <br/>
          <xsl:apply-templates/>
-         <br/>
-         <br/>
+       <br/>
+       <br/>
       </div>
    </xsl:template>
    <xsl:template match="tei:quote[@rend='blockquote']">

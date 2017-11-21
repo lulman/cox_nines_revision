@@ -198,13 +198,15 @@
                         insights into an historical and cultural milieu removed in time and
                         sensibility from our own—even as we recognize long-enduring conventions of
                         travel and tourism as well as familiar dynamics of cross-cultural encounters. </p>
-                     <figure rend="embedImg">
+                     <figure rend="embed" n="250">
                         <head>The Second Day Out (Babcock)</head>
+                        <graphic url="./image_sscox_Old_Time_Travel.jpg"></graphic>
                         <figDesc>
-                           <ref target="https://images.asc.ohio-state.edu/is/image/mediamanager/a/ac20908d-bdae-4a3a-bb9d-f8ccde23236c.jpg?scale=0.2&amp;rgn=10,290,340,220&amp;fmt=png"/>
+                           The Second Day Out (Babcock)
                         </figDesc>
                      </figure>
-                     <p><emph rend="bold">Crossing the Atlantic</emph>. Describing his party's
+                     <p rend="h3" xml:id="crossing">Crossing the Atlantic</p>
+                     <p>Describing his party's
                         departure from Jersey City, NJ in the RMS <name type="ship">Asia</name> on
                         May 7, Cox conveys excitement, confidence, and eager anticipation. Still
                         within sight of land, he enthuses, they spotted a young whale: "Hurrah! He
@@ -229,7 +231,7 @@
                         composed at sea are written first in pencil, then traced over at some later
                         date in ink. Presumably, Cox didn't trust himself on the bounding main with
                         an open bottle of ink and a fountain pen!</p>
-                     <p> In light of the discomfort he describes in ever more vivid prose (at one
+                     <p>In light of the discomfort he describes in ever more vivid prose (at one
                         point he laments that his sensibilities have been reduced to the
                         "nauseate sublime"), there is more than a little dramatic
                         irony in his fascination with the technology of sailing. "Was there
@@ -243,7 +245,7 @@
                         view of that international competition in his description of the <name type="ship">Asia's</name> encounter with the U.S. steamer <name type="ship">Humboldt</name> (not a Collins ship) and his speculation that the
                            <name type="ship">Asia</name> will beat the best crossing time of the
                         Collins steamer <name type="ship">Pacific</name>.</p>
-                     <p> Cox's prose, as much as his subjects, characterize him as a writer
+                     <p>Cox's prose, as much as his subjects, characterize him as a writer
                         developing his distinctive voice. His writing—and
                         sensibilities—are clearly informed by his reading. In the space of a
                         single journal entry on May 13th, he quotes Washington Irving, Robert
@@ -251,7 +253,7 @@
                         also draws on a rich—if sometimes overwrought—pictorial
                         imagination, an ability to sketch sentimental and often didactic tableaux in words.
                         Describing a small bird he sees somewhere off the coast of Nova Scotia or
-                        Newfoundland, Cox writes, <q rend="block">How beautiful would be the song of
+                        Newfoundland, Cox writes,<q rend="block">How beautiful would be the song of
                            that little chorister upon a "bough swaying in the
                            breeze" in some sequestered nook amid a leafy valley surrounded
                            with green prospects &amp; smiling cultivation. How like a hymn to
@@ -270,7 +272,7 @@
                         Cox somewhat more modestly characterizes his literary allusions and
                         descriptive prose as spontaneous <foreign xml:lang="fre">plein air</foreign>
                         daguerreotypes of the scenes before
-                        him: <q rend="block">The impressions herein recorded were mostly taken upon
+                        him:<q rend="block">The impressions herein recorded were mostly taken upon
                            the spot, and the allusions, historical, classical, or otherwise, were
                            not sought for, but sprung out of the time and locality. Each lineament
                            of each form in Nature or Art, each custom and characteristic were
@@ -287,7 +289,8 @@
                         grandeur of the open ocean. Nevertheless, upon sight of the English coast, he enthuses, 
                         "And this is England! Glorious old England." 
                      </p>
-                     <p><emph rend="bold">Liverpool</emph>. Cox’s entries from Liverpool convey contagious amazement: 
+                     <p rend="h3" xml:id="liverpool">Liverpool</p>
+                        <p>Cox’s entries from Liverpool convey contagious amazement: 
                         “How can I describe my feelings at the grand illumination?” Inevitably, his impressions are 
                         filtered through his reading and cultural biases: He first introduces us to the social scene 
                         of Liverpool by describing a street urchin as a "veritable O. Twist, who in his tatters and 
@@ -302,7 +305,8 @@
                         pavedness of the streets are permanent.” And with a sketchbook artist's attention to detail, 
                         he occasionally draws a sketch in the margins of the journal. 
                      </p>
-                     <p><emph rend="bold">London</emph>. Arriving in London on 19 May, Cox spends his first full day, 
+                     <p rend="h3" xml:id="london">London</p>
+                        <p>Arriving in London on 19 May, Cox spends his first full day, 
                         Tuesday, May 20th, visiting the famous Crystal Palace, which housed the Great Exhibition of 1851, 
                         to view its “splendid contents.” Over the next three days, he and his companions 
                         take in the Crystal Palace, an opera, the Epsom Derby, and a host of other tourist sites. They 
@@ -327,7 +331,8 @@
                         he repeatedly visits banks to deal with business back home or manage his funds (he stops by 
                         Barings bank in London), and he must regularly secure visas for upcoming legs of the journey.
                       </p>
-                     <p><emph rend="bold">Paris and Southern France</emph>. Cox arrives in Paris interested mainly 
+                     <p rend="h3" xml:id="paris">Paris and Southern France</p>
+                     <p>Cox arrives in Paris interested mainly 
                         in obtaining passports before moving on to Italy (or, more exactly, the various states that 
                         would comprise a united Italy after the 1860s and 70s), spending only one full day in the 
                         French capital, though a day he describes as "A perfect day of wonders." One special wonder 
@@ -338,7 +343,8 @@
                         which a proud new suspension bridge has been built, he exclaims, "How the old and new 
                         civilization is contrasted."
                      </p>
-                     <p><emph rend="bold">Sardinia and Tuscany</emph>. Traveling  from Marseilles to Genoa (Sardinia), 
+                     <p rend="h3" xml:id="sardinia">Sardinia and Tuscany</p>
+                        <p>Traveling  from Marseilles to Genoa (Sardinia), 
                         Cox encounters—and describes—other travelers from the U.S., as he does 
                         occasionally during his travels. On board the <name type="ship">Languedoc</name>, he meets 
                         the author Ann Sophia Stephens, who is traveling with George and Julia Pratt, the children of 
@@ -352,7 +358,8 @@
                         turmoil in Europe at this time, Cox's party will encounter several other U.S. warships 
                         during their travels, and Cox occasionally records discussions of politics with the locals.
                      </p>
-                     <p><emph rend="bold">"Eternal Rome" and the Kingdom of the Two Sicilies</emph>. Upon his arrival 
+                     <p rend="h3" xml:id="rome">"Eternal Rome" and the Kingdom of the Two Sicilies</p>
+                        <p>Upon his arrival 
                         at the port of Civita Veccia, Cox offers his "verdict re. Italians," contrasting the 
                         "higher classes," whom he finds "decent, polite &amp; refined," with the "lower classes," who 
                         "look hard, in dirty tatters, and with saucy deportment — mishaven [sic] 
@@ -365,7 +372,8 @@
                      <p>Rome, however, elicits Cox's veneration of Roman antiquities, which he describes with great 
                         detail in lengthy journal entries.
                      </p>
-                     <p><emph rend="bold">The "Dreamy Orient."</emph> By contrast, Cox writes relatively little 
+                     <p rend="h3" xml:id="orient">The "Dreamy Orient."</p>
+                     <p>By contrast, Cox writes relatively little 
                         about Athens and Greece (and spends relatively little time there). En route to Constantinople 
                         via Smyrna, he describes islands nestled between the coasts of Greece and Turkey in the Aegean 
                         Sea: Tenedos, Lemnos, and Lesbos. After weaving through the Aegean, threading the Dardanelles, 
@@ -386,7 +394,8 @@
                         Not surprisingly, Cox omits most of this private description  from <title level="m">A 
                         Buckeye Abroad</title>.
                      </p>
-                     <p><emph rend="bold">Trieste, Venetia, and Lombardy</emph>. Cox's party returns to Italy at 
+                     <p rend="h3" xml:id="trieste">Trieste, Venetia, and Lombardy</p> 
+                     <p>Cox's party returns to Italy at 
                         Trieste (at the time, part of the Austro-Hungarian Empire), then heads west to Venice, Verona, and 
                         Brescia on the way to Milan and Lake Como, crossing Venetzia and Lombardy. In Trieste, we 
                         are reminded again of the tumultuous history of mid-century Europe: "Germans &amp; 

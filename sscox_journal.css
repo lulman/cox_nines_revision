@@ -354,6 +354,11 @@ p.aboutView {
   margin-top:10px;
   margin-bottom:0px;
 }
+
+.blockquote {
+    margin-left:25px;
+}
+
 a.notePointer:before {
 display: inline-block;
 content: " ";
