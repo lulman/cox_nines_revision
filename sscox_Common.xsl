@@ -86,6 +86,8 @@
             
             <!-- BUILD THE MENUBAR -->
             
+            <!-- BUILD THE MENUBAR -->
+            <div id="skiptocontent"><a href="#maincontent">skip to main content</a></div>       
             <div class="masthead">
                <div id="navigation">
                   <ul class="nav">
@@ -96,9 +98,9 @@
                            <li><a href="./sscox_journal.html#london">London</a></li>
                            <li><a href="./sscox_journal.html#paris">Paris and Southern France</a></li>
                            <li><a href="./sscox_journal.html#sardinia">Sardinia and Tuscany</a></li>
-                           <li><a href="./sscox_journal.html#rome">"Eternal Rome" and the Kingdom of the Two Sicilies</a></li>
+                           <li><a href="./sscox_journal.html#rome">"Eternal Rome"</a></li>
                            <li><a href="./sscox_journal.html#orient">The "Dreamy Orient"</a></li>
-                           <li><a href="./sscox_journal.html#trieste">Trieste, Venetia, and Lombardy</a></li>
+                           <li><a href="./sscox_journal.html#trieste">Trieste</a></li>
                         </ul>
                      </li>
                      <li class="link"><a class="main"  href="./sscox_journal.html#projectDescription">Editorial Introduction</a>
@@ -118,16 +120,11 @@
                      </li>
                      <li class="link"><a class="main"  href="">Appendices</a>
                         <ul class="sub">
-                           <li><a href="./sscox_journal_Markup.html">Markup Guidelines</a></li>
-                           <li><a href="./sscox_journal_Hands.html">Guide to Smith's Hand</a></li>
-                           <li><a href="./sscox_journal_ZoomIndex.html">Images of the MS Pages</a></li>
-                           <li><a href="./sscox_journal_Maps.html">Maps</a></li>
-                           <li><a href="./sscox_journal.html#peopleMentioned">People Mentioned</a></li>
-                           <li><a href="./sscox_journal.html#placesMentioned">Places Mentioned</a></li>
-                           <li><a href="./sscox_journal.html#organizationsMentioned">Organizations Mentioned</a></li>
-                           <li><a href="./sscox_journal.html#worksCited">Works Cited</a></li>
-                           <li><a href="./sscox_journal_Acknowledgements.html">Acknowledgements</a></li>
-                           <li><a href="./sscox_journal_AboutEditors.html">About the Editors</a></li>
+                           <li><a href="./appendices-CoxJournalMarkup.html">Markup Guidelines</a></li>
+                           <li><a href="./appendices-CoxHand.html">Guide to Cox's Hand</a></li>
+                           <li><a href="./appendices-CoxZoomIndex.html">Images of the MS Pages</a></li>
+                           <li><a href="./appendices-CoxTourMaps.html">Maps</a></li>
+                           <li><a href="./appendices-aboutEditors.html">About the Editors</a></li>
                         </ul>
                      </li>
                      <li class="link"><a class="main"  href="">Source Files</a>
@@ -147,34 +144,36 @@
                </div> <!-- End div id navigation -->
                
                <div id="titleBar">
-                  <p align="center"><span class="projectTitle">Journal of a Tour to Europe</span></p>
+                  <p align="center"><span class="projectTitle">Journal of a Tour to Europe</span><br/>by Samuel Sullivan Cox</p>
                   <hr/>
                </div> <!-- END titleBar -->
             </div> <!-- END masthead -->
             
+            <!-- BUILD THE VERTICAL IMAGE BAR -->
+            
             <div id="navBar">
                
                <div id="display1"><!-- Begin display1 -->
-                  <button class="modalb" id="b1"><img id="myImg1" src="image-LCSmith-daguerreotype.jpg" alt="Portrait of Lucius Clark Smith, 1858 (Age 23). Courtesy of New Albany Historical Society." title="Portrait of Lucius Clark Smith, 1858 (Age 23)" width="150"/></button>
+                  <button class="modalb" id="b1"><img id="myImg1" src="image_sscox_portrait.jpg" alt="Portrait of Samuel Sullivan Cox, (undated). Courtesy of ????." title="Portrait of Samuel Sullivan Cox, (undated)" width="100"/></button>
                   <div id="myModal1" class="modal">
-                     <a href="image-LCSmith-daguerreotype-longdesc.html" class="description">[Description]</a><br/>
+                     <a href="image_sscox_portrait_longdesc.html" class="description">[Description]</a><br/>
                      <button class="modalb close" onclick="document.getElementById('myModal1').style.display='none'">[Close]</button>
-                     <img class="modal-content" id="img1" src="image-LCSmith-daguerreotype.jpg" alt="Portrait of Lucius Clark Smith, 1858 (Age 23). Courtesy of New Albany Historical Society."/>
+                     <img class="modal-content" id="img1" src="image_sscox_portrait.jpg" alt="Portrait of Samuel Sullivan Cox, (undated). Courtesy of ?????."/>
                      <div id="caption1">
-                        Portrait of Lucius Clark Smith, 1858 (Age 23).<br/>Courtesy of New Albany Historical Society.
+                        Portrait of Samuel Sullivan Cox, (undated).<br/>Courtesy of ?????.
                      </div>
                   </div> <!-- End myModal1 -->
                </div> <!-- End display1 -->
                
                <!-- Begin display2 -->
                <div id="display2">
-                  <button class="modalb" id="b2"><img id="myImg2" src="image-archibaldsmithhouse.jpg" alt="Photograph of Smith Homestead (undated). Courtesy of New Albany Historical Society." title="Photograph of Smith Homestead" width="150"/></button>
+                  <button class="modalb" id="b2"><img id="myImg2" src="image_sscox_1854_DecorativeTitle.jpg" alt="Decorative Title Page of A Buckeye Abroad (1854)." title="Decorative Title Page of A Buckeye Abroad (1854)" width="100"/></button>
                   <div id="myModal2" class="modal">
-                     <a href="image-archibaldsmithhouse-longdesc.html" class="description">[Description]</a><br/>
+                     <a href="image_sscox_1854_DecorativeTitle_longdesc.html" class="description">[Description]</a><br/>
                      <button class="modalb close" onclick="document.getElementById('myModal2').style.display='none'">[Close]</button>
-                     <img class="modal-content" id="img2" src="image-archibaldsmithhouse.jpg" alt="Photograph of Smith Homestead (undated). Courtesy of New Albany Historical Society."/>
+                     <img class="modal-content" id="img2" src="image_sscox_1854_DecorativeTitle.jpg" alt="Decorative Title Page of A Buckeye Abroad (1854)"/>
                      <div id="caption2">
-                        Photograph of Smith Homestead (undated).<br/>Courtesy of New Albany Historical Society.
+                        Decorative Title Page of A Buckeye Abroad (1854).<br/>Publisher? City?.
                      </div>
                   </div> <!-- End myModal2 -->
                   <script>		
@@ -203,13 +202,13 @@
                
                <!-- Begin display3 -->         
                <div id="display3">
-                  <button class="modalb" id="b3"><img id="myImg3" src="image-archibald-maryannsmith.jpg" alt="Portraits of Lucius Smith's parents, Archibald and MaryAnn" title="Portraits of Lucius Smith's parents, Archibald and MaryAnn" width="150"/></button>
+                  <button class="modalb" id="b3"><img id="myImg3" src="image_sscox_rmsAsia.jpg" alt="RMS Asia (Source)" title="RMS Asia (Source)" width="100"/></button>
                   <div id="myModal3" class="modal">
-                     <a href="image-archibald-maryannsmith-longdesc.html" class="description">[Description]</a><br/>
+                     <a href="image_sscox_rmsAsia_longdesc.html" class="description">[Description]</a><br/>
                      <button class=" modalb close" onclick="document.getElementById('myModal3').style.display='none'">[Close]</button>
-                     <img class="modal-content" id="img3" src="image-archibald-maryannsmith.jpg" alt="Portraits of Lucius Smith's parents, Archibald and MaryAnn"/>
+                     <img class="modal-content" id="img3" src="image_sscox_rmsAsia.jpg" alt="RMS Asia (Source)"/>
                      <div id="caption3">
-                        Portraits of Lucius Smith's parents, Archibald and MaryAnn<br/>Courtesy of Mark Baranoski
+                        RMS Asia<br/>Source
                      </div>
                   </div> <!-- End myModal3 -->
                   <script>
@@ -240,13 +239,13 @@
                <!-- Begin display4 -->
                
                <div id="display4">
-                  <button class="modalb" id="b4"><img id="myImg4" src="image-horse-power-canemill-1857.jpg" alt="Drawing of a sorghum mill" title="Drawing of a sorghum mill" width="150"/></button>
+                  <button class="modalb" id="b4"><img id="myImg4" src="image_sscox_illus_PoetsCorner.jpg" alt="Illustration from A Buckeye Abroad (1854)" title="Illustration from A Buckeye Abroad (1854)" width="100"/></button>
                   <div id="myModal4" class="modal">
-                     <a href="image-horse-power-longdesc.html" class="description">[Description]</a><br/>
+                     <a href="image_sscox_illus_PoetsCorner_longdesc.html" class="description">[Description]</a><br/>
                      <button class="modalb close" onclick="document.getElementById('myModal4').style.display='none'">[Close]</button>
-                     <img class="modal-content" id="img4" src="image-horse-power-canemill-1857.jpg" alt="Drawing of a sorghum mill."/>
+                     <img class="modal-content" id="img4" src="image_sscox_illus_PoetsCorner.jpg" alt="Drawing of a sorghum mill."/>
                      <div id="caption4">
-                        Illustration of a vertical, three-roller horse-powered sorghum mill<br/><cite>The American Cotton Planter</cite> 1.8 (August 1857): 291.
+                        Illustration from <cite>A Buckeye Abroad</cite> (1854)<br/>Publisher, place, date?
                      </div> <!-- End myModal4 -->
                      <script>
                         
@@ -277,13 +276,13 @@
                <!-- Begin display5 -->
                
                <div id="display5">
-                  <button class="modalb" id="b5"><img id="myImg5" src="image-warmeeting-18620815.jpg" alt="Notice in Newark Advocate for 15 August 1862 of a war meeting" title="Notice in Newark Advocate for 15 August 1862 of a war meeting" width="150"/></button>
+                  <button class="modalb" id="b5"><img id="myImg5" src="image_sscox_illus_Pompeii.jpg" alt="Illustration from A Buckeye Abroad (1854)" title="Illustration from A Buckeye Abroad (1854)" width="100"/></button>
                   <div id="myModal5" class="modal">
-                     <a href="image-warmeeting-longdesc.html" class="description">[Description]</a><br/>
+                     <a href="image_sscox_illus_Pompeii_longdesc.html" class="description">[Description]</a><br/>
                      <button class="modalb close" onclick="document.getElementById('myModal5').style.display='none'">[Close]</button>
-                     <img class="modal-content" id="img5" src="image-warmeeting-18620815.jpg" alt="Notice in Newark Advocate for 15 August 1862 of a war meeting"/>
+                     <img class="modal-content" id="img5" src="image_sscox_illus_Pompeii.jpg" alt="Notice in Newark Advocate for 15 August 1862 of a war meeting"/>
                      <div id="caption5">
-                        Notice in <cite>Newark Advocate</cite> for 15 August 1862 of a war meeting
+                        Illustration from <cite>A Buckeye Abroad</cite> (1854)
                      </div>
                   </div> <!-- End myModal5 -->
                   <script>
@@ -336,22 +335,58 @@
             </div> <!-- End div id NavBar -->
             
             <!-- END THE VERTICAL IMAGE BAR -->
-            
+            <!-- START RIGHT MENU -->   
             <div id="viewMenu">
-               <p class="aboutView"><a href="#view">About this View.</a></p>
-               <p><button>Switch between Smith's spelling and regularized spelling.</button></p>
+               <p class="aboutView"><a href="./sscox_journal.html#view">About this page.</a></p>
                <div class="container">
                   <p class="font-size-label">Font Size <button id="up">+</button> <button id="down">-</button></p>
                   <!--<p id="font-size"></p>-->
-               </div>
-               
-               <!-- Start NINES widget -->
-               <form method="get" style="font-size-adjust:none;font-style:normal;font-variant:normal;font-weight:normal;line-height:1.231;color:#000000;" action="http://www.nines.org/search">
-                  <div style="background:url(image-widget_tower_white.jpg) no-repeat scroll left top;height:56px;width:157px;font-size:12px;margin:0;padding:125px 0 0 22px;text-align:left;font-family:'Times New Roman',Times,serif;font-size-adjust:none;font-style:normal;font-variant:normal;font-weight:normal;line-height:1.231;color:#000000;"><a href="http://nines.org" style="text-decoration:none; float:left; margin-top:-125px; height:120px; width:120px;">&#160;</a><input type="text" name="q" onclick="this.form.target='_blank';return true;" size="16" maxlength="255" value="" style="width:100px;-x-system-font:none;font-family:arial,helvetica,clean,sans-serif;font-size-adjust:none;font-stretch:normal;font-style:normal;font-variant:normal;font-weight:normal;line-height:normal;margin:0;margin-top:3px;margin-bottom:5px;padding:0;text-align:left;color:#000000;"/><input type="submit" value="Search NINES" style="width:100px;padding:1px;-x-system-font:none;font-family:arial,helvetica,clean,sans-serif;font-size:99%;font-size-adjust:none;font-stretch:normal;font-style:normal;font-variant:normal;font-weight:normal;line-height:normal;margin:0;margin-left:7px;text-align:left;color:#000000;"/></div>
-               </form>
-               <!-- End NINES widget -->
-               
-            </div>
+                  <p style="font-size:smaller">
+                     <strong>Edited by</strong><br/>
+                     Andrea Avenido<br/>
+                     Puja Batra-Wells<br/>
+                     MariaTeresa Beltran-Aponte<br/>
+                     Karen M. Beyer<br/>
+                     Mike Bubenik<br/>
+                     Frances Caroline Buschur<br/>
+                     Johaun Cheng<br/>
+                     Katrina F. Cook<br/>
+                     Bill W. Dantowitz<br/>
+                     Envera Dukaj<br/>                     
+                     Sam Eilerman<br/>
+                     Nate Ellis<br/>
+                     Rachel Fouch<br/>
+                     Brian Keller<br/>
+                     Riley Lease<br/>
+                     Mike Liddy<br/>
+                     Nick Long<br/>
+                     Jennifer Lee Schneider<br/>
+                     H. Lewis Ulman<br/>
+                     Victoria R. Urban<br/>
+                     Derrick Whan<br/>
+                     Derek Craig Zoladz<br/>
+                  </p>
+                  <!-- Start NINES Widget -->
+                  <form method="get"
+                     style="font-size-adjust:none;font-style:normal;font-variant:normal;font-weight:normal;line-height:1.231;color:#000000;"
+                     action="http://www.nines.org/search">
+                     <div
+                        style="background:url(image-widget_tower_white.jpg) no-repeat scroll left top;height:56px;width:157px;font-size:12px;margin:0;padding:125px 0 0 22px;text-align:left;font-family:'Times New Roman',Times,serif;font-size-adjust:none;font-style:normal;font-variant:normal;font-weight:normal;line-height:1.231;color:#000000;">
+                        <a href="http://nines.org"
+                           style="text-decoration:none; float:left; margin-top:-125px; height:120px; width:120px;"
+                           >&#160;</a>
+                        <input type="text" name="q" onclick="this.form.target='_blank';return true;"
+                           size="16" maxlength="255" value=""
+                           style="width:100px;-x-system-font:none;font-family:arial,helvetica,clean,sans-serif;font-size-adjust:none;font-stretch:normal;font-style:normal;font-variant:normal;font-weight:normal;line-height:normal;margin:0;margin-top:3px;margin-bottom:5px;padding:0;text-align:left;color:#000000;" />
+                        <input type="submit" value="Search NINES"
+                           style="width:100px;padding:1px;-x-system-font:none;font-family:arial,helvetica,clean,sans-serif;font-size:99%;font-size-adjust:none;font-stretch:normal;font-style:normal;font-variant:normal;font-weight:normal;line-height:normal;margin:0;margin-left:7px;text-align:left;color:#000000;"
+                        />
+                     </div>
+                  </form>
+                  <!-- End NINES Widget -->
+                  <!-- END RIGHT MENU -->
+               </div> <!-- End div class "container" -->
+            </div> <!-- End div id "View Menu" -->
             
             
             <!-- Apply templates to the tei:body. -->

@@ -159,16 +159,11 @@
                      </li>
                      <li class="link"><a class="main"  href="">Appendices</a>
                         <ul class="sub">
-                           <li><a href="./sscox_journal_Markup.html">Markup Guidelines</a></li>
-                           <li><a href="./sscox_journal_Hands.html">Guide to Smith's Hand</a></li>
-                           <li><a href="./sscox_journal_ZoomIndex.html">Images of the MS Pages</a></li>
-                           <li><a href="./sscox_journal_Maps.html">Maps</a></li>
-                           <li><a href="./sscox_journal.html#peopleMentioned">People Mentioned</a></li>
-                           <li><a href="./sscox_journal.html#placesMentioned">Places Mentioned</a></li>
-                           <li><a href="./sscox_journal.html#organizationsMentioned">Organizations Mentioned</a></li>
-                           <li><a href="./sscox_journal.html#worksCited">Works Cited</a></li>
-                           <li><a href="./sscox_journal_Acknowledgements.html">Acknowledgements</a></li>
-                           <li><a href="./sscox_journal_AboutEditors.html">About the Editors</a></li>
+                           <li><a href="./appendices-CoxJournalMarkup.html">Markup Guidelines</a></li>
+                           <li><a href="./appendices-CoxHand.html">Guide to Cox's Hand</a></li>
+                           <li><a href="./appendices-CoxZoomIndex.html">Images of the MS Pages</a></li>
+                           <li><a href="./appendices-CoxTourMaps.html">Maps</a></li>
+                           <li><a href="./appendices-aboutEditors.html">About the Editors</a></li>
                         </ul>
                      </li>
                      <li class="link"><a class="main"  href="">Source Files</a>
@@ -198,7 +193,7 @@
             <div id="navBar">
                 
                <div id="display1"><!-- Begin display1 -->
-                  <button class="modalb" id="b1"><img id="myImg1" src="image_sscox_portrait.jpg" alt="Portrait of Samuel Sullivan Cox, (undated). Courtesy of ????." title="Portrait of Samuel Sullivan Cox, (undated)" width="125"/></button>
+                  <button class="modalb" id="b1"><img id="myImg1" src="image_sscox_portrait.jpg" alt="Portrait of Samuel Sullivan Cox, (undated). Courtesy of ????." title="Portrait of Samuel Sullivan Cox, (undated)" width="100"/></button>
                      <div id="myModal1" class="modal">
                         <a href="image_sscox_portrait_longdesc.html" class="description">[Description]</a><br/>
                         <button class="modalb close" onclick="document.getElementById('myModal1').style.display='none'">[Close]</button>
@@ -211,7 +206,7 @@
                
                <!-- Begin display2 -->
                <div id="display2">
-                  <button class="modalb" id="b2"><img id="myImg2" src="image_sscox_1854_DecorativeTitle.jpg" alt="Decorative Title Page of A Buckeye Abroad (1854)." title="Decorative Title Page of A Buckeye Abroad (1854)" width="125"/></button>
+                  <button class="modalb" id="b2"><img id="myImg2" src="image_sscox_1854_DecorativeTitle.jpg" alt="Decorative Title Page of A Buckeye Abroad (1854)." title="Decorative Title Page of A Buckeye Abroad (1854)" width="100"/></button>
                   <div id="myModal2" class="modal">
                      <a href="image_sscox_1854_DecorativeTitle_longdesc.html" class="description">[Description]</a><br/>
                      <button class="modalb close" onclick="document.getElementById('myModal2').style.display='none'">[Close]</button>
@@ -246,7 +241,7 @@
                
                <!-- Begin display3 -->         
                <div id="display3">
-                  <button class="modalb" id="b3"><img id="myImg3" src="image_sscox_rmsAsia.jpg" alt="RMS Asia (Source)" title="RMS Asia (Source)" width="125"/></button>
+                  <button class="modalb" id="b3"><img id="myImg3" src="image_sscox_rmsAsia.jpg" alt="RMS Asia (Source)" title="RMS Asia (Source)" width="100"/></button>
                      <div id="myModal3" class="modal">
                         <a href="image_sscox_rmsAsia_longdesc.html" class="description">[Description]</a><br/>
                         <button class=" modalb close" onclick="document.getElementById('myModal3').style.display='none'">[Close]</button>
@@ -283,7 +278,7 @@
                <!-- Begin display4 -->
                
                <div id="display4">
-                  <button class="modalb" id="b4"><img id="myImg4" src="image_sscox_illus_PoetsCorner.jpg" alt="Illustration from A Buckeye Abroad (1854)" title="Illustration from A Buckeye Abroad (1854)" width="125"/></button>
+                  <button class="modalb" id="b4"><img id="myImg4" src="image_sscox_illus_PoetsCorner.jpg" alt="Illustration from A Buckeye Abroad (1854)" title="Illustration from A Buckeye Abroad (1854)" width="100"/></button>
                      <div id="myModal4" class="modal">
                         <a href="image_sscox_illus_PoetsCorner_longdesc.html" class="description">[Description]</a><br/>
                         <button class="modalb close" onclick="document.getElementById('myModal4').style.display='none'">[Close]</button>
@@ -320,7 +315,7 @@
                      <!-- Begin display5 -->
                      
                      <div id="display5">
-                        <button class="modalb" id="b5"><img id="myImg5" src="image_sscox_illus_Pompeii.jpg" alt="Illustration from A Buckeye Abroad (1854)" title="Illustration from A Buckeye Abroad (1854)" width="125"/></button>
+                        <button class="modalb" id="b5"><img id="myImg5" src="image_sscox_illus_Pompeii.jpg" alt="Illustration from A Buckeye Abroad (1854)" title="Illustration from A Buckeye Abroad (1854)" width="100"/></button>
                            <div id="myModal5" class="modal">
                               <a href="image_sscox_illus_Pompeii_longdesc.html" class="description">[Description]</a><br/>
                               <button class="modalb close" onclick="document.getElementById('myModal5').style.display='none'">[Close]</button>
@@ -379,15 +374,36 @@
             </div> <!-- End div id NavBar -->
             
             <!-- END THE VERTICAL IMAGE BAR -->
-               
+            <!-- START RIGHT MENU -->   
             <div id="viewMenu">
-               <p class="aboutView"><a href="./lcsmith-diaries.html#view">About this page.</a></p>
+               <p class="aboutView"><a href="./sscox_journal.html#view">About this page.</a></p>
                <div class="container">
                   <p class="font-size-label">Font Size <button id="up">+</button> <button id="down">-</button></p>
                   <!--<p id="font-size"></p>-->
-                  <p>
-                     <strong>Edited by</strong><br/>Emily J. Arendt<br/>W. Michael Broughton<br/>Amber Camus<br/>Torsa Ghosal<br/>Matthew Poland<br/>H. Lewis Ulman
-                     
+                  <p style="font-size:smaller">
+                     <strong>Edited by</strong><br/>
+                     Andrea Avenido<br/>
+                     Puja Batra-Wells<br/>
+                     MariaTeresa Beltran-Aponte<br/>
+                     Karen M. Beyer<br/>
+                     Mike Bubenik<br/>
+                     Frances Caroline Buschur<br/>
+                     Johaun Cheng<br/>
+                     Katrina F. Cook<br/>
+                     Bill W. Dantowitz<br/>
+                     Envera Dukaj<br/>                     
+                     Sam Eilerman<br/>
+                     Nate Ellis<br/>
+                     Rachel Fouch<br/>
+                     Brian Keller<br/>
+                     Riley Lease<br/>
+                     Mike Liddy<br/>
+                     Nick Long<br/>
+                     Jennifer Lee Schneider<br/>
+                     H. Lewis Ulman<br/>
+                     Victoria R. Urban<br/>
+                     Derrick Whan<br/>
+                     Derek Craig Zoladz<br/>
                   </p>
                   <!-- Start NINES Widget -->
                   <form method="get"
@@ -407,6 +423,7 @@
                      </div>
                   </form>
                   <!-- End NINES Widget -->
+                  <!-- END RIGHT MENU -->
                </div> <!-- End div class "container" -->
             </div> <!-- End div id "View Menu" -->
               
@@ -440,9 +457,9 @@
             <hr/>
             <h2>About this Editorial Introduction</h2>
             <p><a name="view"/>Text on this page is derived from the
-               edition's XML source document, <a href="LCSmith-Diaries.xml">LCSmith-Diaries.xml</a>.</p>
+               edition's XML source document, <a href="sscox_journal.xml">sscox_journal.xml</a>.</p>
             <hr/>
-      <p>&#x2192; <a href="./lcsmith-by-entry.html">Link to the text of the journal</a>.
+      <p>&#x2192; <a href="./sscox-by-entry.html">Link to the text of the journal</a>.
             </p>
    </xsl:element> <!-- END maintext -->
             <script src='http://cdnjs.cloudflare.com/ajax/libs/jquery/2.1.3/jquery.min.js'></script>

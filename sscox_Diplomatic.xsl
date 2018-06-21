@@ -93,7 +93,7 @@
     
     <!-- Include common style sheet for Smith diaries. -->
     
-    <xsl:include href="LCSmith-Common.xsl"/>
+    <xsl:include href="sscox_Common.xsl"/>
     
     <!-- Define templates required for the diplomatic view. -->
     
