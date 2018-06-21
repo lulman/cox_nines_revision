@@ -11,3 +11,9 @@
 *.json
 
 *.bbprojectsettings
+
+*.bbprojectdata
+
+BBedit-Cox appendices project.bbprojectd/Scratchpad.txt
+
+*.worksheet
