@@ -136,7 +136,7 @@
    
     <!-- Include common style sheet for Lucius Clark Smith Diaries. -->
     
-    <xsl:include href="LCSmith-Common.xsl"/>
+    <xsl:include href="sscox_Common.xsl"/>
 
     
     <!-- Define templates required for the combined image/text view. -->

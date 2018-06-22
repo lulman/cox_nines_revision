@@ -91,8 +91,8 @@
     </xsl:variable>
     
 
-    <!-- Include common style sheet for Stephens family letters. -->
-    <xsl:include href="LCSmith-Common.xsl"/>
+    <!-- Include common style sheet for Cox diary. -->
+    <xsl:include href="sscox_Common.xsl"/>
     
     <!-- Define additional templates required for the reading view. -->
     
