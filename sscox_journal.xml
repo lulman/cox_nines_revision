@@ -1,6 +1,6 @@
 <TEI xmlns="http://www.tei-c.org/ns/1.0" xml:lang="en" xmlns:hlu="http://www.osu.edu/ulman/reliablewitnesses/ns/1.0">
       
-   <teiHeader type="AACR2"><fileDesc>
+   <teiHeader ana="AACR2"><fileDesc>
          
          <titleStmt>
             <title>Samuel Sullivan Cox's "Journal of a Tour to Europe" (1851)</title>
@@ -7039,21 +7039,21 @@
                   <title level="m">Princess Theatre</title>
                   <publisher><ref target="http://www.arthurlloyd.co.uk/Princess.htm">http://www.arthurlloyd.co.uk/Princess.htm</ref></publisher>
                   <date>28 May 2007</date>
-                  <biblScope type="DateOfVisit">15 May 2007</biblScope>
+                  <biblScope ana="DateOfVisit">15 May 2007</biblScope>
                </bibl>
                <bibl xml:id="OED2" n="Oxfo">
                   <title level="m">Oxford English Dictionary Online</title>
-                  <biblScope type="URL">http://www.oed.com/</biblScope>
+                  <biblScope ana="URL">http://www.oed.com/</biblScope>
                   <date>2007</date>
-                  <biblScope type="DateOfVisit">19 April 2007</biblScope>
+                  <biblScope ana="DateOfVisit">19 April 2007</biblScope>
                </bibl>
                <bibl xml:id="TAD" n="Cale">
                   <title level="a">Calender for year 1851 (United States)</title>
                   <title level="m">Time and Date</title>
                   <publisher>Time and Date</publisher>
-                  <biblScope type="URL">http://www.timeanddate.com/calendar/?year=1851&amp;country=1</biblScope>
+                  <biblScope ana="URL">http://www.timeanddate.com/calendar/?year=1851&amp;country=1</biblScope>
                   <date>n.d</date>
-                  <biblScope type="DateofVisit">16 May 2007</biblScope>
+                  <biblScope ana="DateOfVisit">16 May 2007</biblScope>
                </bibl>
                
                <bibl xml:id="SC" n="Cran">
@@ -7065,23 +7065,23 @@
                </bibl>
                <bibl xml:id="KnoxCounty" n="Hist">
                   <title level="m">History of Knox County</title>                
-                  <biblScope type="DateOfVisit">23 May 2007</biblScope>
-                  <biblScope type="URL">http://www.heritagepursuit.com/Knox/KnoxFile8.htm</biblScope>
+                  <biblScope ana="DateOfVisit">23 May 2007</biblScope>
+                  <biblScope ana="URL">http://www.heritagepursuit.com/Knox/KnoxFile8.htm</biblScope>
                </bibl>
                <bibl xml:id="GJPratt" n="Zadock">
                   <author>Zadock Pratt Museum</author>                
                   <title level="m">Prattsville History Highlights</title>
                   <date>12 August 2002</date>
-                  <biblScope type="DateOfVisit">23 May 2007</biblScope> 
-                  <biblScope type="URL">http://www.prattmuseum.com/history/History_new.htm</biblScope>
+                  <biblScope ana="DateOfVisit">23 May 2007</biblScope> 
+                  <biblScope ana="URL">http://www.prattmuseum.com/history/History_new.htm</biblScope>
                </bibl>
                <bibl xml:id="AnnSStephens" n="Northern">
                   <author>Northern Illinois University Library</author>
                   <title level="m">Stephens, Ann S.</title>
                   <publisher>Northern Illinois University</publisher>                
                   <date>N. d.</date>
-                  <biblScope type="DateOfVisit">11 August 2011</biblScope>
-                  <biblScope type="URL">http://www.ulib.niu.edu/badndp/stephens_ann.html</biblScope>
+                  <biblScope ana="DateOfVisit">11 August 2011</biblScope>
+                  <biblScope ana="URL">http://www.ulib.niu.edu/badndp/stephens_ann.html</biblScope>
                </bibl>
                <bibl xml:id="MB2" n="Coxb">
                   <author>Cox, Samuel</author>
@@ -7103,7 +7103,7 @@
                   <pubPlace>New York</pubPlace>
                   <publisher>Putnam</publisher>
                   <date>1852</date>
-                  <biblScope type="URL">http://www.hti.umich.edu/cgi/t/text/pageviewer-idx?c=moa&amp;cc=moa&amp;idno=adl7930.0001.001&amp;q1=buckeye+abroad&amp;frm=frameset&amp;view=image&amp;seq=9</biblScope>
+                  <biblScope ana="URL">http://www.hti.umich.edu/cgi/t/text/pageviewer-idx?c=moa&amp;cc=moa&amp;idno=adl7930.0001.001&amp;q1=buckeye+abroad&amp;frm=frameset&amp;view=image&amp;seq=9</biblScope>
                </bibl>
              <bibl xml:id="SSC1854" n="Coxc">
                 <author>Cox, Samuel Sullivan</author>
@@ -7130,15 +7130,15 @@
                <bibl xml:id="QM2" n="Cuna">
                   <author>Cunard Line</author>
                   <title level="m">Queen Mary 2: Ship Facts</title>
-                  <biblScope type="URL">http://www.cunard.co.uk/OurShips/default.asp?Ship=QM2&amp;main=int&amp;sub=fac</biblScope>
+                  <biblScope ana="URL">http://www.cunard.co.uk/OurShips/default.asp?Ship=QM2&amp;main=int&amp;sub=fac</biblScope>
                   <date>n.d</date>
-                  <biblScope type="DateOfVisit">10 Mar 2007</biblScope>
+                  <biblScope ana="DateOfVisit">10 Mar 2007</biblScope>
                </bibl>
                <bibl xml:id="EB" n="Ency">
                   <title level="m">Encyclopædia Britannica Online</title>
-                  <biblScope type="URL">http://www.britannica.com</biblScope>
+                  <biblScope ana="URL">http://www.britannica.com</biblScope>
                   <date>2007</date>
-                  <biblScope type="DateOfVisit">7 Mar 2007</biblScope>
+                  <biblScope ana="DateOfVisit">7 Mar 2007</biblScope>
                </bibl>
                <bibl xml:id="FEH" n="Hyde">
                   <author>Hyde, Francis, E</author>
@@ -7167,18 +7167,18 @@
                   <title level="a">Wilson's storm-petrel<name type="binomial">Oceanites oceanicus</name></title>
                   <title level="m">Patuxent Bird Identification InfoCenter</title>
                   <publisher>Patuxent Wildlife Research Center</publisher>
-                  <biblScope type="URL">http://www.mbr-pwrc.usgs.gov/id/framlst/i1090id.html</biblScope>
+                  <biblScope ana="URL">http://www.mbr-pwrc.usgs.gov/id/framlst/i1090id.html</biblScope>
                   <date>n.d</date>
-                  <biblScope type="DateOfVisit">10 Feb 2007</biblScope>
+                  <biblScope ana="DateOfVisit">10 Feb 2007</biblScope>
                </bibl>
                <bibl xml:id="Peskin" n="Pesk">
                   <author>Peskin, Allan</author>
                   <title level="a">Cox, Samuel Sullivan</title>
                   <title level="m">American National Biography Online</title>
                   <publisher>Oxford University Press</publisher>
-                  <biblScope type="URL">http://www.anb.org.proxy.lib.ohio-state.edu/articles/04/04-00274.html</biblScope>
+                  <biblScope ana="URL">http://www.anb.org.proxy.lib.ohio-state.edu/articles/04/04-00274.html</biblScope>
                   <date>Feb. 2000</date>
-                  <biblScope type="DateOfVisit">7 Mar 2007</biblScope>
+                  <biblScope ana="DateOfVisit">7 Mar 2007</biblScope>
                </bibl>
                <bibl xml:id="PollokBib" n="Poll">
                   <author>Pollock, Robert</author>
@@ -7193,34 +7193,34 @@
                   <title level="a">Samuel Sullivan Cox: His Famous Word Picture</title>
                   <title level="m">Ohio History</title>
                   <biblScope>19 (1910): 331–332</biblScope>
-                  <biblScope type="URL">http://publications.ohiohistory.org/ohstemplate.cfm?action=detail&amp;Page=0019331.html&amp;StartPage=319&amp;EndPage=332&amp;volume=19&amp;newtitle=Volume%2019%20Page%20319</biblScope>
+                  <biblScope ana="URL">http://publications.ohiohistory.org/ohstemplate.cfm?action=detail&amp;Page=0019331.html&amp;StartPage=319&amp;EndPage=332&amp;volume=19&amp;newtitle=Volume%2019%20Page%20319</biblScope>
                   <date>1998</date>
-                  <biblScope type="DateOfVisit">10 Mar. 2007</biblScope>
+                  <biblScope ana="DateOfVisit">10 Mar. 2007</biblScope>
                </bibl>
                <bibl xml:id="NHHATS" n="Sole">
                   <author>Solem, Børge, and Trond Austeim</author>
                   <title level="a">S/S Asia (1), Cunard Line</title>
                   <title level="m">Norway-Heritage: Hands Across the Sea</title>
-                  <biblScope type="URL">http://www.norwayheritage.com/p_ship.asp?sh=asiaa</biblScope>
+                  <biblScope ana="URL">http://www.norwayheritage.com/p_ship.asp?sh=asiaa</biblScope>
                   <date>n.d</date>
-                  <biblScope type="DateOfVisit">23 Feb. 2007</biblScope>
+                  <biblScope ana="DateOfVisit">23 Feb. 2007</biblScope>
                </bibl>
                <bibl xml:id="TSL" n="Swig">
                   <author>Swiggum, S., and M. Kohli</author>
                   <title level="a">Cunard Line / The British and North American Royal Mail Steam-Packet Company / Cunard Steamship Company, Limited</title>
                   <title level="m">TheShipsList</title>
-                  <biblScope type="URL">http://www.theshipslist.com/ships/lines/cunard.html</biblScope>
+                  <biblScope ana="URL">http://www.theshipslist.com/ships/lines/cunard.html</biblScope>
                   <date>1997</date>
-                  <biblScope type="DateOfVisit">23 Feb. 2007</biblScope>
+                  <biblScope ana="DateOfVisit">23 Feb. 2007</biblScope>
                </bibl>
                <bibl xml:id="SSComp" n="Turn">
                   <author>Turnbull, Paul</author>
                   <title level="a">Mother Cary's Chickens (Wilson's Petrel)</title>
                   <title level="m">South Seas Companion</title>
                   <publisher>National Library of Australia</publisher>
-                  <biblScope type="URL">http://nla.gov.au/nla.cs-ss-biogs-P000125</biblScope>
+                  <biblScope ana="URL">http://nla.gov.au/nla.cs-ss-biogs-P000125</biblScope>
                   <date>n.d</date>
-                  <biblScope type="DateOfVisit">10 Feb 2007</biblScope>
+                  <biblScope ana="DateOfVisit">10 Feb 2007</biblScope>
                </bibl>
                
             </listBibl>
