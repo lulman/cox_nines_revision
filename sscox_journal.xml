@@ -1,6 +1,7 @@
 <TEI xmlns="http://www.tei-c.org/ns/1.0" xml:lang="en" xmlns:hlu="http://www.osu.edu/ulman/reliablewitnesses/ns/1.0">
       
-   <teiHeader ana="AACR2"><fileDesc>
+   <teiHeader ana="AACR2">
+      <fileDesc>
          
          <titleStmt>
             <title>Samuel Sullivan Cox's "Journal of a Tour to Europe" (1851)</title>
@@ -50,7 +51,7 @@
             <p>1st Edition.</p>
          </editionStmt>
          
-         <extent>approx. 00 kilobytes </extent>
+         <extent>approx. 421 kilobytes </extent>
          
          <publicationStmt><publisher>The Ohio State University Library. <address>
                   <addrLine n="1">Rare Books and Manuscripts Library</addrLine>
@@ -579,7 +580,8 @@
             
          </sourceDesc>
          
-      </fileDesc><encodingDesc>
+      </fileDesc>
+      <encodingDesc>
           
          <projectDesc xml:id="CoxProjectDescription">
             <p> This edition is the latest in a series of collaboratively produced electronic
@@ -727,7 +729,8 @@
          
          <variantEncoding method="parallel-segmentation" location="internal"/>
          
-      </encodingDesc><profileDesc>
+      </encodingDesc>
+      <profileDesc>
          
          <creation>
             <date>2007-03-13</date>
@@ -756,8 +759,19 @@
             </keywords>
          </textClass>
          
-      </profileDesc><revisionDesc xml:id="CoxRevisionHistory"><change><date>2011-08-11</date><label>Principal editor</label><name>H. Lewis Ulman</name>Final editing of bibliography and XSL style sheets.</change><change><date>2011-01-14</date><label>Principal editor</label><name>H. Lewis Ulman</name>Removal of the unfinished audio version of the edition; proofing of annotations
-               and bibliography.</change><change><date>2009-07-31</date><label>Principal editor</label><name>H. Lewis Ulman</name>Minor editorial corrections to the introduction and encoding.</change><change><date>2009-04-28</date><label>Principal editor</label><name>H. Lewis Ulman</name>Completed proofing of transcription, began revising annotations (ongoing).</change><change><date>2008-07-02</date><label>Principal editor and research assistant</label><name>H. Lewis Ulman and Envera Dukaj</name>Proofed transcription of entries through May 28, 1851.</change><change><date>2008-04-01</date><label>Principal editor</label><name>H. Lewis Ulman</name>Updated links to the Colleges of Arts and Sciences image server from https://arwen.asc.ohio-state.edu/ to https://images.asc.ohio-state.edu/.</change><change><date>2007-03-16</date><label>Principal editor</label><name>H. Lewis Ulman</name>Corrections to transcription and encoding throughout. Revision of general introduction.</change><change><date>2007-03-13</date><label>Editors</label><name>The editors</name>Initial release.</change></revisionDesc></teiHeader>
+      </profileDesc>
+      <revisionDesc xml:id="CoxRevisionHistory">
+         <change><date>2011-08-11</date><label>Principal editor</label><name>H. Lewis Ulman</name>Final editing of bibliography and XSL style sheets.</change>
+         <change><date>2011-01-14</date><label>Principal editor</label><name>H. Lewis Ulman</name>Removal of the unfinished audio version of the edition; proofing of annotations
+               and bibliography.</change>
+         <change><date>2009-07-31</date><label>Principal editor</label><name>H. Lewis Ulman</name>Minor editorial corrections to the introduction and encoding.</change>
+         <change><date>2009-04-28</date><label>Principal editor</label><name>H. Lewis Ulman</name>Completed proofing of transcription, began revising annotations (ongoing).</change>
+         <change><date>2008-07-02</date><label>Principal editor and research assistant</label><name>H. Lewis Ulman and Envera Dukaj</name>Proofed transcription of entries through May 28, 1851.</change>
+         <change><date>2008-04-01</date><label>Principal editor</label><name>H. Lewis Ulman</name>Updated links to the Colleges of Arts and Sciences image server from https://arwen.asc.ohio-state.edu/ to https://images.asc.ohio-state.edu/.</change>
+         <change><date>2007-03-16</date><label>Principal editor</label><name>H. Lewis Ulman</name>Corrections to transcription and encoding throughout. Revision of general introduction.</change>
+         <change><date>2007-03-13</date><label>Editors</label><name>The editors</name>Initial release.</change>
+      </revisionDesc>
+   </teiHeader>
    
    <text>
       <front xml:id="CoxFrontMatter">

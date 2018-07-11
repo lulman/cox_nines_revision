@@ -164,6 +164,8 @@
                            <li><a href="./appendices-CoxZoomIndex.html">Images of the MS Pages</a></li>
                            <li><a href="./appendices-CoxRestorationHTML5.html">Restoring the MS</a></li>
                            <li><a href="./appendices-CoxTourMaps.html">Maps</a></li>
+                           <li><a href="./sscox_journal.html#worksCited">Works Cited</a></li>
+                           <li><a href="./sscox_journal.html#revHistory">Revision History</a></li>
                            <li><a href="./appendices-aboutEditors.html">About the Editors</a></li>
                         </ul>
                      </li>
@@ -446,14 +448,15 @@
             <h2 id="worksCited">List of Works Cited</h2>
             <xsl:apply-templates
                select="tei:TEI/tei:teiHeader/tei:fileDesc/tei:sourceDesc/tei:listBibl"/>
-            <hr/>
-            <h2>Appendices</h2>            
+      
+<!--  NOT USED IN THIS EDITION          
             <xsl:apply-templates
                select="tei:TEI/tei:teiHeader/tei:fileDesc/tei:sourceDesc/tei:listPerson"/>
             <xsl:apply-templates select="tei:TEI/tei:teiHeader/tei:fileDesc/tei:sourceDesc/tei:listOrg"></xsl:apply-templates>
             <xsl:apply-templates
                select="tei:TEI/tei:teiHeader/tei:fileDesc/tei:sourceDesc/tei:listPlace"/>
             <xsl:apply-templates select="tei:TEI/tei:teiHeader/tei:fileDesc/tei:sourceDesc/tei:listEvent"></xsl:apply-templates>
+-->      
             <xsl:apply-templates select="tei:TEI/tei:teiHeader/tei:revisionDesc"/>
             <hr/>
             <h2>About this Editorial Introduction</h2>
@@ -592,7 +595,8 @@
       </xsl:for-each>
    </xsl:template>
    
-   <xsl:template match="tei:listOrg">
+<!--  NOT USED IN THIS EDITION   
+      <xsl:template match="tei:listOrg">
       <h3 id="organizationsMentioned">List of Organizations Mentioned in Lucius Smith's Diary</h3>
       <xsl:for-each select="tei:org">
          <xsl:sort select="tei:orgName[1]"/>
@@ -602,10 +606,12 @@
          </p>
       </xsl:for-each>
    </xsl:template>
+-->   
    
-   <xsl:template match="tei:listPerson[@type='editors']"/>
+<!--   <xsl:template match="tei:listPerson[@type='editors']"/>  -->  
    
-   <xsl:template match="tei:listPlace">
+<!--  NOT USED IN THIS EDITION
+      <xsl:template match="tei:listPlace">
       <h3 id="placesMentioned">List of Places Mentioned in Lucius Smith's Diary</h3>
       <xsl:for-each select="tei:place">
          <xsl:sort select="tei:geogName"/>
@@ -623,8 +629,9 @@
          </p>
       </xsl:for-each>
    </xsl:template>
-
-   <xsl:template match="tei:listEvent">
+-->
+<!--  NOT USED IN THIS EDITION
+      <xsl:template match="tei:listEvent">
       <h3 id="OrganizationsMentioned">List of Notable Events Mentioned in Lucius Smith's Diary</h3>
       <xsl:for-each select="tei:event">
          <xsl:sort select="tei:event[1]/@when"/>
@@ -634,7 +641,7 @@
          </p>
       </xsl:for-each>
    </xsl:template>
-
+-->
    <!-- Format information about the revision history of the document. -->
       
    <xsl:template match="tei:TEI/tei:teiHeader/tei:revisionDesc">
