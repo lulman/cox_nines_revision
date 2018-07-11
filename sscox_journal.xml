@@ -761,6 +761,7 @@
          
       </profileDesc>
       <revisionDesc xml:id="CoxRevisionHistory">
+         <change><date>2018-08-??</date><label>Principal editor</label><name>H. Lewis Ulman</name>Revision of encoding to align with design peer-reviewed by NINES.</change>
          <change><date>2011-08-11</date><label>Principal editor</label><name>H. Lewis Ulman</name>Final editing of bibliography and XSL style sheets.</change>
          <change><date>2011-01-14</date><label>Principal editor</label><name>H. Lewis Ulman</name>Removal of the unfinished audio version of the edition; proofing of annotations
                and bibliography.</change>

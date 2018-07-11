@@ -166,6 +166,7 @@
                            <li><a href="./appendices-CoxTourMaps.html">Maps</a></li>
                            <li><a href="./sscox_journal.html#worksCited">Works Cited</a></li>
                            <li><a href="./sscox_journal.html#revHistory">Revision History</a></li>
+                           <li><a href="./appendices-Acknowledgements.html">Acknowledgements</a></li>
                            <li><a href="./appendices-aboutEditors.html">About the Editors</a></li>
                         </ul>
                      </li>
@@ -664,10 +665,13 @@
             <xsl:variable name="ID"><xsl:value-of select="@who"/></xsl:variable>
             <tr class="revTable" valign="top">
                <td nowrap="nowrap">
-                  <xsl:value-of select="@when"/>
+                  <xsl:value-of select="tei:date"/>
                </td>
                <td nowrap="nowrap">
-                  <xsl:value-of select="//tei:listPerson[@type='editors']/tei:person[@xml:id=$ID]/tei:persName"></xsl:value-of>
+<!--            OLD CODE             
+                <xsl:value-of select="//tei:listPerson[@type='editors']/tei:person[@xml:id=$ID]/tei:persName"></xsl:value-of>
+-->               
+               <xsl:value-of select="tei:name"/>
                </td>
                <td>
                   <xsl:value-of select="text()"/>
