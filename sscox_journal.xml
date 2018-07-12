@@ -821,8 +821,7 @@
                <handShift medium="ink" new="#SSC"/>
                <lb/> Journal of a
                <lb/> tour to <name type="region">Europe</name>.
-               <lb/> <date when="1851-05-06">May 6/51</date> ~ <seg><note resp="#editor" target="#N1215" anchored="true"/></seg>
-               <note resp="#editor" xml:id="N1215" anchored="true">Cox leaves space on this line to the right of the tilde, presumably to enter the end
+               <lb/> <date when="1851-05-06">May 6/51</date> ~ <ptr type="noteAnchor" target="N1215"/><note resp="ed" xml:id="N1215" anchored="true">Cox leaves space on this line to the right of the tilde, presumably to enter the end
                date of the journal entries in this notebook. In his entry for July 18, 1851, he reports that he purchased a second journal in Milan,
                but that journal has not been located.</note>
                <lb/> <name type="person"><choice><abbr>Sam.l.</abbr><expan>Samuel</expan></choice> <choice><abbr>S.</abbr><expan>Sullivan</expan></choice> Cox</name>
@@ -837,8 +836,8 @@
          <pb facs="SSCox_006.jpg" n="/8/8034f074-0c3f-4894-a4e6-d71cf4286a84"/>
             
             <head> Log of the <name type="ship">Asia</name>
-            <note resp="#ed" target="#N320Asia" anchored="true"/>
-               <note resp="#ed" xml:id="N320Asia" anchored="true">The <name type="ship">Asia</name> was built in <date>1850</date> 
+               <ptr type="noteAnchor" target="N320Asia"/><note resp="ed" xml:id="N320Asia" anchored="true">
+               The <name type="ship">Asia</name> was built in <date>1850</date> 
                for the <name>British and North American Royal Mail Steam Packet Company</name>
                (renamed the <name>Cunard Steam Ship Co. Ltd.</name> in 1878) by <name>R. Steele &amp; Son</name>
                of Greenock, Scotland. It was a wooden-hulled paddlewheeler, 266 feet long by 40 wide, with a gross tonnage of 2,226 
@@ -1012,11 +1011,9 @@
                   <name type="place">Castle gar<seg type="softhyphen">
                <lb/></seg>den</name>. <name type="person">
                Julia</name>
-               <note resp="#ed" target="#N504Julia" anchored="true"/>
-               <note resp="#ed" xml:id="N504Julia" anchored="true">Samuel Sullivan Cox and Julia Ann Buckingham were married in October 1849 (Lindsey 8).</note>
+               <ptr type="noteAnchor" target="N504Julia"/><note resp="ed" xml:id="N504Julia" anchored="true">Samuel Sullivan Cox and Julia Ann Buckingham were married in October 1849 (Lindsey 8).</note>
                &amp; <name type="person">Lucy</name>
-               <note resp="#ed" target="#N507Lucy" anchored="true"/>
-               <note resp="#ed" xml:id="N507Lucy" anchored="true">According to David Lindsey, Lucy was a cousin of Julia and her brother, Philo
+               <ptr type="noteAnchor" target="N507Lucy"/><note resp="ed" xml:id="N507Lucy" anchored="true">According to David Lindsey, Lucy was a cousin of Julia and her brother, Philo
                Buckinham (205).</note>
                trembled at each
                <lb/> report. A few tears—! <name type="city">
@@ -1190,8 +1187,7 @@
                <lb/> fit for the spectre of Melan<seg type="softhyphen">-
                <lb/></seg>choly, to wit, <q>"a gibed Cat
                <lb/> in a garret."</q>
-                  <note resp="#ed" target="#N638gibe" anchored="true"/>
-               <note resp="#ed" xml:id="N638gibe" anchored="true">Possibly an allusion to Washington Irving's <title level="m">Tales of a Traveller</title>. In "<title level="a">Buckthorne: or, The Young Man of
+                  <ptr type="noteAnchor" target="N638gibe"/><note resp="ed" xml:id="N638gibe" anchored="true">Possibly an allusion to Washington Irving's <title level="m">Tales of a Traveller</title>. In "<title level="a">Buckthorne: or, The Young Man of
                   Great Expectations</title>," Irving writes, "whatever may be said of the gravity of a
                   monkey, or the melancholy of a gibed cat, there is no more melancholy creature in
                   existence than a mountebank off duty" (107).</note>
@@ -1263,8 +1259,7 @@
                   <rdg wit="#Cox1851b">bonna</rdg>
                </app>
                fide icebergs—
-               <seg><note resp="#ed" target="#C0513berg" anchored="true"/></seg>
-               <note resp="#ed" xml:id="C0513berg" anchored="true">Judging from the mileage recorded in its log, the <name type="ship">RMS Asia</name>
+               <ptr type="noteAnchor" target="N638gibe"/><note resp="ed" xml:id="C0513berg" anchored="true">Judging from the mileage recorded in its log, the <name type="ship">RMS Asia</name>
                   probably encountered icebergs while running near the "Flemish Cap" of the Grand Banks off the Newfoundland coast.
                   In <title level="m">The Physical Geography of the Sea</title> (1855), M. F. Maury
                describes the contemporary understanding of the currents that carry icebergs to the coast of Newfoundland:
@@ -1453,8 +1448,7 @@
                <lb/> first &amp; fastest trip on
                <lb/> record. 9 d. &amp; 18 hours. The
                <lb/> <name type="ship">Pacific</name> made 9 d. &amp; 20 hours.
-               <note resp="#ed" target="#N823Paci" anchored="true"/>
-               <note resp="#ed" xml:id="N823Paci" anchored="true">The <name type="ship">Pacific</name> belonged to the Collins
+               <ptr type="noteAnchor" target="N823Paci"/><note resp="ed" xml:id="N823Paci" anchored="true">The <name type="ship">Pacific</name> belonged to the Collins
                Line, which competed for the Atlantic trade in the years following 1849. It and its sister
                   ships, the <name type="ship">Arctic</name>, <name type="ship">Baltic</name>, and
                   <name type="ship">Atlantic</name>, were somewhat larger than the <name type="ship">Asia</name>
@@ -1490,8 +1484,7 @@
                <lb/></seg>choly sea sickness—
                <lb/> <q>"all other griefs to this are Jolly
                <lb/> Naught so damned is Melancholy"</q>
-               <note resp="#ed" target="#N863grief" anchored="true"/>
-               <note resp="#ed" xml:id="N863grief" anchored="true">See Burton, <title level="m">Anatomy of Melancholy</title> (1660),
+               <ptr type="noteAnchor" target="N863grief"/><note resp="ed" xml:id="N863grief" anchored="true">See Burton, <title level="m">Anatomy of Melancholy</title> (1660),
                "<title level="a">The Author's Abstract of Melancholy</title>": "All my griefs to this are jolly, / Naught so damn'd
                as melancholy" (xiv).</note>
               <lb/> of this nature!
@@ -1508,8 +1501,8 @@
                <lb/> this <choice><abbr>morng</abbr><expan>morning</expan></choice>. It is quite a relief
                <lb/> to be able thus to give vent
                <lb/> <q>"No pent up Utica<sic>"</sic>
-               <note resp="#ed" target="#N881utica" anchored="true"/>
-               <note resp="#ed" xml:id="N881utica" anchored="true">Jonathan M. Sewall, <title level="m">Epilogue to Cato</title> (1778).</note>
+               <ptr type="noteAnchor" target=""/><note resp="ed" xml:id="N881utica" anchored="true"/>
+               <ptr type="noteAnchor" target=""/><note resp="ed" xml:id="N881utica" anchored="true">Jonathan M. Sewall, <title level="m">Epilogue to Cato</title> (1778).</note>
                can contract
                <lb/> my powers"</q> now,— for we
                <lb/> are aloof from all the <choice><sic>res<seg type="softhyphen">-
@@ -1542,8 +1535,8 @@
                <lb/> pale &amp; haggard; an exhalation
                <lb/> from <q>"Death the Skeleton and
                <lb/> Time; the Shadow!"</q>.
-               <note resp="#ed" target="#N925death" anchored="true"/>
-               <note resp="#ed" xml:id="N925death" anchored="true">William Wordsworth, <title level="a">Yew Trees</title></note>
+               <ptr type="noteAnchor" target=""/><note resp="ed" xml:id="N925death" anchored="true"/>
+               <ptr type="noteAnchor" target=""/><note resp="ed" xml:id="N925death" anchored="true">William Wordsworth, <title level="a">Yew Trees</title></note>
                This is
                <lb/> <hi rend="underline">pleasure</hi> travelling. The less
                <lb/> that is said about the better.
@@ -1585,14 +1578,14 @@
             <p>
                <lb/> We passed last week some of
                <lb/> Mother Cary's chickens— 
-               <note resp="#ed" target="#N911cary" anchored="true"/>
-               <note resp="#ed" xml:id="N911cary" anchored="true">Wilson's Storm Petrel (<name type="binomial">Oceanites oceanicus</name>) 
+               <ptr type="noteAnchor" target=""/><note resp="ed" xml:id="N911cary" anchored="true"/>
+               <ptr type="noteAnchor" target=""/><note resp="ed" xml:id="N911cary" anchored="true">Wilson's Storm Petrel (<name type="binomial">Oceanites oceanicus</name>) 
                   (<bibl><author>Turnbull</author>; <author>Patuxent Wildlife Research Center</author></bibl>).</note>
                I
                <lb/> saw too, a little tiny bird, <q>"all
                <lb/> alone—all alone"</q>
-               <note resp="#ed" target="#N957alone" anchored="true"/>
-               <note resp="#ed" xml:id="N957alone" anchored="true">Presumably an allusion to Coleridge's <title level="m">The Ancient Mariner</title>: 
+               <ptr type="noteAnchor" target=""/><note resp="ed" xml:id="N957alone" anchored="true"/>
+               <ptr type="noteAnchor" target=""/><note resp="ed" xml:id="N957alone" anchored="true">Presumably an allusion to Coleridge's <title level="m">The Ancient Mariner</title>: 
                   "Alone, alone, all alone; / Alone on a wide, wide sea" (pt. IV, st. 3).</note>
                seemingly
                <lb/> exhausted; yet still flying
@@ -1725,14 +1718,14 @@
                <lb/> W Scotts</name> ‘<title level="m">M Lothian</title>’— &amp; came on
                <lb/> deck where I found an air as mild
                <lb/> as that which Softly blows
-               <lb/> <quote rend="blockquote">O'er Ceylon's isle</quote><note resp="#ed" target="#Ceylon" anchored="true"/>
+               <lb/> <quote rend="blockquote">O'er Ceylon's isle</quote><ptr type="noteAnchor" target=""/><note resp="ed" xml:id="Ceylon" anchored="true"/>
                <note xml:id="Ceylon" anchored="true">See the missionary hymn "From Greenland's Icy Mountains," by Bishop Reginal Heber:
                "What though the spicy breezes / Blow soft o'er Ceylon's isle" (Robinson 446).</note>
                <lb/> I sit now on the steps of the upper
                <lb/> deck, the sailors are putting up
                <lb/> their ropes into snaky coils, the sound
                <lb/> of dishwashing romantically mingles
-               <lb/> with the ‘<quote>profound Eternal bass</quote>’<note resp="#ed" target="#Pollok" anchored="true"/>
+               <lb/> with the ‘<quote>profound Eternal bass</quote>’<ptr type="noteAnchor" target=""/><note resp="ed" xml:id="Pollok" anchored="true"/>
                <note xml:id="Pollok" anchored="true">See <title level="m">The Course of Time</title>, by Robert Pollok (1798–1827): "Great Ocean! stongest of 
                   creation's sons, / Unconquerable, unreposed, untired, / that rolled the wild, profound, eternal bass, / In nature's
                   anthem" (239).</note> of
@@ -1757,7 +1750,7 @@
                <lb/> out a vast liquid gem, variant
                <lb/> with lights and shades, and fearful
                <lb/> as the jewels which shine upon
-               <lb/> the Jewish Priest.<note resp="#ed" target="#Jewels" anchored="true"/>
+               <lb/> the Jewish Priest.<ptr type="noteAnchor" target=""/><note resp="ed" xml:id="Jewels" anchored="true"/>
                <note xml:id="Jewels" anchored="true">See <title level="m">Exodus</title> 28: 15-19.</note>
             </p>
             <p>
@@ -2049,7 +2042,7 @@
                <lb/> The rocks impress one strangely.
                <lb/> We saw a beautiful little
                <lb/> bridge (not the <name type="bridge">Menai</name>)
-               <note resp="#ed" target="#C0517Men" anchored="true"/>
+               <ptr type="noteAnchor" target=""/><note resp="ed" xml:id="C0517Men" anchored="true"/>
                <note resp="#id" xml:id="C0517Men" anchored="true">The Menai Suspension Bridge, since 1826, has connected the Welsh island of Anglesey to the mainland of Wales.</note> lead
                <lb/> up to one of the outer rocks
                
@@ -2073,8 +2066,8 @@
                <lb/> old <name type="country">England</name>, with all her 
                <lb/> <choice><sic>reccollections</sic><corr>recollections</corr></choice> so glorious.
                <lb/> I have written to Father &amp;
-               <lb/> <name type="person">Medary</name>,<note resp="#ed" target="#ColM" anchored="true"/>                 
-               <note resp="#ed" xml:id="ColM" anchored="true">This is probably a reference to Colonel <name type="person">Samuel Medary</name>, 
+               <lb/> <name type="person">Medary</name>,<ptr type="noteAnchor" target=""/><note resp="ed" xml:id="ColM" anchored="true"/>                 
+               <ptr type="noteAnchor" target=""/><note resp="ed" xml:id="ColM" anchored="true">This is probably a reference to Colonel <name type="person">Samuel Medary</name>, 
                   then editor of the <title level="m">Ohio Statesman</title>. Upon <name type="person">
                   Cox's</name> return to the <name type="region">United States</name>, he purchased a half share of the 
                   <title level="m">Ohio Statesman</title>. This transaction was made public through a letter signed by 
@@ -2214,8 +2207,8 @@
              <lb/> a good fire, a drizzly day &amp; with
              <lb/> a room scented with flowers, of
              <lb/> which this petal
-                <note resp="#ed" target="#petal" anchored="true"/>
-                <note resp="#ed" xml:id="petal" anchored="true">Presumably, Cox refers to a sketch of a flower that he inserts at this point in
+                <ptr type="noteAnchor" target=""/><note resp="ed" xml:id="petal" anchored="true"/>
+                <ptr type="noteAnchor" target=""/><note resp="ed" xml:id="petal" anchored="true">Presumably, Cox refers to a sketch of a flower that he inserts at this point in
                 the text 
                    <figure rend="link">
                       <head>Cox's sketch of a Johnny Jump-Up (<emph rend="italic">Viola cornuta</emph>).</head>
@@ -2286,8 +2279,8 @@
                      <lb/></seg>tecture. The Corinthian is predomi<seg type="softhyphen">-
                      <lb/></seg>nant. The capitals have so much
                      <lb/> Elegant tracery. Passed a street
-                      <lb/> called "<name type="street">Roscoe</name>,"<note resp="#ed" target="#Roscoehist" anchored="true"/>
-                      <note resp="#ed" xml:id="Roscoehist" anchored="true">This street was named after <name type="person">William Roscoe</name>
+                      <lb/> called "<name type="street">Roscoe</name>,"<ptr type="noteAnchor" target=""/><note resp="ed" xml:id="Roscoehist" anchored="true"/>
+                      <ptr type="noteAnchor" target=""/><note resp="ed" xml:id="Roscoehist" anchored="true">This street was named after <name type="person">William Roscoe</name>
                       (1783-1851), who was a Liverpool lawyer, historian, writer and philanthropist.
                       </note> 
                             after the celebrated
@@ -2606,12 +2599,12 @@
                <lb/> 1/2 past 12. Have returned
                <lb/> from <name type="place"/>Princess' Theatre  
                
-               <note resp="#ed" target="#PrincessT" anchored="true"/>
-               <note resp="#ed" xml:id="PrincessT" anchored="true">The Princess Theatre was built just 10 years before
+               <ptr type="noteAnchor" target=""/><note resp="ed" xml:id="PrincessT" anchored="true"/>
+               <ptr type="noteAnchor" target=""/><note resp="ed" xml:id="PrincessT" anchored="true">The Princess Theatre was built just 10 years before
                   Cox takes in the show (Lloyd).</note> where we heard
                <lb/><name type="person"/><name type="person"/>M<hi rend="superscript">r</hi> 
-               and M<hi rend="superscript">rs</hi> Kean in 'Pauline'. <note resp="#ed" target="#Pauline" anchored="true"/>
-               <note resp="#ed" xml:id="Pauline" anchored="true">Cox refers to Dion Boucicault's <title level="m">Pauline</title> (1851).
+               and M<hi rend="superscript">rs</hi> Kean in 'Pauline'. <ptr type="noteAnchor" target=""/><note resp="ed" xml:id="Pauline" anchored="true"/>
+               <ptr type="noteAnchor" target=""/><note resp="ed" xml:id="Pauline" anchored="true">Cox refers to Dion Boucicault's <title level="m">Pauline</title> (1851).
                </note>
                They have
                <lb/> deteriorated—heard a piece called the
@@ -2651,8 +2644,8 @@
                <lb/> in sight of <name type="place">Old Westminster Abbey</name>,
                <lb/> black &amp; streaked, but full of interest
                <lb/> with its turrets, niches, tracery, towers,
-               <lb/><q>"a wilderness of building."—</q><note resp="#ed" target="#WestminsterAbb" anchored="true"/>
-               <note resp="#ed" xml:id="WestminsterAbb" anchored="true">Cox quotes William Wordsworth's "The Excursion."</note> passed
+               <lb/><q>"a wilderness of building."—</q><ptr type="noteAnchor" target=""/><note resp="ed" xml:id="WestminsterAbb" anchored="true"/>
+               <ptr type="noteAnchor" target=""/><note resp="ed" xml:id="WestminsterAbb" anchored="true">Cox quotes William Wordsworth's "The Excursion."</note> passed
                <lb/> over <name type="bridge">Vauxhall bridge</name>, and were soon
                <lb/> in the pell mell, dashing hurrah
                <lb/> route to the Derby,—What a close
@@ -2711,8 +2704,8 @@
                </dateline>
             </opener>
             <p>
-               <note resp="#ed" target="#oopsy" anchored="true"/>
-               <note resp="#ed" xml:id="oopsy" anchored="true">Cox corrects this dateline twice, crossing out "Friday"
+               <ptr type="noteAnchor" target=""/><note resp="ed" xml:id="oopsy" anchored="true"/>
+               <ptr type="noteAnchor" target=""/><note resp="ed" xml:id="oopsy" anchored="true">Cox corrects this dateline twice, crossing out "Friday"
                   and overwriting the "4" in "24" with a "3," resulting in an impossible date of
                   Thursday, May 23, 1851. Judging from the dates of other entried, the dateline
                   should probably read Thursday, May 22, 1851 ("Calendar").</note>
@@ -2728,11 +2721,11 @@
                
                <pb facs="SSCox_050.jpg" n="/e/ef0172ce-e653-4eca-bdbc-3243498876bd"/>
                <lb/>who agreed to meet us at <name type="Artwork">Greek
-               <lb/> Slave</name> <note resp="#ed" target="#gs2739" anchored="true"/> <note resp="#ed" xml:id="gs2739" anchored="true">The Greek Slave is a 
+               <lb/> Slave</name> <ptr type="noteAnchor" target=""/><note resp="ed" xml:id="gs2739" anchored="true"/> <ptr type="noteAnchor" target=""/><note resp="ed" xml:id="gs2739" anchored="true">The Greek Slave is a 
                famous and controversial statue by American Neoclassical sculptor, Hiram Powers (1805-1873) (Crane 203).</note>
                tomorrow 4 P.M; Thence
-               <lb/> to <name type="institution">Baring &amp; Bro<hi rend="superscript">s</hi></name>, <note resp="#ed" target="#bb2740" anchored="true"/>
-               <note resp="#ed" xml:id="bb2740" anchored="true">Barings and Brothers was a London based merchant bank
+               <lb/> to <name type="institution">Baring &amp; Bro<hi rend="superscript">s</hi></name>, <ptr type="noteAnchor" target=""/><note resp="ed" xml:id="bb2740" anchored="true"/>
+               <ptr type="noteAnchor" target=""/><note resp="ed" xml:id="bb2740" anchored="true">Barings and Brothers was a London based merchant bank
                   established in 1763 (<title level="m">Encyclopædia Britannica</title>). 
                </note> through <name type="street">Picca<seg type="softhyphen">-
                <lb/></seg>dilly</name>,<name type="street"> Fleet,</name> <name type="street"> Threadneedle</name> &amp;
@@ -2751,7 +2744,7 @@
                <dateline>
                   <date when="1851-05-23"> Friday, May 24/51</date> 
                </dateline>
-            </opener> <note resp="#ed" target="#wrd" anchored="true"/><note resp="#ed" xml:id="wrd" anchored="true">Cox  erroneously dates
+            </opener> <ptr type="noteAnchor" target=""/><note resp="ed" xml:id="wrd" anchored="true"/><ptr type="noteAnchor" target=""/><note resp="ed" xml:id="wrd" anchored="true">Cox  erroneously dates
                this entry; the dateline should read May 23, 1851 ("Calendar").</note>
             <p>
                <lb/> Went to <name>Exhibition</name>, all through
@@ -2774,8 +2767,8 @@
                <lb/> The hats of Members on—the
                <lb/>confusion. The following was 
                <lb/>the <unclear>debate</unclear> 
-               <note resp="#ed" target="#ted26" anchored="true"/>
-               <note resp="#ed" xml:id="ted26" anchored="true">The newspaper cutting that Cox pastes in his Journal 
+               <ptr type="noteAnchor" target=""/><note resp="ed" xml:id="ted26" anchored="true"/>
+               <ptr type="noteAnchor" target=""/><note resp="ed" xml:id="ted26" anchored="true">The newspaper cutting that Cox pastes in his Journal 
                   is part of an editorial that appeared in the <title level="m">Times</title> on Saturday, May 24, 1851 (5).
                </note>
                from the '<name type="Newspaper">Times</name>.' 
@@ -3215,8 +3208,8 @@
                       <lb/> Soon we pass stone fountains,—and
                       <lb/> all at once, the scene of the <quote>"arrowy 
                       <lb/> Rhone,"</quote>
-                       <note resp="#ed" target="#ArrowyRhone" anchored="true"/> 
-                       <note resp="#ed" xml:id="ArrowyRhone" anchored="true">From Byron's
+                       <ptr type="noteAnchor" target=""/><note resp="ed" xml:id="ArrowyRhone" anchored="true"/> 
+                       <ptr type="noteAnchor" target=""/><note resp="ed" xml:id="ArrowyRhone" anchored="true">From Byron's
                        <title level="m">Childe Harold's Pilgrimage</title>: 
                         <q> 
                            "Is it not better, then, to be alone, /
@@ -3629,19 +3622,19 @@
             
           <p>
             <lb/> After resting some time, we started
-            <lb/> out—Ladies with <name type="person">Miss Pratt</name><note resp="#ed" target="#JPratt" anchored="true"/>
-            <note resp="#ed" xml:id="JPratt" anchored="true"><name type="person">Julia Pratt</name>, only daughter of 
+            <lb/> out—Ladies with <name type="person">Miss Pratt</name><ptr type="noteAnchor" target=""/><note resp="ed" xml:id="JPratt" anchored="true"/>
+            <ptr type="noteAnchor" target=""/><note resp="ed" xml:id="JPratt" anchored="true"><name type="person">Julia Pratt</name>, only daughter of 
                <name type="person">Zadock Pratt</name> of <name type="region">New York</name> (<ref target="http://www.prattmuseum.com/pratts-five-wives.html"><title>Zadock Pratt 
                   Museum</title></ref>.)
             </note> &amp; 
-            <lb/> <name type="person">Mrs. Stephens</name><note resp="#ed" target="#AnnStephens" anchored="true"/>          
-            <note resp="#ed" xml:id="AnnStephens" anchored="true"><name type="person">Ann Sophia Stephens</name> is the authoress 
+            <lb/> <name type="person">Mrs. Stephens</name><ptr type="noteAnchor" target=""/><note resp="ed" xml:id="AnnStephens" anchored="true"/>          
+            <ptr type="noteAnchor" target=""/><note resp="ed" xml:id="AnnStephens" anchored="true"><name type="person">Ann Sophia Stephens</name> is the authoress 
                of <hi rend="italics">Dime Novel No. 1</hi>. She worked as an authoress, editor, and magazine publisher. 
                She dedicated one of her poems to the Honorable <name type="person">Zadock Pratt</name> 
                of <name type="region">New York</name> 
                (<ref target="http://www.niulib.niu.edu/badndp/stephens_ann.html"><title>Northern Illinois University Library</title></ref>).
-            </note>, we with <name type="person">Pratt</name><note resp="#ed" target="#GPratt" anchored="true"/>              
-            <note resp="#ed" xml:id="GPratt" anchored="true"><name type="person">George
+            </note>, we with <name type="person">Pratt</name><ptr type="noteAnchor" target=""/><note resp="ed" xml:id="GPratt" anchored="true"/>              
+            <ptr type="noteAnchor" target=""/><note resp="ed" xml:id="GPratt" anchored="true"><name type="person">George
                Pratt</name> (b. April 18, 1830), only son of 
                <name type="person">Zadock Pratt</name> of <name type="region">New York</name> (<ref target="http://www.prattmuseum.com/colonel-george-pratt.html"><title>Zadock Pratt Museum</title></ref>).
             </note>—                  
@@ -3688,8 +3681,8 @@
             <lb/> columns, twisted, fluted &amp;
             <lb/> colored, caught the Eye. One
             <lb/> church however was entirely
-            <lb/> white.<note resp="#ed" target="#Maria" anchored="true"/>
-               <note resp="#ed" xml:id="Maria" anchored="true">The Church of Santa Maria (<title level="m">A Buckeye Abroad</title> 100).
+            <lb/> white.<ptr type="noteAnchor" target=""/><note resp="ed" xml:id="Maria" anchored="true"/>
+               <ptr type="noteAnchor" target=""/><note resp="ed" xml:id="Maria" anchored="true">The Church of Santa Maria (<title level="m">A Buckeye Abroad</title> 100).
                </note> All the others betrayed
             <lb/> a mixture of Gothic &amp; <choice><sic>Sarcenic</sic><corr>Saracenic</corr></choice>,
             <lb/> of the <unclear/> in fact.—We 
@@ -4002,8 +3995,8 @@
                <lb/> scion of the old <name type="nationality">Roman</name> tree! What a
                <lb/> hard looking scoundrel was that one
                <lb/> which <choice><abbr>Lieut.</abbr><expan>Lieutenant</expan></choice> Nelson ordered to be bay<seg type="softhyphen">-
-               <lb/></seg>onetted off the "<name type="ship">Mississippi</name>',<note resp="#ed" target="#R2" anchored="true"/> 
-               <note resp="#ed" xml:id="R2" anchored="true">The <name type="ship">U.S.S. Mississippi</name> cruised the Mediterranean from 1847-1851. 
+               <lb/></seg>onetted off the "<name type="ship">Mississippi</name>',<ptr type="noteAnchor" target=""/><note resp="ed" xml:id="R2" anchored="true"/> 
+               <ptr type="noteAnchor" target=""/><note resp="ed" xml:id="R2" anchored="true">The <name type="ship">U.S.S. Mississippi</name> cruised the Mediterranean from 1847-1851. 
                   According to <title level="m">A Buckeye Abroad</title>, the officers assisted the passengers of the <name type="ship">Asia</name> in 
                   visiting the grave of Tobias Smollet (104).</note> for charging 
                <lb/>us double.⁓<add place="inline" hand="#SSC">The road to <name type="city">Rome</name> is rolling, not 
@@ -5991,8 +5984,8 @@
                <lb/> then went to <name type="building">Hotel D'Anglaterre</name> —
                <lb/> after washing up saw <choice><abbr>M<hi rend="superscript">r</hi></abbr><expan>Mister</expan></choice>
                <handShift new="#UNK" medium="pencil"/>
-               <name type="person">Dannez</name><note resp="#ed" target="#C19" anchored="true"/>
-                        <note resp="#ed" xml:id="C19" anchored="true">According to <title level="m">A Buckeye Abroad, </title>Mr. Dainese was 
+               <name type="person">Dannez</name><ptr type="noteAnchor" target=""/><note resp="ed" xml:id="C19" anchored="true"/>
+                        <ptr type="noteAnchor" target=""/><note resp="ed" xml:id="C19" anchored="true">According to <title level="m">A Buckeye Abroad, </title>Mr. Dainese was 
                           the consul 
                           who accompanied Cox's party on their journey through Constantinople (219).</note>
                <!-- How to encode the spaces left by Cox? -->
@@ -6078,8 +6071,8 @@
              <lb/> with a whip, who told our firman
              <lb/> &amp; the Officer sent by the Prime 
              <lb/> Minister  "<q><hi rend="underline">to go to hell</hi>, that they
-             <lb/> brought the <choice><sic>Gaiours</sic><corr>Giaours</corr></choice> <note resp="#ed" target="#C16" anchored="true"/> 
-                  <note resp="#ed" xml:id="C16" anchored="true">See Cox’s fuller version of this
+             <lb/> brought the <choice><sic>Gaiours</sic><corr>Giaours</corr></choice> <ptr type="noteAnchor" target=""/><ptr type="noteAnchor" target=""/><note resp="ed" xml:id="C16" anchored="true"/> 
+                  <ptr type="noteAnchor" target=""/><note resp="ed" xml:id="C16" anchored="true">See Cox’s fuller version of this
                      scolding in <title level="m">A Buckeye Aboard</title> (220–221).</note> here; that 
              <lb/> the time was <choice><sic>Ramadzin</sic><corr>Ramadan</corr></choice></q>" — a 
              <lb/> holy month, in which the <name type="nationality">Turks</name>
@@ -6258,7 +6251,7 @@
          <lb/> on the streets, writing for the people,—
          <lb/> Also observed the petitions going
          <lb/> on after the crowd which conduc<seg type="softhyphen">-
-         <lb/></seg>ted the Sultan.<note resp="#ed" target="#U11" anchored="true"/> <note resp="#ed" xml:id="U11" anchored="true">In <title level="m">
+         <lb/></seg>ted the Sultan.<ptr type="noteAnchor" target=""/><note resp="ed" xml:id="U11" anchored="true"/> <ptr type="noteAnchor" target=""/><note resp="ed" xml:id="U11" anchored="true">In <title level="m">
             A Buckeye Abroad</title>, Cox identifies the current Sultan as Abd-ul-Mejid (209).</note> The Sultanas
          <lb/> were hid behind the lattice of
          <lb/> the large Seraglio. Poor fellows!
@@ -6360,8 +6353,8 @@
                <lb/> we were, was in similar beady condi<seg type="softhyphen">
                <lb/></seg>tion — For 20 minutes we sat — an
                <lb/> Embodied ooziness. The nose was 
-               <lb/> pendant like an Otaheitan<note resp="#ed" target="#U20" anchored="true"/>
-               <note resp="#ed" xml:id="U20" anchored="true">Cox is probably using (and misspelling) a now
+               <lb/> pendant like an Otaheitan<ptr type="noteAnchor" target=""/><note resp="ed" xml:id="U20" anchored="true"/>
+               <ptr type="noteAnchor" target=""/><note resp="ed" xml:id="U20" anchored="true">Cox is probably using (and misspelling) a now
                   obsolete term for Tahitian (OED).</note> with a gem 
                <lb/> therein. The ears were tremulous &amp; dan<seg type="softhyphen">-
                <lb/></seg>cing in their prismatic drops. The 
