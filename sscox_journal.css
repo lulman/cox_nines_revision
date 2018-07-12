@@ -342,7 +342,7 @@ a:link {
   text-decoration: none;
 }
 
-p.hang15 a:before {
+p.hang15 a:before, p.hang25 a:before, p.hang35 a:before {
 display: inline-block;
 content: " ";
 margin-top: -180px;

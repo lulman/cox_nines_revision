@@ -85,9 +85,6 @@
             <div id="skiptocontent"><a href="#maincontent">skip to main content</a></div>       
             
             <!-- BUILD THE MENUBAR -->
-            
-            <!-- BUILD THE MENUBAR -->
-            <div id="skiptocontent"><a href="#maincontent">skip to main content</a></div>       
             <div class="masthead">
                <div id="navigation">
                   <ul class="nav">
