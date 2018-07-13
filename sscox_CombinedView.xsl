@@ -151,7 +151,7 @@
                     name="href"><xsl:value-of select="@facs"/>.jpg</xsl:attribute>
                 <xsl:attribute name="target">top</xsl:attribute>
                 <img class="pageview">
-                    <xsl:attribute name="src"><xsl:value-of select="@facs"/>-small.jpg</xsl:attribute>
+                    <xsl:attribute name="src"><xsl:value-of select="@facs"/>_small.jpg</xsl:attribute>
                     <xsl:attribute name="width">425</xsl:attribute>
                 </img>
             </a>

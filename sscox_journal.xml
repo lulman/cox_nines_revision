@@ -786,7 +786,7 @@
       <body>
          
          <div type="FrontCover" xml:id="CoxFrontCover">
-            <pb facs="SSCox_001.jpg" n="/e/eeaca1b6-5558-4d06-acba-bab6d79cec73"/>
+            <pb facs="SSCox_001"/>
             <p>
                <unclear reason="Title scratched into leather binding">
                   <lb/><name type="person">S. Cox</name>,
@@ -801,7 +801,7 @@
             
          </div>
          <div type="Note" xml:id="CoxFrontNote">
-         <pb facs="SSCox_004.jpg" n="/d/d55bd1e7-4d6a-4e25-96c2-fce218b49512"/>
+         <pb facs="SSCox_004"/>
             <p>
             <figure rend="link">
                <head>Sold By / Wm. W. Rose. / Stationer, / 19 Wall St. N.Y.</head>
@@ -817,7 +817,7 @@
             
          </div>
          <div type="TitlePage" xml:id="CoxTitlePage">
-         <pb facs="SSCox_005.jpg" n="/8/88d4e6c9-fd6b-487e-a2b7-b2b6418b7edd"/>
+         <pb facs="SSCox_005"/>
             
             <!-- Check for faint recoverable notes on this page. -->
 
@@ -842,7 +842,7 @@
             
          </div>
          <div type="Log" xml:id="CoxAsiaLog">
-         <pb facs="SSCox_006.jpg" n="/8/8034f074-0c3f-4894-a4e6-d71cf4286a84"/>
+         <pb facs="SSCox_006"/>
             
             <head> Log of the <name type="ship">Asia</name>
                <ptr type="noteAnchor" target="N320Asia"/><note resp="ed" xml:id="N320Asia" anchored="true">
@@ -953,7 +953,7 @@
          <div xml:id="Cox18510507a" type="Entry">
             <!--Transcription of the body of the first entry begins here. -->
                         
-         <pb facs="SSCox_007.jpg" n="/c/c0ff75ca-4d03-41b4-a49d-c8d8ee1d6474"/>
+         <pb facs="SSCox_007"/>
                
               <opener>
                <lb/>
@@ -1033,7 +1033,7 @@
              
              <!-- Proofed 20080619 by HLU/ED -->
                
-            <pb facs="SSCox_008.jpg" n="/c/caf7cb69-449e-4a1e-8dc9-3ea1dc6635e1"/>
+            <pb facs="SSCox_008"/>
             
             <p>  
                 <lb/> This was done very prettily—
@@ -1067,7 +1067,7 @@
                
                <!-- Proofed 20080620 by HLU/ED --> 
                
-               <pb facs="SSCox_009.jpg" n="/8/87ff61eb-0bbf-4f84-b364-0cbe37ee4ae5"/>
+               <pb facs="SSCox_009"/>
                 
                 <lb/> style. The breeze is slight &amp;
                 <lb/> not very favorable—
@@ -1123,7 +1123,7 @@
                 
                <!-- Proofed 20080620 by HLU/ED --> 
                
-               <pb facs="SSCox_010.jpg" n="/0/045fb39f-47a2-44b5-ac5f-7030e4e980e4"/>
+               <pb facs="SSCox_010"/>
 
                <lb/> when will the end come?
                <lb/> Not for more than a week—
@@ -1180,7 +1180,7 @@
                   
                <!-- Proofed 20080620 by HLU/ED -->
                   
-               <pb facs="SSCox_011.jpg" n="/3/30afeef4-6f14-4299-a587-1fba7689816f"/>
+               <pb facs="SSCox_011"/>
                
                <lb/> beef tea—porridges—soups,
                <lb/> and such other watery and
@@ -1217,7 +1217,7 @@
                      —No
                <lb/> matter for the bad roads
                
-                  <pb facs="SSCox_012.jpg" n="/4/43b58521-6b09-43c0-af2c-af4301240985"/>
+                  <pb facs="SSCox_012"/>
                   
                <!-- Proofed 20080620 by HLU/ED -->
                   
@@ -1289,7 +1289,7 @@
 
                <!-- Proofed 20080620 by HLU/ED -->
                
-               <pb facs="SSCox_013.jpg" n="/7/74958bc4-9461-4e66-b42a-a0c5e7f54286"/>
+               <pb facs="SSCox_013"/>
                
                <lb/> the <name type="building">Trinity Church</name> we saw in
                <app xml:id="T1740comma">
@@ -1344,7 +1344,7 @@
                
                <!-- Proofed 20080620 by HLU/ED -->
                
-               <pb facs="SSCox_014.jpg" n="/e/edd75bba-49ef-409f-9874-ac5e393841f0"/>
+               <pb facs="SSCox_014"/>
                
                <lb/> the rate of 315 miles pr day.
                <lb/> We passed yesterday morn,
@@ -1401,7 +1401,7 @@
                
                <!-- Proofed 20080620 by HLU/ED -->
                
-               <pb facs="SSCox_015.jpg" n="/b/bf1dac27-9fc7-440a-8a0b-00519c7f61db"/>
+               <pb facs="SSCox_015"/>
                
                <lb/>
                <app xml:id="T763">
@@ -1433,7 +1433,7 @@
                
                <!-- Proofed 20080620 by HLU/ED -->
                
-               <pb facs="SSCox_016.jpg" n="/5/51419e18-33f0-4b9f-a3db-af099e451657"/>
+               <pb facs="SSCox_016"/>
                
                <lb/> ark of safety. The Captain
                <lb/> &amp; officers are of the <choice><abbr>R.N.</abbr><expan>Royal Navy</expan></choice>, &amp;
@@ -1470,7 +1470,7 @@
                
                <!-- Proofed 20080620 by HLU/ED -->
                
-               <pb facs="SSCox_017.jpg" n="/9/90a25f77-f1e6-40bd-ab74-be4c01e764e5"/>
+               <pb facs="SSCox_017"/>
                
                <lb/> in person upon the shores of
                <lb/> our progenitors—the land of 
@@ -1509,7 +1509,7 @@
                   
            <!-- Proofed 20080620 by HLU/ED -->
                   
-                  <pb facs="SSCox_018.jpg" n="/7/778e1bfe-e8ad-4d62-bdf5-c9e5ab4f1092"/>
+                  <pb facs="SSCox_018"/>
                
                <lb/></seg>straints</sic><corr>restraints</corr></choice> of <hi rend="underline">Earth</hi>—alone upon
                <lb/> a mobile element —not however
@@ -1542,7 +1542,7 @@
             
             <!-- Proofed 20080623 by HLU/ED -->
             
-            <pb facs="SSCox_019.jpg" n="/2/269429c9-0cba-4aac-8681-b27bb96e11eb"/>
+            <pb facs="SSCox_019"/>
             
             <p>
                <lb/> When I was first sea sick,
@@ -1571,7 +1571,7 @@
             
             <!-- Proofed 20080623 by HLU/ED -->
             
-            <pb facs="SSCox_020.jpg" n="/6/69c87377-41be-4a29-b092-58d3d3d245f1"/>
+            <pb facs="SSCox_020"/>
             
             <p>
                <lb/> We passed last week some of
@@ -1605,7 +1605,7 @@
                
                <!-- Proofed 20080623 by HLU/ED -->
                
-               <pb facs="SSCox_021.jpg" n="/0/0adf5d23-27e9-4213-bb34-c5b29d81fde8"/>
+               <pb facs="SSCox_021"/>
                
                <lb/> a hymn to its Creator, would go
                <lb/> up its carol to the all Audient
@@ -1637,7 +1637,7 @@
          
          <!-- NEW MATERIAL 20080716!!! -->
          
-         <pb facs="SSCox_022.jpg" n="/0/05dcf1fb-890e-4e7e-85f0-7ff37122168f"/>
+         <pb facs="SSCox_022"/>
          
          <div type="Entry" xml:id="Cox18510514a">
             <opener>
@@ -1670,7 +1670,7 @@
                
                <!-- Proofed 20080721 by HLU/ED -->
                
-               <pb facs="SSCox_023.jpg" n="/2/2b449c08-e4d2-4296-89f2-0768fc5b69fd"/>
+               <pb facs="SSCox_023"/>
                
                <lb/> I commence "<title level="m">The heart of
                <lb/> Mid Lothian</title>" tomorrow—
@@ -1697,7 +1697,7 @@
          
          <!-- Proofed 20080721 by HLU/ED -->
          
-            <pb facs="SSCox_024.jpg" n="/d/d946acec-8d70-4078-8db2-5a47e78ac3a4"/>
+            <pb facs="SSCox_024"/>
             
          <div type="Entry" xml:id="Cox18510515a">
             <opener>
@@ -1736,7 +1736,7 @@
                   
         <!-- Proofed 20080721 by HLU/ED -->
                   
-        <pb facs="SSCox_025.jpg" n="/f/fa4552bb-4301-4b5e-8a78-a6e7c659c89a"/>
+        <pb facs="SSCox_025"/>
                   
                <lb/></seg>fect <choice><sic>geomotry</sic><corr>geometry</corr></choice> or its vast extent.
                <lb/> The waverings of the water are
@@ -1772,7 +1772,7 @@
                   
           <!-- Proofed 20080721 by HLU/ED -->
                   
-            <pb facs="SSCox_026.jpg" n="/2/288df5b6-d8d3-4c93-92c1-9a3280c0bcd0"/>
+            <pb facs="SSCox_026"/>
                
                <lb/> Men in the rigging want help.
                <lb/> Hammers—coal chisels &amp; I can't
@@ -1803,7 +1803,7 @@
                
       <!-- Proofed 20080721 by HLU/ED -->
                
-               <pb facs="SSCox_027.jpg" n="/c/cb599772-a509-47d3-b94f-ef30ef8f19de"/>
+               <pb facs="SSCox_027"/>
                
                <lb/> where it clasps the sky, it is black.
                <lb/> Whether this is the result of the
@@ -1832,7 +1832,7 @@
                
     <!-- Proofed 20080721 by HLU/ED -->
                
-               <pb facs="SSCox_028.jpg" n="/6/60908570-52c5-490b-8412-ac029bc07ca1"/>
+               <pb facs="SSCox_028"/>
                
                <lb/> its tiny drop—it may be but a 
                <lb/> drop from the spray of a
@@ -1862,7 +1862,7 @@
          
     <!-- Proofed 20080721 by HLU/ED -->
          
-         <pb facs="SSCox_029.jpg" n="/a/a189458f-3f54-4b08-862a-ee93a1db546b"/>
+         <pb facs="SSCox_029"/>
          
          <div xml:id="Cox18510516a" type="Entry">
             <opener>
@@ -1912,7 +1912,7 @@
                         
      <!-- Proofed 20080721 by HLU/ED -->
                
-            <pb facs="SSCox_030.jpg" n="/4/424465a3-c232-4d26-a635-a195d54bac79"/>
+            <pb facs="SSCox_030"/>
                
                <lb/> another illustration of the way
                <lb/> <name type="person">Scott</name> can deliniate the female
@@ -1942,7 +1942,7 @@
             
             <!-- Proofed 20080623 by HLU/ED -->
             
-            <pb facs="SSCox_031.jpg" n="/1/1cf5bba4-4285-4cd6-8aca-45a519cb2b02"/>
+            <pb facs="SSCox_031"/>
             
                <lb/> perhaps to Greenwich; and there 
                <lb/> are generalized into vital prin<seg type="softhyphen">-
@@ -1974,7 +1974,7 @@
                
                <!-- Proofed 20080623 by HLU/ED -->
                
-            <pb facs="SSCox_032.jpg" n="/9/9cc4bae8-1ed6-4046-ae76-04ce7e0ae8ce"/>
+            <pb facs="SSCox_032"/>
             
                <lb/> be distinguished. We did not
                <lb/> retire till nearly 12. The only mis<seg type="softhyphen">-
@@ -2005,7 +2005,7 @@
                
                <!-- Proofed 20080623 by HLU/ED -->
 
-               <pb facs="SSCox_033.jpg" n="/6/6c79f3d2-b58d-4835-ac51-34d18388fa59"/>
+               <pb facs="SSCox_033"/>
 
                <lb/> be out of sight of land at any time. The
                <lb/> land visible in <name type="country">Ireland</name>, is not the
@@ -2044,7 +2044,7 @@
                
                <!-- Proofed 20080623 by HLU/ED -->
                
-            <pb facs="SSCox_034.jpg" n="/f/feb10e75-8256-48ab-a1e5-ad6dcf132d1f"/>
+            <pb facs="SSCox_034"/>
 
                <lb/> We saw the piles &amp; place for
                <lb/> the new harbour at <name type="place">Holyhead</name>
@@ -2087,7 +2087,7 @@
          
         <div xml:id="Cox18510518a" type="Entry">
 
-           <pb facs="SSCox_035.jpg" n="/2/2d83f38a-4f9d-4007-93c5-500e66db0e08"/>
+           <pb facs="SSCox_035"/>
                      
                <opener>
                <lb/>
@@ -2131,7 +2131,7 @@
               
               <!-- Proofed 20080624 by HLU/ED -->
               
-            <pb facs="SSCox_036.jpg" n="/c/ca14f17e-29a7-4ce6-81d2-d875c5b56b17"/>
+            <pb facs="SSCox_036"/>
                 
             <lb/> Made the  acquaintance of <name type="person">M<hi rend="superscript">r</hi> Wallen</name>
             <lb/> of <name type="nationality">Florence</name>, who will be useful. Our
@@ -2174,7 +2174,7 @@
                 
                 <!-- Proofed 20080624 by HLU/ED -->
                 
-             <pb facs="SSCox_037.jpg" n="/5/5a0a42f1-abf8-4e99-8776-02bdbb60838b"/>
+             <pb facs="SSCox_037"/>
                 
              <lb/> in the morning. Cabs (one horse hasty
              <lb/> neat vehicles) rolled by over the
@@ -2208,7 +2208,7 @@
                    <figure rend="link">
                       <head>Cox's sketch of a Johnny Jump-Up (<emph rend="italic">Viola cornuta</emph>).</head>
                       <figDesc>
-                         <ref target="https://images.asc.ohio-state.edu/is/image/mediamanager?layer=0&amp;size=240,360&amp;layer=1&amp;src=is{mediamanagerSSCox_037.jpg" n="/5/5a0a42f1-abf8-4e99-8776-02bdbb60838b.jpg?scale=0.4&amp;rgn=30,680,240,240&amp;fmt=png}&amp;posN=0,-.25&amp;layer=2&amp;size=240,240&amp;text=\vertalt\cf1\qc\fs20\%20Cox's sketch of a Johnny Jump-Up\line\i(Viola%20cornuta)&amp;posN=0,.5">click to view the sketch</ref>
+                         <ref target="https://images.asc.ohio-state.edu/is/image/mediamanager?layer=0&amp;size=240,360&amp;layer=1&amp;src=is{mediamanagerSSCox_037" n="/5/5a0a42f1-abf8-4e99-8776-02bdbb60838b.jpg?scale=0.4&amp;rgn=30,680,240,240&amp;fmt=png}&amp;posN=0,-.25&amp;layer=2&amp;size=240,240&amp;text=\vertalt\cf1\qc\fs20\%20Cox's sketch of a Johnny Jump-Up\line\i(Viola%20cornuta)&amp;posN=0,.5">click to view the sketch</ref>
                       </figDesc>
                    </figure>
                 </note>
@@ -2228,7 +2228,7 @@
            
            <!-- Proofed 20080624 by HLU/ED -->
            
-        <pb facs="SSCox_038.jpg" n="/f/fe1eebc8-358e-4918-b640-4e3720c87127"/>
+        <pb facs="SSCox_038"/>
          
 	   <opener>
 	      <lb/><dateline><name type="city">Liverpool</name>, 
@@ -2268,7 +2268,7 @@
 
            <!-- Proofed 20080624 by HLU/ED -->
 
-               <pb facs="SSCox_039.jpg" n="/2/2461d51d-b773-4b7d-a08b-d529d089fb2b"/>
+               <pb facs="SSCox_039"/>
 
                      <lb/> Both are magnificent pieces of archi<seg type="softhyphen">- 
                      <lb/></seg>tecture. The Corinthian is predomi<seg type="softhyphen">-
@@ -2308,7 +2308,7 @@
            
            <!-- Proofed 20080624 by HLU/ED -->
                       
-           <pb facs="SSCox_040.jpg" n="/5/5cc87c01-df95-4765-b526-a88d868e2401"/>
+           <pb facs="SSCox_040"/>
            
               <lb/> On our way up, we saw another
               <lb/> Church, with its grave stones all
@@ -2356,7 +2356,7 @@
             
             <!-- Proofed 20080624 by HLU/ED -->
             
-            <pb facs="SSCox_041.jpg" n="/f/f6389790-6d56-461b-b251-d8588d96c809"/>
+            <pb facs="SSCox_041"/>
             
                <lb/> nicely carpeted meadows.— We are
                <lb/> now moving away, still in sight of
@@ -2384,7 +2384,7 @@
            
            <!-- Proofed 20080624 by HLU/ED -->
            
-            <pb facs="SSCox_042.jpg" n="/c/cfce9a76-9730-498b-ab19-af321078bfbb"/>
+            <pb facs="SSCox_042"/>
             
                <lb/> from their sister meads,—fields dotted with
                <lb/> the unwanted saffron furze, and silvered
@@ -2419,7 +2419,7 @@
             
            <!-- Proofed 20080624 by HLU/ED -->
            
-            <pb facs="SSCox_043.jpg" n="/e/e64c9be5-34f3-4f44-a1db-70d058373376"/>
+            <pb facs="SSCox_043"/>
 
                <lb/> manufacturing districts all seemed so
                <lb/> neat—Then long high chimney stacks
@@ -2458,7 +2458,7 @@
             
            <!-- Proofed 20080624 by HLU/ED -->
            
-            <pb facs="SSCox_044.jpg" n="/4/483d12ae-9ffa-4073-becf-009a0eb9cffb"/>
+            <pb facs="SSCox_044"/>
             <p>
                <lb/> Altogether we were gloriously ani<seg type="softhyphen">-
                <lb/></seg>mated, declaring that never thro' 
@@ -2501,7 +2501,7 @@
 
                <!-- Proofed 20080624 by HLU/ED -->
                
-               <pb facs="SSCox_045.jpg" n="/9/99ef2557-b4b4-40c3-8239-24f6859df726"/> 
+               <pb facs="SSCox_045"/> 
                   <lb/> taste—American skill,—Turkish luxury
                   <lb/> African oddity, &amp; in fact, every imaginable
                   <lb/> refinement—never was before put into
@@ -2538,7 +2538,7 @@
                   
                   <!-- Proofed 20080630 by HLU/ED -->
                   
-               <pb facs="SSCox_046.jpg" n="/3/369fe119-ba42-4f4e-8706-b55b937c1816"/>
+               <pb facs="SSCox_046"/>
                   
                <lb/> silver laced cap—A pretty little girl
                <lb/> sat with him in the front seat; &amp;
@@ -2576,7 +2576,7 @@
             
             <!-- Proofed 20080630 by HLU/ED -->
             
-            <pb facs="SSCox_047.jpg" n="/8/83dcfe97-f990-4c1b-95c9-18937e487f9d"/>   
+            <pb facs="SSCox_047"/>   
                         
             <p>
                <lb/> Upon going up to day to the Exhibition
@@ -2631,7 +2631,7 @@
 
             <!-- Proofed 20080630 by HLU/ED -->
             
-            <pb facs="SSCox_048.jpg" n="/3/3961143a-ec8b-4742-b6f1-e9aa3f0b38ca"/>
+            <pb facs="SSCox_048"/>
             <p>
                <lb/> and a carving of the Battle of the Nile
                <lb/> upon the side next us. Soon we came 
@@ -2665,7 +2665,7 @@
 
                <!-- Proofed 20080630 by HLU/ED -->
 
-               <pb facs="SSCox_049.jpg" n="/7/7da81408-da8e-4491-b25e-78721f5a525f"/>
+               <pb facs="SSCox_049"/>
                
                <lb/> can describe. A stake of $25,000,
                <lb/> is to be run for by 33 horses. At
@@ -2712,7 +2712,7 @@
                
                <!-- Proofed 20080630 by HLU/ED -->
                
-               <pb facs="SSCox_050.jpg" n="/e/ef0172ce-e653-4eca-bdbc-3243498876bd"/>
+               <pb facs="SSCox_050"/>
                <lb/>who agreed to meet us at <name type="Artwork">Greek
                   <lb/> Slave</name>  <ptr type="noteAnchor" target="gs2739"/><note resp="ed" xml:id="gs2739" anchored="true">The Greek Slave is a 
                famous and controversial statue by American Neoclassical sculptor, Hiram Powers (1805-1873) (Crane 203).</note>
@@ -2755,7 +2755,7 @@
                   
           <!-- Proofed 20080630 by HLU/ED -->
                   
-            <pb facs="SSCox_051.jpg" n="/e/e0d14171-fd16-4a6e-bec0-f7e308f27aba"/>
+            <pb facs="SSCox_051"/>
                <lb/></seg>mons</name>, got in the Lord's lobby, 
                <lb/> Was suprised at the Scene.
                <lb/> The hats of Members on—the
@@ -2819,7 +2819,7 @@
                
                <!-- Proofed 20080701 by HLU/ED -->
                
-               <pb facs="SSCox_052.jpg" n="/4/450f2ca0-c2bd-44cf-86b1-d67dbc69d7fb"/>
+               <pb facs="SSCox_052"/>
                <p>
                   <lb/> The SOLICITOR-GENERAL thought <name type="person">Sir <hi rend="smallcaps">Frederick</hi></name>
                   <lb/> had misconceived the scope and tendency of the 
@@ -2888,7 +2888,7 @@
                
                <!-- Proofed 20080701 by HLU/ED -->
 
-            <pb facs="SSCox_053.jpg" n="/9/9f45e081-65f4-4ce4-b8d3-7575b893cd8d"/>
+            <pb facs="SSCox_053"/>
 
                <lb/> information from divers <choice><abbr>MP's</abbr><expan>Members of Parliament</expan></choice>
                <lb/> as to the Mode of division, persons
@@ -2921,7 +2921,7 @@
                
                <!-- Proofed 20080701 by HLU/ED -->
                
-               <pb facs="SSCox_054.jpg" n="/a/a3a18430-5f12-406b-9522-ab153ad395a6"/>
+               <pb facs="SSCox_054"/>
                <lb/> Saw down at the transcept &amp;
                <lb/> wrote my impressions—bid it 
                <lb/> good bye; walked through 
@@ -2951,7 +2951,7 @@
                <figure rend="link">
                   <head>Cox's Sketch of Aisle</head>
                   <figDesc>
-                     <ref target="https://images.asc.ohio-state.edu/is/image/mediamanager?layer=0&amp;size=180,180&amp;layer=1&amp;src=is{mediamanagerSSCox_054.jpg" n="/a/a3a18430-5f12-406b-9522-ab153ad395a6.jpg?scale=0.4&amp;rgn=420,780,180,120&amp;fmt=png}&amp;posN=0,-.25&amp;layer=2&amp;size=180,94&amp;text=\vertalt\cf1\qc\fs20\%20Cox's Sketch of Aisle&amp;posN=0,.5">click to view the sketch</ref>
+                     <ref target="https://images.asc.ohio-state.edu/is/image/mediamanager?layer=0&amp;size=180,180&amp;layer=1&amp;src=is{mediamanagerSSCox_054" n="/a/a3a18430-5f12-406b-9522-ab153ad395a6.jpg?scale=0.4&amp;rgn=420,780,180,120&amp;fmt=png}&amp;posN=0,-.25&amp;layer=2&amp;size=180,94&amp;text=\vertalt\cf1\qc\fs20\%20Cox's Sketch of Aisle&amp;posN=0,.5">click to view the sketch</ref>
                   </figDesc>
                </figure> 
                <lb/> The sculptured forms all about.
@@ -2962,7 +2962,7 @@
                
      <!-- Proofed 20080701 by HLU/ED -->
                               
-               <pb facs="SSCox_055.jpg" n="/a/a05f6c1a-647c-462b-a8d6-65c783715582"/>
+               <pb facs="SSCox_055"/>
                
                <lb/> down: the birds were making
                <lb/> nests in the Abbey. It was cold
@@ -2985,7 +2985,7 @@
                   <figure rend="link">
                      <head>Embellishment</head>
                      <figDesc>
-                        <ref target="https://images.asc.ohio-state.edu/is/image/mediamanager?layer=0&amp;size=480,150&amp;layer=1&amp;src=is{mediamanagerSSCox_055.jpg" n="/a/a05f6c1a-647c-462b-a8d6-65c783715582.jpg?scale=0.4&amp;rgn=120,770,480,100&amp;fmt=png}&amp;posN=0,-.25&amp;layer=2&amp;size=480,100&amp;text=\vertalt\cf1\qc\fs29\%20Embellishment&amp;posN=0,.5">Click to view embellishment below line.</ref>
+                        <ref target="https://images.asc.ohio-state.edu/is/image/mediamanager?layer=0&amp;size=480,150&amp;layer=1&amp;src=is{mediamanagerSSCox_055" n="/a/a05f6c1a-647c-462b-a8d6-65c783715582.jpg?scale=0.4&amp;rgn=120,770,480,100&amp;fmt=png}&amp;posN=0,-.25&amp;layer=2&amp;size=480,100&amp;text=\vertalt\cf1\qc\fs29\%20Embellishment&amp;posN=0,.5">Click to view embellishment below line.</ref>
                      </figDesc>
                   </figure>
             </p>
@@ -3003,7 +3003,7 @@
                
                <!-- Proofed 20080728 by HLU/ED -->
                
-               <pb facs="SSCox_056.jpg" n="/8/83f4de4f-7cc1-4f13-83a7-bbf629fdddd5"/>
+               <pb facs="SSCox_056"/>
                
                <lb/> for Paris. Came down through rolling
                <lb/> country, by cars. The hills lining
@@ -3030,7 +3030,7 @@
                
                <!-- Proofed 20080728 by HLU/ED -->               
                
-               <pb facs="SSCox_057.jpg" n="/b/b1e8a323-8c5e-43c0-ac39-2db7946b379e"/>
+               <pb facs="SSCox_057"/>
                
                <lb/> a fine green plot; the birds are
                <lb/> flying &amp; making nests in the
@@ -3058,7 +3058,7 @@
 
             <!-- Proofed 20080728 by HLU/ED -->                           
 
-            <pb facs="SSCox_058.jpg" n="/2/27e94cb1-936b-4af0-90ae-b429fb207efd"/> 
+            <pb facs="SSCox_058"/> 
 
             <p>
                <lb/> The ride today has been on a piece
@@ -3099,7 +3099,7 @@
                   
            <!-- Proofed 20080701 by HLU/ED -->
             
-              <pb facs="SSCox_059.jpg" n="/7/74b9f3f1-2c52-445c-bc6e-4668ea1308d6"/> 
+              <pb facs="SSCox_059"/> 
                   
               <lb/>Elysees,</name> 
            <name type="landmark">Arc de Triomphe</name>, <name type="landmark">Notre
@@ -3135,7 +3135,7 @@
 
         <!-- Proofed 20080701 by HLU/ED -->
 
-                       <pb facs="SSCox_060.jpg" n="/3/3a07e7dc-9cef-41da-88cc-1500062a0c64"/>
+                       <pb facs="SSCox_060"/>
                        
                            <lb/> valley to <name type="city">Chalon</name>. took boat down
                            <lb/><name type="river">Saône</name>—fine Scenery—all been                        
@@ -3162,7 +3162,7 @@
                            
               <!-- Proofed 20080701 by HLU/ED -->
                      
-                   <pb facs="SSCox_061.jpg" n="/2/2e1dd45f-e1c1-4aa7-99fd-e05431175b21"/>
+                   <pb facs="SSCox_061"/>
                           
                    <lb/> struck the most bewitching scen<seg type="softhyphen">
                    <lb/></seg>ery I ever viewed. I thought, at 
@@ -3191,7 +3191,7 @@
                            
             <!-- Proofed 20080701 by HLU/ED -->                          
                       
-                       <pb facs="SSCox_062.jpg" n="/3/36ec9210-7877-4dff-83cb-2c57fb750d29"/>
+                       <pb facs="SSCox_062"/>
                       <lb/> spring up in the bosom of the
                       <lb/> valley, as if by magic. Boys are
                       <lb/> going home from fishing. Furze now &amp;
@@ -3233,7 +3233,7 @@
                            
        <!-- Proofed 20080701 by HLU/ED -->                          
                            
-                       <pb facs="SSCox_063.jpg" n="/3/3727c792-7956-4ab4-b94e-f329f93ae218"/>
+                       <pb facs="SSCox_063"/>
                       <lb/>semi circulars—One legged—whining 
                       <lb/>about while plenty of bread was
                       <lb/>within reach. They actually fought
@@ -3266,7 +3266,7 @@
      
      <!-- Proofed 20080715 by HLU/ED --> 
      
-     <pb facs="SSCox_064.jpg" n="/9/96403fed-60c1-4e6d-8110-a4167f196018"/>
+     <pb facs="SSCox_064"/>
                        <lb/>near 9 A.M: I got out upon the 
                        <lb/>front seat of the diligence. What
                        <lb/>strange appearance is that to the
@@ -3293,7 +3293,7 @@
      
      <!-- Proofed 20080715 by HLU/ED --> 
                        
-     <pb facs="SSCox_065.jpg" n="/3/3c19b994-5256-4578-b93f-25a89e314761"/>
+     <pb facs="SSCox_065"/>
      
                        <lb/>The prominent ruin was <add place="supralinear" rend="caret">called <name type="landmark">chateau de Mont Dragon</name></add>, some
                        <lb/>30, or 40 miles from Avignon. It
@@ -3320,7 +3320,7 @@
      
      <!-- Proofed 20080715 by HLU/ED --> 
      
-     <pb facs="SSCox_066.jpg" n="/b/be580a1b-19eb-423d-af55-94f028ee9c12"/>
+     <pb facs="SSCox_066"/>
      
                        <lb/>to us &amp; its convex to the hill. It 
                        <lb/>frowned like an old <name type="nationality">Roman</name>.
@@ -3351,7 +3351,7 @@
                            
      <!-- Proofed 20080715 by HLU/ED -->
                            
-     <pb facs="SSCox_067.jpg" n="/0/01c3922c-7ba6-4439-853b-9b0d594e3372"/>
+     <pb facs="SSCox_067"/>
                            
                         <lb/>is indeed a massive palace—
                         <lb/>worthy of note by the traveller;
@@ -3378,7 +3378,7 @@
                            
        <!-- Proofed 20080715 by HLU/ED -->
                            
-       <pb facs="SSCox_068.jpg" n="/5/568c0941-1956-440b-8f3b-a3aa09259ee5"/>
+       <pb facs="SSCox_068"/>
                            
                          <lb/>We wished to stay longer; amid
                          <lb/>the strawberries &amp; walls; but the
@@ -3405,7 +3405,7 @@
                            
        <!-- Proofed 20080715 by HLU/ED -->
                          
-       <pb facs="SSCox_069.jpg" n="/b/b961863d-9e73-4a42-8e53-22f374d89d57"/>
+       <pb facs="SSCox_069"/>
                            
                          <lb/>sunlustre; and the orb went
                          <lb/>down amidst golden bars of
@@ -3438,7 +3438,7 @@
          
          <!-- Proofed 20080715 by HLU/ED -->
                            
-         <pb facs="SSCox_070.jpg" n="/b/b0487502-98a6-4497-aaf6-fb7b4ad35654"/>
+         <pb facs="SSCox_070"/>
 
          <div type="Entry" xml:id="Cox18510531a">
             <opener>
@@ -3474,7 +3474,7 @@
                
      <!-- Proofed 20080721 by HLU/ED -->
                
-        <pb facs="SSCox_071.jpg" n="/7/7d3906ce-b4bb-4cff-8271-998e71b659b2"/>
+        <pb facs="SSCox_071"/>
                
                <lb/> of <name type="city">Marseilles</name>. It is a large city.              
                <lb/> Found some <choice><sic>Moroccos</sic><corr>Moroccans</corr></choice> there. Spoke  
@@ -3508,7 +3508,7 @@
          
     <!-- Proofed 20080721 by HLU/ED -->
          
-         <pb facs="SSCox_072.jpg" n="/5/5d79f70e-c247-4ce4-993c-fc9bdb49e7f8"/>
+         <pb facs="SSCox_072"/>
          
          <div type="Entry" xml:id="Cox18510601a">
             <lb/>
@@ -3542,7 +3542,7 @@
                
     <!-- Proofed 20080721 by HLU/ED -->
                
-        <pb facs="SSCox_073.jpg" n="/0/049c2f2b-b24d-493d-8e96-f38585c558ba"/>
+        <pb facs="SSCox_073"/>
                
                <lb/> as we glided away between the
                <lb/> shipping and apast the other boats.
@@ -3581,7 +3581,7 @@
                
     <!-- Proofed 20080721 by HLU/ED -->
                
-         <pb facs="SSCox_074.jpg" n="/3/3edf8b7e-302e-405a-acf7-d3e75f8b5482"/>
+         <pb facs="SSCox_074"/>
                
                <lb/> children of <name type="person">Hon Z. Pratt</name> N.Y.) quite
                <lb/> as pleasant as we could desire.
@@ -3610,7 +3610,7 @@
             
     <!-- Proofed 20080721 by HLU/ED -->
             
-         <pb facs="SSCox_075.jpg" n="/7/73b48034-0769-4598-8f3b-47c2aa8ba1ac"/>
+         <pb facs="SSCox_075"/>
             
           <p>
             <lb/> After resting some time, we started
@@ -3652,7 +3652,7 @@
             </p>
      <!-- Proofed 20080715 by HLU/ED --> 
             
-         <pb facs="SSCox_076.jpg" n="/c/c420d1fe-6ae2-45bb-845c-19defc2a40d3"/>
+         <pb facs="SSCox_076"/>
          <p>
             <lb/> First we went to the <name type="building">Church
             <lb/> S<hi rend="superscript">t</hi> <choice><sic>Sira</sic><corr>Siro</corr></choice></name>.
@@ -3682,7 +3682,7 @@
                   
        <!-- Proofed 20080715 by HLU/ED --> 
 
-            <pb facs="SSCox_077.jpg" n="/3/306baa41-0c9b-4c08-88c1-284a784344e5"/> 
+            <pb facs="SSCox_077"/> 
             
             <lb/> the great council chamber, saw the
             <lb/> casts put in by <name type="person">Bonaparte</name> when the
@@ -3710,7 +3710,7 @@
             
      <!-- Proofed 20080728 by HLU/ED --> 
             
-     <pb facs="SSCox_078.jpg" n="/7/70aeef89-2062-4ae9-9f1b-d083ad0a1db3"/> 
+     <pb facs="SSCox_078"/> 
                
             <lb/> worked, and here the nobles of
             <lb/> ancient <name type="city">Genoa</name> themselves handled
@@ -3739,7 +3739,7 @@
                
      <!-- Proofed 20080728 by HLU/ED -->                
                            
-      <pb facs="SSCox_079.jpg" n="/0/005308f6-aebb-4795-a3d0-0b0f28f82bbe"/>
+      <pb facs="SSCox_079"/>
                
            <lb/> we descended again to the <rs type="city">City</rs>. 
            <lb/> Our guide or <foreign xml:lang="fre">laquais de place</foreign>              
@@ -3769,7 +3769,7 @@
                                                 
       <!-- Proofed 20080728 by HLU/ED -->                
                
-     <pb facs="SSCox_080.jpg" n="/2/2d69f2c5-47dc-4357-b20d-8891dcd9ce4a"/>
+     <pb facs="SSCox_080"/>
                     
                     <lb/> Power could therein congregate,
                     <lb/> wondering most how from this
@@ -3799,7 +3799,7 @@
                 
       <!-- Proofed 20080728 by HLU/ED --> 
                             
-     <pb facs="SSCox_081.jpg" n="/2/203651c1-e7fe-45c9-8d4a-53da382bda07"/>
+     <pb facs="SSCox_081"/>
             <lb/> <rs type="person">wife</rs> has retired to her <choice><sic>birth</sic><corr>berth</corr></choice>, having
             <lb/> valiantly began her journal.
             <lb/> Our touch at <name type="city">Genoa</name> it seems to
@@ -3813,7 +3813,7 @@
             <lb/> <name type="city">Leghorn</name>. <figure rend="link">
                <head>Embellishment</head>
                <figDesc>
-                  <ref target="https://images.asc.ohio-state.edu/is/image/mediamanager?layer=0&amp;size=550,99&amp;layer=1&amp;src=is{mediamanagerSSCox_081.jpg" n="/2/203651c1-e7fe-45c9-8d4a-53da382bda07.jpg?scale=0.6&amp;rgn=50,600,550,66&amp;fmt=png}&amp;posN=0,-.25&amp;layer=2&amp;size=450,66&amp;text=\vertalt\cf1\qc\fs29\%20Embellishment&amp;posN=0,.5">Embellishment</ref>
+                  <ref target="https://images.asc.ohio-state.edu/is/image/mediamanager?layer=0&amp;size=550,99&amp;layer=1&amp;src=is{mediamanagerSSCox_081" n="/2/203651c1-e7fe-45c9-8d4a-53da382bda07.jpg?scale=0.6&amp;rgn=50,600,550,66&amp;fmt=png}&amp;posN=0,-.25&amp;layer=2&amp;size=450,66&amp;text=\vertalt\cf1\qc\fs29\%20Embellishment&amp;posN=0,.5">Embellishment</ref>
                </figDesc>
             </figure>
          </p>
@@ -3839,7 +3839,7 @@
                
                <!-- Proofed 20080729 by HLU/ED --> 
                
-               <pb facs="SSCox_082.jpg" n="/4/4000666c-8d17-43dc-bc50-2a21c4d12d92"/>
+               <pb facs="SSCox_082"/>
                
                <lb/> remind me of <name type="person">D<hi rend="superscript">r</hi> Wayland</name>.  <rs type="person">She</rs> gave
                <lb/> <del type="recoverable" rend="overwritten">up</del>us a copy of her verses at <name type="city">Rome</name>,
@@ -3869,7 +3869,7 @@
                
                <!-- Proofed 20080729 by HLU/ED --> 
                
-       <pb facs="SSCox_083.jpg" n="/c/c11bf709-bb5d-4a6c-8bc1-c05dab92097e"/>
+       <pb facs="SSCox_083"/>
                
                <lb/> about the grassy yard, gathered
                <lb/> flowers as mementos, then visited
@@ -3902,7 +3902,7 @@
                
                <!-- Proofed 20080729 by HLU/ED --> 
                
-      <pb facs="SSCox_084.jpg" n="/e/ef46baec-911b-439b-ad21-4582e43165d8"/>
+      <pb facs="SSCox_084"/>
                
                <lb/> <name type="person">Philo</name> got a splash getting aboard.
                <lb/> We saw a gun that fired 130 times
@@ -3937,7 +3937,7 @@
                
                <!-- Proofed 20080729 by HLU/ED -->                
 
-               <pb facs="SSCox_085.jpg" n="/e/e651e499-baa6-4dd8-9d30-0ba062571d59"/>
+               <pb facs="SSCox_085"/>
                
                <lb/> I write. The course of our Journey
                <lb/> has been changed from <name type="city">Naples</name>
@@ -3967,14 +3967,14 @@
                <figure rend="link">
                   <head>Mss. image</head>
                   <figDesc>
-                     <ref target="https://images.asc.ohio-state.edu/is/image/mediamanager?layer=0&amp;size=600,150&amp;layer=1&amp;src=is{mediamanagerSSCox_085.jpg" n="/e/e651e499-baa6-4dd8-9d30-0ba062571d59.jpg?scale=0.4&amp;rgn=20,940,600,100&amp;fmt=png}&amp;posN=0,-.25&amp;layer=2&amp;size=600,100&amp;text=\vertalt\cf1\qc\fs20\%20Mss.%20image&amp;posN=0,.5">Mss. image</ref>
+                     <ref target="https://images.asc.ohio-state.edu/is/image/mediamanager?layer=0&amp;size=600,150&amp;layer=1&amp;src=is{mediamanagerSSCox_085" n="/e/e651e499-baa6-4dd8-9d30-0ba062571d59.jpg?scale=0.4&amp;rgn=20,940,600,100&amp;fmt=png}&amp;posN=0,-.25&amp;layer=2&amp;size=600,100&amp;text=\vertalt\cf1\qc\fs20\%20Mss.%20image&amp;posN=0,.5">Mss. image</ref>
                   </figDesc>
                </figure>
             </p>
             
             <!-- Proofed 20080729 by HLU/ED -->                
             
-            <pb facs="SSCox_086.jpg" n="/a/a88360ff-a15d-4526-ba7c-6c1bb8f79d8f"/>
+            <pb facs="SSCox_086"/>
             <p>
                <lb/> At <name type="city"> Civita Vecchia</name>: Here let me enter my
                <lb/> verdict re. <name type="nationality">Italians</name>. The higher classes
@@ -3998,7 +3998,7 @@
                <figure rend="link">
                   <head>This text was most likely added after the following entry was begun.</head>
                   <figDesc>
-                     <ref target="https://images.asc.ohio-state.edu/is/image/mediamanager?layer=0&amp;size=1085,262.5&amp;layer=1&amp;src=is{mediamanagerSSCox_086.jpg" n="/a/a88360ff-a15d-4526-ba7c-6c1bb8f79d8f.jpg?scale=0.7&amp;rgn=0,735,1085,175&amp;fmt=png}&amp;posN=0,-.25&amp;layer=2&amp;size=1085,175&amp;text=\vertalt\cf1\qc\fs51\%20This text was most likely added after the following entry was begun.&amp;posN=0,.5">See note</ref>
+                     <ref target="https://images.asc.ohio-state.edu/is/image/mediamanager?layer=0&amp;size=1085,262.5&amp;layer=1&amp;src=is{mediamanagerSSCox_086" n="/a/a88360ff-a15d-4526-ba7c-6c1bb8f79d8f.jpg?scale=0.7&amp;rgn=0,735,1085,175&amp;fmt=png}&amp;posN=0,-.25&amp;layer=2&amp;size=1085,175&amp;text=\vertalt\cf1\qc\fs51\%20This text was most likely added after the following entry was begun.&amp;posN=0,.5">See note</ref>
                   </figDesc>
                </figure>
             </p>
@@ -4024,7 +4024,7 @@
                
                <!-- Proofed 20080729 by HLU/ED -->                
                
-               <pb facs="SSCox_087.jpg" n="/c/c2d62e63-a965-479c-95f6-1243b3ba025e"/> 
+               <pb facs="SSCox_087"/> 
                
                <lb/> theatre of glory, which years ago I
                <lb/> read of as a myth, a glorious fable,
@@ -4052,7 +4052,7 @@
                
                <!-- Proofed 20080804 by HLU/ED -->                
                
-               <pb facs="SSCox_088.jpg" n="/1/16626401-aa4c-48c1-a1ce-d8f70ca4f9b0"/>
+               <pb facs="SSCox_088"/>
                
                <lb/> hung in air, we have seen for the
                <lb/> last four hours. For as we approach<seg type="softhyphen">
@@ -4061,7 +4061,7 @@
                <lb/> a mile or so, until we passed <del type="recoverable" hand="#SSCox_1851_Journal" rend="overstrike">the</del> <figure rend="link">
                   <head>Overstrike</head>
                   <figDesc>
-                     <ref target="https://images.asc.ohio-state.edu/is/image/mediamanager?layer=0&amp;size=158,105&amp;layer=1&amp;src=is{mediamanagerSSCox_088.jpg" n="/1/16626401-aa4c-48c1-a1ce-d8f70ca4f9b0.jpg?scale=0.7&amp;rgn=1015,333,158,70&amp;fmt=png}&amp;posN=0,-.25&amp;layer=2&amp;size=158,70&amp;text=\vertalt\cf1\qc\fs51\%20Overstrike&amp;posN=0,.5">overstrike</ref>
+                     <ref target="https://images.asc.ohio-state.edu/is/image/mediamanager?layer=0&amp;size=158,105&amp;layer=1&amp;src=is{mediamanagerSSCox_088" n="/1/16626401-aa4c-48c1-a1ce-d8f70ca4f9b0.jpg?scale=0.7&amp;rgn=1015,333,158,70&amp;fmt=png}&amp;posN=0,-.25&amp;layer=2&amp;size=158,70&amp;text=\vertalt\cf1\qc\fs51\%20Overstrike&amp;posN=0,.5">overstrike</ref>
                   </figDesc>
                </figure>
                <lb/> through the <name type="landmark">Aurelian way</name>, &amp; apast
@@ -4084,7 +4084,7 @@
                   
         <!-- Proofed 20080804 by HLU/ED -->                
                   
-        <pb facs="SSCox_089.jpg" n="/c/cbb680f9-f7fb-4828-a5ef-bb0f172673b8"/>
+        <pb facs="SSCox_089"/>
                   
                <lb/></seg>took heartily &amp; retired at leisure, to get
                <lb/>up on                
@@ -4126,7 +4126,7 @@
                
                <!-- Proofed 20080804 by HLU/ED -->                
                
-               <pb facs="SSCox_090.jpg" n="/0/0b315ff6-562b-4f15-bd1f-744c8bda8fc9"/>
+               <pb facs="SSCox_090"/>
                
                <lb/> finely to the <name type="landmark">Constantine Basi<seg type="softhyphen">-
                <lb/> </seg>lica</name>—the ruins of the <name type="landmark">Sacra
@@ -4161,7 +4161,7 @@
               
          <!-- Proofed 20080804 by HLU/ED -->                
               
-              <pb facs="SSCox_091.jpg" n="/7/7f55ef43-6428-479f-bd9e-18f17df16003"/>
+              <pb facs="SSCox_091"/>
               
                <lb/> bow, and nestle like peacocks,
                <lb/> then sit down in matchless
@@ -4188,7 +4188,7 @@
                   
        <!-- Proofed 20080804 by HLU/ED -->                
                   
-       <pb facs="SSCox_092.jpg" n="/7/7ab73479-e0b7-44eb-bdb3-95081028bbe9"/>
+       <pb facs="SSCox_092"/>
                   
                <lb/></seg>ly attract our attention. The holy 
                <lb/> awe of <name type="building">Notre Dame</name> is not
@@ -4225,7 +4225,7 @@
                
                <!-- Proofed 20080804 by HLU/ED -->                               
                
-               <pb facs="SSCox_093.jpg" n="/4/41c86370-ccfa-4c5d-8325-8ef3b0608af0"/>
+               <pb facs="SSCox_093"/>
                
                <lb/> of Bacchus, now a church, Round — 
                <lb/> The martyrs were about the
@@ -4254,7 +4254,7 @@
                
                <!-- Proofed 20080804 by HLU/ED -->                               
                
-               <pb facs="SSCox_094.jpg" n="/e/e94e96f8-4c3f-4cfb-a25b-35e8fafee2dc"/> 
+               <pb facs="SSCox_094"/> 
                
                <lb/> visited <name type="place">the Capitol</name> — marked
                <lb/> the objects in Murray — The great
@@ -4282,7 +4282,7 @@
                <figure rend="link">
                   <head>Embellishment</head>
                   <figDesc>
-                     <ref target="https://images.asc.ohio-state.edu/is/image/mediamanager?layer=0&amp;size=400,198&amp;layer=1&amp;src=is{mediamanagerSSCox_094.jpg" n="/e/e94e96f8-4c3f-4cfb-a25b-35e8fafee2dc.jpg?scale=0.4&amp;rgn=160,940,400,132&amp;fmt=png}&amp;posN=0,-.25&amp;layer=2&amp;size=400,132&amp;text=\vertalt\cf1\qc\fs20\%20Embellishment&amp;posN=0,.5">Embellishment</ref>
+                     <ref target="https://images.asc.ohio-state.edu/is/image/mediamanager?layer=0&amp;size=400,198&amp;layer=1&amp;src=is{mediamanagerSSCox_094" n="/e/e94e96f8-4c3f-4cfb-a25b-35e8fafee2dc.jpg?scale=0.4&amp;rgn=160,940,400,132&amp;fmt=png}&amp;posN=0,-.25&amp;layer=2&amp;size=400,132&amp;text=\vertalt\cf1\qc\fs20\%20Embellishment&amp;posN=0,.5">Embellishment</ref>
                   </figDesc>
                </figure> 
             </p>
@@ -4290,7 +4290,7 @@
          
          <!-- Proofed 20080805 by HLU/ED --> 
          
-         <pb facs="SSCox_095.jpg" n="/e/e13bef88-c5ca-41b1-a26a-093e91bdf86c"/>
+         <pb facs="SSCox_095"/>
          
          <div type="Entry" xml:id="Cox18510610a">
             <lb/>
@@ -4326,7 +4326,7 @@
                
                <!-- Proofed 20080805 by HLU/ED -->                
                
-               <pb facs="SSCox_096.jpg" n="/c/cf864402-2de0-44be-8ce3-1c77a0ade8b7"/>
+               <pb facs="SSCox_096"/>
                
                   <lb/> by moonlight It was beautiful.
                   <lb/> Of today's work, can only
@@ -4361,7 +4361,7 @@
          
          <!-- Proofed 20080805 by HLU/ED -->                
          
-         <pb facs="SSCox_097.jpg" n="/d/d91e7628-318d-4f3f-bbad-3a28cef6ba38"/>
+         <pb facs="SSCox_097"/>
          <div type="Entry" xml:id="Cox18510611a">
             <lb/>
             <opener>
@@ -4397,7 +4397,7 @@
                
                <!-- Proofed 20080805 by HLU/ED -->                
                
-               <pb facs="SSCox_098.jpg" n="/4/474c68bf-cd8d-43a3-a126-37b70c0d5411"/>
+               <pb facs="SSCox_098"/>
 
                <lb/> got a stone from the grave of the 
                <lb/> fallen Republicans, who were 
@@ -4427,7 +4427,7 @@
                
                <!-- Proofed 20080805 by HLU/ED -->                
                
-            <pb facs="SSCox_099.jpg" n="/d/de8cec55-f37e-4458-9991-32eb3614ff22"/>
+            <pb facs="SSCox_099"/>
                
                <lb/> would fall.  What perfect symmetry.
                <lb/> What methods! Its perfection has
@@ -4457,7 +4457,7 @@
             
             <!-- Proofed 20080805 by HLU/ED -->                
             
-            <pb facs="SSCox_100.jpg" n="/f/fae7ef7e-5e04-4eec-827c-cf699b0f1247"/>
+            <pb facs="SSCox_100"/>
             <p>
                <lb/> Next visited <name type="place">Rospigliosi palace</name>.
                <lb/> <name type="person">Guido's</name> 
@@ -4488,7 +4488,7 @@
                
          <!-- Proofed 20080805 by HLU/ED -->                
                      
-         <pb facs="SSCox_101.jpg" n="/2/2935d452-70f2-470f-9e52-fdc379bc1a3a"/>
+         <pb facs="SSCox_101"/>
                
                <lb/> found our Consul had been here. — 
                <lb/> ate a good Supper — finished my 
@@ -4525,7 +4525,7 @@
          
          <!-- Proofed 20080805 by HLU/ED -->   
          
-         <pb facs="SSCox_102.jpg" n="/2/20e70516-f570-4dfb-8227-3ca552ca1c1d"/>
+         <pb facs="SSCox_102"/>
          
          <div xml:id="Cox18510612a" type="Entry">
             <lb/>
@@ -4564,7 +4564,7 @@
                
                <!-- Proofed 20080805 by HLU/ED -->   
                               
-               <pb facs="SSCox_103.jpg" n="/4/4fddf371-b285-4100-a1ab-89165d585d44"/>
+               <pb facs="SSCox_103"/>
                
                <lb/> for the Vatican — its immense courts 
                <lb/> &amp; rooms only (11000.) threaded the
@@ -4593,7 +4593,7 @@
                
                <!-- Proofed 20080805 by HLU/ED -->   
                               
-               <pb facs="SSCox_104.jpg" n="/4/492d7845-6b44-447e-b9a0-82078cb415c6"/>
+               <pb facs="SSCox_104"/>
                
                <lb/> language. What a beauteous
                <lb/> Library — was disappointed
@@ -4623,7 +4623,7 @@
          
          <!-- Proofed 20080805 by HLU/ED -->   
          
-         <pb facs="SSCox_105.jpg" n="/2/20a512c7-6b2c-4d75-a740-83598bc9225e"/>
+         <pb facs="SSCox_105"/>
          
          <div xml:id="Cox18510613a" type="Entry">
             <lb/>
@@ -4657,7 +4657,7 @@
 
                <!-- Proofed 20080811 by HLU/ED -->            
                
-            <pb facs="SSCox_106.jpg" n="/e/e2eff12f-4e8f-4e56-9219-fc7d46fb9709"/>
+            <pb facs="SSCox_106"/>
                
                <lb/> Passed thro' the Egyptian museum,
                <lb/> Saw mummies, gods <choice><sic>Sarcopa<seg type="softhyphen">-
@@ -4684,7 +4684,7 @@
                
                <!-- Proofed 20080811 by HLU/ED -->                           
                
-               <pb facs="SSCox_107.jpg" n="/b/b82f658c-c892-4a46-a204-70ec8c545b6f"/>
+               <pb facs="SSCox_107"/>
                
                <lb/></seg>salem — M<hi rend="superscript">r</hi> Berry of Boston
                <!-- Is this spelling or "Barry" (see below l. 5578) correct? -->
@@ -4721,7 +4721,7 @@
          
          <!-- Proofed 20080811 by HLU/ED -->                           
          
-            <pb facs="SSCox_108.jpg" n="/6/6d8b7bd2-8e2c-45dd-9097-34eac5c54b88"/>
+            <pb facs="SSCox_108"/>
          
          <div xml:id="Cox18510615a" type="Entry">
             <opener>             
@@ -4756,7 +4756,7 @@
                
           <!-- Proofed 20080811 by HLU/ED -->                                          
                
-               <pb facs="SSCox_109.jpg" n="/a/ac6f29af-4628-48c3-b2d1-fa78fafa3796"/>
+               <pb facs="SSCox_109"/>
                
                <lb/> is ½ past One AM; &amp; yet I can
                <lb/> see to write quite legibly. The
@@ -4802,7 +4802,7 @@
          
      <!-- Proofed 20080811 by HLU/ED -->   
          
-         <pb facs="SSCox_110.jpg" n="/d/d9e76a54-bfb3-4983-ac21-3770ecb353cc"/>
+         <pb facs="SSCox_110"/>
          
          <div xml:id="Cox18510617a" type="Entry">
             <opener>
@@ -4841,7 +4841,7 @@
          <!-- Proofed 20080811 by HLU/ED -->   
             
             <p>
-               <pb facs="SSCox_111.jpg" n="/9/9f1ba356-bb42-40e8-83d7-016f6ba2adac"/>
+               <pb facs="SSCox_111"/>
                <lb/> At 12, lunched ashore, &amp; started for
                <lb/> <name type="landmark">Vesuvius</name> at 1.; We stopped to
                <lb/> see the <name type="city">Herculaneum</name> ruins. Saw
@@ -4866,7 +4866,7 @@
                <lb/> shoulder helped me along. I
                <lb/> was first atop. Saw the yellow
 
-               <pb facs="SSCox_112.jpg" n="/4/413dba1d-f82c-4cec-959c-1a870f62330e"/>
+               <pb facs="SSCox_112"/>
                
                <!-- Proofed 20080811 by HLU/ED -->   
                               
@@ -4895,7 +4895,7 @@
 
                <!-- Proofed 20080811 by HLU/ED -->   
                
-               <pb facs="SSCox_113.jpg" n="/f/f4ca381e-ab55-4e84-b5b8-e34ad08a3ddb"/>
+               <pb facs="SSCox_113"/>
                <lb/> &amp; bay swam in a splendor
                <lb/> unlike any I ever saw. — The 
                <lb/> coaxing, hullabaloo of the
@@ -4921,7 +4921,7 @@
                
                <!-- Proofed 20080811 by HLU/ED --> 
                
-               <pb facs="SSCox_114.jpg" n="/6/60cbd12d-8faf-41ae-9de0-4639f4b16955"/>
+               <pb facs="SSCox_114"/>
                <lb/> Came home to sleep sweeter 
                <lb/> than ever before; &amp; to awake
                <lb/> so refreshed.
@@ -4956,7 +4956,7 @@
 
                <!-- Proofed 20080811 by HLU/ED -->                
                
-               <pb facs="SSCox_115.jpg" n="/8/86efde04-c8bb-4f44-9591-5e7da6b0a74a"/>
+               <pb facs="SSCox_115"/>
                <lb/> home under altars &amp; illumina<seg type="softhyphen">-
                <lb/></seg>tions. Tomorrow is fête day,
                <lb/> <foreign xml:lang="lat"><hi rend="underline">Corpus Domini</hi></foreign> day. Such a
@@ -4992,7 +4992,7 @@
             
             <!-- Proofed 20080811 by HLU/ED -->                
             
-            <pb facs="SSCox_116.jpg" n="/e/eae1bad5-7145-4c65-ad51-f8b5c3065580"/>
+            <pb facs="SSCox_116"/>
             <p>
                <lb/> Visited the Opera. It was at the
                <lb/> San Carlo theatre — the largest in the
@@ -5027,7 +5027,7 @@
                
         <!-- Proofed 20080811 by HLU/ED -->
                
-               <pb facs="SSCox_117.jpg" n="/e/e4884551-1908-4bd7-9ac5-65f9aa3b9651"/>
+               <pb facs="SSCox_117"/>
                
                <lb/> attracted the Eye as celebrities.
                <lb/> Fine stones &amp; vases too were
@@ -5060,7 +5060,7 @@
                
         <!-- Proofed 20080811 by HLU/ED -->
                
-               <pb facs="SSCox_118.jpg" n="/5/5b412457-c2fb-4efa-a475-8a166ccd9fb2"/>
+               <pb facs="SSCox_118"/>
 
                <lb/> stopped at our Bankers:
                <lb/> ate fruit too plentifully —
@@ -5107,7 +5107,7 @@
          
          <!-- Proofed 20080811 by HLU/ED -->
          
-         <pb facs="SSCox_119.jpg" n="/2/2c371f52-f209-48a4-aaea-9385902e9323"/>
+         <pb facs="SSCox_119"/>
          
          <div type="Entry" xml:id="Cox18510624a">
             <opener>
@@ -5151,7 +5151,7 @@
                
                <!-- Proofed 20080812 by HLU/ED -->
                
-               <pb facs="SSCox_120.jpg" n="/d/d5db5f42-4255-4574-b82d-bd7bb6340b40"/>
+               <pb facs="SSCox_120"/>
                
                <lb/> sea. Soon the last tinge of gold died
                <lb/> away: &amp; the rich <unclear>interpurpling</unclear> of demi-<seg type="softhyphen">
@@ -5191,7 +5191,7 @@
                
                 <!-- Proofed 20080812 by HLU/ED -->
                               
-            <pb facs="SSCox_121.jpg" n="/4/4e50e6f3-c5a6-4143-b80c-71a5299bdb3e"/>
+            <pb facs="SSCox_121"/>
                
                <lb/> <name type="region">Sicily</name> is a windowless deserted fishing town;
                <lb/> but <choice><sic>Massena</sic><corr>Messina</corr></choice> is quite a pretty place, half
@@ -5233,7 +5233,7 @@
                
                <!-- Proofed 20080812 by HLU/ED -->
                
-               <pb facs="SSCox_122.jpg" n="/a/a4db2c8d-a56c-4af8-8975-c6ae1367b72b"/>
+               <pb facs="SSCox_122"/>
                
                <lb/> reduced under the control of <name type="person">Ferdinand
                <lb/> II</name>: the brutal despot of <name type="city">Naples</name>.  
@@ -5276,7 +5276,7 @@
                
                <!-- Proofed 20080812 by HLU/ED -->               
                
-               <pb facs="SSCox_123.jpg" n="/8/8785cd38-ab00-4431-bcc0-a8c4d2898b30"/>
+               <pb facs="SSCox_123"/>
                
                <lb/> landscape, altho' the line of the shore is
                <lb/> broken into jagged points &amp; uneven <del type="unrecoverable" hand="#SSC" rend="overwritten"/>at
@@ -5318,7 +5318,7 @@
                
                <!-- Proofed 20080812 by HLU/ED -->               
                
-               <pb facs="SSCox_124.jpg" n="/c/c8b34cf1-1529-471d-97ed-4250beee500c"/>
+               <pb facs="SSCox_124"/>
                
                <lb/> We are sliding off the toe of her 
                <lb/> boot into other lands. Today we
@@ -5356,7 +5356,7 @@
             
             <!-- Proofed 20080812 by HLU/ED -->               
             
-         <pb facs="SSCox_125.jpg" n="/2/2d8d0c0c-b71b-4764-82c1-ebf0a60239ac"/>
+         <pb facs="SSCox_125"/>
          
          <div xml:id="Cox18510625a" type="Entry">
             
@@ -5402,7 +5402,7 @@
                
          <!-- Proofed 20080812 by HLU/ED -->               
                
-               <pb facs="SSCox_126.jpg" n="/e/e929ece4-bf5c-4e1e-adc4-da1847426a16"/>
+               <pb facs="SSCox_126"/>
                <lb/> which represent the warlike instruments
                <lb/> of the earlier eras; Turkish arms taken
                <lb/> by the Knights are here also. <name type="person">Walter Scott</name>       
@@ -5443,7 +5443,7 @@
          
          <!-- Proofed 20080812 by HLU/ED -->                        
          
-         <pb facs="SSCox_127.jpg" n="/c/c563004a-353d-4675-9dbc-eedb87b16bfa"/>
+         <pb facs="SSCox_127"/>
          
          <div type="Entry" xml:id="Cox18510626a">
             <lb/>
@@ -5502,7 +5502,7 @@
                
                <!-- Proofed 20080812 by HLU/ED -->                        
                
-               <pb facs="SSCox_128.jpg" n="/7/7ef705d9-27c0-47d3-9b78-d4c0ac7d01ef"/>
+               <pb facs="SSCox_128"/>
                
                <lb/> uneven, while beyond lies a gold<seg type="softhyphen">-
                <lb/></seg>en sky trimmed with wavy clouds
@@ -5552,7 +5552,7 @@
                
                <!-- Proofed 20080818 by HLU/ED -->                        
                
-               <pb facs="SSCox_129.jpg" n="/6/6722d1ff-6234-4594-af7b-d58fe63a7d8e"/>
+               <pb facs="SSCox_129"/>
                
                <lb/> at last. Night closes over the
                <lb/> land of <choice><sic>Lycurges</sic><corr>Lycurgus</corr></choice>. Thought, 
@@ -5588,7 +5588,7 @@
                
                <!-- Proofed 20080818 by HLU/ED -->                        
                
-               <pb facs="SSCox_130.jpg" n="/2/2fe37cef-41b5-4b41-b9ad-fcbfea62d4a5"/>
+               <pb facs="SSCox_130"/>
                
                <lb/> presenting a singularly Oriental
                <lb/> aspect. Soon the people appeared
@@ -5616,7 +5616,7 @@
                
                <!-- Proofed 20080818 by HLU/ED -->                        
                
-               <pb facs="SSCox_131.jpg" n="/0/01429873-38ca-46d4-91b1-96dc04bc07ea"/>
+               <pb facs="SSCox_131"/>
                
                <lb/> kicking &amp; punching each other, until our
                <lb/> officers ordered cold water to be thrown
@@ -5647,7 +5647,7 @@
                   
                <!-- Proofed 20080818 by HLU/ED -->                        
                   
-               <pb facs="SSCox_132.jpg" n="/7/7f93c0c0-9355-4ee0-bc63-275395d3e8a3"/>
+               <pb facs="SSCox_132"/>
                
                <lb/></seg>thenes &amp; Eschylus. the limestone flint
                <lb/> is of solid massiveness. The forum
@@ -5678,7 +5678,7 @@
             
             <!-- Proofed 20080818 by HLU/ED -->                        
             
-            <pb facs="SSCox_133.jpg" n="/9/9c839f57-418a-40b5-849e-a663cb0caf88"/>
+            <pb facs="SSCox_133"/>
             
             <p>
                <lb/> We went to the brow, looked at
@@ -5710,7 +5710,7 @@
                
                 <!-- Proofed 20080818 by HLU/ED -->
                   
-                <pb facs="SSCox_134.jpg" n="/1/178cbc39-a11e-4bf4-83f3-64731a0b0fc9"/>
+                <pb facs="SSCox_134"/>
                
                <lb/></seg>ful <del type="recoverable" rend="overwritten">day</del>tea with M<hi rend="superscript">r</hi> Buell, whom
                <lb/> we left with regret. He told us
@@ -5754,7 +5754,7 @@
          
          <!-- Proofed 20080818 by HLU/ED -->
          
-            <pb facs="SSCox_135.jpg" n="/e/e7d8ca64-cc90-478f-8dbb-b7669dd94648"/>
+            <pb facs="SSCox_135"/>
             
             <div type="Entry" xml:id="Cox18510630a">
                <lb/>
@@ -5808,7 +5808,7 @@
                
                <!-- Proofed 20080818 by HLU/ED -->
                
-               <pb facs="SSCox_136.jpg" n="/8/808032d2-60d4-43e0-b331-7a3ad6d32048"/>
+               <pb facs="SSCox_136"/>
                
                <p>
                <lb/> Two camels? Since writing the foregoing,
@@ -5849,7 +5849,7 @@
                   
                 <!-- Proofed 20080818 by HLU/ED -->
                 
-                <pb facs="SSCox_137.jpg" n="/7/751e2353-aa94-4d68-b0b0-d13cc71f91f2"/>
+                <pb facs="SSCox_137"/>
                   
                <lb/> <choice><sic>cemetary</sic><corr>cemetery</corr></choice> in part of the large umbrageous,
                <lb/> oakleaved Sycamore under which we
@@ -5887,7 +5887,7 @@
          
          <div xml:id="Cox18510703a" type="Entry">
          
-            <pb facs="SSCox_138.jpg" n="/a/a500a193-60a2-4be8-9ac6-9447cf551e6d"/>
+            <pb facs="SSCox_138"/>
 
             <opener>             
                <dateline>
@@ -5936,7 +5936,7 @@
                
                <!-- Proofed 20080818 by HLU/ED -->               
                
-               <pb facs="SSCox_139.jpg" n="/7/7e669923-0060-4c66-90cf-dc305f6186f4"/>
+               <pb facs="SSCox_139"/>
                
                <lb/> the point &amp; entered the staits of
                <lb/> <name type="region"/>Dardanelles. We stopped two hours
@@ -5968,7 +5968,7 @@
                
                <!-- Proofed 20080818 by HLU/ED -->               
                
-               <pb facs="SSCox_140.jpg" n="/c/c96d1fd8-e7bb-4c1d-bc67-7e2558fe43de"/>
+               <pb facs="SSCox_140"/>
                
                <lb/> with no carriages or waggons, - poor
                <lb/> donkeys &amp; men carry all. We
@@ -6021,7 +6021,7 @@
              
              <!-- Proofed 20080818 by HLU/ED -->                           
                          
-             <pb facs="SSCox_141.jpg" n="/b/bd16b8b9-dc7c-45e1-bb21-9815bfe8f701"/>
+             <pb facs="SSCox_141"/>
              
                <lb/> ladies taking off theirs a — funny set
                <lb/> we were — went thro' the gold fret<seg type="softhyphen">-
@@ -6051,7 +6051,7 @@
 
              <!-- Proofed 20080819 by HLU/ED -->                           
              
-             <pb facs="SSCox_142.jpg" n="/6/627286da-b2c6-4504-b8a9-b0e7246be45a"/>
+             <pb facs="SSCox_142"/>
              
              <lb/> of the <name type="nationality">Turks</name>, pointing like the
              <lb/> minarets. Old arms were there,
@@ -6088,7 +6088,7 @@
               
                <!-- Proofed 20080819 by HLU/ED -->       
                
-               <pb facs="SSCox_143.jpg" n="/1/12b0b854-db13-4270-8f9d-374ca87102dd"/>
+               <pb facs="SSCox_143"/>
               
               <lb/> We drove apast a beautiful little
               <lb/> Summer marble palace of the
@@ -6120,7 +6120,7 @@
               
                <!-- Proofed 20080819 by HLU/ED -->       
                
-               <pb facs="SSCox_144.jpg" n="/7/735bd3c0-3401-4257-8f81-dbd31e41c346"/>
+               <pb facs="SSCox_144"/>
         
               <lb/> tomb of the former Sultan Mahmoud:
               <lb/> It is a great affair — gorgeous &amp;
@@ -6151,7 +6151,7 @@
            
                <!-- Proofed 20080819 by HLU/ED -->       
                
-               <pb facs="SSCox_145.jpg" n="/4/4308c31d-6707-4a82-b6d0-8b6e1175cbd7"/>
+               <pb facs="SSCox_145"/>
                        
               <lb/> finely, with a splendid turban of 
               <lb/> white &amp; red. He rode finely —
@@ -6193,7 +6193,7 @@
             
             <!-- Proofed 20080819 by HLU/ED -->       
             
-            <pb facs="SSCox_146.jpg" n="/2/27dd6780-4f02-4493-8cc7-5f0a1b539a02"/>
+            <pb facs="SSCox_146"/>
               
               <p>
               <lb/> P.S. Saw the head Eunuch to day — 
@@ -6238,7 +6238,7 @@
                         
          <!-- Proofed 20080819 by HLU/ED -->       
                
-         <pb facs="SSCox_147.jpg" n="/1/1a26573b-4cf3-4de5-a431-0421cb06ce7b"/>
+         <pb facs="SSCox_147"/>
                
          <lb/> on the streets, writing for the people,—
          <lb/> Also observed the petitions going
@@ -6280,7 +6280,7 @@
                
                <!-- Proofed 20080819 by HLU/ED -->       
                
-               <pb facs="SSCox_148.jpg" n="/f/fe0f0721-235e-45b2-a766-f4188182844b"/>
+               <pb facs="SSCox_148"/>
                
                <lb/> circular sign boards with gilt
                <lb/> Turkish letters on them, and the 
@@ -6316,7 +6316,7 @@
                
                <!-- Proofed 20080819 by HLU/ED -->       
                
-               <pb facs="SSCox_149.jpg" n="/b/b9b1b6ba-2666-40ba-ae16-42680e9b0d65"/>
+               <pb facs="SSCox_149"/>
                
                <lb/> lovely scenes at distance farewell.
                <lb/> I commenced my closing letter about
@@ -6354,7 +6354,7 @@
                
                <!-- Proofed 20080819 by HLU/ED -->       
                
-               <pb facs="SSCox_150.jpg" n="/f/fe3d2eb9-c6b7-4ac7-8d82-ce29e8034b09"/>
+               <pb facs="SSCox_150"/>
                
                <lb/> delicious dreaminess begins to over<seg type="softhyphen">-
                <lb/></seg>creep the senses: We lie down in
@@ -6388,7 +6388,7 @@
                
                <!-- Proofed 20080819 by HLU/ED -->       
                
-               <pb facs="SSCox_151.jpg" n="/f/f9af7521-d942-4fb0-9a60-e4d22113696a"/>
+               <pb facs="SSCox_151"/>
                
                <lb/> of a Vestal, &amp; with closed eyes, we
                <lb/> are veiled &amp; robed in the flowing
@@ -6457,7 +6457,7 @@
             
             <!-- Proofed 20080819 by HLU/ED -->       
             
-            <pb facs="SSCox_153.jpg" n="/4/4681c94a-19e3-4d7f-bf41-ceda323b19c6"/>
+            <pb facs="SSCox_153"/>
             
             <p>
                <lb/> The wanton Spring of some new star
@@ -6495,7 +6495,7 @@
             
             <!-- Proofed 20080819 by HLU/ED -->       
             
-            <pb facs="SSCox_154.jpg" n="/0/04f47ee2-1b34-4b80-b183-12a9f1a55438"/>
+            <pb facs="SSCox_154"/>
             
             <p>
                <lb/> Wrote to Alex this morning by
@@ -6534,7 +6534,7 @@
          
          <!-- Proofed 20080819 by HLU/ED -->
          
-         <pb facs="SSCox_155.jpg" n="/5/592d6888-57da-4886-97d7-1e178e8df828"/>
+         <pb facs="SSCox_155"/>
          
          <div type="Entry" xml:id="Cox18510708a">
             <opener>
@@ -6589,7 +6589,7 @@
               
                <!-- Proofed 20080819 by HLU/ED -->
                
-               <pb facs="SSCox_156.jpg" n="/4/4b5ea032-7ca1-49ec-9193-1f054964c9aa"/>
+               <pb facs="SSCox_156"/>
                
               <lb/>  us. Never forget them. "No more niggers,"
               <lb/>  sang out Lowry, as he moved off in his
@@ -6624,7 +6624,7 @@
                
                <!-- Proofed 20080819 by HLU/ED -->
                
-               <pb facs="SSCox_157.jpg" n="/6/60ace273-03cf-4d03-838b-d547ee837286"/>
+               <pb facs="SSCox_157"/>
                
                <lb/>gorgeousness &amp; splendor of the <unclear>most</unclear>
                <lb/><unclear>Ancient</unclear> <name type="city">Damascus</name> &amp; say; "<q>Only one
@@ -6678,7 +6678,7 @@
                
                <!-- Proofed 20080916 by HLU -->
                
-               <pb facs="SSCox_158.jpg" n="/2/285674e4-a937-4724-8c5a-1905759fd29e"/>
+               <pb facs="SSCox_158"/>
                
                <lb/>were filled with <choice><sic>ga<del type="recoverable" rend="overwritten">y</del>i<del type="recoverable" rend="overwritten">tey</del>ly</sic><corr>gaily</corr></choice> dressed people.
                <lb/>The ladies here are very handsome,
@@ -6716,7 +6716,7 @@
                
                <!-- Proofed 20080916 by HLU -->
                
-               <pb facs="SSCox_159.jpg" n="/4/4e7a86b9-69ab-4f85-a0c0-640217bde18e"/>
+               <pb facs="SSCox_159"/>
                
                <lb/>discernible this <choice><abbr>morig</abbr><expan>morning</expan></choice>. The clouds
                <lb/>hung upon their sides. Snow seams
@@ -6761,7 +6761,7 @@
             
             <!-- Proofed 20080916 by HLU -->
             
-            <pb facs="SSCox_160.jpg" n="/1/13cccc61-6063-44ef-b2bb-fa03a2cab53f"/>
+            <pb facs="SSCox_160"/>
             
          </div>
          
@@ -6820,7 +6820,7 @@
           </div>
             <!-- Proofed 20080916 by HLU -->
             
-            <pb facs="SSCox_161.jpg" n="/c/c6debb03-5eac-4aec-8dc7-109457ee0a54"/>
+            <pb facs="SSCox_161"/>
             <div type="Entry" xml:id="Cox18510715d">
                <lb/>
                <opener>
@@ -6860,7 +6860,7 @@
                   
                <!-- Proofed 20080917 by HLU -->
                   
-            <pb facs="SSCox_162.jpg" n="/6/68a8f0ba-36e2-4350-baf2-4ed960501b35"/>
+            <pb facs="SSCox_162"/>
                <lb/></seg>tiful place — so lofty yet verdant, so
                <lb/>fortified &amp; romantic. It began to rain.
                <lb/>The hills of the <name type="region">Tyrol</name> were swathed
@@ -6906,7 +6906,7 @@
                
                <!-- Proofed 20080917 by HLU -->
                
-               <pb facs="SSCox_163.jpg" n="/a/a37e1cb8-ba0b-49de-a7f4-80bf387fc427"/>
+               <pb facs="SSCox_163"/>
                
                <lb/>height of cultivation &amp; luxuriance. We saw
                <lb/>women working the corn fields &amp; vineyards
@@ -6946,7 +6946,7 @@
             
             <!-- Proofed 20080917 by HLU -->
             
-            <pb facs="SSCox_164.jpg" n="/c/c7ac5dfb-15d9-4859-8be0-d43d84b29c9d"/>
+            <pb facs="SSCox_164"/>
             
                <lb/>Lodi to our South, we crossed the <name type="river">Adra</name>
                <lb/>and soon were in the outskirts of <name type="city">Milan</name>.
@@ -6984,7 +6984,7 @@
             
             <!-- Proofed 20080919 by HLU -->
             
-            <pb facs="SSCox_165.jpg" n="/0/0ff51e94-390b-44e3-9c24-64609feed6bb"/>
+            <pb facs="SSCox_165"/>
          </div>
          <div xml:id="Cox18510718a" type="entry"> 
             <opener> 
@@ -7031,7 +7031,7 @@
                
                <!-- Proofed 20080919 by HLU -->
                
-               <pb facs="SSCox_166.jpg" n="/5/56f0db47-e636-4a65-972e-ac36d1d15624"/>
+               <pb facs="SSCox_166"/>
                
                <lb/>far end, <unclear><del type="unrecoverable"/>upon</unclear> a perspective of beautiful
                <lb/>hills. Here we are in the midst of the 
@@ -7070,7 +7070,7 @@
             <p>
                <lb/>I am ready to begin my new
                               
-               <pb facs="SSCox_167.jpg" n="/1/1b030dc0-4c7d-4065-83ac-dcb75f767cbd"/>
+               <pb facs="SSCox_167"/>
                
               <lb/> Journal, bought at Milan
               <lb/> with the Alps, of which we
@@ -7098,7 +7098,7 @@
               <lb/> pet however. It came the
               <lb/> farthest way. The sweets of
                
-               <pb facs="SSCox_168.jpg" n="/f/f84707cb-8a99-448f-863f-5b2112256f45"/>
+               <pb facs="SSCox_168"/>
                
               <lb/> Smyrna ought to be Julia's — In
               <lb/> consideration of all the past, may
@@ -7119,13 +7119,13 @@
                <figure rend="link">
                   <head>Embellishment</head>
                   <figDesc>
-                     <ref target="https://images.asc.ohio-state.edu/is/image/mediamanager?layer=0&amp;size=600,285&amp;layer=1&amp;src=is{mediamanagerSSCox_168.jpg" n="/f/f84707cb-8a99-448f-863f-5b2112256f45.jpg?scale=0.4&amp;rgn=0,570,600,190&amp;fmt=png}&amp;posN=0,-.25&amp;layer=2&amp;size=600,190&amp;text=\vertalt\cf1\qc\fs29\%20Embellishment&amp;posN=0,.5">Embellishment</ref>
+                     <ref target="https://images.asc.ohio-state.edu/is/image/mediamanager?layer=0&amp;size=600,285&amp;layer=1&amp;src=is{mediamanagerSSCox_168" n="/f/f84707cb-8a99-448f-863f-5b2112256f45.jpg?scale=0.4&amp;rgn=0,570,600,190&amp;fmt=png}&amp;posN=0,-.25&amp;layer=2&amp;size=600,190&amp;text=\vertalt\cf1\qc\fs29\%20Embellishment&amp;posN=0,.5">Embellishment</ref>
                   </figDesc>
                </figure>
             </p>
          </div>
          
-         <pb facs="SSCox_169.jpg" n="/7/7077005f-9d76-4357-9526-fbf3bf809e8d"/>
+         <pb facs="SSCox_169"/>
          
          <div type="Note" xml:id="CoxBackNote">
             <p>
@@ -7137,7 +7137,7 @@
             </p>
          </div>
          
-         <pb facs="SSCox_170.jpg" n="/0/036f6b70-604c-468f-b890-10b2214cc279"/>
+         <pb facs="SSCox_170"/>
          
          <div type="pageImage" xml:id="CoxEndpaperInside">
             <p>
@@ -7145,7 +7145,7 @@
             </p>
          </div>
          
-         <pb facs="SSCox_171.jpg" n="/c/cdc837f2-228b-4626-8368-d25666e9863f"/>
+         <pb facs="SSCox_171"/>
          
          <div type="pageImage" xml:id="CoxBackCoverInside">
             <p>
@@ -7153,7 +7153,7 @@
             </p>
          </div>
          
-         <pb facs="SSCox_172.jpg" n="/7/76550f8e-32af-4cff-9aee-298c09fc4a96"/>
+         <pb facs="SSCox_172"/>
          
          <div type="pageImage" xml:id="CoxBackCover">
             <p>
