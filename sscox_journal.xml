@@ -2281,8 +2281,8 @@
                             after the celebrated
                       <lb/> Historian of the Medici. It recal<seg type="softhyphen">-
                       <lb/></seg>led his name &amp; <name type="person">Irving's</name> Eloquent
-                      <lb/> tribute.<ptr type="noteAnchor" target="2497tribute"/>
-               <note xml:id="N2497tribute" anchored="true">See <title level="m">The Sketch Book of Geoffrey
+                      <lb/> tribute.<ptr type="noteAnchor" target="n2497tribute"/>
+               <note xml:id="n2497tribute" anchored="true">See <title level="m">The Sketch Book of Geoffrey
                   Crayon</title>.</note> Next came the Docks,
                       <lb/> which we reached by passing <choice><abbr>thro'</abbr><expan>through</expan></choice>
                       <lb/> a grave yard, over grave stones,
@@ -2982,13 +2982,13 @@
                <lb/> out—wandered about <choice><sic>parliment</sic><corr>parliament</corr></choice>
                <lb/> buildings, on to Westminster bridge;
                <lb/> then walked clean home.
-                  <figure rend="link">
+               <lb/> 
+               <figure rend="link">
                      <head>Embellishment</head>
                      <graphic url="SSCox_055_embellishment.jpg"></graphic>
-                     <figDesc>
-                        Click to view embellishment below line.
-                     </figDesc>
-                  </figure>
+                     <figDesc>Horozontal flourish on its own line, curved downward at both ends with an upward peak in the center and
+                     two dots below the peak.</figDesc>
+               </figure>
             </p>
          </div>
          
@@ -3811,13 +3811,13 @@
             <lb/> than the seven hills; &amp; does she
             <lb/> always choose the place of
             <lb/> Power? Tomorrow we touch at
-            <lb/> <name type="city">Leghorn</name>. <figure rend="link">
-               <head>Embellishment</head>
-               <figDesc>
-                  <ref target="https://images.asc.ohio-state.edu/is/image/mediamanager?layer=0&amp;size=550,99&amp;layer=1&amp;src=is{mediamanagerSSCox_081" n="/2/203651c1-e7fe-45c9-8d4a-53da382bda07.jpg?scale=0.6&amp;rgn=50,600,550,66&amp;fmt=png}&amp;posN=0,-.25&amp;layer=2&amp;size=450,66&amp;text=\vertalt\cf1\qc\fs29\%20Embellishment&amp;posN=0,.5">Embellishment</ref>
-               </figDesc>
-            </figure>
-         </p>
+                <lb/> <name type="city">Leghorn</name>.
+                <figure rend="link">
+                   <head>Embellishment</head>
+                   <graphic url="SSCox_081_embellishment.jpg"></graphic>
+                   <figDesc>Short inline horozontal flourish curved upward at one end and downlard at the other.</figDesc>
+                </figure>
+             </p>      
          </div>
          <div type="Entry" xml:id="cox18510604b">
             <lb/>   <opener><dateline>
@@ -4280,12 +4280,13 @@
                <lb/> I must write home about 
                <lb/> the Sunday visit: and
                <lb/> then I shall be posted. 
+               <lb/> 
                <figure rend="link">
                   <head>Embellishment</head>
-                  <figDesc>
-                     <ref target="https://images.asc.ohio-state.edu/is/image/mediamanager?layer=0&amp;size=400,198&amp;layer=1&amp;src=is{mediamanagerSSCox_094" n="/e/e94e96f8-4c3f-4cfb-a25b-35e8fafee2dc.jpg?scale=0.4&amp;rgn=160,940,400,132&amp;fmt=png}&amp;posN=0,-.25&amp;layer=2&amp;size=400,132&amp;text=\vertalt\cf1\qc\fs20\%20Embellishment&amp;posN=0,.5">Embellishment</ref>
-                  </figDesc>
-               </figure> 
+                  <graphic url="SSCox_094_embellishment.jpg"></graphic>
+                  <figDesc>Horozontal flourish on its own line, curved downward at both ends with an upward peak in the center and
+                     two dots below the peak.</figDesc>
+               </figure>
             </p>
          </div>
          
@@ -4734,7 +4735,12 @@
                <lb/> Have been busy all day writing:
                <lb/> got up late, — walked up Corso,
                <lb/> &amp; lost my way. Are getting 
-               <lb/> ready to go off [Embellishment] 
+               <lb/> ready to go off  
+               <figure rend="link">
+                  <head>Embellishment</head>
+                  <graphic url="SSCox_081_embellishment.jpg"></graphic>
+                  <figDesc>Short inline horozontal flourish curved upward at one end and downlard at the other.</figDesc>
+               </figure>
             </p>
             <p>
                <lb/> On Campagna, by
@@ -5068,7 +5074,14 @@
                <lb/> came home to dine &amp; write
                <lb/> to Col. M. — Leave here Mon<seg type="softhyphen">-
                <lb/></seg>day for Malta, &amp; then for
-               <lb/> Jerusalem! [embellishment]
+               <lb/> Jerusalem!
+               <lb/> 
+               <figure rend="link">
+                  <head>Embellishment</head>
+                  <graphic url="SSCox_118_embellishment.jpg"></graphic>
+                  <figDesc>Horozontal flourish on its own line, curved downward at both ends with an upward peak in the center and
+                     two dots below the peak.</figDesc>
+               </figure>
             </p>
          </div>
          <div type="Entry" xml:id="Cox18510622a">
@@ -5723,16 +5736,14 @@
                <lb/> us on board; &amp; we had quite a delight<seg type="softhyphen">-
                <lb/></seg>ful time of it, altogether. Have
                <lb/> determined to go to <choice><sic>Constaniople</sic><corr>Constantinople</corr></choice>, &amp;
-               <lb/> are aboard for that purpose. <add place="infralinear"><add place="supralinear">Have</add> forgotten
+               <lb/> are aboard for that purpose. <add place="supralinear">Have forgotten</add>
                <lb/> the lion couchant from Mr Buell's house
-               <lb/> cut in the hills of <add place="infralinear">Sunium</add></add>.
-               <!-- This encoding needs to more clearly reflect the revision sequence. -->
-               <lb/> [embellishment/separator]
+               <lb/> cut in the hills of <add place="infralinear">Sunium</add>.
             </p>
          </div>
          <div type="Entry" xml:id="Cox18510629a">
             <opener>
-               <dateline>
+              <lb/> <dateline>
                   <date when="1851-06-29">June 28th 1851.</date>
                   <!-- Is this date correct? ABA 208 says "next morning." -->
                   <!-- Next entry is for June 30. Needs a note.           -->
@@ -6868,7 +6879,7 @@
                <lb/>in a cloud of mist — or rain. The
                <lb/>other hills toward <name type="region">Ferrara</name> were
                <lb/>green as — Emeralds under the shower.
-               <add hand="#SSC" place="supralinear">The willows turned white in the breeze along the <name type="river">Adigo</name>.</add>
+               <add hand="#SSC" place="infralinear">The willows turned white in the breeze along the <name type="river">Adigo</name>.</add>
                <lb/>We looked for the obelisk which
                <lb/>marks the battle of Arcoli — the place
                <lb/>where <choice><abbr>Nap.</abbr><expan>Napoleon</expan></choice> got away from his gaurds, &amp;
@@ -6882,7 +6893,12 @@
                <lb/>Shakespeare</name> were walking in the
                <lb/>rain. — Dominique grows useful. We
                <lb/>go at ½ past 9 in the <choice><sic>Dilligence</sic><corr>Diligence</corr></choice>.
-               <!-- Embellishment -->
+               <lb/> 
+               <figure rend="link">
+                  <head>Embellishment</head>
+                  <graphic url="SSCox_162_embellishment.jpg"></graphic>
+                  <figDesc>Horozontal flourish on its own line, curved upward at the left and dowlard at the right, with an downward peak in the center</figDesc>
+               </figure>
             </p>
          </div> 
          <div xml:id="Cox18510716a" type="Entry"> 
@@ -7117,11 +7133,13 @@
               <lb/> the Great of Old! May our
               <lb/> Memory of these scenes —
               <lb/> Esta perpetua!
+               <lb/> 
                <figure rend="link">
                   <head>Embellishment</head>
-                  <figDesc>
-                     <ref target="https://images.asc.ohio-state.edu/is/image/mediamanager?layer=0&amp;size=600,285&amp;layer=1&amp;src=is{mediamanagerSSCox_168" n="/f/f84707cb-8a99-448f-863f-5b2112256f45.jpg?scale=0.4&amp;rgn=0,570,600,190&amp;fmt=png}&amp;posN=0,-.25&amp;layer=2&amp;size=600,190&amp;text=\vertalt\cf1\qc\fs29\%20Embellishment&amp;posN=0,.5">Embellishment</ref>
-                  </figDesc>
+                  <graphic url="SSCox_168_embellishment.jpg"></graphic>
+                  <figDesc>Horozontal flourish on its own line across the entire page,
+                     curved upward on the left with a loop in the center and a large swirl
+                     on the right curving back to the left to make two loops under the center.</figDesc>
                </figure>
             </p>
          </div>

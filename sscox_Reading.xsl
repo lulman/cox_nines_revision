@@ -127,9 +127,7 @@
                 <xsl:attribute name="src">
                     <xsl:value-of select="tei:graphic/@url"/>
                 </xsl:attribute>
-                <xsl:attribute name="alt">
-                    <xsl:value-of select="tei:figDesc"/>
-                </xsl:attribute>
+                <xsl:attribute name="alt"><xsl:value-of select="tei:figDesc"/></xsl:attribute>
             </img>
             <br/>
             <xsl:value-of select="tei:head"/>

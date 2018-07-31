@@ -697,9 +697,7 @@
          <xsl:attribute name="href">
             <xsl:value-of select="tei:graphic/@url"/>
          </xsl:attribute>
-         <xsl:attribute name="alt">
-            <xsl:value-of select="tei:figDesc"/>
-         </xsl:attribute>
+         <xsl:attribute name="alt"><xsl:value-of select="tei:figDesc"/> </xsl:attribute>
          <xsl:attribute name="target">_blank</xsl:attribute>
          <xsl:value-of select="tei:head"/>
       </a>].
