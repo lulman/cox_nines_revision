@@ -654,9 +654,22 @@
       <span class="corr corrtoggle"><xsl:apply-templates/></span>
    </xsl:template>
    
+   <!-- The log of the Asia.  -->
+   <xsl:template match="tei:table[@xml:id='log']">
+      <table cellpadding="5px" class="log">
+         <xsl:for-each select="tei:row">
+            <tr>
+               <xsl:for-each select="tei:cell">
+               <td class="logcell" nowrap="nowrap">
+                  <xsl:apply-templates/>               
+               </td>
+               </xsl:for-each>
+            </tr>
+         </xsl:for-each>
+      </table>
+   </xsl:template>
 
-   <!-- Passages in languages other than your document's base language. -->
-   
+   <!-- Passages in languages other than your document's base language. -->  
    <xsl:template match="tei:foreign">
       <em>
          <xsl:apply-templates/>

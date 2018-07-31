@@ -858,7 +858,7 @@
             </head>
             
             
-            <table rows="10" cols="5">
+            <table xml:id="log" rows="10" cols="5">
                <row>
                   <cell>Miles</cell>
                   <cell><num type="nauticalMiles">294</num></cell>
@@ -2282,7 +2282,7 @@
                       <lb/> Historian of the Medici. It recal<seg type="softhyphen">-
                       <lb/></seg>led his name &amp; <name type="person">Irving's</name> Eloquent
                       <lb/> tribute.<ptr type="noteAnchor" target="n2497tribute"/>
-               <note xml:id="n2497tribute" anchored="true">See <title level="m">The Sketch Book of Geoffrey
+               <note resp="ed" xml:id="n2497tribute" anchored="true">See <title level="m">The Sketch Book of Geoffrey
                   Crayon</title>.</note> Next came the Docks,
                       <lb/> which we reached by passing <choice><abbr>thro'</abbr><expan>through</expan></choice>
                       <lb/> a grave yard, over grave stones,
