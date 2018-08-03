@@ -693,10 +693,10 @@
 
    <!-- Text highlighted in the source document -->
 
-   <xsl:template match="tei:hi[@rend='underlined']">
-      <U>
+   <xsl:template match="tei:hi[@rend='underline']">
+      <em>
          <xsl:apply-templates/>
-      </U>
+      </em>
    </xsl:template>
    <xsl:template match="tei:hi[@rend='superscript']">
       <sup>

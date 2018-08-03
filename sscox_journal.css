@@ -173,7 +173,7 @@ visibility: hidden;
         z-index: 2;
         }
 
- * /* 100% Image Width on Smaller Screens */
+/* 100% Image Width on Smaller Screens */
 @media only screen and (max-width: 700px){
     .modal-content {
         width: 100%;
@@ -295,6 +295,12 @@ a:link {
 a.annotation {
 	text-decoration: none;
 }
+
+em {
+    font-style: normal;
+    text-decoration: underline;
+}
+
 h1 {
 	font-family: Verdana, Arial, Helvetica, sans-serif;
 	font-size: 1.25em;
