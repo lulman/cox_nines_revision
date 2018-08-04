@@ -490,10 +490,10 @@ td.logcell {
 .smalltext {
 	font-size: 85%;
 }               
-.sictoggle {
+.penciltoggle {
     display:none;
 }
-.corrtoggle {
+.inktoggle {
     display:none;
 }
 

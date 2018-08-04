@@ -60,8 +60,8 @@
             <script>
                $(document).ready(function(){
                $("button").click(function(){
-               $(".sic").toggleClass("sictoggle");
-               $(".corr").toggleClass("corrtoggle");
+               $(".pencil").toggleClass("penciltoggle");
+               $(".ink").toggleClass("inktoggle");
                });
                });
             </script>
@@ -339,31 +339,7 @@
                <div class="container">
                   <p class="font-size-label">Font Size <button id="up">+</button> <button id="down">-</button></p>
                   <!--<p id="font-size"></p>-->
-                  <p style="font-size:smaller">
-                     <strong>Edited by</strong><br/>
-                     Andrea Avenido<br/>
-                     Puja Batra-Wells<br/>
-                     MariaTeresa Beltran-Aponte<br/>
-                     Karen M. Beyer<br/>
-                     Mike Bubenik<br/>
-                     Frances Caroline Buschur<br/>
-                     Johaun Cheng<br/>
-                     Katrina F. Cook<br/>
-                     Bill W. Dantowitz<br/>
-                     Envera Dukaj<br/>                     
-                     Sam Eilerman<br/>
-                     Nate Ellis<br/>
-                     Rachel Fouch<br/>
-                     Brian Keller<br/>
-                     Riley Lease<br/>
-                     Mike Liddy<br/>
-                     Nick Long<br/>
-                     Jennifer Lee Schneider<br/>
-                     H. Lewis Ulman<br/>
-                     Victoria R. Urban<br/>
-                     Derrick Whan<br/>
-                     Derek Craig Zoladz<br/>
-                  </p>
+                  <p><button>Switch between Cox's original pencilled text and overwritten penned text.</button></p>
                   <!-- Start NINES Widget -->
                   <form method="get"
                      style="font-size-adjust:none;font-style:normal;font-variant:normal;font-weight:normal;line-height:1.231;color:#000000;"
@@ -615,19 +591,22 @@
    <!-- Unclear passages. -->
    <xsl:template match="tei:unclear"> [<xsl:apply-templates/>?] </xsl:template>
 
-   <!-- Nonstandard or erroneous text for which you have encoded a correct or regularized alternative. -->
-   <xsl:template match="tei:choice/tei:orig">
-      <span class="sic"><xsl:apply-templates/>[sic]</span>
+   <!-- Distinguish between Cox's original pencil and overwritten ink. -->
+   <xsl:template match="tei:app/tei:lem">
+      <span class="pencil">[pencil &gt;]<xsl:apply-templates/>[&lt;pencil]</span>
    </xsl:template>
    
-   <xsl:template match="tei:choice/tei:reg">
-      <span class="corr corrtoggle"><xsl:apply-templates/></span>
+   <xsl:template match="tei:app/tei:rdg">
+      <span class="ink inktoggle">[ink &gt;]<xsl:apply-templates/>[&lt; ink]</span>
    </xsl:template>
    
+<!--  NOT USED IN THIS EDITION
+      
    <xsl:template match="tei:distinct[@type='babyTalk']">
       <xsl:apply-templates/> [sic] 
    </xsl:template>
-
+-->
+   
    <!--MISCELLANEOUS TEXTUAL FEATURES. -->
 
    <!-- Quotes -->
@@ -650,9 +629,12 @@
    <xsl:template match="tei:choice/tei:sic">
       <span class="sic"><xsl:apply-templates/>[sic]</span>
    </xsl:template>
+<!--  Suppress this markup in this edition (see following rule)
    <xsl:template match="tei:choice/tei:corr">
       <span class="corr corrtoggle"><xsl:apply-templates/></span>
    </xsl:template>
+-->   
+   <xsl:template match="tei:choice/tei:corr"/>
    
    <!-- The log of the Asia.  -->
    <xsl:template match="tei:table[@xml:id='log']">
@@ -671,9 +653,7 @@
 
    <!-- Passages in languages other than your document's base language. -->  
    <xsl:template match="tei:foreign">
-      <em>
          <xsl:apply-templates/>
-      </em>
    </xsl:template>
 
    <!-- Names -->
