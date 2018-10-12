@@ -593,11 +593,11 @@
 
    <!-- Distinguish between Cox's original pencil and overwritten ink. -->
    <xsl:template match="tei:app/tei:lem">
-      <span class="pencil">[pencil &gt;]<xsl:apply-templates/>[&lt;pencil]</span>
+      <span class="pencil">[p&gt;]<xsl:apply-templates/>[&lt;p]</span>
    </xsl:template>
    
    <xsl:template match="tei:app/tei:rdg">
-      <span class="ink inktoggle">[ink &gt;]<xsl:apply-templates/>[&lt; ink]</span>
+      <span class="ink inktoggle">[i&gt;]<xsl:apply-templates/>[&lt;i]</span>
    </xsl:template>
    
 <!--  NOT USED IN THIS EDITION

@@ -7,8 +7,8 @@
       <link href="sscox_journal.css" rel="stylesheet" type="text/css"><script src="jquery-1.8.3.min.js"></script><script src="jquery-ui-1.9.2.custom.js"></script><script>
                $(document).ready(function(){
                $("button").click(function(){
-               $(".sic").toggleClass("sictoggle");
-               $(".corr").toggleClass("corrtoggle");
+               $(".pencil").toggleClass("penciltoggle");
+               $(".ink").toggleClass("inktoggle");
                });
                });
             </script><style type="text/css">
@@ -310,29 +310,7 @@
          <p class="aboutView"><a href="./sscox_journal.html#view">About this page.</a></p>
          <div class="container">
             <p class="font-size-label">Font Size <button id="up">+</button><button id="down">-</button></p>
-            <p style="font-size:smaller"><strong>Edited by</strong><br>
-               Andrea Avenido<br>
-               Puja Batra-Wells<br>
-               MariaTeresa Beltran-Aponte<br>
-               Karen M. Beyer<br>
-               Mike Bubenik<br>
-               Frances Caroline Buschur<br>
-               Johaun Cheng<br>
-               Katrina F. Cook<br>
-               Bill W. Dantowitz<br>
-               Envera Dukaj<br>                     
-               Sam Eilerman<br>
-               Nate Ellis<br>
-               Rachel Fouch<br>
-               Brian Keller<br>
-               Riley Lease<br>
-               Mike Liddy<br>
-               Nick Long<br>
-               Jennifer Lee Schneider<br>
-               H. Lewis Ulman<br>
-               Victoria R. Urban<br>
-               Derrick Whan<br>
-               Derek Craig Zoladz<br></p>
+            <p><button>Switch between Cox's original pencilled text and overwritten penned text.</button></p>
             <form method="get" style="font-size-adjust:none;font-style:normal;font-variant:normal;font-weight:normal;line-height:1.231;color:#000000;" action="http://www.nines.org/search">
                <div style="background:url(image-widget_tower_white.jpg) no-repeat scroll left top;height:56px;width:157px;font-size:12px;margin:0;padding:125px 0 0 22px;text-align:left;font-family:'Times New Roman',Times,serif;font-size-adjust:none;font-style:normal;font-variant:normal;font-weight:normal;line-height:1.231;color:#000000;"><a href="http://nines.org" style="text-decoration:none; float:left; margin-top:-125px; height:120px; width:120px;">&nbsp;</a><input type="text" name="q" onclick="this.form.target='_blank';return true;" size="16" maxlength="255" value="" style="width:100px;-x-system-font:none;font-family:arial,helvetica,clean,sans-serif;font-size-adjust:none;font-stretch:normal;font-style:normal;font-variant:normal;font-weight:normal;line-height:normal;margin:0;margin-top:3px;margin-bottom:5px;padding:0;text-align:left;color:#000000;"><input type="submit" value="Search NINES" style="width:100px;padding:1px;-x-system-font:none;font-family:arial,helvetica,clean,sans-serif;font-size:99%;font-size-adjust:none;font-stretch:normal;font-style:normal;font-variant:normal;font-weight:normal;line-height:normal;margin:0;margin-left:7px;text-align:left;color:#000000;"></div>
             </form>
@@ -482,8 +460,8 @@
                <td class="logcell" nowrap>"</td>
                <td class="logcell" nowrap>
                   
-                  3 ↓ 1 ↑ <span class="cancel">7</span>6
-                  316
+                  <span class="pencil">[pencil &gt;]3 ↓ 1 ↑ <span class="cancel">7</span>6[&lt;pencil]</span>
+                  <span class="ink inktoggle">[ink &gt;]316[&lt; ink]</span>
                                     
                   
                </td>
@@ -527,13 +505,13 @@
             
             
             
-            New York,
-            New York
+            <span class="pencil">[pencil &gt;]New York,[&lt;pencil]</span>
+            <span class="ink inktoggle">[ink &gt;]New York[&lt; ink]</span>
             
             
             
-            May 7, 1851.
-            May 7/51.
+            <span class="pencil">[pencil &gt;]May 7, 1851.[&lt;pencil]</span>
+            <span class="ink inktoggle">[ink &gt;]May 7/51.[&lt; ink]</span>
             
                               
             
@@ -547,8 +525,8 @@
             &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;0012&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
              Left Jersey City dock in the 
             'Asia'
-            &nbsp;
-            —
+            <span class="pencil">[pencil &gt;]&nbsp;[&lt;pencil]</span>
+            <span class="ink inktoggle">[ink &gt;]—[&lt; ink]</span>
             
             
             Capt
@@ -592,8 +570,8 @@
             <br><a name="0024"></a>
             &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;0024&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
              All the passengers on the deck
-            ,
-            &nbsp;
+            <span class="pencil">[pencil &gt;],[&lt;pencil]</span>
+            <span class="ink inktoggle">[ink &gt;]&nbsp;[&lt; ink]</span>
             
             &amp; the
             <br><a name="0025"></a>
@@ -632,8 +610,8 @@
             <br><a name="0033"></a>
             &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;0033&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
              passed the Narrows
-            ,
-            &nbsp;
+            <span class="pencil">[pencil &gt;],[&lt;pencil]</span>
+            <span class="ink inktoggle">[ink &gt;]&nbsp;[&lt; ink]</span>
             
             when we hailed
             <br><a name="0034"></a>
@@ -656,8 +634,8 @@
             &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;0037&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
              The little boat dropped astern
             
-            and
-            &amp;
+            <span class="pencil">[pencil &gt;]and[&lt;pencil]</span>
+            <span class="ink inktoggle">[ink &gt;]&amp;[&lt; ink]</span>
             
             <br><a name="0038"></a>
             &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;0038&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
@@ -676,7 +654,7 @@
              sky. An old naval officer—a
             <br><a name="0043"></a>
             &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;0043&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
-             regular <span class="sic">Johny[sic]</span><span class="corr corrtoggle">Johnny</span> Bull who sat near
+             regular <span class="sic">Johny[sic]</span> Bull who sat near
             <br><a name="0044"></a>
             &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;0044&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
              us said it was a young Whale.
@@ -691,7 +669,7 @@
              No sensation of sickness yet.
             <br><a name="0048"></a>
             &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;0048&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
-             All is <span class="sic">exhileration[sic]</span><span class="corr corrtoggle">exhilaration</span>—watched the
+             All is <span class="sic">exhileration[sic]</span>—watched the
             <br><a name="0049"></a>
             &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;0049&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
              Sun go down in splendor—
@@ -710,7 +688,7 @@
              grow a little uneasy. She
             <br><a name="0054"></a>
             &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;0054&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
-             went to her <span class="sic">birth[sic]</span><span class="corr corrtoggle">berth</span> &amp; soon drop-
+             went to her <span class="sic">birth[sic]</span> &amp; soon drop-
             <br><a name="0055"></a>
             &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;0055&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
             ped asleep. I watched the
@@ -801,37 +779,37 @@
             &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;0074&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
             ting colder. Awful sick all
             
-            
-            <br><a name="0075"></a>
-            &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;0075&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
-             the afternoon. Realized the horrors.
-            <br><a name="0076"></a>
-            &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;0076&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
-             Oh! This rolling, straining, rolling
-            <br><a name="0077"></a>
-            &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;0077&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
-             all day—all night, with the
-            <br><a name="0078"></a>
-            &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;0078&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
-             rushing—rushing—of the waves.
-            
-            
-            <br><a name="0079"></a>
-            &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;0079&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
-             the afternoon. Realized the
-            <br><a name="0080"></a>
-            &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;0080&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
-             horrors. Oh! this rolling,
-            <br><a name="0081"></a>
-            &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;0081&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
-             straining, rolling all day—
-            <br><a name="0082"></a>
-            &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;0082&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
-             all night, with the rushing—
-            <br><a name="0083"></a>
-            &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;0083&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
-             rushing—of the wave.
-            
+            <span class="pencil">[pencil &gt;]
+               <br><a name="0075"></a>
+               &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;0075&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+                the afternoon. Realized the horrors.
+               <br><a name="0076"></a>
+               &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;0076&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+                Oh! This rolling, straining, rolling
+               <br><a name="0077"></a>
+               &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;0077&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+                all day—all night, with the
+               <br><a name="0078"></a>
+               &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;0078&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+                rushing—rushing—of the waves.
+               [&lt;pencil]</span>
+            <span class="ink inktoggle">[ink &gt;]
+               <br><a name="0079"></a>
+               &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;0079&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+                the afternoon. Realized the
+               <br><a name="0080"></a>
+               &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;0080&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+                horrors. Oh! this rolling,
+               <br><a name="0081"></a>
+               &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;0081&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+                straining, rolling all day—
+               <br><a name="0082"></a>
+               &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;0082&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+                all night, with the rushing—
+               <br><a name="0083"></a>
+               &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;0083&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+                rushing—of the wave.
+               [&lt; ink]</span>
             
             
              
@@ -893,52 +871,52 @@
             &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;0097&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
              gentlemen's cabin. The voyage
             
-            
-            <br><a name="0098"></a>
-            &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;0098&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
-             is just getting "tolerable 
-            <br><a name="0099"></a>
-            &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;0099&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
-             &amp; not to be endured".
-            
-            
-            <br><a name="0100"></a>
-            &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;0100&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
-             is just getting "tolerable &amp;  
-            <br><a name="0101"></a>
-            &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;0101&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
-             not to be endured".
-            
+            <span class="pencil">[pencil &gt;]
+               <br><a name="0098"></a>
+               &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;0098&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+                is just getting "tolerable 
+               <br><a name="0099"></a>
+               &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;0099&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+                &amp; not to be endured".
+               [&lt;pencil]</span>
+            <span class="ink inktoggle">[ink &gt;]
+               <br><a name="0100"></a>
+               &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;0100&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+                is just getting "tolerable &amp;  
+               <br><a name="0101"></a>
+               &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;0101&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+                not to be endured".
+               [&lt; ink]</span>
             
             <a name="pN1595" class="notePointer"></a><a href="#nN1595" class="annotation" title="In Much Ado About Nothing, Act 3, Scene 3, Dogberry says &#34;for the watch to babble and to / talk is most tolerable and not to be endured.&#34;"><sup class="noteAnchor">7</sup></a>
                              
             Julia
             <br><a name="0102"></a>
             &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;0102&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
-             is yet in her <span class="sic">birth [sic]</span><span class="corr corrtoggle">berth</span>—somewhat
+             is yet in her <span class="sic">birth [sic]</span>—somewhat
             
-            
-            <br><a name="0103"></a>
-            &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;0103&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
-             better I believe. I have ac-
-            <br><a name="0104"></a>
-            &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;0104&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
-            tually breakfasted on two 
-            <br><a name="0105"></a>
-            &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;0105&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
-             eggs,toast &amp; tea. Here for
-            
-            
-            <br><a name="0106"></a>
-            &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;0106&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
-             better I believe. I have actual-
-            <br><a name="0107"></a>
-            &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;0107&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
-            ly breakfasted on two eggs, 
-            <br><a name="0108"></a>
-            &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;0108&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
-             toast and tea. Here for
-            
+            <span class="pencil">[pencil &gt;]
+               <br><a name="0103"></a>
+               &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;0103&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+                better I believe. I have ac-
+               <br><a name="0104"></a>
+               &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;0104&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+               tually breakfasted on two 
+               <br><a name="0105"></a>
+               &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;0105&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+                eggs,toast &amp; tea. Here for
+               [&lt;pencil]</span>
+            <span class="ink inktoggle">[ink &gt;]
+               <br><a name="0106"></a>
+               &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;0106&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+                better I believe. I have actual-
+               <br><a name="0107"></a>
+               &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;0107&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+               ly breakfasted on two eggs, 
+               <br><a name="0108"></a>
+               &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;0108&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+                toast and tea. Here for
+               [&lt; ink]</span>
             
             <br><a name="0109"></a>
             &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;0109&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
@@ -975,16 +953,16 @@
                &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;0117&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
                 anything to day"</q>—says kind
             
-            
-            <br><a name="0118"></a>
-            &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;0118&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
-             John Miller, our <span class="sic">servent[sic]</span><span class="corr corrtoggle">servant</span>—
-            
-            
-            <br><a name="0119"></a>
-            &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;0119&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
-             John Miller, our <span class="sic">servent[sic]</span><span class="corr corrtoggle">servant</span>:
-            
+            <span class="pencil">[pencil &gt;]
+               <br><a name="0118"></a>
+               &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;0118&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+                John Miller, our <span class="sic">servent[sic]</span>—
+               [&lt;pencil]</span>
+            <span class="ink inktoggle">[ink &gt;]
+               <br><a name="0119"></a>
+               &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;0119&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+                John Miller, our <span class="sic">servent[sic]</span>:
+               [&lt; ink]</span>
             
             <br><a name="0120"></a>
             &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;0120&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
@@ -1018,7 +996,7 @@
              there isn't some short cut
             <br><a name="0130"></a>
             &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;0130&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
-             over <span class="sic">Behrings strait[sic]</span><span class="corr corrtoggle">Bering Strait</span>
+             over <span class="sic">Behrings strait[sic]</span>
             —No
             <br><a name="0131"></a>
             &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;0131&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
@@ -1036,7 +1014,7 @@
              Mother Earth. But I trust
             <br><a name="0134"></a>
             &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;0134&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
-             the <span class="sic">Bilous[sic]</span><span class="corr corrtoggle">Bilious</span> is about exorcised,
+             the <span class="sic">Bilous[sic]</span> is about exorcised,
             <br><a name="0135"></a>
             &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;0135&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
              &amp; a better spirit of Health has
@@ -1053,8 +1031,8 @@
             &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;0139&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
              
             
-            don't
-            dont
+            <span class="pencil">[pencil &gt;]don't[&lt;pencil]</span>
+            <span class="ink inktoggle">[ink &gt;]dont[&lt; ink]</span>
             
             address itself to the
             <br><a name="0140"></a>
@@ -1082,12 +1060,12 @@
             &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;0147&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
              Spenser's
             
-            
-            cave of Error—"the
-            
-            
-            cave of Error—the
-            
+            <span class="pencil">[pencil &gt;]
+               cave of Error—"the
+               [&lt;pencil]</span>
+            <span class="ink inktoggle">[ink &gt;]
+               cave of Error—the
+               [&lt; ink]</span>
             
             <br><a name="0148"></a>
             &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;0148&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
@@ -1101,30 +1079,30 @@
             &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;0150&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
              six 
             
-            bona
-            bonna
+            <span class="pencil">[pencil &gt;]bona[&lt;pencil]</span>
+            <span class="ink inktoggle">[ink &gt;]bonna[&lt; ink]</span>
             
             fide icebergs—
             <a name="pC0513berg" class="notePointer"></a><a href="#nC0513berg" class="annotation" title="Judging from the mileage recorded in its log, the RMS Asia probably encountered icebergs while running near the &#34;Flemish Cap&#34; of the Grand Banks off the Newfoundland coast. In The Physical Geography of the Sea (1855), M.&nbsp;F.&nbsp;Maury describes the contemporary understanding of the currents that carry icebergs to the coast of Newfoundland: &#34;cold waters, as they come down from the Arctic Ocean through Davis's Straits, press upon the warm waters of the Gulf Stream, and curve their channel into a horse-shoe. . . . This 'bend' is the great receptacle of the icebergs which drift down from the north&#34; (241–42). The dotted line indicates the 'bend'&#34; in the Gulf Stream\line where cold Arctic waters intrude (Maury, Plate VI) Click to view Maury's isothermic map of the 'bend' in the Gulf Stream"><sup class="noteAnchor">9</sup></a>
             
             
             
-            
-            <br><a name="0151"></a>
-            &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;0151&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
-             Had each one been as golden
-            <br><a name="0152"></a>
-            &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;0152&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
-             as oranges, as many hued as
-            
-            
-            <br><a name="0153"></a>
-            &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;0153&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
-             Had each one been as gold-
-            <br><a name="0154"></a>
-            &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;0154&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
-            en as oranges, as many hued as
-            
+            <span class="pencil">[pencil &gt;]
+               <br><a name="0151"></a>
+               &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;0151&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+                Had each one been as golden
+               <br><a name="0152"></a>
+               &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;0152&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+                as oranges, as many hued as
+               [&lt;pencil]</span>
+            <span class="ink inktoggle">[ink &gt;]
+               <br><a name="0153"></a>
+               &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;0153&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+                Had each one been as gold-
+               <br><a name="0154"></a>
+               &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;0154&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+               en as oranges, as many hued as
+               [&lt; ink]</span>
              
             
             
@@ -1135,16 +1113,16 @@
             &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;0155&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
              the Trinity Church we saw in
             
-            
-            <br><a name="0156"></a>
-            &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;0156&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
-             Brooklyn, reduplicated in
-            
-            
-            <br><a name="0157"></a>
-            &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;0157&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
-             Brooklyn reduplicated in
-            
+            <span class="pencil">[pencil &gt;]
+               <br><a name="0156"></a>
+               &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;0156&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+                Brooklyn, reduplicated in
+               [&lt;pencil]</span>
+            <span class="ink inktoggle">[ink &gt;]
+               <br><a name="0157"></a>
+               &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;0157&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+                Brooklyn reduplicated in
+               [&lt; ink]</span>
             
             
             <br><a name="0158"></a>
@@ -1163,28 +1141,28 @@
             &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;0162&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
              have ar<span class="cancel">r</span>oused my sense of
             
-            
-            <br><a name="0163"></a>
-            &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;0163&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
-             the Το Καλον. It was drow-
-            <br><a name="0164"></a>
-            &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;0164&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
-            ned in the ocean of sea Sickness
-            <br><a name="0165"></a>
-            &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;0165&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
-             fathomlessly—
-            
-            
-            <br><a name="0166"></a>
-            &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;0166&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
-             the Το Καλον. It was drown-
-            <br><a name="0167"></a>
-            &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;0167&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
-            ed in the ocean of sea-sick
-            <br><a name="0168"></a>
-            &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;0168&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
-            ness fathomelessly.
-            
+            <span class="pencil">[pencil &gt;]
+               <br><a name="0163"></a>
+               &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;0163&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+                the Το Καλον. It was drow-
+               <br><a name="0164"></a>
+               &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;0164&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+               ned in the ocean of sea Sickness
+               <br><a name="0165"></a>
+               &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;0165&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+                fathomlessly—
+               [&lt;pencil]</span>
+            <span class="ink inktoggle">[ink &gt;]
+               <br><a name="0166"></a>
+               &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;0166&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+                the Το Καλον. It was drown-
+               <br><a name="0167"></a>
+               &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;0167&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+               ed in the ocean of sea-sick
+               <br><a name="0168"></a>
+               &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;0168&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+               ness fathomelessly.
+               [&lt; ink]</span>
             
             
             
@@ -1211,8 +1189,8 @@
             &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;0175&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
              ruin. Pitch &amp; strain
             
-            on—
-            on
+            <span class="pencil">[pencil &gt;]on—[&lt;pencil]</span>
+            <span class="ink inktoggle">[ink &gt;]on[&lt; ink]</span>
             
             <br><a name="0176"></a>
             &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;0176&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
@@ -1221,8 +1199,8 @@
             &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;0177&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
              duty nobly. Up to 
             
-            yesterday
-            yestray
+            <span class="pencil">[pencil &gt;]yesterday[&lt;pencil]</span>
+            <span class="ink inktoggle">[ink &gt;]yestray[&lt; ink]</span>
             
             <br><a name="0178"></a>
             &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;0178&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
@@ -1263,22 +1241,22 @@
             &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;0188&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
              a strange little wanderer—
             
-            
-            <br><a name="0189"></a>
-            &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;0189&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
-             1500 miles from either hemis-
-            <br><a name="0190"></a>
-            &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;0190&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
-            phere, playing hide &amp; go
-            
-            
-            <br><a name="0191"></a>
-            &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;0191&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
-             1500 miles from either hemi-
-            <br><a name="0192"></a>
-            &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;0192&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
-            sphere, playing hide &amp; go
-            
+            <span class="pencil">[pencil &gt;]
+               <br><a name="0189"></a>
+               &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;0189&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+                1500 miles from either hemis-
+               <br><a name="0190"></a>
+               &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;0190&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+               phere, playing hide &amp; go
+               [&lt;pencil]</span>
+            <span class="ink inktoggle">[ink &gt;]
+               <br><a name="0191"></a>
+               &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;0191&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+                1500 miles from either hemi-
+               <br><a name="0192"></a>
+               &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;0192&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+               sphere, playing hide &amp; go
+               [&lt; ink]</span>
             
             <br><a name="0193"></a>
             &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;0193&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
@@ -1286,40 +1264,40 @@
             
             
             
-            
-            <br><a name="0194"></a>
-            &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;0194&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
-             We also hove in
-            <br><a name="0195"></a>
-            &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;0195&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
-             sight of the N&nbsp;S Steamer 
-            <br><a name="0196"></a>
-            &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;0196&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
-             <span class="sic">Humbolt[sic]</span><span class="corr corrtoggle">Humboldt</span>—it is her first
-            <br><a name="0197"></a>
-            &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;0197&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
-             tip in the ocean path! We
-            <br><a name="0198"></a>
-            &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;0198&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
-             over came her by 5 o'clock
-            
-            
-            <br><a name="0199"></a>
-            &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;0199&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
-             We also hove in sight
-            <br><a name="0200"></a>
-            &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;0200&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
-             of the N&nbsp;Y Steamer <span class="sic">Humbolt[sic]</span><span class="corr corrtoggle">Humboldt</span>
-            <br><a name="0201"></a>
-            &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;0201&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
-             It is her first in the
-            <br><a name="0202"></a>
-            &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;0202&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
-             ocean path.
-            <br><a name="0203"></a>
-            &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;0203&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
-             We over took her by 5 o'clock.
-            
+            <span class="pencil">[pencil &gt;]
+               <br><a name="0194"></a>
+               &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;0194&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+                We also hove in
+               <br><a name="0195"></a>
+               &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;0195&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+                sight of the N&nbsp;S Steamer 
+               <br><a name="0196"></a>
+               &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;0196&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+                <span class="sic">Humbolt[sic]</span>—it is her first
+               <br><a name="0197"></a>
+               &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;0197&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+                tip in the ocean path! We
+               <br><a name="0198"></a>
+               &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;0198&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+                over came her by 5 o'clock
+               [&lt;pencil]</span>
+            <span class="ink inktoggle">[ink &gt;]
+               <br><a name="0199"></a>
+               &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;0199&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+                We also hove in sight
+               <br><a name="0200"></a>
+               &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;0200&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+                of the N&nbsp;Y Steamer <span class="sic">Humbolt[sic]</span>
+               <br><a name="0201"></a>
+               &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;0201&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+                It is her first in the
+               <br><a name="0202"></a>
+               &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;0202&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+                ocean path.
+               <br><a name="0203"></a>
+               &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;0203&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+                We over took her by 5 o'clock.
+               [&lt; ink]</span>
             
             <br><a name="0204"></a>
             &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;0204&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
@@ -1331,28 +1309,28 @@
             &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;0206&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
              beating her &amp; it made me
             
-            
-            <br><a name="0207"></a>
-            &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;0207&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
-             feel a little sore to see
-            <br><a name="0208"></a>
-            &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;0208&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
-             the stars &amp; stripes left
-            <br><a name="0209"></a>
-            &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;0209&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
-             behind. I actually with
-            
-            
-            <br><a name="0210"></a>
-            &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;0210&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
-             feel a little sore to see the
-            <br><a name="0211"></a>
-            &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;0211&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
-             stars &amp; stripes left behind.
-            <br><a name="0212"></a>
-            &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;0212&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
-             I actually with Philo's
-            
+            <span class="pencil">[pencil &gt;]
+               <br><a name="0207"></a>
+               &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;0207&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+                feel a little sore to see
+               <br><a name="0208"></a>
+               &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;0208&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+                the stars &amp; stripes left
+               <br><a name="0209"></a>
+               &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;0209&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+                behind. I actually with
+               [&lt;pencil]</span>
+            <span class="ink inktoggle">[ink &gt;]
+               <br><a name="0210"></a>
+               &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;0210&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+                feel a little sore to see the
+               <br><a name="0211"></a>
+               &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;0211&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+                stars &amp; stripes left behind.
+               <br><a name="0212"></a>
+               &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;0212&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+                I actually with Philo's
+               [&lt; ink]</span>
             
             
             
@@ -1363,8 +1341,8 @@
             &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;0213&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
             
             
-            Philo's aid,
-            aid,
+            <span class="pencil">[pencil &gt;]Philo's aid,[&lt;pencil]</span>
+            <span class="ink inktoggle">[ink &gt;]aid,[&lt; ink]</span>
             
             went up stairs
             <br><a name="0214"></a>
@@ -1590,7 +1568,7 @@
                
                <br><a name="0278"></a>
                &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;0278&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
-               straints[sic]</span><span class="corr corrtoggle">restraints</span> of <em>Earth</em>—alone upon
+               straints[sic]</span> of <em>Earth</em>—alone upon
             <br><a name="0279"></a>
             &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;0279&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
              a mobile element —not however
@@ -1698,7 +1676,7 @@
              green &amp; flowery, with visions
             <br><a name="0310"></a>
             &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;0310&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
-             of <span class="sic">carpetted[sic]</span><span class="corr corrtoggle">carpeted</span> rooms, snug fires
+             of <span class="sic">carpetted[sic]</span> rooms, snug fires
             <br><a name="0311"></a>
             &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;0311&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
              and easy dressing gowns and
@@ -1775,7 +1753,7 @@
              wisdom, and striving for the
             <br><a name="0332"></a>
             &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;0332&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
-             unknown yet <span class="sic">unapproachbly[sic]</span><span class="corr corrtoggle">unapproachably</span>
+             unknown yet <span class="sic">unapproachbly[sic]</span>
             <br><a name="0333"></a>
             &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;0333&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
              guarded mysteries of God and
@@ -1923,7 +1901,7 @@
              have just left Julia in her
             <br><a name="0373"></a>
             &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;0373&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
-             <span class="sic">birth[sic]</span><span class="corr corrtoggle">berth</span>, where we have had a
+             <span class="sic">birth[sic]</span>, where we have had a
             <br><a name="0374"></a>
             &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;0374&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
              good conversional time. Lucy
@@ -2112,7 +2090,7 @@
             
             <br><a name="0426"></a>
             &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;0426&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
-            fect <span class="sic">geomotry[sic]</span><span class="corr corrtoggle">geometry</span> or its vast extent.
+            fect <span class="sic">geomotry[sic]</span> or its vast extent.
             <br><a name="0427"></a>
             &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;0427&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
              The waverings of the water are
@@ -2208,7 +2186,7 @@
             <br><a name="0453"></a>
             &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;0453&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
              is not the <em>boom</em>—Je ne 
-            <span class="sic">scais[sic]</span><span class="corr corrtoggle">sçais</span> quoi.
+            <span class="sic">scais[sic]</span> quoi.
             
             
             <br><a name="0454"></a>
@@ -2454,8 +2432,8 @@
             &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;0523&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
             
             
-            noon,
-            noon
+            <span class="pencil">[pencil &gt;]noon,[&lt;pencil]</span>
+            <span class="ink inktoggle">[ink &gt;]noon[&lt; ink]</span>
             
             has evanished until to-
             <br><a name="0524"></a>
@@ -2476,15 +2454,15 @@
             &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;0528&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
             burgh however is finely 
             
-            painted,
-            painted
+            <span class="pencil">[pencil &gt;]painted,[&lt;pencil]</span>
+            <span class="ink inktoggle">[ink &gt;]painted[&lt; ink]</span>
             
             <br><a name="0529"></a>
             &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;0529&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
              and 
             
-            <em>Jeanie Deans</em>
-            Jeanie Deans
+            <span class="pencil">[pencil &gt;]<em>Jeanie Deans</em>[&lt;pencil]</span>
+            <span class="ink inktoggle">[ink &gt;]Jeanie Deans[&lt; ink]</span>
             
             will long
             <br><a name="0530"></a>
@@ -2517,7 +2495,7 @@
              
             <br><a name="0537"></a>
             &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;0537&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
-             Was on deck <span class="sic">to day[sic]</span><span class="corr corrtoggle">today</span>. As we
+             Was on deck <span class="sic">to day[sic]</span>. As we
             <br><a name="0538"></a>
             &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;0538&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
              approach G. Brit, the Divinity
@@ -2608,7 +2586,7 @@
              the home of our <span class="sic">infranchise-
                <br><a name="0564"></a>
                &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;0564&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
-                ment[sic]</span><span class="corr corrtoggle">enfranchisement</span> draweth nigh!
+                ment[sic]</span> draweth nigh!
             
             
             
@@ -2644,7 +2622,7 @@
              Cape Clear. The night was rainy—
             <br><a name="0575"></a>
             &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;0575&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
-             The <span class="sic">light houses[sic]</span><span class="corr corrtoggle">lighthouses</span> could however
+             The <span class="sic">light houses[sic]</span> could however
             
             
             
@@ -2721,7 +2699,7 @@
              moving in a direct line to
             <br><a name="0597"></a>
             &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;0597&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
-             <span class="sic">Holyhed[sic]</span><span class="corr corrtoggle">Holyhead</span>.  So that we cannot
+             <span class="sic">Holyhed[sic]</span>.  So that we cannot
             
             
             
@@ -2778,7 +2756,7 @@
              palpable, until Holyhead,
             <br><a name="0611"></a>
             &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;0611&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
-             <span class="sic">Anglesea[sic]</span><span class="corr corrtoggle">Anglesey</span>, burst on us. It looked
+             <span class="sic">Anglesea[sic]</span>, burst on us. It looked
             <br><a name="0612"></a>
             &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;0612&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
              the rock bound coast, we read
@@ -2856,7 +2834,7 @@
              old England, with all her 
             <br><a name="0634"></a>
             &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;0634&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
-             <span class="sic">reccollections[sic]</span><span class="corr corrtoggle">recollections</span> so glorious.
+             <span class="sic">reccollections[sic]</span> so glorious.
             <br><a name="0635"></a>
             &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;0635&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
              I have written to Father &amp;
@@ -2899,7 +2877,7 @@
                                                      
             <br><a name="0642"></a>
             &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;0642&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
-             Here we are, so snugly <span class="sic">esconced[sic]</span><span class="corr corrtoggle">ensconsed</span> at the
+             Here we are, so snugly <span class="sic">esconced[sic]</span> at the
             <br><a name="0643"></a>
             &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;0643&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
              Waterloo House, having partaken of a 
@@ -3032,7 +3010,7 @@
              and with a bow &amp; a touch of an <span class="sic">apochry-
                <br><a name="0682"></a>
                &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;0682&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
-               phal[sic]</span><span class="corr corrtoggle">apocryphal</span> cap, requested to carry the carpet
+               phal[sic]</span> cap, requested to carry the carpet
             <br><a name="0683"></a>
             &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;0683&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
              bag. After inquiring after  M<sup>r</sup> Twist,
@@ -3045,7 +3023,7 @@
              Oliver, when he
             <br><a name="0686"></a>
             &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;0686&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
-             mysteriously <span class="sic">vamosed[sic]</span><span class="corr corrtoggle">vamoosed</span>. Next came was 
+             mysteriously <span class="sic">vamosed[sic]</span>. Next came was 
             <br><a name="0687"></a>
             &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;0687&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
              a <em>liar</em>, s'<sup>d</sup>, he was servant at 
@@ -3263,7 +3241,7 @@
              with only a Summer house in it. A       
             <br><a name="0748"></a>
             &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;0748&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
-             full <span class="sic">quoir[sic]</span><span class="corr corrtoggle">quire</span> of birds were sing a Sabbath
+             full <span class="sic">quoir[sic]</span> of birds were sing a Sabbath
             <br><a name="0749"></a>
             &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;0749&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
              Anthem. Long iron bars were for fences.
@@ -3385,7 +3363,7 @@
              from them. Turning up we
             <br><a name="0786"></a>
             &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;0786&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
-             <span class="sic">past[sic]</span><span class="corr corrtoggle">passed</span> Maltese Sailors &amp; all sorts
+             <span class="sic">past[sic]</span> Maltese Sailors &amp; all sorts
             
             
             
@@ -3417,7 +3395,7 @@
              mildy— We saw the 'Adelphi'
             <br><a name="0795"></a>
             &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;0795&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
-             It is an ex <span class="sic">elegent[sic]</span><span class="corr corrtoggle">elegant</span> Hotel. But 
+             It is an ex <span class="sic">elegent[sic]</span> Hotel. But 
             <br><a name="0796"></a>
             &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;0796&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
              I like ours.—
@@ -3753,7 +3731,7 @@
             "<em>Gentleman's</em>' houses, ar[e]  distinguish
             <br><a name="0896"></a>
             &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;0896&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
-            ed from <span class="sic"><em>farmers</em>[sic]</span><span class="corr corrtoggle">farmers'</span>, by the degree of
+            ed from <span class="sic"><em>farmers</em>[sic]</span>, by the degree of
             <br><a name="0897"></a>
             &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;0897&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
              taste in the architecture. The science
@@ -3795,7 +3773,7 @@
              Soon I descried the valley of the
             <br><a name="0908"></a>
             &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;0908&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
-             "royal toward <span class="sic">Thame[sic]</span><span class="corr corrtoggle">Thames</span>"—its towers loom-
+             "royal toward <span class="sic">Thame[sic]</span>"—its towers loom-
             <br><a name="0909"></a>
             &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;0909&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
             ing up and its splendid residences all
@@ -3823,7 +3801,7 @@
             Edw.
             <br><a name="0917"></a>
             &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;0917&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
-             Street Hampstead <span class="sic">Rhodes[sic]</span><span class="corr corrtoggle">Road</span>, we slept,
+             Street Hampstead <span class="sic">Rhodes[sic]</span>, we slept,
             <br><a name="0918"></a>
             &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;0918&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
              until the
@@ -3868,7 +3846,7 @@
              an array of 'diamond &amp; gold'—India's riches,
             <br><a name="0929"></a>
             &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;0929&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
-             <span class="sic">Frenich[sic]</span><span class="corr corrtoggle">French</span> elegance—German ingenuity, Italian
+             <span class="sic">Frenich[sic]</span> elegance—German ingenuity, Italian
             
             
             
@@ -3884,7 +3862,7 @@
              refinement—never was before put into
             <br><a name="0933"></a>
             &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;0933&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
-             one place. It is the World's <span class="sic">bizarre[sic]</span><span class="corr corrtoggle">bazaar</span>.
+             one place. It is the World's <span class="sic">bizarre[sic]</span>.
             <br><a name="0934"></a>
             &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;0934&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
              All of us were so agreeably disappointed.
@@ -4295,7 +4273,7 @@
              a beautiful country with it's vistas 
             <br><a name="1052"></a>
             &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;1052&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
-             of trees, ivies, and flowery <span class="sic">carpetted[sic]</span><span class="corr corrtoggle">carpeted</span>
+             of trees, ivies, and flowery <span class="sic">carpetted[sic]</span>
             <br><a name="1053"></a>
             &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;1053&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
              meadows; and then through crowds
@@ -4934,7 +4912,7 @@
              1000, &amp; 1100—! We passed
             <br><a name="1224"></a>
             &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;1224&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
-             out—wandered about <span class="sic">parliment[sic]</span><span class="corr corrtoggle">parliament</span>
+             out—wandered about <span class="sic">parliment[sic]</span>
             <br><a name="1225"></a>
             &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;1225&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
              buildings, on to Westminster bridge;
@@ -4996,7 +4974,7 @@
              is tunnelled through; the same
             <br><a name="1239"></a>
             &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;1239&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
-             Cliff where <span class="sic">Gloster[sic]</span><span class="corr corrtoggle">Gloucester</span> stood; then
+             Cliff where <span class="sic">Gloster[sic]</span> stood; then
             <br><a name="1240"></a>
             &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;1240&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
              the Sea opened with its boats, &amp;
@@ -5131,7 +5109,7 @@
              of rare beauty from the Surrey
             <br><a name="1280"></a>
             &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;1280&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
-             to Dover. <span class="sic">Tumbridge[sic]</span><span class="corr corrtoggle">Tunbridge</span> furnished
+             to Dover. <span class="sic">Tumbridge[sic]</span> furnished
             <br><a name="1281"></a>
             &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;1281&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
              a splendid old ivied tower. It look
@@ -5512,10 +5490,10 @@
             to get near our diligence. Sol-
             <br><a name="1390"></a>
             &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;1390&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
-            diers, <span class="sic">cafès[sic]</span><span class="corr corrtoggle">cafés</span>, barracks,⁓We passed
+            diers, <span class="sic">cafès[sic]</span>, barracks,⁓We passed
             <br><a name="1391"></a>
             &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;1391&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
-            straw covered <span class="sic">waggons[sic]</span><span class="corr corrtoggle">wagons</span>—Burr mill
+            straw covered <span class="sic">waggons[sic]</span>—Burr mill
             <br><a name="1392"></a>
             &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;1392&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
             stone factorys— &amp; walls covered
@@ -5998,7 +5976,7 @@
          Avignon be it remembered is
          <br><a name="1537"></a>
          &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;1537&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
-         the tomb of <span class="sic">Petrarch[sic]</span><span class="corr corrtoggle">Petrarch</span>
+         the tomb of <span class="sic">Petrarch[sic]</span>
          &amp; Laura.
          <br><a name="1538"></a>
          &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;1538&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
@@ -6042,7 +6020,7 @@
              stopped at the Imperial Hotel,
             <br><a name="1546"></a>
             &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;1546&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
-             excellent,—English <span class="sic">servents[sic]</span><span class="corr corrtoggle">servants</span>—
+             excellent,—English <span class="sic">servents[sic]</span>—
             <br><a name="1547"></a>
             &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;1547&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
              Have visited with cabmen,
@@ -6099,7 +6077,7 @@
              of Marseilles. It is a large city.              
             <br><a name="1563"></a>
             &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;1563&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
-             Found some <span class="sic">Moroccos[sic]</span><span class="corr corrtoggle">Moroccans</span> there. Spoke  
+             Found some <span class="sic">Moroccos[sic]</span> there. Spoke  
             <br><a name="1564"></a>
             &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;1564&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
              in French to the "<em>Emperor</em>" with            
@@ -6120,7 +6098,7 @@
                 jouies"—Sneeze—!Sneeze—!<span class="sic">Sne-
                   <br><a name="1570"></a>
                   &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;1570&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
-                  eeze[sic]</span><span class="corr corrtoggle">Sneeze</span>—!</q>" to the amusement of              
+                  eeze[sic]</span>—!</q>" to the amusement of              
             <br><a name="1571"></a>
             &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;1571&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
              Julia &amp; 
@@ -6278,7 +6256,7 @@
              ‘Languedoc’ looks finely, cleanly.
             <br><a name="1614"></a>
             &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;1614&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
-             We took 1<sup>st</sup> class <span class="sic">births,[sic]</span><span class="corr corrtoggle">berths</span> 600 fr.
+             We took 1<sup>st</sup> class <span class="sic">births,[sic]</span> 600 fr.
             <br><a name="1615"></a>
             &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;1615&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
              for all.—
@@ -6357,7 +6335,7 @@
              without difficulty,—stopped at
             <br><a name="1634"></a>
             &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;1634&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
-             the Hotel <em><span class="sic">Des[sic]</span><span class="corr corrtoggle">de</span> Londies</em>, a splendid
+             the Hotel <em><span class="sic">Des[sic]</span> Londies</em>, a splendid
             <br><a name="1635"></a>
             &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;1635&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
              palace. Julia said
@@ -6391,7 +6369,7 @@
              men and all sorts—passed
             <br><a name="1645"></a>
             &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;1645&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
-             down "Porticato <span class="sic">all[sic]</span><span class="corr corrtoggle">alla</span> Piazzo,'
+             down "Porticato <span class="sic">all[sic]</span> Piazzo,'
             <br><a name="1646"></a>
             &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;1646&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
              marble promenade above (See
@@ -6490,7 +6468,7 @@
              First we went to the Church
             <br><a name="1673"></a>
             &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;1673&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
-             S<sup>t</sup> <span class="sic">Sira[sic]</span><span class="corr corrtoggle">Siro</span>.
+             S<sup>t</sup> <span class="sic">Sira[sic]</span>.
             On our entrance, a
             <br><a name="1674"></a>
             &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;1674&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
@@ -6546,7 +6524,7 @@
             <a name="pMaria" class="notePointer"></a><a href="#nMaria" class="annotation" title="The Church of Santa Maria (A Buckeye Abroad 100)."><sup class="noteAnchor">38</sup></a> All the others betrayed
             <br><a name="1691"></a>
             &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;1691&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
-             a mixture of Gothic &amp; <span class="sic">Sarcenic[sic]</span><span class="corr corrtoggle">Saracenic</span>,
+             a mixture of Gothic &amp; <span class="sic">Sarcenic[sic]</span>,
             <br><a name="1692"></a>
             &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;1692&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
              of the  [?]  in fact.—We 
@@ -6739,7 +6717,7 @@
              ready again for our steamer; &amp;
             <br><a name="1749"></a>
             &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;1749&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
-             with Mrs. <span class="sic">Stevens[sic]</span><span class="corr corrtoggle">Stephens</span>
+             with Mrs. <span class="sic">Stevens[sic]</span>
             &amp; Co, we entered the               
             <br><a name="1750"></a>
             &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;1750&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
@@ -6856,7 +6834,7 @@
             <br><div class="pagebreak"> [Page&nbsp;-&nbsp;79&nbsp; (<a href="SSCox_081.jpg" target="top">click to open page image in a new window</a>)]<br><a href="SSCox_081.jpg" target="top"><img class="pageview" src="SSCox_081_small.jpg" width="425"></a></div>
             <br><a name="1784"></a>
             &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;1784&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
-             wife has retired to her <span class="sic">birth[sic]</span><span class="corr corrtoggle">berth</span>, having
+             wife has retired to her <span class="sic">birth[sic]</span>, having
             <br><a name="1785"></a>
             &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;1785&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
              valiantly began her journal.
@@ -7272,7 +7250,7 @@
              in dirty tatters, and with saucy deport-
             <br><a name="1904"></a>
             &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;1904&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
-            ment — <span class="sic">mishaven[sic]</span><span class="corr corrtoggle">misshaven</span> and sallow— &amp; seemingly
+            ment — <span class="sic">mishaven[sic]</span> and sallow— &amp; seemingly
             <br><a name="1905"></a>
             &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;1905&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
              incapable of a noble thought. Good
@@ -7331,7 +7309,7 @@
             our friends at home believe it. Have 
             <br><a name="1919"></a>
             &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;1919&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
-            we trod where <span class="sic">Caesor[sic]</span><span class="corr corrtoggle">Caesar</span>, 
+            we trod where <span class="sic">Caesor[sic]</span>, 
             &amp; Pompey and 
             <br><a name="1920"></a>
             &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;1920&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
@@ -7449,7 +7427,7 @@
              vineyards high walled, and entered
             <br><a name="1954"></a>
             &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;1954&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
-             the Porta <span class="sic">Cavallleggieri[sic]</span><span class="corr corrtoggle">Cavalleggieri</span> (where
+             the Porta <span class="sic">Cavallleggieri[sic]</span> (where
             <br><a name="1955"></a>
             &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;1955&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
              the French fought 1849,) — when
@@ -7572,7 +7550,7 @@
              some old gems, a Praxiteles
             <br><a name="1987"></a>
             &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;1987&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
-             <span class="sic">Appollo[sic]</span><span class="corr corrtoggle">Apollo</span> &amp; the Antinous
+             <span class="sic">Appollo[sic]</span> &amp; the Antinous
             <br><a name="1988"></a>
             &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;1988&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
              crowned with Lotus; Julia with
@@ -7601,7 +7579,7 @@
             erus—&amp; the Colliseum, which
             <br><a name="1995"></a>
             &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;1995&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
-             <span class="sic">latter[sic]</span><span class="corr corrtoggle">later</span> we examined fully —
+             <span class="sic">latter[sic]</span> we examined fully —
             <br><a name="1996"></a>
             &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;1996&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
              Julia got up in the "rent of 
@@ -7613,7 +7591,7 @@
              Byron. Marked Murray:
             <br><a name="1999"></a>
             &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;1999&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
-             &amp; after scaring <span class="cancel"></span><span class="sic">lizzards[sic]</span><span class="corr corrtoggle">lizards</span> and 
+             &amp; after scaring <span class="cancel"></span><span class="sic">lizzards[sic]</span> and 
             <br><a name="2000"></a>
             &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;2000&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
              birds came home. 
@@ -7635,7 +7613,7 @@
              At 9, we left after writing
             <br><a name="2003"></a>
             &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;2003&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
-             for Santa <span class="sic">Cistene[sic]</span><span class="corr corrtoggle">Sistine</span> chapel
+             for Santa <span class="sic">Cistene[sic]</span> chapel
             <br><a name="2004"></a>
             &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;2004&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
              in S<sup>t</sup> Peters, where the Pope
@@ -7662,7 +7640,7 @@
              I watched the red Cardinals
             <br><a name="2012"></a>
             &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;2012&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
-             &amp; their purple <span class="sic">Servents[sic]</span><span class="corr corrtoggle">Servants</span> enter,
+             &amp; their purple <span class="sic">Servents[sic]</span> enter,
             
                             
             
@@ -7774,7 +7752,7 @@
             ed — Paul &amp; Peter guarded their
             <br><a name="2046"></a>
             &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;2046&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
-             charge; &amp; the lofty <span class="sic">Columnade[sic]</span><span class="corr corrtoggle">Colonnade</span>
+             charge; &amp; the lofty <span class="sic">Columnade[sic]</span>
             <br><a name="2047"></a>
             &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;2047&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
              glittered in the noon sun.
@@ -7811,7 +7789,7 @@
              the lighted candles the paintings on 
             <br><a name="2054"></a>
             &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;2054&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
-             the wall. Here the <span class="sic"> [Laoocoon?] [sic]</span><span class="corr corrtoggle">Laocoön</span> 
+             the wall. Here the <span class="sic"> [Laoocoon?] [sic]</span> 
             <br><a name="2055"></a>
             &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;2055&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
              was  ↑ Murray 321 ↓ found. Then to the old temple
@@ -7863,7 +7841,7 @@
             
             <br><a name="2069"></a>
             &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;2069&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
-             Went to Santa <span class="sic">Cruce[sic]</span><span class="corr corrtoggle">Croce</span>, where
+             Went to Santa <span class="sic">Cruce[sic]</span>, where
             <br><a name="2070"></a>
             &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;2070&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
              the real cross <em>is</em>! (405) Saw
@@ -8022,7 +8000,7 @@
              flowers —"forever beauties." — )
             <br><a name="2113"></a>
             &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;2113&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
-             saw St Paul's &amp; <span class="sic">alabastar[sic]</span><span class="corr corrtoggle">alabaster</span> pil-
+             saw St Paul's &amp; <span class="sic">alabastar[sic]</span> pil-
             <br><a name="2114"></a>
             &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;2114&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
             lars — St Sebastian &amp; catac
@@ -8046,7 +8024,7 @@
             count of it. Also other ruins,
             <br><a name="2121"></a>
             &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;2121&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
-             including fountain of <span class="sic">Treva[sic]</span><span class="corr corrtoggle">Trevi</span>.  
+             including fountain of <span class="sic">Treva[sic]</span>.  
             
                             
             
@@ -8101,7 +8079,7 @@
             
             <br><a name="2137"></a>
             &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;2137&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
-            <span class="sic">Bot[sic]</span><span class="corr corrtoggle">bought</span> a copy of 
+            <span class="sic">Bot[sic]</span> a copy of 
             Guido's hope 
             <br><a name="2138"></a>
             &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;2138&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
@@ -8232,7 +8210,7 @@
              buried without rites.  Two X X are 
             <br><a name="2173"></a>
             &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;2173&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
-             over the grave.  Drove next to <span class="sic">Corsina[sic]</span><span class="corr corrtoggle">Corsini</span>
+             over the grave.  Drove next to <span class="sic">Corsina[sic]</span>
             <br><a name="2174"></a>
             &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;2174&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
              palace. (p 508 Murray) noted
@@ -8458,7 +8436,7 @@
             &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;2240&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
              letter to father 
                
-            — <span class="sic">hearkened[sic]</span><span class="corr corrtoggle">harkened</span> to the
+            — <span class="sic">hearkened[sic]</span> to the
             <br><a name="2241"></a>
             &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;2241&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
              strange noises out in the city —
@@ -8503,7 +8481,7 @@
              hangs on the beautiful. <span class="sic">Macca-
                <br><a name="2254"></a>
                &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;2254&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
-               roni[sic]</span><span class="corr corrtoggle">Macaroni</span> depends on graceful lim-
+               roni[sic]</span> depends on graceful lim-
             <br><a name="2255"></a>
             &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;2255&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
             ning or chaste mosaic. Every
@@ -8576,7 +8554,7 @@
              reeling Eye. The monks were chan-
             <br><a name="2273"></a>
             &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;2273&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
-            ting it seemed a great distance <span class="sic">of[sic]</span><span class="corr corrtoggle">off</span>;
+            ting it seemed a great distance <span class="sic">of[sic]</span>;
             <br><a name="2274"></a>
             &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;2274&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
              yet it was only in a side chapel.
@@ -8615,7 +8593,7 @@
              so high, worse than the sight, made
             <br><a name="2286"></a>
             &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;2286&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
-             me <span class="sic">feely[sic]</span><span class="corr corrtoggle">feel</span> dizzy and qualmy!. I
+             me <span class="sic">feely[sic]</span> dizzy and qualmy!. I
             <br><a name="2287"></a>
             &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;2287&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
              then put Julia up.  She didn't mind
@@ -8638,7 +8616,7 @@
              room of inscriptions, statuary &amp;
             <br><a name="2292"></a>
             &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;2292&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
-             <span class="sic">frescos[sic]</span><span class="corr corrtoggle">frescoes</span> &amp; paintings. Raphael's trans
+             <span class="sic">frescos[sic]</span> &amp; paintings. Raphael's trans
             <br><a name="2293"></a>
             &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;2293&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
             figuration we saw &amp; looked at
@@ -8650,7 +8628,7 @@
              artists. Others were by Raphael there
             <br><a name="2296"></a>
             &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;2296&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
-             the <span class="sic">frescos[sic]</span><span class="corr corrtoggle">frescoes</span> surpassed Everything. See
+             the <span class="sic">frescos[sic]</span> surpassed Everything. See
             <br><a name="2297"></a>
             &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;2297&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
              Murray. We then went into
@@ -8659,7 +8637,7 @@
              the different departments &amp; porticos
             <br><a name="2299"></a>
             &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;2299&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
-             of statuary. Saw <span class="sic"><em>Laoccoon</em>[sic]</span><span class="corr corrtoggle">Laocoön</span>.
+             of statuary. Saw <span class="sic"><em>Laoccoon</em>[sic]</span>.
             <br><a name="2300"></a>
             &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;2300&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
              in its terrible glory of Ppower &amp;
@@ -8668,7 +8646,7 @@
              convulsion — the <span class="sic"><em>Appollo Belvi</em>-
                <br><a name="2302"></a>
                &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;2302&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
-               <em>dere</em>[sic]</span><span class="corr corrtoggle">Apollo Belvedere</span>, the light &amp; beautious God
+               <em>dere</em>[sic]</span>, the light &amp; beautious God
             <br><a name="2303"></a>
             &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;2303&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
              of Day &amp; Poesy. Never was I so 
@@ -8680,7 +8658,7 @@
              entered that part. The Laocoon
             <br><a name="2306"></a>
             &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;2306&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
-             needs study, the <span class="sic">Appollo[sic]</span><span class="corr corrtoggle">Apollo</span> is a beau-
+             needs study, the <span class="sic">Appollo[sic]</span> is a beau-
             <br><a name="2307"></a>
             &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;2307&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
             tiful Dignity at the first Sight.  The
@@ -8866,7 +8844,7 @@
              Saw mummies, gods <span class="sic">Sarcopa-
                <br><a name="2359"></a>
                &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;2359&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
-               hi[sic]</span><span class="corr corrtoggle">Sarcophagi</span>, &amp; crocodiles — then into the 
+               hi[sic]</span>, &amp; crocodiles — then into the 
             <br><a name="2360"></a>
             &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;2360&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
              Etruscan galleries — rare old
@@ -9102,7 +9080,7 @@
              Vetturino moves along more
             <br><a name="2424"></a>
             &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;2424&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
-             briskly than the <span class="sic">Dilligence[sic]</span><span class="corr corrtoggle">Diligence</span>. ⁓
+             briskly than the <span class="sic">Dilligence[sic]</span>. ⁓
             
             
          </div>
@@ -9301,7 +9279,7 @@
              Went up the mountains amid
             <br><a name="2478"></a>
             &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;2478&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
-             such a <span class="sic">Paradize[sic]</span><span class="corr corrtoggle">paradise</span> of fruits &amp;
+             such a <span class="sic">Paradize[sic]</span> of fruits &amp;
             <br><a name="2479"></a>
             &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;2479&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
              flowers — stopped at the Hermitage
@@ -9316,7 +9294,7 @@
              rocks; following our guides—an
             <br><a name="2483"></a>
             &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;2483&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
-             <span class="sic">exhilerating[sic]</span><span class="corr corrtoggle">exhilarating</span> company. This
+             <span class="sic">exhilerating[sic]</span> company. This
             <br><a name="2484"></a>
             &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;2484&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
              was the <em>real</em> fun. What a
@@ -9479,7 +9457,7 @@
              bride of the Mediterranean
             <br><a name="2534"></a>
             &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;2534&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
-             <span class="sic">alseep[sic]</span><span class="corr corrtoggle">asleep</span> &amp; <span class="sic">recumbant[sic]</span><span class="corr corrtoggle">recumbent</span>, while
+             <span class="sic">alseep[sic]</span> &amp; <span class="sic">recumbant[sic]</span>, while
             <br><a name="2535"></a>
             &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;2535&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
              her forehead was gleaming with
@@ -9641,7 +9619,7 @@
              spots on bay; drove up &amp; down
             <br><a name="2578"></a>
             &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;2578&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
-             <span class="sic">amdst[sic]</span><span class="corr corrtoggle">amidst</span> the beauty and wealth
+             <span class="sic">amdst[sic]</span> the beauty and wealth
             <br><a name="2579"></a>
             &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;2579&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
              of Naples, far excelling any 
@@ -9674,7 +9652,7 @@
              one of the boxes. The opera was that of
             <br><a name="2587"></a>
             &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;2587&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
-             Maria de <span class="sic">Rudentz[sic]</span><span class="corr corrtoggle">Rudenz</span>, well executed
+             Maria de <span class="sic">Rudentz[sic]</span>, well executed
             <br><a name="2588"></a>
             &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;2588&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
              especially the part of Maria, who was
@@ -9767,7 +9745,7 @@
             
             <br><a name="2610"></a>
             &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;2610&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
-             Drove to the <span class="sic">Cemetary[sic]</span><span class="corr corrtoggle">cemetery</span>. They
+             Drove to the <span class="sic">Cemetary[sic]</span>. They
             <br><a name="2611"></a>
             &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;2611&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
              put the dead after 18 m<sup>os</sup> in
@@ -9938,7 +9916,7 @@
              We are now lying at the head of Sicily in
             <br><a name="2654"></a>
             &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;2654&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
-             <span class="sic">Massena[sic]</span><span class="corr corrtoggle">Messina</span> harbor, having arrived here
+             <span class="sic">Massena[sic]</span> harbor, having arrived here
             <br><a name="2655"></a>
             &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;2655&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
              at 8 AM. We left Naples at 1, &amp; was
@@ -9994,7 +9972,7 @@
              from shore, leaving the gulf of Salerno
             <br><a name="2672"></a>
             &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;2672&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
-             behind us, until we reached <span class="sic">Port[sic]</span><span class="corr corrtoggle">Point</span> Pali-
+             behind us, until we reached <span class="sic">Port[sic]</span> Pali-
             <br><a name="2673"></a>
             &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;2673&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
             nurus; where (near abouts) we watched the
@@ -10076,10 +10054,10 @@
              were now in the gulf of Gioja, approaching
             <br><a name="2697"></a>
             &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;2697&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
-             <span class="sic">Cape di Fara[sic]</span><span class="corr corrtoggle">Capo di Faro</span> — the veritable Scylla, 12
+             <span class="sic">Cape di Fara[sic]</span> — the veritable Scylla, 12
             <br><a name="2698"></a>
             &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;2698&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
-             miles from <span class="sic">Massena[sic]</span><span class="corr corrtoggle">Messina</span>. Where the dogs of
+             miles from <span class="sic">Massena[sic]</span>. Where the dogs of
             <br><a name="2699"></a>
             &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;2699&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
              Homer barked in the cavernous wave
@@ -10127,13 +10105,13 @@
              a sand bar &amp; a fret. Soon we discern
             <br><a name="2714"></a>
             &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;2714&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
-             Messina, pass the <span class="sic">whirpool[sic]</span><span class="corr corrtoggle">whirlpool</span> Charybdis
+             Messina, pass the <span class="sic">whirpool[sic]</span> Charybdis
             <br><a name="2715"></a>
             &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;2715&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
              no great things, (not equal to Hell gate)
             <br><a name="2716"></a>
             &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;2716&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
-             &amp; land in <span class="sic">Massena[sic]</span><span class="corr corrtoggle">Messina</span>. The head point of
+             &amp; land in <span class="sic">Massena[sic]</span>. The head point of
             
             
             
@@ -10144,7 +10122,7 @@
              Sicily is a windowless deserted fishing town;
             <br><a name="2718"></a>
             &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;2718&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
-             but <span class="sic">Massena[sic]</span><span class="corr corrtoggle">Messina</span> is quite a pretty place, half
+             but <span class="sic">Massena[sic]</span> is quite a pretty place, half
             <br><a name="2719"></a>
             &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;2719&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
              hid under the rough, uneven mountains,
@@ -10257,7 +10235,7 @@
              not been ashore. As I write we are
             <br><a name="2752"></a>
             &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;2752&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
-             moving away from <span class="sic">Massena[sic]</span><span class="corr corrtoggle">Messina</span>.
+             moving away from <span class="sic">Massena[sic]</span>.
             
             
             <br><a name="2753"></a>
@@ -10415,7 +10393,7 @@
              arms as to preclude all resistance.
             <br><a name="2799"></a>
             &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;2799&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
-             Another <span class="sic">Mansaniella[sic]</span><span class="corr corrtoggle">Masaniello</span> may arise
+             Another <span class="sic">Mansaniella[sic]</span> may arise
             <br><a name="2800"></a>
             &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;2800&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
              out of the fishing craft, &amp; for a time
@@ -10484,7 +10462,7 @@
              Porco is a square sort of rocky
             <br><a name="2819"></a>
             &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;2819&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
-             ledge; — Before leaving its <span class="sic">waved[sic]</span><span class="corr corrtoggle">wave</span>
+             ledge; — Before leaving its <span class="sic">waved[sic]</span>
             <br><a name="2820"></a>
             &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;2820&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
              lashed point, we took a a farewell of 
@@ -10747,7 +10725,7 @@
              It was the English fleet, returning to 
             <br><a name="2897"></a>
             &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;2897&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
-             Malta.  <span class="sic">Plenaria Indulgenzia[sic]</span><span class="corr corrtoggle">plenaria indulgenza</span>        
+             Malta.  <span class="sic">Plenaria Indulgenzia[sic]</span>        
             
             
          </div>
@@ -10818,19 +10796,19 @@
             
             
             
-            Friday
-            Friday
+            <span class="pencil">[pencil &gt;]Friday[&lt;pencil]</span>
+            <span class="ink inktoggle">[ink &gt;]Friday[&lt; ink]</span>
             
             
             Ev<sup>g</sup> at 
             
-            Sunset,
-            Sunset
+            <span class="pencil">[pencil &gt;]Sunset,[&lt;pencil]</span>
+            <span class="ink inktoggle">[ink &gt;]Sunset[&lt; ink]</span>
             
             June
             
-            
-            27.
+            <span class="pencil">[pencil &gt;][&lt;pencil]</span>
+            <span class="ink inktoggle">[ink &gt;]27.[&lt; ink]</span>
             
             
             
@@ -10875,16 +10853,16 @@
             &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;2923&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
              but a few feet from 
             
-             [?] 
-            <span class="cancel"></span>me
+            <span class="pencil">[pencil &gt;] [?] [&lt;pencil]</span>
+            <span class="ink inktoggle">[ink &gt;]<span class="cancel"></span>me[&lt; ink]</span>
             
             as I lean
             <br><a name="2924"></a>
             &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;2924&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
              over the 
             
-            taffrail, 
-            taffrail 
+            <span class="pencil">[pencil &gt;]taffrail, [&lt;pencil]</span>
+            <span class="ink inktoggle">[ink &gt;]taffrail [&lt; ink]</span>
              
             looking longingly
             <br><a name="2925"></a>
@@ -10895,7 +10873,7 @@
              seem to peer out of that sunset!
             <br><a name="2927"></a>
             &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;2927&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
-             <span class="sic">Appollo[sic]</span><span class="corr corrtoggle">Apollo</span> with his quiver steps
+             <span class="sic">Appollo[sic]</span> with his quiver steps
             <br><a name="2928"></a>
             &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;2928&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
              from mount to mount. Jove looks
@@ -10918,8 +10896,8 @@
             &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;2934&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
              through the 
             
-            clouds, 
-            clouds 
+            <span class="pencil">[pencil &gt;]clouds, [&lt;pencil]</span>
+            <span class="ink inktoggle">[ink &gt;]clouds [&lt; ink]</span>
              
             &amp; lives again
             <br><a name="2935"></a>
@@ -10932,8 +10910,8 @@
             &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;2936&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
              
             
-            Cerigo
-            Cerigo
+            <span class="pencil">[pencil &gt;]Cerigo[&lt;pencil]</span>
+            <span class="ink inktoggle">[ink &gt;]Cerigo[&lt; ink]</span>
                           
             on our right, is the birth
             <br><a name="2937"></a>
@@ -10961,7 +10939,7 @@
              at last. Night closes over the
             <br><a name="2943"></a>
             &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;2943&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
-             land of <span class="sic">Lycurges[sic]</span><span class="corr corrtoggle">Lycurgus</span>. Thought, 
+             land of <span class="sic">Lycurges[sic]</span>. Thought, 
             <br><a name="2944"></a>
             &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;2944&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
              solemn &amp; severe, not gayety or
@@ -11098,7 +11076,7 @@
              last two passengers ventured down, when
             <br><a name="2983"></a>
             &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;2983&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
-             a rough &amp; tumble fight <span class="sic">insued[sic]</span><span class="corr corrtoggle">ensued</span> for
+             a rough &amp; tumble fight <span class="sic">insued[sic]</span> for
             <br><a name="2984"></a>
             &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;2984&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
              them. They rolled from boat to boat,
@@ -11178,7 +11156,7 @@
              which he "fulmined over Greece &amp; shook
             <br><a name="3007"></a>
             &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;3007&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
-             <span class="sic">Artaxererxes[sic]</span><span class="corr corrtoggle">Artaxerxes</span>' throne." It was a grand
+             <span class="sic">Artaxererxes[sic]</span>' throne." It was a grand
             <br><a name="3008"></a>
             &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;3008&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
              place to recall the scene of Demos-
@@ -11224,7 +11202,7 @@
             
             <br><a name="3020"></a>
             &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;3020&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
-             We next went to Mars <span class="sic">Hall[sic]</span><span class="corr corrtoggle">Hill</span>.
+             We next went to Mars <span class="sic">Hall[sic]</span>.
             <br><a name="3021"></a>
             &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;3021&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
              It is a rough &amp; rugged ascent from
@@ -11371,7 +11349,7 @@
             ful time of it, altogether. Have
             <br><a name="3064"></a>
             &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;3064&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
-             determined to go to <span class="sic">Constaniople[sic]</span><span class="corr corrtoggle">Constantinople</span>, &amp;
+             determined to go to <span class="sic">Constaniople[sic]</span>, &amp;
             <br><a name="3065"></a>
             &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;3065&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
              are aboard for that purpose.  ↑ Have forgotten ↓ 
@@ -11413,7 +11391,7 @@
              looked white &amp; fine. Have been 
             <br><a name="3074"></a>
             &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;3074&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
-             dodging about in the <span class="sic">Archilpeligo[sic]</span><span class="corr corrtoggle">Archipelago</span>,
+             dodging about in the <span class="sic">Archilpeligo[sic]</span>,
             
             <br><a name="3075"></a>
             &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;3075&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
@@ -11444,14 +11422,14 @@
             
             
             
-            Smyrna,
-            Smyrna Asia,
+            <span class="pencil">[pencil &gt;]Smyrna,[&lt;pencil]</span>
+            <span class="ink inktoggle">[ink &gt;]Smyrna Asia,[&lt; ink]</span>
             
             
             
             
-            June 30 / 51
-            June 30 / 51.
+            <span class="pencil">[pencil &gt;]June 30 / 51[&lt;pencil]</span>
+            <span class="ink inktoggle">[ink &gt;]June 30 / 51.[&lt; ink]</span>
             
             
             
@@ -11468,7 +11446,7 @@
              just come on land, and have been <span class="sic">thread
                <br><a name="3083"></a>
                &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;3083&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
-               ding[sic]</span><span class="corr corrtoggle">threading</span> the streets of this city of figs &amp; one of
+               ding[sic]</span> the streets of this city of figs &amp; one of
             <br><a name="3084"></a>
             &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;3084&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
              the seven churches. We started for a hotel
@@ -11489,13 +11467,13 @@
              has arrived &amp; with the "banker," are revel-
             <br><a name="3090"></a>
             &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;3090&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
-            ling in two big <span class="sic">chbouques[sic]</span><span class="corr corrtoggle">chibouques</span>, getting up the
+            ling in two big <span class="sic">chbouques[sic]</span>, getting up the
             <br><a name="3091"></a>
             &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;3091&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
              steam, whilst the smoke bubbles 
             
-            through
-            thro'
+            <span class="pencil">[pencil &gt;]through[&lt;pencil]</span>
+            <span class="ink inktoggle">[ink &gt;]thro'[&lt; ink]</span>
             
             <br><a name="3092"></a>
             &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;3092&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
@@ -11504,8 +11482,8 @@
             &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;3093&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
              winds through a labyrinth of 
             
-            stem.
-            stem
+            <span class="pencil">[pencil &gt;]stem.[&lt;pencil]</span>
+            <span class="ink inktoggle">[ink &gt;]stem[&lt; ink]</span>
             
             (the
             <br><a name="3094"></a>
@@ -11624,7 +11602,7 @@
              bridge, which Julia has described, where we
             <br><a name="3129"></a>
             &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;3129&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
-             ate <span class="sic">rahatlikum[sic]</span><span class="corr corrtoggle">rahat lokum</span> with our lemonade.
+             ate <span class="sic">rahatlikum[sic]</span> with our lemonade.
             <br><a name="3130"></a>
             &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;3130&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
              We gave some to the children, who kissed
@@ -11641,7 +11619,7 @@
             
             <br><a name="3133"></a>
             &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;3133&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
-             <span class="sic">cemetary[sic]</span><span class="corr corrtoggle">cemetery</span> in part of the large umbrageous,
+             <span class="sic">cemetary[sic]</span> in part of the large umbrageous,
             <br><a name="3134"></a>
             &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;3134&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
              oakleaved Sycamore under which we
@@ -11883,7 +11861,7 @@
              so indifferent. Not so, when leav-
             <br><a name="3203"></a>
             &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;3203&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
-            ing the Sea of <span class="sic">Marmora[sic]</span><span class="corr corrtoggle">Marmara</span>, we pass
+            ing the Sea of <span class="sic">Marmora[sic]</span>, we pass
             <br><a name="3204"></a>
             &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;3204&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
             ed between Scutari in Asia &amp;
@@ -12145,11 +12123,11 @@
              Minister  "<q><em>to go to hell</em>, that they
                <br><a name="3278"></a>
                &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;3278&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
-                brought the <span class="sic">Gaiours[sic]</span><span class="corr corrtoggle">Giaours</span>  
+                brought the <span class="sic">Gaiours[sic]</span>  
                <a name="pC16" class="notePointer"></a><a href="#nC16" class="annotation" title="See Cox’s fuller version of this scolding in A Buckeye Aboard (220–221)."><sup class="noteAnchor">41</sup></a> here; that 
                <br><a name="3279"></a>
                &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;3279&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
-                the time was <span class="sic">Ramadzin[sic]</span><span class="corr corrtoggle">Ramadan</span></q>" — a 
+                the time was <span class="sic">Ramadzin[sic]</span></q>" — a 
             <br><a name="3280"></a>
             &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;3280&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
              holy month, in which the Turks
@@ -12171,7 +12149,7 @@
              Gave up mosque seeing in <span class="sic">Ra- 
                <br><a name="3286"></a>
                &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;3286&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
-               madzin[sic]</span><span class="corr corrtoggle">Ramadan</span> time.        
+               madzin[sic]</span> time.        
             
             
                
@@ -12308,7 +12286,7 @@
              the Candle. His family lies around.
             <br><a name="3326"></a>
             &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;3326&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
-             A few praying <span class="sic">Musselmen[sic]</span><span class="corr corrtoggle">Muslimin</span>
+             A few praying <span class="sic">Musselmen[sic]</span>
             <br><a name="3327"></a>
             &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;3327&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
              were in the splendid building.
@@ -12392,7 +12370,7 @@
              After driving along the road
             <br><a name="3351"></a>
             &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;3351&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
-             apast the <span class="sic">Arminian[sic]</span><span class="corr corrtoggle">Armenian</span> grave yard, 
+             apast the <span class="sic">Arminian[sic]</span> grave yard, 
             <br><a name="3352"></a>
             &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;3352&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
              used for promenades &amp; places 
@@ -12639,7 +12617,7 @@
             <br><a name="3419"></a>
             &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;3419&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
              S<sup>t</sup> Peters 
-            The great dome is  ↑ an ↓  <span class="sic">elipise[sic]</span><span class="corr corrtoggle">elipse</span>,
+            The great dome is  ↑ an ↓  <span class="sic">elipise[sic]</span>,
             <br><a name="3420"></a>
             &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;3420&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
              a round dome loftier, opens in
@@ -13047,7 +13025,7 @@
              sort of gold-lustrous &amp; purple air,
             <br><a name="3543"></a>
             &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;3543&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
-             thin &amp; delicious to <span class="sic">breath[sic]</span><span class="corr corrtoggle">breathe</span>. My
+             thin &amp; delicious to <span class="sic">breath[sic]</span>. My
             <br><a name="3544"></a>
             &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;3544&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
              own breathing through partly opened
@@ -13333,7 +13311,7 @@
               Passed the next morn'g (9<sup>th</sup>) around Sun-
             <br><a name="3624"></a>
             &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;3624&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
-            ium, Matapan; passed <span class="sic">Navorino[sic]</span><span class="corr corrtoggle">Navarino</span>, scene
+            ium, Matapan; passed <span class="sic">Navorino[sic]</span>, scene
             <br><a name="3625"></a>
             &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;3625&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
               of great battle between allied powers &amp; Turks;
@@ -13354,7 +13332,7 @@
               that &amp; Ithaca at Sundown of 10<sup>th</sup>. Dark
             <br><a name="3631"></a>
             &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;3631&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
-              hills like Hudson — all classical; <span class="sic">Cepalonia[sic]</span><span class="corr corrtoggle">Cephalonia</span>,
+              hills like Hudson — all classical; <span class="sic">Cepalonia[sic]</span>,
             <br><a name="3632"></a>
             &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;3632&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
               is ancient Samos. Capt Lowry was the
@@ -13578,10 +13556,10 @@
             
             <br><a name="3691"></a>
             &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;3691&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
-            We had to wait some time for <span class="sic">practique[sic]</span><span class="corr corrtoggle">pratique</span>; fin-
+            We had to wait some time for <span class="sic">practique[sic]</span>; fin-
             <br><a name="3692"></a>
             &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;3692&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
-            ally were safely <span class="sic">esconced[sic]</span><span class="corr corrtoggle">ensconced</span> in Hotel National.
+            ally were safely <span class="sic">esconced[sic]</span> in Hotel National.
             <br><a name="3693"></a>
             &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;3693&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
             Dinner ate, we took a carriage, &amp; altho' it
@@ -13590,7 +13568,7 @@
             <em>was</em> sunday, had a fine stroll or drive
             <br><a name="3695"></a>
             &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;3695&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
-            through the <span class="sic">ctity[sic]</span><span class="corr corrtoggle">city</span>; was much surprized at the
+            through the <span class="sic">ctity[sic]</span>; was much surprized at the
             <br><a name="3696"></a>
             &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;3696&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
             neatness of the city — the streets were well
@@ -13611,7 +13589,7 @@
             Sunday, either prominading or riding. —
             <br><a name="3702"></a>
             &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;3702&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
-            <span class="sic">Gayety[sic]</span><span class="corr corrtoggle">Gaiety</span> seems to prevail, — Returned — passed
+            <span class="sic">Gayety[sic]</span> seems to prevail, — Returned — passed
             <br><a name="3703"></a>
             &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;3703&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
             some fine fountains with sculpture; then
@@ -13631,7 +13609,7 @@
             
             <br><a name="3707"></a>
             &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;3707&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
-            were filled with <span class="sic">ga<span class="cancel">y</span>i<span class="cancel">tey</span>ly[sic]</span><span class="corr corrtoggle">gaily</span> dressed people.
+            were filled with <span class="sic">ga<span class="cancel">y</span>i<span class="cancel">tey</span>ly[sic]</span> dressed people.
             <br><a name="3708"></a>
             &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;3708&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
             The ladies here are very handsome,
@@ -13797,7 +13775,7 @@
             ed yesterday at 2 PM;  got a gondola, &amp;
             <br><a name="3756"></a>
             &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;3756&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
-            landed at <span class="sic">Doniera's[sic]</span><span class="corr corrtoggle">Doniella's</span> hotel; took dinner
+            landed at <span class="sic">Doniera's[sic]</span> hotel; took dinner
             <br><a name="3757"></a>
             &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;3757&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
             then visited S<sup>t</sup> Mark's, — Saw the lion, &amp; the
@@ -13815,7 +13793,7 @@
             a gondola — fine time, lights dancing, —
             <br><a name="3762"></a>
             &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;3762&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
-            music on our return shortcut: <span class="sic">bot[sic]</span><span class="corr corrtoggle">bought</span>
+            music on our return shortcut: <span class="sic">bot[sic]</span>
             <br><a name="3763"></a>
             &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;3763&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
             things, —, heard a great band in the large
@@ -13871,7 +13849,7 @@
             "Ten" — Saw prisons by lamp light; passed
             <br><a name="3775"></a>
             &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;3775&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
-            over the Bridge of <span class="sic">Sigh[sic]</span><span class="corr corrtoggle">Sighs</span> — must not for-
+            over the Bridge of <span class="sic">Sigh[sic]</span> — must not for-
             <br><a name="3776"></a>
             &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;3776&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
             get the Library &amp; the old Globe with
@@ -13919,7 +13897,7 @@
             to the Station, &amp; after meeting some dif-
             <br><a name="3787"></a>
             &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;3787&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
-            ficulties which <span class="sic">Dominicho[sic]</span><span class="corr corrtoggle">Dominichino</span> solved by
+            ficulties which <span class="sic">Dominicho[sic]</span> solved by
             
             <br><a name="3788"></a>
             &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;3788&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
@@ -14037,7 +14015,7 @@
             a greenish city for so large. <span class="sic">Vin-
                <br><a name="3821"></a>
                &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;3821&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
-               censa[sic]</span><span class="corr corrtoggle">Vincenza</span> was linked to Padua by
+               censa[sic]</span> was linked to Padua by
             <br><a name="3822"></a>
             &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;3822&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
             the same green bands. The ploughed
@@ -14055,7 +14033,7 @@
             eye was on the look out for Verona. <span class="sic">Vi-
                <br><a name="3827"></a>
                &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;3827&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
-               censa[sic]</span><span class="corr corrtoggle">Vincenza</span> was on the lofty <span class="cancel"></span>hill — a beau-
+               censa[sic]</span> was on the lofty <span class="cancel"></span>hill — a beau-
             
             
             
@@ -14117,7 +14095,7 @@
             rain. — Dominique grows useful. We
             <br><a name="3846"></a>
             &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;3846&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
-            go at ½ past 9 in the <span class="sic">Dilligence[sic]</span><span class="corr corrtoggle">Diligence</span>.
+            go at ½ past 9 in the <span class="sic">Dilligence[sic]</span>.
             <br><a name="3847"></a>
             &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;3847&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
              
@@ -14165,7 +14143,7 @@
             were many. Indeed it
             <br><a name="3857"></a>
             &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;3857&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
-            is a <span class="sic">gardee[sic]</span><span class="corr corrtoggle">garden</span>, not run to seed, but in the very
+            is a <span class="sic">gardee[sic]</span>, not run to seed, but in the very
             
             
             
@@ -14182,7 +14160,7 @@
             between the mulbery rows. Silk is the 
             <br><a name="3861"></a>
             &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;3861&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
-            <span class="sic">principle[sic]</span><span class="corr corrtoggle">principal</span> product. At every town, the 
+            <span class="sic">principle[sic]</span> product. At every town, the 
             <br><a name="3862"></a>
             &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;3862&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
             women serve the reel &amp; untwist from
@@ -14208,7 +14186,7 @@
             
             <br><a name="3869"></a>
             &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;3869&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
-            As we pass the <span class="sic">woman[sic]</span><span class="corr corrtoggle">women</span> in big hats
+            As we pass the <span class="sic">woman[sic]</span> in big hats
             <br><a name="3870"></a>
             &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;3870&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
             look up &amp; lean on spade, pondering
@@ -14217,7 +14195,7 @@
             our appearence. The <span class="cancel"></span>harvest was in. Be-
             <br><a name="3872"></a>
             &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;3872&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
-            fore we passed into <span class="sic">Treveglio[sic]</span><span class="corr corrtoggle">Treviglio</span> we saw
+            fore we passed into <span class="sic">Treveglio[sic]</span> we saw
             <br><a name="3873"></a>
             &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;3873&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
             men flailing out the <span class="cancel"></span>grain. Shrines <em>lit</em>
@@ -14326,7 +14304,7 @@
             different points — botanic garden each point
             <br><a name="3906"></a>
             &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;3906&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
-            different. It cost 682 millions of <span class="sic">frances[sic]</span><span class="corr corrtoggle">francs</span>,
+            different. It cost 682 millions of <span class="sic">frances[sic]</span>,
             <br><a name="3907"></a>
             &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;3907&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
             Saw fine Statue of the founder, of Adam &amp; Eve,
@@ -14466,7 +14444,7 @@
          land &amp; water view are here painted.
          <br><a name="3947"></a>
          &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;3947&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
-         Groves of <span class="sic">maytle[sic]</span><span class="corr corrtoggle">myrtle</span> seem to cluster &amp; gol-
+         Groves of <span class="sic">maytle[sic]</span> seem to cluster &amp; gol-
          <br><a name="3948"></a>
          &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;3948&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
          den fruitage are reflected in the lake

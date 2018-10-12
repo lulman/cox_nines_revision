@@ -147,9 +147,14 @@
                      </p>
                      <p>
                         The journal is written mostly in brown ink on off-white paper that has taken on a bluish tint over time.
-                        Pages composed while Cox was at sea were often written first in pencil, then traced over in ink at some
-                        later time (see, for example, the 
-                        <ref target="http://people.cohums.ohio-state.edu/ulman1/SSCoxJournal/CoxZoom.cfm?file=/c/c0ff75ca-4d03-41b4-a49d-c8d8ee1d6474.jpg">first page of his initial entry</ref>).
+                        When at sea, Cox often wrote first in pencil, then at some later time traced over his text in ink,
+                        perhaps to avoid spilling or smearing ink when the seas were rough. In most places where this overwriting 
+                        occurs, it closely follows and all but obscures the pencilled text. Where the texts diverge, the differences
+                        typically consist of changes to line breaks or punctuation that do not alter meaning. Nevertheless,
+                        in order to reflect this unique palimpsest-like character of the text, we indicate passages consisting of both 
+                        pencil and ink versions in which the differences are legible with the following markings: [p&gt;] . . . [&lt;p] for 
+                        pencil and [i&gt;] . . . [&lt;i] for ink. A button in the right margin allows readers to toggle between the
+                        two versions.
                      </p>
                   </note>
                   <note type="introductory" resp="ed">
@@ -291,25 +296,25 @@
                         "And this is England! Glorious old England." 
                      </p>
                      <p rend="h3" xml:id="liverpool">Liverpool</p>
-                        <p>Cox’s entries from Liverpool convey contagious amazement: 
-                        “How can I describe my feelings at the grand illumination?” Inevitably, his impressions are 
+                        <p>Cox's entries from Liverpool convey contagious amazement: 
+                        "How can I describe my feelings at the grand illumination?" Inevitably, his impressions are 
                         filtered through his reading and cultural biases: He first introduces us to the social scene 
                         of Liverpool by describing a street urchin as a "veritable O. Twist, who in his tatters and 
-                        with a bow &amp; a touch of an apochryphal [sic] cap requested to carry the carpet bag.”
+                        with a bow &amp; a touch of an apochryphal [sic] cap requested to carry the carpet bag."
                      </p>
                      <p>
                         With a storyteller's ear for dialogue, he transcribes the speech of colorful characters: 
-                        “Soon came upon another liar. 'Waterloo Sir?' Sorry it's full Sir, I am boots there' Sir 
-                        three ships just in hrs—Victoria Hotel is near—great hotel.” With a travel writer's eye for 
+                        "Soon came upon another liar. 'Waterloo Sir?' Sorry it's full Sir, I am boots there' Sir 
+                        three ships just in hrs—Victoria Hotel is near—great hotel." With a travel writer's eye for 
                         landscape, architecture, and monuments, he provides a walking tour of Liverpool and its 
-                        environs: “The Corinthian elegance of the architecture here &amp; the neatness &amp; well 
-                        pavedness of the streets are permanent.” And with a sketchbook artist's attention to detail, 
+                        environs: "The Corinthian elegance of the architecture here &amp; the neatness &amp; well 
+                        pavedness of the streets are permanent." And with a sketchbook artist's attention to detail, 
                         he occasionally draws a sketch in the margins of the journal. 
                      </p>
                      <p rend="h3" xml:id="london">London</p>
                         <p>Arriving in London on 19 May, Cox spends his first full day, 
                         Tuesday, May 20th, visiting the famous Crystal Palace, which housed the Great Exhibition of 1851, 
-                        to view its “splendid contents.” Over the next three days, he and his companions 
+                        to view its "splendid contents." Over the next three days, he and his companions 
                         take in the Crystal Palace, an opera, the Epsom Derby, and a host of other tourist sites. They 
                         even indulge in a bit of paparazzi-style rubbernecking at royalty, seizing a chance to chase 
                         down Queen Victoria while riding in a hansom cab: "I asked the driver if it was the Queen, he 
@@ -1711,7 +1716,7 @@
                <lb/> eggs in the shell (a <hi rend="underline">la mode Anglais</hi>)
                <lb/> &amp; tea. It is my most refreshing meal
                <lb/> I tipped the End of my taste into <name type="person">Sir
-               <lb/> W Scotts</name> ‘<title level="m">M Lothian</title>’— &amp; came on
+               <lb/> W Scotts</name> '<title level="m">M Lothian</title>'— &amp; came on
                <lb/> deck where I found an air as mild
                <lb/> as that which Softly blows
                <lb/> <quote rend="blockquote">O'er Ceylon's isle</quote><ptr type="noteAnchor" target="Ceylon"/>
@@ -1721,7 +1726,7 @@
                <lb/> deck, the sailors are putting up
                <lb/> their ropes into snaky coils, the sound
                <lb/> of dishwashing romantically mingles
-               <lb/> with the ‘<quote>profound Eternal bass</quote>’<ptr type="noteAnchor" target="Pollok"/>
+               <lb/> with the '<quote>profound Eternal bass</quote>'<ptr type="noteAnchor" target="Pollok"/>
                <note resp="ed" xml:id="Pollok" anchored="true">See <title level="m">The Course of Time</title>, by Robert Pollok (1798–1827): "Great Ocean! stongest of 
                   creation's sons, / Unconquerable, unreposed, untired, / that rolled the wild, profound, eternal bass, / In nature's
                   anthem" (239).</note> of
@@ -3552,7 +3557,7 @@
                <lb/> chimes are ringing most music<seg type="softhyphen">-
                <lb/></seg>ally. Soldiers, however, were out
                <lb/> drums beating ⁓ Our vessel, the
-               <lb/> ‘<name type="ship">Languedoc</name>’ looks finely, cleanly.
+               <lb/> '<name type="ship">Languedoc</name>' looks finely, cleanly.
                <lb/> We took 1<hi rend="superscript">st</hi> class <choice><sic>births,</sic><corr>berths</corr></choice> 600 fr.
                <lb/> for all.—
             </p>
@@ -3592,7 +3597,7 @@
                <lb/> without difficulty,—stopped at
                <lb/> the Hotel <hi rend="underline"><choice><sic>Des</sic><corr>de</corr></choice> Londies</hi>, a splendid
                <lb/> palace. <name type="person">Julia</name> said
-                     ‘<q>this was just
+                     '<q>this was just
                <lb/> her idea of the old Italian palaces,
                <lb/> black &amp; white marble floors.—
                <lb/> painted ceilings, rich canopys
@@ -6076,7 +6081,7 @@
              <lb/> &amp; the Officer sent by the Prime 
              <lb/> Minister  "<q><hi rend="underline">to go to hell</hi>, that they
              <lb/> brought the <choice><sic>Gaiours</sic><corr>Giaours</corr></choice>  
-                <ptr type="noteAnchor" target="C16"/><note resp="ed" xml:id="C16" anchored="true">See Cox’s fuller version of this
+                <ptr type="noteAnchor" target="C16"/><note resp="ed" xml:id="C16" anchored="true">See Cox's fuller version of this
                      scolding in <title level="m">A Buckeye Aboard</title> (220–221).</note> here; that 
              <lb/> the time was <choice><sic>Ramadzin</sic><corr>Ramadan</corr></choice></q>" — a 
              <lb/> holy month, in which the <name type="nationality">Turks</name>
