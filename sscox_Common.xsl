@@ -122,6 +122,9 @@
                            <li><a href="./appendices-CoxZoomIndex.html">Images of the MS Pages</a></li>
                            <li><a href="./appendices-CoxRestorationHTML5.html">Restoring the MS</a></li>
                            <li><a href="./appendices-CoxTourMaps.html">Maps</a></li>
+                           <li><a href="./sscox_journal.html#worksCited">Works Cited</a></li>
+                           <li><a href="./sscox_journal.html#revHistory">Revision History</a></li>
+                           <li><a href="./appendices-Acknowledgements.html">Acknowledgements</a></li>
                            <li><a href="./appendices-aboutEditors.html">About the Editors</a></li>
                         </ul>
                      </li>
@@ -335,11 +338,17 @@
             <!-- END THE VERTICAL IMAGE BAR -->
             <!-- START RIGHT MENU -->   
             <div id="viewMenu">
-               <p class="aboutView"><a href="./sscox_journal.html#view">About this page.</a></p>
+               <p class="aboutView"><a href="#View">About this page.</a></p>
                <div class="container">
                   <p class="font-size-label">Font Size <button id="up">+</button> <button id="down">-</button></p>
                   <!--<p id="font-size"></p>-->
                   <p><button>Switch between Cox's original pencilled text and overwritten penned text.</button></p>
+
+                  <p>
+                      <span class="pencil">Pencil text displayed.</span>
+                      <span class="ink inktoggle">Ink changes displayed.</span>
+                  </p>
+                                                     
                   <!-- Start NINES Widget -->
                   <form method="get"
                      style="font-size-adjust:none;font-style:normal;font-variant:normal;font-weight:normal;line-height:1.231;color:#000000;"
@@ -429,7 +438,7 @@
             <p><a name="view"/><xsl:value-of select="$aboutView"/></p>
                
             <hr/>
-            <a href="#topofpage">Top of Page</a>
+            <a href="#top">Top of Page</a>
                
             <!-- Insert link to home page, creation date, and licensing statement.-->
             <p align="left">
@@ -591,7 +600,18 @@
    <!-- Unclear passages. -->
    <xsl:template match="tei:unclear"> [<xsl:apply-templates/>?] </xsl:template>
 
-   <!-- Distinguish between Cox's original pencil and overwritten ink. -->
+   <!-- Alternate between Cox's original pencil and overwritten ink. -->
+   
+   <xsl:template match="tei:app/tei:lem">
+      <span class="pencil"><xsl:apply-templates/></span>
+   </xsl:template>
+   
+   <xsl:template match="tei:app/tei:rdg">
+      <span class="ink inktoggle"><xsl:apply-templates/></span>
+   </xsl:template>
+      
+   <!-- Original encoding indicating pencil and ink in displayed text -->
+<!--   
    <xsl:template match="tei:app/tei:lem">
       <span class="pencil">[p&gt;]<xsl:apply-templates/>[&lt;p]</span>
    </xsl:template>
@@ -599,6 +619,8 @@
    <xsl:template match="tei:app/tei:rdg">
       <span class="ink inktoggle">[i&gt;]<xsl:apply-templates/>[&lt;i]</span>
    </xsl:template>
+--> 
+   
    
 <!--  NOT USED IN THIS EDITION
       

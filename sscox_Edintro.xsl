@@ -464,7 +464,7 @@
             <p><a name="view"/>Text on this page is derived from the
                edition's XML source document, <a href="sscox_journal.xml">sscox_journal.xml</a>.</p>
             <hr/>
-      <p>&#x2192; <a href="./sscox-by-entry.html">Link to the text of the journal</a>.
+      <p>&#x2192; <a href="./sscox_journal-by-entry.html">Link to the text of the journal</a>.
             </p>
    </xsl:element> <!-- END maintext -->
             <script src='http://cdnjs.cloudflare.com/ajax/libs/jquery/2.1.3/jquery.min.js'></script>
