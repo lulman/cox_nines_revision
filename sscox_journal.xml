@@ -1,3 +1,4 @@
+<?xml-model href="sscox_Current.rnc" type="application/relax-ng-compact-syntax"?>
 <TEI xmlns="http://www.tei-c.org/ns/1.0" xml:lang="en" xmlns:hlu="http://www.osu.edu/ulman/reliablewitnesses/ns/1.0">
       
    <teiHeader ana="AACR2">
@@ -23,7 +24,7 @@
             <editor role="editor">Mike Liddy</editor>
             <editor role="editor">Nick Long</editor>
             <editor role="editor">Jennifer Lee Schneider</editor>
-            <editor role="principal editor"><persName ref="HLU">H. Lewis Ulman</persName></editor>
+            <editor role="principalEditor"><persName ref="HLU">H. Lewis Ulman</persName></editor>
             <editor role="editor">Victoria R. Urban</editor>
             <editor role="editor">Derrick Whan</editor>
             <editor role="editor">Derek Craig Zoladz</editor>
@@ -149,9 +150,9 @@
                         perhaps to avoid spilling or smearing ink when the seas were rough. In most places where this overwriting 
                         occurs, it closely follows and all but obscures the pencilled text. Where the texts diverge, the differences
                         typically consist of changes to line breaks or punctuation that do not alter meaning. Nevertheless,
-                        in order to reflect this unique palimpsest-like character of the text, we indicate passages consisting of both 
-                        pencil and ink versions in which the differences are legible with the following markings: [p&gt;] . . . [&lt;p] for 
-                        pencil and [i&gt;] . . . [&lt;i] for ink. A button in the right margin allows readers to toggle between the
+                        in order to reflect this unique palimpsest-like character of the text, we encode passages consisting of both 
+                        pencil and ink versions in which differences are legible<!-- with the following markings: [p&gt;] . . . [&lt;p] for 
+                        pencil and [i&gt;] . . . [&lt;i] for ink-->. For those cases, a button in the right margin allows readers to toggle between the
                         two versions.
                      </p>
                   </note>
@@ -788,7 +789,7 @@
    <text>
       <body>
          
-         <div type="FrontCover" xml:id="CoxFrontCover">
+         <div type="endpaper" xml:id="CoxFrontCover">
             <pb facs="SSCox_001"/>
             <p>
                <unclear reason="Title scratched into leather binding">
@@ -803,7 +804,7 @@
             <!-- Proofed 20080619 by HLU/ED -->
             
          </div>
-         <div type="Note" xml:id="CoxFrontNote">
+         <div type="endpaper" xml:id="CoxFrontNote">
          <pb facs="SSCox_004"/>
             <p>
             <figure rend="link">
@@ -819,7 +820,7 @@
             <p>[Penciled note on endpaper is too faint to read. It may have been erased.]</p>
             
          </div>
-         <div type="TitlePage" xml:id="CoxTitlePage">
+         <div type="endpaper" xml:id="CoxTitlePage">
          <pb facs="SSCox_005"/>
             
             <!-- Check for faint recoverable notes on this page. -->
@@ -844,7 +845,7 @@
             <!-- Proofed 20080619 by HLU/ED -->
             
          </div>
-         <div type="Log" xml:id="CoxAsiaLog">
+         <div type="Entry" xml:id="CoxAsiaLog">
          <pb facs="SSCox_006"/>
             
             <head> Log of the <name type="ship">Asia</name>
@@ -971,8 +972,21 @@
                         <lem wit="#Cox1851a">May 7, 1851.</lem>
                         <rdg wit="#Cox1851b">May 7/51.</rdg>
                      </app>
-                  </date>                  
-                     </dateline>
+                  </date>
+                  <ptr type="noteAnchor" target="penink"/>
+                  <note resp="ed" xml:id="penink" anchored="true">The text of Cox's journal contains
+                     sections written in pencil, sections written in ink, and sections in which text
+                     written originally in pencil is overwritten (and, in a very few cases, altered)
+                     in ink. Based on the headings and content of the journal entries, we assume
+                     that the original text of Cox's journal was written in pencil when he was
+                     onboard a ship at sea (perhaps to avoid spilling ink) and in ink when he was on
+                     land or on a ship lying at anchor. The penciled passages overwritten in ink
+                     were presumably composed at sea and overwritten later, perhaps to create a copy
+                     less prone to fading. Because the pencil and superimposed ink copies of
+                     passages vary so little, we have not indicated the differences in the displayed
+                     text, but differences between the pencil and ink text have been encoded, and we
+                     provide a button allowing readers to display each version.</note>
+                 </dateline>
               </opener> 
             <p> 
             
@@ -3084,7 +3098,7 @@
             </p>
          </div>
                            
-         <div xml:id="Cox18510527a" type="entry">
+         <div xml:id="Cox18510527a" type="Entry">
                <opener>
                  <lb/>
                   <dateline>
@@ -3259,7 +3273,7 @@
                       <lb/>flowers at <name type="town">Vienne</name>—pressed them.</add>                      
                      </p>
                     </div>
-         <div xml:id="Cox18510529a" type="entry">
+         <div xml:id="Cox18510529a" type="Entry">
     <lb/>
   <opener><dateline>
    <date when="1851-05-29">Thursday Morning —</date>
@@ -7006,7 +7020,7 @@
             
             <pb facs="SSCox_165"/>
          </div>
-         <div xml:id="Cox18510718a" type="entry"> 
+         <div xml:id="Cox18510718a" type="Entry"> 
             <opener> 
                <lb/>
                <dateline>
@@ -7149,7 +7163,7 @@
          
          <pb facs="SSCox_169"/>
          
-         <div type="Note" xml:id="CoxBackNote">
+         <div type="endpaper" xml:id="CoxBackNote">
             <p>
               <lb/> 05059
               <lb/> Letter — <del type="recoverable" rend="overstrike">Piedm</del> Lombardy
@@ -7161,7 +7175,7 @@
          
          <pb facs="SSCox_170"/>
          
-         <div type="pageImage" xml:id="CoxEndpaperInside">
+         <div type="endpaper" xml:id="CoxEndpaperInside">
             <p>
                <lb/> [Inside of paste-down endpaper] 
             </p>
@@ -7169,7 +7183,7 @@
          
          <pb facs="SSCox_171"/>
          
-         <div type="pageImage" xml:id="CoxBackCoverInside">
+         <div type="endpaper" xml:id="CoxBackCoverInside">
             <p>
                <lb/> [Inside of back cover] 
             </p>
@@ -7177,7 +7191,7 @@
          
          <pb facs="SSCox_172"/>
          
-         <div type="pageImage" xml:id="CoxBackCover">
+         <div type="endpaper" xml:id="CoxBackCover">
             <p>
                <lb/> [Outside of back cover] 
             </p>
