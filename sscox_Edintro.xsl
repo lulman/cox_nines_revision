@@ -203,7 +203,7 @@
                         <button class="modalb close" onclick="document.getElementById('myModal1').style.display='none'">[Close]</button>
                         <img class="modal-content" id="img1" src="image_sscox_portrait.jpg" alt="Portrait of Samuel Sullivan Cox, (undated). Courtesy of ?????."/>
                         <div id="caption1">
-                           Portrait of Samuel Sullivan Cox, (undated).<br/>Courtesy of ?????.
+                           Portrait of Samuel Sullivan Cox, (undated).
                         </div>
                      </div> <!-- End myModal1 -->
                </div> <!-- End display1 -->
@@ -216,7 +216,7 @@
                      <button class="modalb close" onclick="document.getElementById('myModal2').style.display='none'">[Close]</button>
                      <img class="modal-content" id="img2" src="image_sscox_1854_DecorativeTitle.jpg" alt="Decorative Title Page of A Buckeye Abroad (1854)"/>
                      <div id="caption2">
-                        Decorative Title Page of A Buckeye Abroad (1854).<br/>Publisher? City?.
+                        Decorative Title Page of A Buckeye Abroad (1854).
                      </div>
                   </div> <!-- End myModal2 -->
                   <script>		
@@ -251,7 +251,7 @@
                         <button class=" modalb close" onclick="document.getElementById('myModal3').style.display='none'">[Close]</button>
                         <img class="modal-content" id="img3" src="image_sscox_rmsAsia.jpg" alt="RMS Asia (Source)"/>
                         <div id="caption3">
-                           RMS Asia<br/>Source
+                           Royal Mail Steamship Asia<br/>New York: N. Currier, 1851<br>Library of Congress https://www.loc.gov/pictures/item/2001704213/</br>
                         </div>
                      </div> <!-- End myModal3 -->
                      <script>
