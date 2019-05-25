@@ -203,7 +203,7 @@
                         <button class="modalb close" onclick="document.getElementById('myModal1').style.display='none'">[Close]</button>
                         <img class="modal-content" id="img1" src="image_sscox_portrait.jpg" alt="Portrait of Samuel Sullivan Cox, (undated). Courtesy of ?????."/>
                         <div id="caption1">
-                           Portrait of Samuel Sullivan Cox, (undated).
+                           Portrait of Samuel Sullivan Cox, undated.<br>Frontispiece. Cox and Northrup, 1899</br>
                         </div>
                      </div> <!-- End myModal1 -->
                </div> <!-- End display1 -->
@@ -216,7 +216,7 @@
                      <button class="modalb close" onclick="document.getElementById('myModal2').style.display='none'">[Close]</button>
                      <img class="modal-content" id="img2" src="image_sscox_1854_DecorativeTitle.jpg" alt="Decorative Title Page of A Buckeye Abroad (1854)"/>
                      <div id="caption2">
-                        Decorative Title Page of A Buckeye Abroad (1854).
+                        Decorative Title Page<br><cite>A Buckeye Abroad</cite>. Cincinnati: Moore, Anderson, 1854</br>
                      </div>
                   </div> <!-- End myModal2 -->
                   <script>		
@@ -288,7 +288,7 @@
                         <button class="modalb close" onclick="document.getElementById('myModal4').style.display='none'">[Close]</button>
                         <img class="modal-content" id="img4" src="image_sscox_illus_PoetsCorner.jpg" alt="Drawing of a sorghum mill."/>
                         <div id="caption4">
-                           Illustration from <cite>A Buckeye Abroad</cite> (1854)<br/>Publisher, place, date?
+                           Illustration from <cite>A Buckeye Abroad</cite><br/>Cincinnati: Moore, Anderson, 1854.
                         </div> <!-- End myModal4 -->
                         <script>
                            
@@ -325,7 +325,7 @@
                               <button class="modalb close" onclick="document.getElementById('myModal5').style.display='none'">[Close]</button>
                               <img class="modal-content" id="img5" src="image_sscox_illus_Pompeii.jpg" alt="Notice in Newark Advocate for 15 August 1862 of a war meeting"/>
                               <div id="caption5">
-                                 Illustration from <cite>A Buckeye Abroad</cite> (1854)
+                                 Illustration from <cite>A Buckeye Abroad</cite> <br>Cincinnati: Moore, Anderson, 1854</br>
                               </div>
                            </div> <!-- End myModal5 -->
                            <script>
