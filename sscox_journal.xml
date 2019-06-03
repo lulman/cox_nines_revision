@@ -49,18 +49,21 @@
          </titleStmt>
          
          <editionStmt>
-            <p>1st Edition.</p>
+            <p>First Edition</p>
          </editionStmt>
          
          <extent>approx. 421 kilobytes </extent>
          
-         <publicationStmt><publisher>The Ohio State University Library. <address>
+         <publicationStmt>
+            <publisher>The Ohio State University Library. <address>
                   <addrLine n="1">Rare Books and Manuscripts Library</addrLine>
                   <addrLine n="2">327 Main Library</addrLine>
                   <addrLine n="3">1858 Neil Avenue Mall</addrLine>
                   <addrLine n="4">Columbus, OH 43210</addrLine>
                </address>
-            </publisher><pubPlace>Columbus, OH</pubPlace><idno type="CallNumber">XRAR7766532</idno>
+            </publisher>
+            <pubPlace>Columbus, OH</pubPlace>
+            <idno type="CallNumber">XRAR7766532</idno>
             
             <availability>
                <p>The Samuel Sullivan Cox journal is the property of the Rare Books and Manuscripts
@@ -94,6 +97,8 @@
                      acknowledge such ownership. The Ohio State University holds copyright to 
                      all images of manuscript pages used in the edition.</p>
                </publicationStmt>
+       
+               <!-- Is there a corresponding figure? -->   
                
                <notesStmt>
                   <note type="descriptive" resp="ed">
