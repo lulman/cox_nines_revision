@@ -25,6 +25,7 @@
       #navBar {
       position: fixed;
       top: 120px;
+      width: 150px;
       float : left;
       text-align : left;
       /* margin-left: 10px; */
@@ -41,7 +42,7 @@
       .close {
       position: absolute;
       top: 90px;
-      right: 260px;
+      right: 255px;
       color: #f1f1f1;
       font-size: 36px;
       font-weight: bold;
@@ -51,7 +52,7 @@
       .description {
       position: absolute;
       top: 90px;
-      right: 650px;
+      right: 655px;
       color: #f1f1f1;
       font-size: 16px;
       font-weight: bold;
