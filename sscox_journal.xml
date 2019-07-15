@@ -778,16 +778,16 @@
          
       </profileDesc>
       <revisionDesc xml:id="CoxRevisionHistory">
-         <change><date>2018-08-??</date><label>Principal editor</label><name>H. Lewis Ulman</name>Revision of encoding to align with design peer-reviewed by NINES.</change>
-         <change><date>2011-08-11</date><label>Principal editor</label><name>H. Lewis Ulman</name>Final editing of bibliography and XSL style sheets.</change>
-         <change><date>2011-01-14</date><label>Principal editor</label><name>H. Lewis Ulman</name>Removal of the unfinished audio version of the edition; proofing of annotations
+         <change><date>2018-08-??</date><label>Principal editor</label><persName>H. Lewis Ulman</persName>Revision of encoding to align with design peer-reviewed by NINES.</change>
+         <change><date>2011-08-11</date><label>Principal editor</label><persName>H. Lewis Ulman</persName>Final editing of bibliography and XSL style sheets.</change>
+         <change><date>2011-01-14</date><label>Principal editor</label><persName>H. Lewis Ulman</persName>Removal of the unfinished audio version of the edition; proofing of annotations
                and bibliography.</change>
-         <change><date>2009-07-31</date><label>Principal editor</label><name>H. Lewis Ulman</name>Minor editorial corrections to the introduction and encoding.</change>
-         <change><date>2009-04-28</date><label>Principal editor</label><name>H. Lewis Ulman</name>Completed proofing of transcription, began revising annotations (ongoing).</change>
-         <change><date>2008-07-02</date><label>Principal editor and research assistant</label><name>H. Lewis Ulman and Envera Dukaj</name>Proofed transcription of entries through May 28, 1851.</change>
-         <change><date>2008-04-01</date><label>Principal editor</label><name>H. Lewis Ulman</name>Updated links to the Colleges of Arts and Sciences image server from https://arwen.asc.ohio-state.edu/ to https://images.asc.ohio-state.edu/.</change>
-         <change><date>2007-03-16</date><label>Principal editor</label><name>H. Lewis Ulman</name>Corrections to transcription and encoding throughout. Revision of general introduction.</change>
-         <change><date>2007-03-13</date><label>Editors</label><name>The editors</name>Initial release.</change>
+         <change><date>2009-07-31</date><label>Principal editor</label><persName>H. Lewis Ulman</persName>Minor editorial corrections to the introduction and encoding.</change>
+         <change><date>2009-04-28</date><label>Principal editor</label><persName>H. Lewis Ulman</persName>Completed proofing of transcription, began revising annotations (ongoing).</change>
+         <change><date>2008-07-02</date><label>Principal editor and research assistant</label><persName>H. Lewis Ulman and Envera Dukaj</persName>Proofed transcription of entries through May 28, 1851.</change>
+         <change><date>2008-04-01</date><label>Principal editor</label><persName>H. Lewis Ulman</persName>Updated links to the Colleges of Arts and Sciences image server from https://arwen.asc.ohio-state.edu/ to https://images.asc.ohio-state.edu/.</change>
+         <change><date>2007-03-16</date><label>Principal editor</label><persName>H. Lewis Ulman</persName>Corrections to transcription and encoding throughout. Revision of general introduction.</change>
+         <change><date>2007-03-13</date><label>Editors</label><persName>The editors</persName>Initial release.</change>
       </revisionDesc>
    </teiHeader>
    
@@ -857,7 +857,7 @@
                <ptr type="noteAnchor" target="N320Asia"/><note resp="ed" xml:id="N320Asia" anchored="true">
                The <name type="ship">Asia</name> was built in <date>1850</date> 
                for the <orgName>British and North American Royal Mail Steam Packet Company</orgName>
-               (renamed the <orgName>Cunard Steam Ship Co. Ltd.</orgName> in 1878) by <name>R. Steele &amp; Son</name>
+               (renamed the <orgName>Cunard Steam Ship Co. Ltd.</orgName> in 1878) by <orgName>R. Steele &amp; Son</orgName>
                of Greenock, Scotland. It was a wooden-hulled paddlewheeler, 266 feet long by 40 wide, with a gross tonnage of 2,226 
                and an indicated horse-power 2,150, making it, along with its sister ship
                <name type="ship">Africa</name> (built by Steele &amp; Son the same year), the largest ship at the time 
@@ -2070,7 +2070,7 @@
 
                <lb/> We saw the piles &amp; place for
                <lb/> the new harbour at <placeName>Holyhead</placeName>
-               <lb/> for the <del type="unrecoverble" rend="overwritten"/><name type="business">Cunard</name> line. The tide
+               <lb/> for the <del type="unrecoverble" rend="overwritten"/><orgName type="business">Cunard line</orgName>. The tide
                <lb/> was strong against us; &amp;
                <lb/> yet continues. We took a pilot
                <lb/> aboard, who gave us a news<seg type="softhyphen">-
@@ -2207,7 +2207,7 @@
              </p>
              
              <p>                 
-             <lb/> <name type="hotel">Waterloo</name> is reached. Ladies stood
+             <lb/> <placeName type="hotel">Waterloo</placeName> is reached. Ladies stood
              <lb/> ready to usher us in—took our names,
              <lb/> <persName>Julia</persName> ordered rooms, &amp; soon we
              <lb/> were so cosily fixed.
@@ -2296,7 +2296,7 @@
                      <lb/></seg>tecture. The Corinthian is predomi<seg type="softhyphen">-
                      <lb/></seg>nant. The capitals have so much
                      <lb/> Elegant tracery. Passed a street
-                      <lb/> called "<name type="street">Roscoe</name>,"
+                      <lb/> called "<placeName type="street">Roscoe</placeName>,"
                <ptr type="noteAnchor" target="Roscoehist"/><note resp="ed" xml:id="Roscoehist" anchored="true">This street was named after <persName>William Roscoe</persName>
                       (1783-1851), who was a Liverpool lawyer, historian, writer and philanthropist.
                       </note> 
@@ -2312,8 +2312,8 @@
                       <lb/> (horrible!) It was the grave 
                       <lb/> yard of a Solitary Chapel, upon 
                       <lb/> the side hill. Soon we saw the
-                      <lb/> shipping, with the <name> "Washington,"</name>
-                      <lb/> &amp; <abbr rend="General">Gen</abbr> Washingtons figure at the 
+                      <lb/> shipping, with the <persName> "Washington,"</persName>
+                      <lb/> &amp; <persName><choice><abbr>Gen</abbr><expan>General</expan></choice> Washingtons</persName> figure at the 
                       <lb/> head — Then following the rush 
                       <lb/> of people, saw the ferries leave for
                       <lb/> the different points. Quite a 
@@ -4471,7 +4471,7 @@
                <lb/> heads of Artists — Splendid room,
                <lb/> Cannon ball struck it.  We passed 
                <lb/> out of it regretfully, apast the 
-               <lb/> <placeName type="landmark">baths of <name>Constantine</name></placeName> used as Stables
+               <lb/> <placeName type="landmark">baths of <persName>Constantine</persName></placeName> used as Stables
                <lb/> up — up — admist oranges &amp; lemon
                <lb/> to the old <placeName>temple of the Sun</placeName>; got 
                <lb/> a piece of it &amp; a Scolding from
@@ -4487,14 +4487,14 @@
                <lb/> <persName>Guido's</persName> 
                morning — "Aurora" on
                <lb/> the wall fresco — Copies (515 of 
-               <lb/> <name type="author">Murray</name>) not much else. Then 
+               <lb/> <persName type="author">Murray</persName>) not much else. Then 
                <lb/> came home to dine. ⁓
             </p>
             <p>
                <lb/> After dinner, drove to the
                <lb/> splendid little gem of the <placeName>Tor<seg type="softhyphen">-
                <lb/></seg>lioni Villa</placeName>. Saw ruins aplenty
-               <lb/> of <name type="period">Rev. of 1848</name>; but the sweetest
+               <lb/> of Rev. of 1848; but the sweetest
                <lb/> house. The painter's &amp; bed room
                <lb/> took me.. Could not — but <persName>Julia</persName>
                <lb/> can describe it. Left it reluc<seg type="softhyphen">-
@@ -5238,7 +5238,7 @@
                <lb/> them.  We pass under the guns of the
                <lb/> fort; are soon sorrounded with boats.
                <lb/> Such a jabber as they &amp; the hands on deck
-               <lb/> make. <name type="nationality">French</name>, you see! At breakfast
+               <lb/> make. French, you see! At breakfast
                <lb/> we were deserted by green almonds, yellow
                <lb/> <del type="recoverable" hand="#SSC" rend="overstrike">nectar</del>
                      <del type="unrecoverable" rend="overwritten"/>apricots, cherries, ripe pears. 
@@ -5258,8 +5258,8 @@
                <lb/></seg>ple her with these creations of the brain
                <lb/> Her first inhabitants were from <placeName type="region">Spain</placeName>.
                <lb/> It was successively held by Saraceus,
-               <lb/> <name type="nationality">Turks</name>, <name type="nationality">Spaniards</name>, 
-                     <name type="nationality">French</name>, <name type="nationality">Austrians</name>.  The 
+               <lb/> Turks, Spaniards, 
+                     French, Austrians.  The 
                <lb/> Bourbon house was replaced upon the
                <lb/> throne in 1820 I think; &amp; after the
                <!-- Bourbon house fell in July 1830 revolution. Annotate? -->
@@ -5283,7 +5283,7 @@
                <lb/> our boat <hi rend="underline">afire</hi>! The sail was
                <lb/> blazing. I did not know what to
                <lb/> halloo, — so I told <del type="unrecoverable" hand="#SSC" rend="overstrike"/> our 
-                     <name type="nationality">English</name>
+                     English
                <lb/> friend &amp; he sung, <foreign xml:lang="fre"><hi rend="underline">feu</hi></foreign>! The sailors
                <lb/> leaped into the rigging, tore the sails, &amp;
                <lb/> with the aid of water, <persName>Lucy's</persName> fears
@@ -5297,7 +5297,7 @@
                <lb/> paid us $160. too much in gold. The
                <lb/> banking house is away up in a
                <lb/> steeple of a Church, not so high as
-               <lb/> <placeName type="landmark">Vesuvius</placeName>. The <name type="nationality">Italians</name> are totally un<seg type="softhyphen">
+               <lb/> <placeName type="landmark">Vesuvius</placeName>. The Italians are totally un<seg type="softhyphen">
                <lb/></seg>fit for business. Fond of pleasure, &amp;
                <lb/> irresponsible even for their souls, they
                <lb/> commit them to the priests, &amp; live to
@@ -5339,7 +5339,7 @@
                <lb/> <placeName>Naples</placeName> is hopelessly enslaved
                <lb/> politically. The King has such forts &amp;
                <lb/> arms as to preclude all resistance.
-               <lb/> Another <name><choice><sic>Mansaniella</sic><corr>Masaniello</corr></choice></name> may arise
+               <lb/> Another <persName><choice><sic>Mansaniella</sic><corr>Masaniello</corr></choice></persName> may arise
                <lb/> out of the fishing craft, &amp; for a time
                <lb/> assert the supremacy of the people;
                <lb/> but <placeName type="country">Austria</placeName> is ever ready to help
@@ -5430,7 +5430,7 @@
                <lb/> and rare.
             </p><p>
                <lb/> We also visited the Armory, which has
-               <lb/> 17,000 stand of <name type="nationality">British</name> arms, — Above are
+               <lb/> 17,000 stand of British arms, — Above are
                <lb/> ranged the armors of the Knightly retainers,
                <lb/> &amp; at either end are the full length armors
                <lb/> of some of the Grand Masters curiously
@@ -5794,12 +5794,12 @@
                <lb/>
                <opener>
                   <dateline>
-                      <name type="City">
+                      <placeName type="City">
                          <app xml:id="T6679">
                            <lem wit="#Cox1851a">Smyrna,</lem>
                            <rdg wit="#Cox1851b"><witStart/>Smyrna <placeName type="region">Asia</placeName>,</rdg>
                          </app>
-                      </name>
+                      </placeName>
                      <date when="1851-06-30">
                         <app xml:id="T6682">
                           <lem wit="#Cox1851a"><date when="1851-06-30">June 30 / 51</date></lem>
@@ -5958,14 +5958,14 @@
                <lb/> was the rival of <placeName>Rhodes</placeName> 
                           &amp; <placeName>Athens</placeName>. The
                <lb/> Ancients were corrupt. Persians held
-               <lb/> it once. <name type="nationality">Venetians</name> then Mahome<seg type="softhyphen">-
-               <lb/></seg>dans, now <name type="nationality">Turks.</name> We saw Tene<seg type="softhyphen">-
+               <lb/> it once. Venetians then Mahome<seg type="softhyphen">-
+               <lb/></seg>dans, now Turks. We saw Tene<seg type="softhyphen">-
                <lb/></seg>dos also, &amp; 
                <placeName type="region">Lemnos</placeName>,—<placeName type="region">Tenedos</placeName>, where
-                <lb/> the <name type="nationality">Greeks</name> hid at <placeName>Troy</placeName>;  
+                <lb/> the Greeks hid at <placeName>Troy</placeName>;  
                            <choice><abbr>M<hi rend="superscript">t</hi></abbr><expan>Mountian</expan></choice> Athos,
                 <lb/> 4000 <choice><abbr>ft</abbr><expan>feet</expan></choice> high towered up beyond
-                <lb/> <name type="island"/>Lemnos, from the point of Turkish
+                <lb/> <placeName type="island"/>Lemnos, from the point of Turkish
                <lb/> promontory. Soon we weathered
                
                <!-- Proofed 20080818 by HLU/ED -->               
@@ -6018,11 +6018,9 @@
                <lb/> <handShift medium="pencil"/>our consul, — was very <hi rend="underline">very</hi> po<seg type="softhyphen">-
                <lb/></seg>lite. Went to the bazaars,— saw all 
                <lb/> classes in their peculiar costumes,
-               <lb/> <name type="nationality">Jews</name>, 
-               <name type="nationality">Arminians</name> &amp; 
-                         <name type="nationality">Persians</name>. The latter
+               <lb/> Jews, Arminians &amp; Persians. The latter
                <lb/> with long, sugar loaf, curly black hats;
-               <lb/> The <name type="nationality">Turks</name> take it easiest in their big
+               <lb/> The Turks take it easiest in their big
                <lb/> turbans.— Was not very well — went to 
                <lb/> bed early. <persName>Julia</persName> &amp; I both staied at
                <lb/> home in <choice><abbr>Evg</abbr><expan>Evening</expan></choice>.         
@@ -6043,8 +6041,7 @@
              <lb/> some time for a firman which our
              <lb/> Consul who had <add place="supralinear">called—</add>promised us and
              <lb/> in connection with several others —
-             <lb/> <name type="nationality">French,</name> <name type="nationality">Jews</name>, 
-             &amp; <name type="nationality">English</name> we started 
+             <lb/> French, Jews, &amp; English we started 
              <lb/> for <placeName>Constantinople</placeName> proper — crossed
              <lb/> in one of the neat long painted punts
              <lb/> the <placeName type="region">Golden Horn</placeName>—; waited a long 
@@ -6077,7 +6074,7 @@
                <lb/> with the green architecture in 
                <lb/> multiform beauty on every side
                <lb/> the walls were greened; the walls
-               <lb/> beflowered: the kind <name type="nationality">Turks</name> per<seg type="softhyphen">-
+               <lb/> beflowered: the kind Turks per<seg type="softhyphen">-
                <lb/></seg>mitted <persName>Julia</persName> to carry away a 
                <lb/> fine boquet. We then went to the 
                <lb/> National Armory. The arms are
@@ -6087,7 +6084,7 @@
              
              <pb facs="SSCox_142"/>
              
-             <lb/> of the <name type="nationality">Turks</name>, pointing like the
+             <lb/> of the Turks, pointing like the
              <lb/> minarets. Old arms were there,
              <lb/> Old Turkish Knights in armor.
              <lb/> We then started for the mosques..
@@ -6101,7 +6098,7 @@
                 <ptr type="noteAnchor" target="C16"/><note resp="ed" xml:id="C16" anchored="true">See Cox's fuller version of this
                      scolding in <title level="m">A Buckeye Aboard</title> (220–221).</note> here; that 
              <lb/> the time was <choice><sic>Ramadzin</sic><corr>Ramadan</corr></choice></q>" — a 
-             <lb/> holy month, in which the <name type="nationality">Turks</name>
+             <lb/> holy month, in which the Turks
              <lb/> fast &amp; sleep all day; &amp; smoke
              <lb/> &amp; eat all night. He Whipped
              <lb/> the firman — We left. —!
@@ -6132,7 +6129,7 @@
               <lb/></seg>er is farther down. Our carriage
               <lb/> (they are rare, are carriages,)
               <lb/> drove down to the next palace —
-              <lb/> Then up upon the <name type="nationality">Jews'</name> buryground,
+              <lb/> Then up upon the Jews' buryground,
               <lb/> white  with tombs — <hi rend="underline"><foreign xml:lang="lat"><unclear cert="medium" resp="#HLU">Quod quie</unclear></foreign></hi> — (Jewish
               <lb/> custom, rise in Jehoshaphat.) There are
                <!-- Need help from someone who reads Latin: what is he trying to write? -->
@@ -6146,7 +6143,7 @@
               <lb/> cast lent a charm ineffable
               <lb/> to the view, under the golden sun
               <lb/> setting. The first <del type="recoverable" hand="#SSC" rend="overstrike">church</del> 
-             <add place="supralinear">mosque</add> of the <name type="nationality">Turks</name>
+             <add place="supralinear">mosque</add> of the Turks
               <lb/> was upon this hill; It commemorates
               <lb/> the first prayer said, by the fol<seg type="softhyphen">-
               <lb/></seg>lowers of the Prophet in this
@@ -6214,8 +6211,7 @@
                <lb/> as to the Courts — as to the consti<seg type="softhyphen">-
                <lb/></seg>tution — laws of property, free &amp;
                <lb/> mortgaged; — as to the political 
-               <lb/> movements, <name type="nationaliry">Russian</name> 
-              &amp; <name type="nationality">French</name>,
+               <lb/> movements, Russian &amp; French,
                <lb/> &amp; as to things to be bought.
                
             </p>
@@ -6717,9 +6713,9 @@
                <lb/>were filled with <choice><sic>ga<del type="recoverable" rend="overwritten">y</del>i<del type="recoverable" rend="overwritten">tey</del>ly</sic><corr>gaily</corr></choice> dressed people.
                <lb/>The ladies here are very handsome,
                <lb/>the <abbr rend="Gentlemen">gent.</abbr> well dressed. It was a singular
-               <lb/>sight, to see <name type="nationality"><hi rend="underline">Germans</hi></name> &amp; <name type="nationality">Italians</name>, 
+               <lb/>sight, to see <hi rend="underline">Germans</hi> &amp; Italians, 
                Rus<seg type="softhyphen">-
-               <lb/></seg>sian Soldiers &amp; <name type="nationality">Austrian</name>, peasants &amp;
+               <lb/></seg>sian Soldiers &amp; Austrian, peasants &amp;
                <lb/>merchants, all mingling in the shouts &amp;
                <lb/>Joy of a Sunday night.  <hi rend="underline">Where is God?</hi>
                <lb/><hi rend="underline">Where is Religion?</hi> It seems to be a negative
@@ -7029,7 +7025,7 @@
             <opener> 
                <lb/>
                <dateline>
-                  <name type="lake">Como Lake</name>.
+                  <placeName type="lake">Como Lake</placeName>.
                   <date when="1851-07-18">July 18/51</date>.
                </dateline>
             </opener>             
@@ -7064,7 +7060,7 @@
                <lb/>Groves of <choice><sic>maytle</sic><corr>myrtle</corr></choice> seem to cluster &amp; gol<seg type="softhyphen">-
                <lb/></seg>den fruitage are reflected in the <rs type="lake">lake</rs>
                <lb/>near perpendicular strata. The chimes
-               <lb/>are rung from the city. <name type="lake">Como</name> seems to be 
+               <lb/>are rung from the city. <placeName type="lake">Como</placeName> seems to be 
                <lb/>in the lake, so low in its green setting.
                <lb/>We reach the point; the <placeName type="building">Villa</placeName> is at the
                
