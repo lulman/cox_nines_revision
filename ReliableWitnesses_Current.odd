@@ -50,6 +50,7 @@
         <moduleRef key="tei"/>
         <moduleRef key="header"/>
         <moduleRef key="textstructure"/>
+        
         <!-- optional modules: -->
         <moduleRef key="namesdates"/>
         <moduleRef key="transcr" include="handNotes handShift supplied fw damage subst"/>
@@ -59,6 +60,7 @@
         <moduleRef key="figures" include="cell figDesc figure formula row table"/>
         <moduleRef key="textcrit"/>
         <moduleRef key="analysis" include="ana"></moduleRef>
+        
         <!-- The <elementSpec> is used to make changes to content
              models, to delete unwanted elements from modules included
              above, or to add and delete attributes from a specific
@@ -91,11 +93,13 @@
              this element. This will eliminate any documentation
              associated with the element, any additional attributes
              the element may carry, etc. -->
+        
         <elementSpec ident="pb" mode="change" module="core">
           <attList>
             <attDef ident="facs" usage="req" mode="change"></attDef>
           </attList>
         </elementSpec>
+        
         <elementSpec ident="div" mode="change" module="textstructure">
           <!-- This <elementSpec> is for making a change to (an)
              attribute(s), for instance to designate a specific
@@ -145,6 +149,7 @@
             </attDef>
           </attList>
         </elementSpec>
+        
         <!--<elementSpec ident="itinerary" ns="http://www.osu.edu/ulman/reliablewitnesses/ns/1.0"
           mode="add">
           <desc>provides structured information about an itinerary</desc>
@@ -165,6 +170,7 @@
             <p>Only intended for airports with 1 runway.</p>
           </remarks>
         </elementSpec>-->
+        
       </schemaSpec>
     </body>
   </text>
