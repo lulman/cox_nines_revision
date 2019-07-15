@@ -583,9 +583,43 @@
                      <title level="m">South Seas Companion</title>. National Library of Australia. http://nla.gov.au/nla.cs-ss-biogs-P000125.
                      N.d. 
                      10 Feb 2007.
-                  </bibl>
-                  
+                  </bibl>                 
                </listBibl>
+            
+            <listPerson>
+              <head>List of Selected People Mentioned in Cox's Journal</head>
+               <person xml:id="SSC" source="XXX">
+                  <persName>Cox, Samuel Sullivan</persName>
+                  <note type="biographical">Bio note about Cox.</note>
+                  <birth when="1824"><placeName></placeName></birth>
+                  <death when="1889"><placeName></placeName></death>
+                  <bibl></bibl>
+               </person>
+               
+            </listPerson>
+            
+            <listPlace>
+               <head>List of Selected Places Mentioned in Cox's Journal</head>
+               <place type="city" xml:id="NYC" source="#TGN">
+                  <placeName>New York City</placeName>
+                  <desc>They left from New York on [date].</desc>
+                  <country>United States</country>
+                  <region type="state">New York</region>
+                  <location>
+                     <geo>40.7000 -74.0000</geo>
+                  </location>
+               </place>
+               
+            </listPlace>
+            
+            <listOrg>
+               <head>List of Selected Organizations Mentioned in Cox's Journal</head>
+               <org xml:id="BNARMSPC" source="XXX">
+                  <orgName>British and North American Royal Mail Steam Packet Company</orgName>
+                  <state type="company"></state>
+                  <desc>Description of BNARMSPC.</desc>
+               </org>
+            </listOrg>
             
             <listWit>
                <witness xml:id="Cox1851a">The original text of Samuel S. Cox's journal, typically written in pencil
@@ -2326,7 +2360,7 @@
                       <lb/> the city. The water was rushing
                       <lb/> at a great rate into the <placeName type="river">Mersey</placeName>
                       <lb/> from them. Turning up we
-                      <lb/> <choice><sic>past</sic><corr>passed</corr></choice> <name type="nationality">Maltese</name> Sailors &amp; all sorts
+                      <lb/> <choice><sic>past</sic><corr>passed</corr></choice> Maltese Sailors &amp; all sorts
            
            <!-- Proofed 20080624 by HLU/ED -->
                       
