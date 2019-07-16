@@ -586,7 +586,7 @@
                   </bibl>                 
                </listBibl>
             
-            <listPerson>
+            <listPerson type="mentioned">
               <head>List of Selected People Mentioned in Cox's Journal</head>
                <person xml:id="SSC" source="XXX">
                   <persName>Cox, Samuel Sullivan</persName>
@@ -595,7 +595,6 @@
                   <death when="1889"><placeName></placeName></death>
                   <bibl></bibl>
                </person>
-               
             </listPerson>
             
             <listPlace>
@@ -609,8 +608,7 @@
                      <geo>40.7000 -74.0000</geo>
                   </location>
                </place>
-               
-            </listPlace>
+             </listPlace>
             
             <listOrg>
                <head>List of Selected Organizations Mentioned in Cox's Journal</head>
@@ -620,6 +618,20 @@
                   <desc>Description of BNARMSPC.</desc>
                </org>
             </listOrg>
+            
+            <list type="ships">
+               <head>List of Ships Mentioned in Cox's Journal</head>
+               <item>
+                  <name>Asia</name>
+                  <country>USA</country>
+                  <date type="launched"></date>
+                  <date type="wrecked"></date>
+                  <persName type="Captain">Judkins</persName>
+                  <orgName type="owner">British and North American Royal Mail Steam Packet Company</orgName>
+                  <desc>The ship on which Cox sailed to Europe.</desc>
+                  <bibl></bibl>
+               </item>
+            </list>
             
             <listWit>
                <witness xml:id="Cox1851a">The original text of Samuel S. Cox's journal, typically written in pencil
@@ -799,7 +811,7 @@
          </langUsage>
          
          <handNotes>
-            <handNote xml:id="SSC" medium="ink">Cox's hand.</handNote>
+            <handNote xml:id="SSChand" medium="ink">Cox's hand.</handNote>
             <handNote xml:id="TNEWS" medium="clipping">Clipping from the <title>London Times</title>.</handNote>
             <handNote xml:id="UNK" medium="pencil">Presumably Cox's original penciled entries.</handNote>
          </handNotes>

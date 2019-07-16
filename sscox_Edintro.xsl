@@ -165,6 +165,10 @@
                            <li><a href="./appendices-CoxZoomIndex.html">Images of the MS Pages</a></li>
                            <li><a href="./appendices-CoxRestorationHTML5.html">Restoring the MS</a></li>
                            <li><a href="./appendices-CoxTourMaps.html">Maps</a></li>
+                           <li><a href="./sscox_journal.html#peopleMentioned">People Mentioned</a></li>
+                           <li><a href="./sscox_journal.html#placesMentioned">Places Mentioned</a></li>
+                           <li><a href="./sscox_journal.html#organizationsMentioned">Organizations Mentioned</a></li>
+                           <li><a href="./sscox_journal.html#shipsMentioned">Ships Mentioned</a></li>
                            <li><a href="./sscox_journal.html#worksCited">Works Cited</a></li>
                            <li><a href="./sscox_journal.html#revHistory">Revision History</a></li>
                            <li><a href="./appendices-Acknowledgements.html">Acknowledgements</a></li>
@@ -451,14 +455,14 @@
             <xsl:apply-templates
                select="tei:TEI/tei:teiHeader/tei:fileDesc/tei:sourceDesc/tei:listBibl"/>
       
-<!--  NOT USED IN THIS EDITION          
-            <xsl:apply-templates
+             <xsl:apply-templates
                select="tei:TEI/tei:teiHeader/tei:fileDesc/tei:sourceDesc/tei:listPerson"/>
             <xsl:apply-templates select="tei:TEI/tei:teiHeader/tei:fileDesc/tei:sourceDesc/tei:listOrg"></xsl:apply-templates>
             <xsl:apply-templates
                select="tei:TEI/tei:teiHeader/tei:fileDesc/tei:sourceDesc/tei:listPlace"/>
-            <xsl:apply-templates select="tei:TEI/tei:teiHeader/tei:fileDesc/tei:sourceDesc/tei:listEvent"></xsl:apply-templates>
--->      
+      <xsl:apply-templates select="tei:TEI/tei:teiHeader/tei:fileDesc/tei:sourceDesc/tei:list[@type='ships']"></xsl:apply-templates>
+      <xsl:apply-templates select="tei:TEI/tei:teiHeader/tei:fileDesc/tei:sourceDesc/tei:listEvent"></xsl:apply-templates>
+      
             <xsl:apply-templates select="tei:TEI/tei:teiHeader/tei:revisionDesc"/>
             <hr/>
             <h2>About this Editorial Introduction</h2>
@@ -573,7 +577,7 @@
    </xsl:template>
    
    <xsl:template match="tei:listPerson[@type='mentioned']">
-      <h3 id="peopleMentioned">List of People Mentioned in Lucius Smith's Diary</h3>
+      <h3 id="peopleMentioned">List of People Mentioned in Samuel Sullivan Cox's Diary</h3>
       <xsl:for-each select="tei:person">
          <xsl:sort select="tei:persName[1]"/>
          <p>
@@ -597,9 +601,8 @@
       </xsl:for-each>
    </xsl:template>
    
-<!--  NOT USED IN THIS EDITION   
       <xsl:template match="tei:listOrg">
-      <h3 id="organizationsMentioned">List of Organizations Mentioned in Lucius Smith's Diary</h3>
+      <h3 id="organizationsMentioned">List of Organizations Mentioned in Samuel Sullivan Cox's Diary</h3>
       <xsl:for-each select="tei:org">
          <xsl:sort select="tei:orgName[1]"/>
          <p>
@@ -608,13 +611,12 @@
          </p>
       </xsl:for-each>
    </xsl:template>
--->   
+   
    
 <!--   <xsl:template match="tei:listPerson[@type='editors']"/>  -->  
    
-<!--  NOT USED IN THIS EDITION
       <xsl:template match="tei:listPlace">
-      <h3 id="placesMentioned">List of Places Mentioned in Lucius Smith's Diary</h3>
+      <h3 id="placesMentioned">List of Places Mentioned in Samuel Sullivan Cox's Diary</h3>
       <xsl:for-each select="tei:place">
          <xsl:sort select="tei:geogName"/>
          <xsl:sort select="tei:placeName[1]"/>
@@ -631,7 +633,22 @@
          </p>
       </xsl:for-each>
    </xsl:template>
--->
+   
+   <xsl:template match="tei:list[@type='ships']">
+      <h3 id="shipsMentioned">List of Ships Mentioned in Samuel Sullivan Cox's Diary</h3>
+      <xsl:for-each select="tei:item">
+         <xsl:sort select="tei:name[1]"/>
+         <p>
+            <strong><xsl:value-of select="tei:name"/></strong>. 
+            <xsl:if test="tei:persName[@type='Captain']">
+               Captain: <xsl:value-of select="tei:persName"/>
+            </xsl:if>
+         </p>
+      </xsl:for-each>
+   </xsl:template>
+   
+   
+
 <!--  NOT USED IN THIS EDITION
       <xsl:template match="tei:listEvent">
       <h3 id="OrganizationsMentioned">List of Notable Events Mentioned in Lucius Smith's Diary</h3>
