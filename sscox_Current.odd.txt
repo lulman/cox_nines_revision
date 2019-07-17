@@ -1,15 +1,14 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<?xml-model href="http://www.tei-c.org/release/xml/tei/custom/schema/relaxng/brown_odds.rng" type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?>
-<?xml-model href="http://www.tei-c.org/release/xml/tei/custom/schema/relaxng/brown_odds.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
 <TEI xmlns="http://www.tei-c.org/ns/1.0" xmlns:rng="http://relaxng.org/ns/structure/1.0"
   xml:lang="en">
   <teiHeader>
     <fileDesc>
       <titleStmt>
-        <title>Doane Journal TEI Customization</title>
+        <title>S. S. Cox Journal TEI Customization</title>
         <author>H. Lewis Ulman</author>
       </titleStmt>
       <publicationStmt>
+        <publisher>The Ohio State University Libraries</publisher>
         <availability>
           <licence><p>Distributed under a Creative Commons Attribution-NonCommercial-ShareAlike 3.0
               license.</p></licence>
@@ -19,21 +18,23 @@
         <note type="ns">http://www.example.org/ns/nonTEI</note>
       </notesStmt>
       <sourceDesc>
-        <p>This ODD file customizes TEI for use with the Louisa Doane journal.</p>
+        <p>This ODD file customizes TEI for use with a digital edition published by
+          The Ohio State University and aggregated by NINES.</p>
       </sourceDesc>
     </fileDesc>
     <revisionDesc>
+      <change who="HLU" when="2019-07-30">Revised for submission of S. S. Cox edition to NINES</change>
       <change who="HLU" when="2012-06-26">Initial Draft</change>
     </revisionDesc>
   </teiHeader>
   <text>
     <body>
-      <p>This first pass should match the encoding in the current Doane XML file.</p>
+      <p>This first pass should match the encoding in the current Cox XML file.</p>
       <!-- The <schemaSpec> element is in effect the root element for
            the schema specification portion of the ODD. The @ident is
            required; it is allowed to be any name, but urbe requires
            that it match the filename of the ODD file w/o ".odd". -->
-      <schemaSpec ident="LCSmith-Current">
+      <schemaSpec ident="sscox-Current">
         <!-- The <moduleRef> elements specify which TEI modules (which
              correspond directly to chapters in the Guidelines) will
              be included in the schema. The value of the @key
@@ -45,17 +46,16 @@
              -->
         <!-- The four required modules:
              core, tei, header, and textstructure. -->
-        <moduleRef key="core"/>
+        <moduleRef key="core" include="abbr add address addrLine author bibl biblScope choice corr date del desc editor emph expan foreign gap graphic head hi item l label lb lg list listBibl name note num p pb ptr publisher pubPlace q quote ref resp respStmt rs sic term time title unclear"/>
         <moduleRef key="tei"/>
-        <moduleRef key="header"/>
-        <moduleRef key="textstructure"/>
+        <moduleRef key="header" include="availability biblFull change classDecl creation edition editionStmt editorialDecl encodingDesc extent fileDesc handNote idno keywords language langUsage notesStmt profileDesc projectDesc publicationStmt refsDecl revisionDesc sourceDesc taxonomy teiHeader textClass titleStmt"/>
+        <moduleRef key="textstructure" include="body dateline div opener TEI text"/>
         <!-- optional modules: -->
-        <moduleRef key="namesdates"/>
-        <moduleRef key="transcr" include="handNotes handShift supplied fw damage subst"/>
-        <moduleRef key="msdescription"
-          include="accMat acquisition additional additions adminInfo binding bindingDesc collation collection condition custEvent custodialHist decoDesc decoNote depth dim dimensions explicit foliation handDesc height institution layout layoutDesc material msContents msDesc msIdentifier msName msPart objectDesc objectType origDate origPlace origin physDesc provenance recordHist repository scriptDesc source summary support supportDesc surrogates typeDesc watermark width"/>
-        <moduleRef key="linking" include="ab seg when"/>
-        <moduleRef key="figures" include="cell figDesc figure formula row table"/>
+        <moduleRef key="namesdates" include="birth country death geo listOrg listPerson listPlace location org orgName persName person place placeName region state"/>
+        <moduleRef key="transcr" include="handNotes handShift supplied"/>
+        <moduleRef key="linking" include="seg"/>
+        <moduleRef key="figures" include="cell figDesc figure row table"/>
+        <moduleRef key="textcrit" include="app lem listWit rdg variantEncoding witEnd witness witStart"/>
         <!-- The <elementSpec> is used to make changes to content
              models, to delete unwanted elements from modules included
              above, or to add and delete attributes from a specific
@@ -92,75 +92,6 @@
           <attList>
             <attDef ident="facs" usage="req" mode="change"></attDef>
           </attList>
-        </elementSpec>
-        <elementSpec ident="div" mode="change" module="textstructure">
-          <!-- This <elementSpec> is for making a change to (an)
-             attribute(s), for instance to designate a specific
-             list of permitted values, or to add new attributes. -->
-          <attList>
-            <!-- Use mode="change" on <attDef> if the attribute
-                 already exists; use mode="add" if this is a new
-                 attribute. -->
-            <!-- Note that this attribute will be required. -->
-            <attDef ident="xml:id" usage="req" mode="change"></attDef>
-            <attDef ident="type" usage="req" mode="replace">
-              <!-- The <desc> element provides documentation -->
-              <desc>The @type attribute identifies the type of a content division.</desc>
-              <!-- The <datatype> element indicates what datatype the
-                   attribute values are. To indicate the value is from
-                   a controlled value list, fill in "data.enumerated". -->
-              <datatype>
-                <rng:ref name="data.enumerated"/>
-              </datatype>
-              <!-- The <valList> contains the possible values; @type
-                   indicates whether the list is closed (no other
-                   values permitted) or semi-closed (these values will
-                   show up in a menu but others are permitted) or open
-                   (the values given are suggestions only). -->
-              <!-- Default value for this element. -->
-              <defaultVal>Entry</defaultVal>
-              <valList type="closed">
-                <valItem ident="voyage">
-                  <desc>A voyage.</desc>
-                </valItem>
-                <valItem ident="section">
-                  <desc>A section of a voyage.</desc>
-                </valItem>
-                <valItem ident="Entry">
-                  <desc>A journal entry.</desc>
-                </valItem>
-                <valItem ident="endpaper">
-                  <desc>An endpaper.</desc>
-                </valItem>
-                <valItem ident="titlepage">
-                  <desc>A titlepage</desc>
-                </valItem>
-                <valItem ident="editorial">
-                  <desc>An editorial </desc>
-                </valItem>
-              </valList>
-            </attDef>
-          </attList>
-        </elementSpec>
-        <elementSpec ident="itinerary" ns="http://www.osu.edu/ulman/reliablewitnesses/ns/1.0"
-          mode="add">
-          <desc>provides structured information about an itinerary</desc>
-          <classes mode="replace">
-            <memberOf key="model.listLike"/>
-            <memberOf key="att.global"/>
-          </classes>
-          <content>
-            <rng:oneOrMore>
-              <rng:ref name="name"/>
-            </rng:oneOrMore>
-            <rng:zeroOrMore>
-              <rng:ref name="model.listLike"/>
-            </rng:zeroOrMore>
-            <rng:ref name="location"/>
-          </content>
-          <remarks>
-            <p>Only intended for airports with 1 runway.</p>
-          </remarks>
         </elementSpec>
       </schemaSpec>
     </body>

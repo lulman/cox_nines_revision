@@ -4,7 +4,7 @@
   <teiHeader>
     <fileDesc>
       <titleStmt>
-        <title>Reliable Witnesses TEI Customization</title>
+        <title>S. S. Cox Journal TEI Customization</title>
         <author>H. Lewis Ulman</author>
       </titleStmt>
       <publicationStmt>
@@ -18,12 +18,12 @@
         <note type="ns">http://www.example.org/ns/nonTEI</note>
       </notesStmt>
       <sourceDesc>
-        <p>This ODD file customizes TEI for use with a collection of six editions published by
+        <p>This ODD file customizes TEI for use with a digital edition published by
           The Ohio State University and aggregated by NINES.</p>
       </sourceDesc>
     </fileDesc>
     <revisionDesc>
-      <change who="HLU" when="2018-11-28">Revised for submission of Reliable Witnesses editions to NINES</change>
+      <change who="HLU" when="2019-07-30">Revised for submission of S. S. Cox edition to NINES</change>
       <change who="HLU" when="2012-06-26">Initial Draft</change>
     </revisionDesc>
   </teiHeader>
@@ -93,75 +93,6 @@
             <attDef ident="facs" usage="req" mode="change"></attDef>
           </attList>
         </elementSpec>
-        <elementSpec ident="div" mode="change" module="textstructure">
-          <!-- This <elementSpec> is for making a change to (an)
-             attribute(s), for instance to designate a specific
-             list of permitted values, or to add new attributes. -->
-          <attList>
-            <!-- Use mode="change" on <attDef> if the attribute
-                 already exists; use mode="add" if this is a new
-                 attribute. -->
-            <!-- Note that this attribute will be required. -->
-            <attDef ident="xml:id" usage="req" mode="change"></attDef>
-            <attDef ident="type" usage="req" mode="replace">
-              <!-- The <desc> element provides documentation -->
-              <desc>The @type attribute identifies the type of a content division.</desc>
-              <!-- The <datatype> element indicates what datatype the
-                   attribute values are. To indicate the value is from
-                   a controlled value list, fill in "data.enumerated". -->
-              <datatype>
-                <rng:ref name="data.enumerated"/>
-              </datatype>
-              <!-- The <valList> contains the possible values; @type
-                   indicates whether the list is closed (no other
-                   values permitted) or semi-closed (these values will
-                   show up in a menu but others are permitted) or open
-                   (the values given are suggestions only). -->
-              <!-- Default value for this element. -->
-              <!--<defaultVal>Entry</defaultVal>-->
-              <valList type="closed">
-                <valItem ident="voyage">
-                  <desc>A voyage.</desc>
-                </valItem>
-                <valItem ident="section">
-                  <desc>A section of a voyage.</desc>
-                </valItem>
-                <valItem ident="Entry">
-                  <desc>A journal entry.</desc>
-                </valItem>
-                <valItem ident="endpaper">
-                  <desc>An endpaper.</desc>
-                </valItem>
-                <valItem ident="titlepage">
-                  <desc>A titlepage</desc>
-                </valItem>
-                <valItem ident="editorial">
-                  <desc>An editorial </desc>
-                </valItem>
-              </valList>
-            </attDef>
-          </attList>
-        </elementSpec>
-        <!--<elementSpec ident="itinerary" ns="http://www.osu.edu/ulman/reliablewitnesses/ns/1.0"
-          mode="add">
-          <desc>provides structured information about an itinerary</desc>
-          <classes mode="replace">
-            <memberOf key="model.listLike"/>
-            <memberOf key="att.global"/>
-          </classes>
-          <content>
-            <rng:oneOrMore>
-              <rng:ref name="name"/>
-            </rng:oneOrMore>
-            <rng:zeroOrMore>
-              <rng:ref name="model.listLike"/>
-            </rng:zeroOrMore>
-            <rng:ref name="location"/>
-          </content>
-          <remarks>
-            <p>Only intended for airports with 1 runway.</p>
-          </remarks>
-        </elementSpec>-->
       </schemaSpec>
     </body>
   </text>
