@@ -1,7 +1,7 @@
 <?xml-model href="sscox_Current.rnc" type="application/relax-ng-compact-syntax"?>
 <TEI xmlns="http://www.tei-c.org/ns/1.0" xml:lang="en" xmlns:hlu="http://www.osu.edu/ulman/reliablewitnesses/ns/1.0">
       
-   <teiHeader ana="AACR2">
+   <teiHeader>
       <fileDesc>
          
          <titleStmt>
@@ -455,10 +455,7 @@
                   </bibl>
                   
                   <bibl xml:id="OED2" n="Oxfo">
-                     <title level="m">Oxford English Dictionary Online</title>.
-                     <biblScope ana="URL">http://www.oed.com/</biblScope>
-                     <date>2007</date>
-                     <biblScope ana="DateOfVisit">19 April 2007</biblScope>
+                     <title level="m">Oxford English Dictionary Online</title>. 2007. http://www.oed.com/
                   </bibl>
                   
                   <bibl xml:id="TAD" n="Cale">
@@ -477,10 +474,7 @@
                   </bibl>
                   
                   <bibl xml:id="GJPratt" n="Zadock">
-                     Zadock Pratt Museum. <title level="m">Prattsville History Highlights</title>.
-                     <date>12 August 2002</date>
-                     <biblScope ana="DateOfVisit">23 May 2007</biblScope> 
-                     <biblScope ana="URL">http://www.prattmuseum.com/history/History_new.htm</biblScope>
+                     Zadock Pratt Museum. <title level="m">Prattsville History Highlights</title>. 12 August 2002. 23 May 2007. http://www.prattmuseum.com/history/History_new.html
                   </bibl>
                   
                   <bibl xml:id="AnnSStephens" n="Northern">
@@ -516,17 +510,11 @@
                   </bibl>
                   
                   <bibl xml:id="QM2" n="Cuna">
-                     Cunard Line. <title level="m">Queen Mary 2: Ship Facts</title>
-                     <biblScope ana="URL">http://www.cunard.co.uk/OurShips/default.asp?Ship=QM2&amp;main=int&amp;sub=fac</biblScope>
-                     <date>n.d</date>
-                     <biblScope ana="DateOfVisit">10 Mar 2007</biblScope>
+                     Cunard Line. <title level="m">Queen Mary 2: Ship Facts</title>. n.d. 10 Mar 2007. http://www.cunard.co.uk/OurShips/default.asp?Ship=QM2&amp;main=int&amp;sub=fac.
                   </bibl>
                   
                   <bibl xml:id="EB" n="Ency">
-                     <title level="m">Encyclopædia Britannica Online</title>
-                     <biblScope ana="URL">http://www.britannica.com</biblScope>
-                     <date>2007</date>
-                     <biblScope ana="DateOfVisit">7 Mar 2007</biblScope>
+                     <title level="m">Encyclopædia Britannica Online</title>. 7 Mar 2007. http://www.britannica.com
                   </bibl>
                   
                   <bibl xml:id="FEH" n="Hyde">
@@ -2832,16 +2820,14 @@
                <ptr type="noteAnchor" target="ted26"/><note resp="ed" xml:id="ted26" anchored="true">The newspaper cutting that Cox pastes in his Journal 
                   is part of an editorial that appeared in the <title level="m">Times</title> on Saturday, May 24, 1851 (5).
                </note>
-               from the '<title level="a" type="Newspaper">Times</title>.' 
+               from the '<title level="j" type="Newspaper">Times</title>.' 
             </p>
-            <q><handShift medium="newsprint" new="#TNEWS"/>
-               <p>
+            <quote type="blockquote"><handShift medium="newsprint" new="#TNEWS"/>
                   <lb/> The House of Commons having again resolved it<seg type="softhyphen">-
                   <lb/></seg>self into a committee upon the Ecclesiastical Titles' 
                   <lb/> Assumption Bill,
-               </p>
-               <p>
-                  <lb/> <persName>Mr. T. <hi rend="smallcaps">Duncombe</hi></persName>
+               <lb/>                  
+               <lb/> <persName>Mr. T. <hi rend="smallcaps">Duncombe</hi></persName>
                   moved that the first clause be 
                   <lb/> postponed until the House was in possession of a 
                   <lb/> copy of the brief, rescript, or letters apostolical
@@ -2850,8 +2836,7 @@
                   <lb/> that prior to <hi rend="italics">ex-post facto</hi> legislation, inflicting pains
                   <lb/> and penalties and annulling rights, this document
                   <lb/> should be produced.
-               </p>
-               <p>
+                  <lb/>                  
                   <lb/> The <hi rend="smallcaps">Solicitor-General</hi> opposed the motion,
                   <lb/> arguing that the legislation would be founded, not
                   <lb/> upon the rescript, but upon the notorious fact de<seg type="softhyphen">-
@@ -2862,19 +2847,16 @@
                   <lb/> under colour of an alleged authority given to them
                   <lb/> for that purpose by a certain brief, rescript, or let<seg type="softhyphen">-
                   <lb/></seg>ters apostolical from the See of Rome. 
-               </p>
-               <p>
-                  <lb/> The motion, which was supported by <persName>Mr. ROE<seg type="softhyphen">-
+               <lb/>                  
+               <lb/> The motion, which was supported by <persName>Mr. ROE<seg type="softhyphen">-
                   <lb/></seg>BUCK</persName>, <persName>Mr. KEOGH</persName>, and <persName>Mr. REYNOLDS</persName>, and opposed
                   <lb/> by the ATTORNEY-GENERAL and 
                   <persName>Mr. WALPOLE</persName>, was 
                   <lb/> negatived on a division by 221 against 49.
-               </p>
-               <p>
-                  <lb/> On the first clause,
-               </p>
-               <p>
-                  <lb/> <persName> Sir F.THESIGER</persName> moved, 
+               <lb/>                  
+               <lb/> On the first clause,
+               <lb/>                  
+               <lb/> <persName> Sir F.THESIGER</persName> moved, 
                   instead of the words
                   <lb/> <q>" the said brief, &amp;c.,"</q> to insert the words <q>"all such
                   <lb/> briefs, &amp;c.,"</q>  intending to move corresponding 
@@ -2883,13 +2865,13 @@
                   <lb/> have been issued prior to the bill within the terms 
                   <lb/> of the declaratory enactment contained in this
                   <lb/> clause.
-               </p>
+               <lb/>                  
                
                <!-- Proofed 20080701 by HLU/ED -->
                
                <pb facs="SSCox_052"/>
-               <p>
-                  <lb/> The SOLICITOR-GENERAL thought <persName>Sir <hi rend="smallcaps">Frederick</hi></persName>
+               <lb/>                  
+               <lb/> The SOLICITOR-GENERAL thought <persName>Sir <hi rend="smallcaps">Frederick</hi></persName>
                   <lb/> had misconceived the scope and tendency of the 
                   <lb/> clause, which was not intended to revive the Statute
                   <lb/> of Præmunire, which was unnecessary, but, in de<seg type="softhyphen">-
@@ -2901,9 +2883,8 @@
                   <lb/> (the SOLICITOR-GENERAL) thought the clause super<seg type="softhyphen">-
                   <lb/></seg>fluous, in addition to the recital in the preamble, 
                   <lb/> the act being clearly illegal and void.
-               </p>
-               <p>
-                  <lb/>A long discussion ensued, in which the legal con<seg type="softhyphen">-
+               <lb/>                  
+               <lb/>A long discussion ensued, in which the legal con<seg type="softhyphen">-
                   <lb/></seg>struction and effects of the clause and the amend<seg type="softhyphen">-
                   <lb/></seg>ment were very fully considered. At the suggestion of 
                   <lb/><persName>Mr. <hi rend="smallcaps">Henley</hi></persName>,<persName> 
@@ -2912,35 +2893,30 @@
                   <lb/>the motion until the fate of an amendment in the 
                   <lb/>preamble announced  by <persName>Mr. WALPOLE</persName>, which had a 
                   <lb/>concurrent object, was decided.
-               </p>
-               <p>
-                  <lb/> The Earl of ARUNDEL and SURREY then moved
+               <lb/>                  
+               <lb/> The Earl of ARUNDEL and SURREY then moved
                   <lb/> another amendment of the first clause, by the inser<seg type="softhyphen">-
                   <lb/></seg>tion of words expressly exempting from its operation
                   <lb/> the use of such jurisdiction or title as shall be neces<seg type="softhyphen">-
                   <lb/></seg>sary for the spiritual purposes, appealing to the avowal 
                   <lb/> of the Government that the bill was not intended 
                   <lb/> to interfere with spiritual functions.
-               </p>
-               <p>
-                  <lb/> The ATTORNEY-GENERAL objected to the amend<seg type="softhyphen">-
+               <lb/>                  
+               <lb/> The ATTORNEY-GENERAL objected to the amend<seg type="softhyphen">-
                   <lb/></seg>ment, which would involve the inconguity of de<seg type="softhyphen">-
                   <lb/></seg>claring the rescript, and all jurisdiction conferred
                   <lb/> thereby, unlawful and void, and at the same time
                   <lb/> recognizing its validity for certain purposes.
-               </p>
-               <p>
-                  <lb/> The amendment was supported by <persName>Mr. MOORE</persName>,
+               <lb/>                  
+               <lb/> The amendment was supported by <persName>Mr. MOORE</persName>,
                   <lb/> <persName>Mr. KEOGH</persName>, and Sir <persName>H. BARRON</persName>, and opposed by
                   <lb/> <persName> LORD J. RUSSELL</persName>.
                   On a division it was rejected by 
                   <lb/>316 against 61.
-               </p>
-               <p>
-                  <lb/>Mr. Sa<gap reason="torn page" extent="appox. 2.25 inches"/>
+               <lb/>                  
+               <lb/>Mr. Sa<gap reason="torn page" extent="appox. 2.25 inches"/>
                   <lb/>th<gap reason="torn page" extent="appox. 2.25 inches"/>
-               </p>
-            </q>
+            </quote>
             <p>
                <handShift medium="ink" new="#SSC"/>
                <lb/> Was most pleased with <persName>Mr

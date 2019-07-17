@@ -34,7 +34,7 @@
            the schema specification portion of the ODD. The @ident is
            required; it is allowed to be any name, but urbe requires
            that it match the filename of the ODD file w/o ".odd". -->
-      <schemaSpec ident="LCSmith-Current">
+      <schemaSpec ident="sscox-Current">
         <!-- The <moduleRef> elements specify which TEI modules (which
              correspond directly to chapters in the Guidelines) will
              be included in the schema. The value of the @key
@@ -46,19 +46,16 @@
              -->
         <!-- The four required modules:
              core, tei, header, and textstructure. -->
-        <moduleRef key="core"/>
+        <moduleRef key="core" include="abbr add address addrLine author bibl biblScope choice corr date del desc editor emph expan foreign gap graphic head hi item l label lb lg list listBibl name note num p pb ptr publisher pubPlace q quote ref resp respStmt rs sic term time title unclear"/>
         <moduleRef key="tei"/>
-        <moduleRef key="header"/>
-        <moduleRef key="textstructure"/>
+        <moduleRef key="header" include="availability biblFull change classDecl creation edition editionStmt editorialDecl encodingDesc extent fileDesc handNote idno keywords language langUsage notesStmt profileDesc projectDesc publicationStmt refsDecl revisionDesc sourceDesc taxonomy teiHeader textClass titleStmt"/>
+        <moduleRef key="textstructure" include="body dateline div opener TEI text"/>
         <!-- optional modules: -->
-        <moduleRef key="namesdates"/>
-        <moduleRef key="transcr" include="handNotes handShift supplied fw damage subst"/>
-        <moduleRef key="msdescription"
-          include="accMat acquisition additional additions adminInfo binding bindingDesc collation collection condition custEvent custodialHist decoDesc decoNote depth dim dimensions explicit foliation handDesc height institution layout layoutDesc material msContents msDesc msIdentifier msName msPart objectDesc objectType origDate origPlace origin physDesc provenance recordHist repository scriptDesc source summary support supportDesc surrogates typeDesc watermark width"/>
-        <moduleRef key="linking" include="ab seg when"/>
-        <moduleRef key="figures" include="cell figDesc figure formula row table"/>
-        <moduleRef key="textcrit"/>
-        <moduleRef key="analysis" include="ana"></moduleRef>
+        <moduleRef key="namesdates" include="birth country death geo listOrg listPerson listPlace location org orgName persName person place placeName region state"/>
+        <moduleRef key="transcr" include="handNotes handShift supplied"/>
+        <moduleRef key="linking" include="seg"/>
+        <moduleRef key="figures" include="cell figDesc figure row table"/>
+        <moduleRef key="textcrit" include="app lem listWit rdg variantEncoding witEnd witness witStart"/>
         <!-- The <elementSpec> is used to make changes to content
              models, to delete unwanted elements from modules included
              above, or to add and delete attributes from a specific
