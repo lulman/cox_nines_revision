@@ -193,8 +193,8 @@
                
                <div id="titleBar">
                <p align="center"><span class="projectTitle">Journal of a Tour to Europe</span><br/>by Samuel Sullivan Cox</p>
-               <hr/>
-            </div> <!-- END titleBar -->
+                  <hr style="border: 2px solid crimson;"/>
+               </div> <!-- END titleBar -->
             </div> <!-- END masthead -->
        
             <!-- BUILD THE VERTICAL IMAGE BAR -->
