@@ -450,11 +450,14 @@
             <xsl:apply-templates select="tei:TEI/tei:teiHeader/tei:fileDesc/tei:titleStmt"/>
             <xsl:apply-templates select="tei:TEI/tei:teiHeader/tei:encodingDesc/tei:editorialDecl"/>
             <xsl:apply-templates select="tei:TEI/tei:teiHeader/tei:encodingDesc/tei:refsDecl"/>
-            <hr/>
-            <h2 id="worksCited">List of Works Cited</h2>
-            <xsl:apply-templates
+      <hr style="border: 2px solid crimson;"/>
+      <a name="WorksCited"/>
+      <h2 id="worksCited">List of Works Cited</h2>
+      <hr/>
+      <xsl:apply-templates
                select="tei:TEI/tei:teiHeader/tei:fileDesc/tei:sourceDesc/tei:listBibl"/>
-      
+      <hr style="border: 2px solid crimson;"/>
+      <h2>Appendices</h2> 
              <xsl:apply-templates
                select="tei:TEI/tei:teiHeader/tei:fileDesc/tei:sourceDesc/tei:listPerson"/>
             <xsl:apply-templates select="tei:TEI/tei:teiHeader/tei:fileDesc/tei:sourceDesc/tei:listOrg"></xsl:apply-templates>
@@ -464,8 +467,8 @@
       <xsl:apply-templates select="tei:TEI/tei:teiHeader/tei:fileDesc/tei:sourceDesc/tei:listEvent"></xsl:apply-templates>
       
             <xsl:apply-templates select="tei:TEI/tei:teiHeader/tei:revisionDesc"/>
-            <hr/>
-            <h2>About this Editorial Introduction</h2>
+      <hr style="border: 2px solid crimson;"/>
+      <h2>About this Editorial Introduction</h2>
             <p><a name="view"/>Text on this page is derived from the
                edition's XML source document, <a href="sscox_journal.xml">sscox_journal.xml</a>.</p>
             <hr/>
@@ -485,6 +488,7 @@
       
    <xsl:template match="tei:TEI/tei:teiHeader/tei:fileDesc/tei:sourceDesc/tei:biblFull/tei:notesStmt/tei:note[@type='introductory']">
       <h2 id="introduction">Introduction</h2>
+      <hr/>
       <xsl:apply-templates/>
    </xsl:template>
    
@@ -492,8 +496,10 @@
       
    <xsl:template
       match="tei:TEI/tei:teiHeader/tei:fileDesc/tei:sourceDesc/tei:biblFull/tei:notesStmt/tei:note[@type='descriptive']">
-      <hr/>
+      <hr style="border: 2px solid crimson;"/>
+      <a name="source"/>
       <h2 id="source">About the Source Document</h2>
+      <hr/>
       <p><strong>Title</strong>: "<xsl:value-of select="/tei:TEI/tei:teiHeader/tei:fileDesc/tei:sourceDesc/tei:biblFull/tei:titleStmt/tei:title"/>" 
          <br/><strong>Extent</strong>: <xsl:value-of select="/tei:TEI/tei:teiHeader/tei:fileDesc/tei:sourceDesc/tei:biblFull/tei:extent"/>
       </p>
@@ -501,8 +507,12 @@
    </xsl:template>
    
    <xsl:template match="tei:TEI/tei:teiHeader/tei:encodingDesc/tei:refsDecl">
+<hr/>
       <h3>Encoding Conventions</h3>
       <xsl:apply-templates/>
+      <hr style="border: 2px solid crimson;"/>
+      <h2>License</h2>
+      <hr/>
       <p align="left">
          <xsl:value-of
             select="/tei:TEI/tei:teiHeader/tei:fileDesc/tei:publicationStmt/tei:availability/tei:p[@xml:id='CreativeCommons']"
@@ -527,15 +537,17 @@
    <!-- Format information about the electronic document. -->
       
    <xsl:template match="tei:TEI/tei:teiHeader/tei:encodingDesc/tei:projectDesc">
-      <hr/>
+      <hr style="border: 2px solid crimson;"/>
       <h2 id="projectDescription">Project Description</h2>
+      <hr/>
       <p>
          <xsl:apply-templates/>
       </p>
    </xsl:template>
    <xsl:template match="tei:TEI/tei:teiHeader/tei:fileDesc/tei:titleStmt">
-      <hr/>
+      <hr style="border: 2px solid crimson;"/>
       <h2 id="edition">About the Electronic Edition</h2>
+      <hr/>
       <p><strong>Title</strong>: <xsl:value-of select="tei:title"/></p>
          <p><strong>Editors</strong>: <xsl:for-each select="tei:editor">
             <xsl:choose>
@@ -561,7 +573,9 @@
    </xsl:template>
    
    <xsl:template match="tei:TEI/tei:teiHeader/tei:encodingDesc/tei:editorialDecl">
-      <h3>Editorial Method</h3>
+      <hr style="border: 2px solid crimson;"/>
+      <h2>Editorial Method</h2>
+      <hr/>
       <xsl:apply-templates/>
    </xsl:template>
    
@@ -577,6 +591,7 @@
    </xsl:template>
    
    <xsl:template match="tei:listPerson[@type='mentioned']">
+      <hr/>
       <h3 id="peopleMentioned">List of People Mentioned in Samuel Sullivan Cox's Diary</h3>
       <xsl:for-each select="tei:person">
          <xsl:sort select="tei:persName[1]"/>
@@ -602,6 +617,7 @@
    </xsl:template>
    
       <xsl:template match="tei:listOrg">
+         <hr/>
       <h3 id="organizationsMentioned">List of Organizations Mentioned in Samuel Sullivan Cox's Diary</h3>
       <xsl:for-each select="tei:org">
          <xsl:sort select="tei:orgName[1]"/>
@@ -616,6 +632,7 @@
 <!--   <xsl:template match="tei:listPerson[@type='editors']"/>  -->  
    
       <xsl:template match="tei:listPlace">
+         <hr/>
       <h3 id="placesMentioned">List of Places Mentioned in Samuel Sullivan Cox's Diary</h3>
       <xsl:for-each select="tei:place">
          <xsl:sort select="tei:geogName"/>
@@ -635,6 +652,7 @@
    </xsl:template>
    
    <xsl:template match="tei:list[@type='ships']">
+      <hr/>
       <h3 id="shipsMentioned">List of Ships Mentioned in Samuel Sullivan Cox's Diary</h3>
       <xsl:for-each select="tei:item">
          <xsl:sort select="tei:name[1]"/>
@@ -664,8 +682,8 @@
    <!-- Format information about the revision history of the document. -->
       
    <xsl:template match="tei:TEI/tei:teiHeader/tei:revisionDesc">
-         <hr/>
-         <a name="revHistory"/>
+      <hr style="border: 2px solid crimson;"/>
+      <a name="revHistory"/>
          <h2 id="revision">Revision History</h2>
       <table width="90%" cellpadding="5px">
          <tr>
@@ -697,6 +715,7 @@
             </tr>
          </xsl:for-each>
       </table>
+      <p><lb/></p>
    </xsl:template>
 
    <!-- Format miscellaneous elements -->
