@@ -21,7 +21,7 @@
         manuscripts are not reported; rather, lines wrap in the browser's window. Similarly, page
         breaks are not reported. Paragraph breaks follow those in the manuscript. Spelling,
         punctuation, capitalization, and abbreviations are reported as they appear in the
-        manuscript. Text highlighted by the correspondents with an underscore is underscored in this
+        manuscript. Text highlighted by Cox with an underscore is underscored in this
         view. Canceled text is suppressed. Text added between lines or in the margins is silently
         incorporated into the reading text. All material added by the editors is surrounded by
         square brackets: uncertain readings are enclosed in square brackets and followed by a

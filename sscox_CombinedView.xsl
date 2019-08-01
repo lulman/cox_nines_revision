@@ -15,10 +15,10 @@
     <!-- Declare variables that will "localize" references to them in LCSmith-Common.xsl -->
     
     <xsl:variable name="View">Facsimile/Diplomatic View</xsl:variable>
-    <xsl:variable name="aboutView"> This presentation of the Cox journal derives from the project's
+    <xsl:variable name="aboutView">This presentation of the Cox journal derives from the project's
         main XML file, sscox_journal.xml, transformed with sscox_Common.xsl and
         sscox_CombinedView.xsl. Facsimiles of pages appear next to the edited text, and clicking on
-        a page image will open a full-sized view of that page in a new window . In the text of the
+        a page image will open a full-sized view of that page in a new window. In the text of the
         letter, line and page breaks follow those in the manuscript; paragraph breaks are not
         reported. Spelling, punctuation, capitalization, and abbreviations are reported as they
         appear in the manuscript. Text highlighted by Cox with an underscore is underscored.
