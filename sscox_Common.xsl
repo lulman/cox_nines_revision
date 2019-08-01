@@ -48,7 +48,7 @@
             <!-- Grab title from the fileDesc element of the TEI header. -->
             <title>
                <xsl:value-of
-                  select="/tei:teiCorpus/tei:teiHeader/tei:fileDesc/tei:titleStmt/tei:title"/>
+                  select="tei:TEI/tei:teiHeader/tei:fileDesc/tei:titleStmt/tei:title"/>
             </title>
             <!-- LOCAL JS CALLS -->
             <link rel="stylesheet" href="jquery-ui.css"/>
@@ -56,7 +56,7 @@
             <script src="jquery-1.8.3.min.js"/>
             <script src="jquery-ui-1.9.2.custom.js"/>
             
-            <!-- CREATE TOGGLE BUTTON FOR DIPLOMATIC/REGULARIZED SPELLING -->
+            <!-- CREATE TOGGLE BUTTON FOR pencil/ink text -->
             <script>
                $(document).ready(function(){
                $("button").click(function(){
@@ -108,9 +108,9 @@
                            <li><a href="./sscox_journal.html#revHistory">Revision History</a></li>
                         </ul>
                      </li>
-                     <li class="link"><a class="main"  href="">Views of the Diary</a>
+                     <li class="link"><a class="main"  href="">Views of the Journal</a>
                         <ul class="sub">
-                           <li><a href="./sscox_journal-by-entry.html">By Diary Entry</a></li>
+                           <li><a href="./sscox_journal-by-entry.html">By Journal Entry</a></li>
                            <li><a href="./sscox_journal-by-ms-page.html">By MS Page</a></li>
                            <li><a href="./sscox_journal-combined.html">Facsimile/Text</a></li>
                         </ul>
@@ -343,7 +343,7 @@
             <!-- END THE VERTICAL IMAGE BAR -->
             <!-- START RIGHT MENU -->   
             <div id="viewMenu">
-               <p class="aboutView"><a href="#View">About this page.</a></p>
+               <p class="aboutView"><a href="#View">About this view.</a></p>
                <div class="container">
                   <p class="font-size-label">Font Size <button id="up">+</button> <button id="down">-</button></p>
                   <!--<p id="font-size"></p>-->
@@ -435,17 +435,21 @@
 
             </xsl:for-each>
             
-               <!-- Horizontal rule before list of works cited -->
-               <hr style="border:2px solid crimson;"/>
+               <!-- NO WORKS CITED IN VIEWS OF THE JOURNAL! -->
+<!--               
+            <hr style="border:2px solid crimson;"/>
                <a name="WorksCited"/>
             <h2>List of Works Cited</h2>
             <xsl:apply-templates
                select="tei:TEI/tei:teiHeader/tei:fileDesc/tei:sourceDesc/tei:listBibl"/>
             <hr/>
-            <!-- Describe this view of the journal. -->
-               <h2 style="text-align:center;">About this View of the Journal</h2>
-            <p><a name="view"/><xsl:value-of select="$aboutView"/></p>
+-->
                
+            <!-- Describe this view of the journal. -->
+               <hr style="border: 2px solid crimson;"/>
+               <h2 style="text-align:center;">About this View of the Journal</h2>
+               <hr/>
+            <p><a name="view"/><xsl:value-of select="$aboutView"/></p>
             <hr/>
             <a href="#top">Top of Page</a>
                
@@ -472,12 +476,14 @@
    <!-- MAJOR DOCUMENT STRUCTURES: These elements include the front, body, and back
       elements of you XML documents in the result tree of your output.-->
 
-   <xsl:template match="tei:div[@type='Entry']">
+<!-- DEALT WITH IN EACH VIEW
+    <xsl:template match="tei:div[@type='Entry']">
          <div class="Entry">
             <xsl:element name="a"><xsl:attribute name="name"><xsl:value-of select="@xml:id"/></xsl:attribute></xsl:element>
-            <xsl:apply-templates/>
+            <hr/><xsl:apply-templates/>
          </div>
    </xsl:template>
+-->   
    <xsl:template match="tei:div[@type='Entry']/tei:dateline">
       <strong>
          <xsl:apply-templates/>

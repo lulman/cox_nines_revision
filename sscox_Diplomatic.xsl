@@ -15,7 +15,9 @@
     <!-- Declare variables that will "localize" references to them in Stephens-Common.xsl -->
     
     <xsl:variable name="View">Diplomatic Transcription</xsl:variable>
-    <xsl:variable name="aboutView">This diplomatic transcription of the Stephens letters is
+    <xsl:variable name="aboutView">This presentation of the Cox journal derives from the
+        project's main XML file, sscox_journal.xml, transformed with sscox_Common.xsl and
+        sscox-Diplomatic.xsl. This view of the Cox journal is
         organized by manuscript pages. Line breaks and page breaks reflect those in the letters;
         paragraph breaks are not reported. Spelling, punctuation, capitalization, and abbreviations
         are reported as they appear in the original letters. Text highlighted by correspondents with
@@ -97,13 +99,14 @@
     
     <!-- Define templates required for the diplomatic view. -->
     
+    <!-- In this view, place a single line before each page. -->
     <xsl:template match="tei:pb">
-        <br/>
+        <br/><br/><hr/>
         <span class="pagebreak">[Page&#xA0;-&#xA0;<xsl:number count="tei:pb" format="1" level="any"/>
             &#xA0;(<a><xsl:attribute
                 name="href"><xsl:value-of select="@facs"/>.jpg</xsl:attribute>
             <xsl:attribute name="target">_blank</xsl:attribute>click to open page image in a new window</a>)]</span>
-        <br/>
+    <!--    <br/>-->
     </xsl:template>    
     <xsl:template match="tei:lb"><br/><a><xsl:attribute name="name"><xsl:number count="tei:lb" format="0001" level="any" from="tei:div[@type='letter']"/></xsl:attribute>
         </a><xsl:number count="tei:lb" format="0001" level="any" from="tei:div[@type='letter']"/>&#xA0;&#xA0;&#xA0;&#xA0;&#xA0;

@@ -151,9 +151,9 @@
                            <li><a href="./sscox_journal.html#revHistory">Revision History</a></li>
                         </ul>
                      </li>
-                     <li class="link"><a class="main"  href="">Views of the Diary</a>
+                     <li class="link"><a class="main"  href="">Views of the Journal</a>
                         <ul class="sub">
-                           <li><a href="./sscox_journal-by-entry.html">By Diary Entry</a></li>
+                           <li><a href="./sscox_journal-by-entry.html">By Journal Entry</a></li>
                            <li><a href="./sscox_journal-by-ms-page.html">By MS Page</a></li>
                            <li><a href="./sscox_journal-combined.html">Facsimile/Text</a></li>
                         </ul>
@@ -449,7 +449,11 @@
             <xsl:apply-templates select="tei:TEI/tei:teiHeader/tei:fileDesc/tei:publicationStmt"/>
             <xsl:apply-templates select="tei:TEI/tei:teiHeader/tei:fileDesc/tei:titleStmt"/>
             <xsl:apply-templates select="tei:TEI/tei:teiHeader/tei:encodingDesc/tei:editorialDecl"/>
-            <xsl:apply-templates select="tei:TEI/tei:teiHeader/tei:encodingDesc/tei:refsDecl"/>
+      
+<!--     THIS INFO IS COVERED IN THE EDITORIAL DECLARATION         
+         <xsl:apply-templates select="/tei:teiCorpus/tei:teiHeader/tei:encodingDesc/tei:refsDecl"/>
+-->      
+      
       <hr style="border: 2px solid crimson;"/>
       <a name="WorksCited"/>
       <h2 id="worksCited">List of Works Cited</h2>
@@ -469,8 +473,10 @@
             <xsl:apply-templates select="tei:TEI/tei:teiHeader/tei:revisionDesc"/>
       <hr style="border: 2px solid crimson;"/>
       <h2>About this Editorial Introduction</h2>
+      <hr/>
             <p><a name="view"/>Text on this page is derived from the
-               edition's XML source document, <a href="sscox_journal.xml">sscox_journal.xml</a>.</p>
+               edition's XML source document <a href="sscox_journal.xml">sscox_journal.xml</a>, transformed
+               with the XSL style sheet <a href="sscox_Edintro.xsl">sscox_Edintro.xsl</a>.</p>
             <hr/>
       <p>&#x2192; <a href="./sscox_journal-by-entry.html">Link to the text of the journal</a>.
             </p>
@@ -508,7 +514,9 @@
    
    <xsl:template match="tei:TEI/tei:teiHeader/tei:encodingDesc/tei:refsDecl">
 <hr/>
-      <h3>Encoding Conventions</h3>
+      <hr style="border: 2px solid crimson;"/>
+      <h2>Encoding Conventions</h2>
+      <hr/>
       <xsl:apply-templates/>
       <hr style="border: 2px solid crimson;"/>
       <h2>License</h2>
@@ -522,16 +530,14 @@
    
    <xsl:template match="tei:TEI/tei:teiHeader/tei:fileDesc/tei:publicationStmt/tei:availability">
       <p>
-         <em>
             <xsl:apply-templates/>
-         </em>
       </p>
-      <p>
+<!--      <p>
          <em>
             <xsl:value-of select="/tei:TEI/tei:teiHeader/tei:fileDesc/tei:publicationStmt/tei:pubPlace"/>, <xsl:value-of
                select="/tei:TEI/tei:teiHeader/tei:fileDesc/tei:publicationStmt/tei:date"/>.
          </em>
-      </p>
+      </p>-->
    </xsl:template>
 
    <!-- Format information about the electronic document. -->
@@ -544,6 +550,7 @@
          <xsl:apply-templates/>
       </p>
    </xsl:template>
+   
    <xsl:template match="tei:TEI/tei:teiHeader/tei:fileDesc/tei:titleStmt">
       <hr style="border: 2px solid crimson;"/>
       <h2 id="edition">About the Electronic Edition</h2>
@@ -860,5 +867,6 @@
    <xsl:template match="tei:idno"/>
    <xsl:template match="tei:publisher"/>
    <xsl:template match="tei:pubPlace"/>
+   <xsl:template match="tei:publicationStmt/tei:date"></xsl:template>
    <xsl:template match="tei:teiHeader/tei:fileDesc/tei:publicationStmt/tei:availability/tei:p[@xml:id='CreativeCommons']"/>
 </xsl:stylesheet>

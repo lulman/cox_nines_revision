@@ -43,7 +43,7 @@
                <persName>The editors</persName>
             </respStmt>
             <respStmt>
-               <resp>Proofing and annotation:</resp>
+               <resp>Supplementary proofing and annotation: </resp>
                <persName>Envera Dukaj</persName>
              </respStmt>  
          </titleStmt>
@@ -160,6 +160,9 @@
                         pencil and [i&gt;] . . . [&lt;i] for ink-->. For those cases, a button in the right margin allows readers to toggle between the
                         two versions.
                      </p>
+                     <p><emph rend="bold">Selection of Source Material</emph>. This journal is the only manuscript by Samuel Sullivan Cox in
+                     The Ohio State University Libraries' collection, and it is edited here in its entirety. It provides an interesting
+                     look at a working draft of material that would find its way into publication as part of <title level="m">A Buckeye Abroad</title> (1852).</p>
                   </note>
                   <note type="introductory" resp="ed">
                      <p>Samuel Sullivan Cox (1824–1889) served as a Democratic congressman
@@ -635,88 +638,118 @@
       <encodingDesc>
           
          <projectDesc xml:id="CoxProjectDescription">
-            <p> This edition is the latest in a series of collaboratively produced electronic
-               editions of previously unpublished nineteenth-century American manuscripts held in
-               the Rare Books and Manuscripts Library at The Ohio State University. Previous editions
-               include "<ref target="http://people.cohums.ohio-state.edu/ulman1/Sophia_Hawthorne_Letters/">My Dear
-                  Elizabeth</ref>," five letters written by Sophia Peabody Hawthorne to her sister
-               Elizabeth Palmer Peabody between ca. 1837 and 1868 (currently being revised), and "<ref target="http://people.cohums.ohio-state.edu/ulman1/WBAnderson_Letters/">Dear
-               Wife</ref>," twenty-one letters written by riverboat captain William B. Anderson to
-               his wife Louisa while he plied the Ohio river during the height of the American Civil
-               War, 1862–1864. These documentary editions are intended to provide wide exposure and access
-               to manuscripts that might otherwise be difficult for scholars to discover and consult,
-               and to provide users with a variety of tools for studying those texts.
-            </p>
-            <p>
-               Each text was edited in connection with an undergraduate or graduate course offered by
-               H. Lewis Ulman, Associate Professor of English at The Ohio State University. The courses
-               aim to provide students with an opportunity to explore issues of textuality and mediation that arise when
-               our cultural archives spread from page to screen and from library shelves to networked databases.
-               Electronic textual editing is our vehicle for examining what happens—and envisioning what
-               might happen—when artifacts in one medium are represented in another medium, especially with
-               regard to the interpretive work of reading. Electronic textual editions also provide a contact zone that
-               can help us reflect on what manuscript, print, and "born digital" artifacts can tell us about
-               their relationships to one another and their unique properties.
-            </p>
-            <p>
-               While providing a reliable textual edition is a <foreign xml:lang="lat">sine qua non</foreign>, the Cox
-               edition also explores ways of telling four stories inextricably woven into our work: the lives and
-               historical milieu evoked by the texts, the history of the physical journal (including its recent
-               restoration), the editorial process that gave rise to this particular interpretation of the text,
-               and the mediation of our electronic delivery system. 
-            </p>
+            <p>This edition belongs to a series of collaboratively produced electronic editions of
+               previously unpublished nineteenth-century American manuscripts held in the Rare Books
+               and Manuscripts Library (RBMS) at The Ohio State University Libraries. Other editions
+               include "Selected Entries from the Lucius Clark Smith Diaries,
+               30 July 1862 to 31 December 1862"; "My Dear Elizabeth," five letters written by Sophia Peabody Hawthorne to her
+               sister Elizabeth Palmer Peabody between ca. 1837 and 1868; and Louisa A. Doane's "Journal
+               of Two Ocean Voyages (1852-1853)."</p>
+            
+            <p>Each text was initially edited in connection with an undergraduate or graduate course
+               on electronic textual editing offered by H. Lewis Ulman, Associate Professor of
+               English at The Ohio State University. The courses provided students with an
+               opportunity to explore issues of textuality and mediation that arise when our
+               cultural archives spread from page to screen and from library shelves to networked
+               databases. Electronic textual editing served as each class's context for examining
+               what happens—and envisioning what might happen—when artifacts in one medium are
+               represented in another medium, especially with regard to the interpretive work of
+               reading. Electronic textual editions also provided a contact zone that helped
+               students reflect on what manuscript, print, and "born digital" artifacts can tell us
+               about their unique properties and their relationships to one another.</p>
+            
+            <p>While the students' work focused on providing reliable textual editions, they also
+               explored four threads inextricably woven into the work of electronic textual editing:
+               the lives and historical milieu evoked by the texts; the history, characteristics,
+               and preservation of physical and digital texts; the editorial processes and decisions
+               that shape particular interpretations and presentations texts; and the mediation of
+               electronic delivery systems.</p>
+            
+            <p>These conceptual focuses, along with the time constraints of academic terms and the
+               need to train students who had, typically, no prior experience in textual editing or
+               the various technologies employed in electronic textual editing, strongly influenced
+               the selection of texts in this series. Working with curators in the RBMS, Professor
+               Ulman identified previously unpublished manuscript materials that were of potentially
+               broad interest and that reflected a curatorial focus of the RBMS collection—for
+               example, letters and personal diaries that connect private lives with larger
+               historical contexts. Focusing on unique manuscript materials not, in all but one
+               case, associated with other copies or later published versions also eliminated the
+               need to compare multiple copies or states of the same work, perhaps held in other
+               archives, an impractical task in the course of an academic term. Other practical
+               matters also informed the choice of materials, including the possibility of scanning
+               the source documents before the class so that students could work with both the
+               original documents and high-resolutions facsimiles as they transcribed and encoded
+               the source texts.</p>
+            
+            <p>Thus, the editions in this series are documentary editions—interpretations and
+               representations of single documents—designed to provide wider exposure and access to
+               manuscript materials that might otherwise be overlooked, and to provide users with a
+               variety of tools for studying those texts.</p>
+            
+            <p>While providing a reliable textual edition is a <foreign xml:lang="lat"><hi
+               style="font-style:italic;">sine qua non</hi></foreign>, the Stephens edition also
+               explores ways of telling four stories inextricably woven into our work: the lives and
+               historical milieu evoked by the texts, the history of the physical documents, the
+               editorial process that gave rise to this particular interpretation of the texts, and the
+               mediation of our electronic delivery system. </p>
+            
+            <p> Over the course of several years following the classes in which students worked on
+               the editions, Professor Ulman revised the introductory materials to ensure stylistic
+               consistency and proofed the transcription and encoding. He also redesigned the
+               structure of the editions to meet the requirements of Ohio State's institutional
+               repository, evolving accessibility standards, and feedback from peer reviewers.
+               However, he did not undertake a complete retranscription of the source text or
+               revision of the students' introductory essays and annotations.</p>
          </projectDesc>
          
          <editorialDecl xml:id="CoxEtextDescription">
             <p>
                <emph rend="bold">Scanning</emph>. The manuscript pages were scanned as 24-bit TIFF images
                at 400 dots per inch (dpi), then coverted to 8-bit JPEG images at 400 dpi and full
-               quality before being loaded into the Media Manager application. All edges were
-               overscanned by at least 1/4 inch. No color correction was used at any stage of image
+               quality. All edges were overscanned by at least 1/4 inch. No color correction was used at any stage of image
                preparation, but a scan of a photographer's 18% grey card on the same scanner
                produced RGB values at the center of 91/95/107 after applying a 150% Gaussian Blur in
                Adobe Photoshop to average color values. Thus, a properly configured monitor should
-               provide a reasonable approximation of colors on the manuscript pages. The pages were
-               scanned while the original journal was disbound for restoration. As a result, the
-               page images contain penciled page numbers in the lower left- or right-hand corners.
-               The numbers were erased after the volume was reassembled and rebound. 
+               provide a reasonable approximation of colors on the manuscript pages.. 
+            </p>
+            
+            <p><emph rend="bold">Transcription</emph>. Editing of the Cox journal emphasizes diplomatic transcription: 
+               abbreviations, recoverable cancelations, punctuation, spelling, underlining, additions above and below
+               the line or in the margins, capitalization, line breaks, and page breaks 
+               have all been transcribed and encoded as they appear in the original manuscripts. The
+               representation of those features varies depending on the view of the letter. An explanation of 
+               the presentation in each view of the letters can be read via the "About this View" link
+               at the top of each view's page.</p>
+            
+            <p><emph rend="bold">Markup and Annotation</emph>. XML encoding of the Anderson letters follows The
+               Text Encoding Initiative's (TEI) <title level="m">P5: Guidelines for Electronic Text Encoding and Interchange</title>,
+               as customized for the project using the TEI's ODD ("One Document Does it All") process.
+               This editorial introduction and the three "views" of the letters were generated from the main XML file
+               using XSL transformations to produce HTML Web pages. Several of the appendices were encoded in HTML separately.
+               A more detailed description of the markup can be found via the "Appendices" menu, and all source files
+               (XML, XSL, CSS, ODD, RNC) can be viewed and downloaded via the "Source Files" menu.</p>
+            
+            <p>Introductory material (such as this editorial introduction) as well as annotated lists of people, places, ships, 
+               and organizations mentioned in the letters are encoded in the TEI header of the main XML
+               document. Other explanatory annotations are linked directly from the text. Separate appendices provide 
+               further information about the project (e.g., acknowledgements, editors' bios, and so on). 
+               All these ancillary materials can be viewed via the menus at the top of each page.</p>
+            
+            <p>
+               <emph rend="bold">Proofing</emph>. Students who created the original transcriptions proofread their own
+               transcription and encoding. In preparation for peer review by NINES and preservation in The Ohio State University's 
+               Knowledge Bank, the transcriptions and encoding were once again proofread by Professor Ulman.
             </p>
             <p>
-               <emph rend="bold">Markup and Annotation</emph>.
-               This transcription of Cox's journal is marked up according to a set of project
-               guidelines derived from the Text Encoding Initiative's P4 version of its <title level="m">Guidelines</title>. See below for an overview of the project's markup
-               conventions and a link to detailed project guidelines. Annotations are limited to the
-               following categories: 1) comments about the text that supplement the TEI markup;
-               2) biographical notes about Cox's party and acquaintances (we do not annotate persons
-               easily identified using standard biographical dictionaries); 3) references to
-               literary texts; 4) ships mentioned in the text; 5) references to further information
-               about journal entries available in <title level="m">A Buckeye Abroad</title>.
+               <emph rend="bold">Peer Review</emph>. Anonymous reviewers for NINES provided peer-reviews for the editions, in response to 
+               which they were revised and then reviewed by NINES editors before being listed in the NINES database.
             </p>
             <p>
-               <emph rend="bold">Proofing</emph>. After all markup of the text was completed, a team
-               member who was not involved in the original markup read the text aloud to the
-               principal editor, who checked the marked-up transcript. In addition, the
-               HTML pages produced by XSL transformations were proofed for anomalies introduced by
-               the transformations.
+               <emph rend="bold">Production and Archival Location of Digital Assets</emph>.
+               All of the files associated with this edition are accessed via, and archived in, The Ohio State University's
+               institutional repository, the Knowledge Bank.
             </p>
-            <p>
-               <emph rend="bold">Production Location of Digital Assets</emph>.
-               The TEI XML-compliant transcription of the Cox journal, along with four style sheets used to
-               provide variant "views" of the edition, are stored on a server hosted by College of Arts and Sciences at The
-               Ohio State University. High resolution scans of the manuscript pages, scans of plates from contemporary sources
-               including <title level="m">A Buckeye Abroad</title>, and photographs documenting the restoration of
-               the Cox journal are stored in the Media Manager application hosted by the Colleges of Arts and Science
-               at The Ohio State University. Video files documenting the restoration of the journal are stored on a QuickTime streaming
-               server hosted by the College of Arts and Sciences, and the files constituting the project's Web site at
-               <ref target="http://people.cohums.ohio-state.edu/ulman1/SSCoxJournal/"/>http://people.cohums.ohio-state.edu/ulman1/SSCoxJournal/ 
-               are stored on a Web server hosted by the College.
-            </p>
-            <p>
-               <emph rend="bold">Archiving of Digital Assets</emph>. All digital assets related to
-               this edition are
-               archived in The Ohio State University <ref target="https://kb.osu.edu/dspace/index.jsp">Knowledge Bank</ref>.
-            </p>
-                        
+            
          </editorialDecl>
          
          <refsDecl xml:id="CoxEncodingDescription">
@@ -805,7 +838,8 @@
          </handNotes>
          
          <textClass>
-            <keywords>
+            <!-- Supply a list of keywords for your document from the Library of Congress Subject Headings -->
+            <keywords scheme="#LCSH">
                <term>Europe -- Description and travel</term>
             </keywords>
          </textClass>
@@ -848,8 +882,9 @@
             <p>
             <figure rend="link">
                <head>Sold By / Wm. W. Rose. / Stationer, / 19 Wall St. N.Y.</head>
+               <graphic url="SSCox_004_label.jpg"></graphic>
                <figDesc>
-                  <ref target="https://images.asc.ohio-state.edu/is/image/mediamanager?layer=0&amp;size=245,210&amp;layer=1&amp;src=is{mediamanager/d/d55bd1e7-4d6a-4e25-96c2-fce218b49512.jpg?scale=0.7&amp;rgn=35,0,245,140&amp;fmt=png}&amp;posN=0,-.25&amp;layer=2&amp;size=245,140&amp;text=\vertalt\cf1\qc\fs21\%20Sold By/Wm. W. Rose./Stationer,/19 Wall St. N.Y.&amp;posN=0,.5">[Stationer's Label]</ref>
+                  Stationer's label
                </figDesc>
             </figure>
             </p>
@@ -1324,9 +1359,10 @@
                of the Gulf Stream, and curve their channel into a horse-shoe. . . . This 'bend' is the great receptacle of 
                the icebergs which drift down from the north" (241–42).
                   <figure rend="link">
-                     <head>The dotted line indicates the 'bend'" in the Gulf Stream\line where cold Arctic waters intrude (Maury, Plate VI)</head>
+                     <head>Maury, Plate VI)</head>
+                     <graphic url="image_sscox_gulf_stream.jpg"></graphic>
                      <figDesc>
-                        <ref target="https://images.asc.ohio-state.edu/is/image/mediamanager?layer=0&amp;src=is{mediamanager/6/66f4049b-e765-496d-8788-e81592799f58.jpg?scale=0.5&amp;rgn=650,50,600,400&amp;fmt=png}&amp;layer=1&amp;size=120,220&amp;color=128,128,128,32&amp;text=\b The 'bend'&amp;PosN=0.06,0">Click to view Maury's isothermic map of the 'bend' in the Gulf Stream</ref>
+                       Map of the Gulf Stream in the North Atlantic.
                      </figDesc>
                   </figure>
                </note>
@@ -2260,11 +2296,12 @@
              <lb/> a room scented with flowers, of
              <lb/> which this petal
                 <ptr type="noteAnchor" target="petal"/><note resp="ed" xml:id="petal" anchored="true">Presumably, Cox refers to a sketch of a flower that he inserts at this point in
-                the text 
+                the text:  
                    <figure rend="link">
                       <head>Cox's sketch of a Johnny Jump-Up (<emph rend="italic">Viola cornuta</emph>).</head>
+                      <graphic url="SSCox_037_sketch.jpg"></graphic>
                       <figDesc>
-                         <ref target="https://images.asc.ohio-state.edu/is/image/mediamanager?layer=0&amp;size=240,360&amp;layer=1&amp;src=is{mediamanagerSSCox_037" n="/5/5a0a42f1-abf8-4e99-8776-02bdbb60838b.jpg?scale=0.4&amp;rgn=30,680,240,240&amp;fmt=png}&amp;posN=0,-.25&amp;layer=2&amp;size=240,240&amp;text=\vertalt\cf1\qc\fs20\%20Cox's sketch of a Johnny Jump-Up\line\i(Viola%20cornuta)&amp;posN=0,.5">click to view the sketch</ref>
+                         Cox's sketch of a Johnny Jump-Up (<emph rend="italic">Viola cornuta</emph>)
                       </figDesc>
                    </figure>
                 </note>
@@ -2966,7 +3003,7 @@
                <!-- Proofed 20080701 by HLU/ED -->
                
                <pb facs="SSCox_054"/>
-               <lb/> Saw down at the transcept &amp;
+               <lb/> Sat down at the transcept &amp;
                <lb/> wrote my impressions—bid it 
                <lb/> good bye; walked through 
                <lb/> the park, &amp; stopped on the 
@@ -2994,8 +3031,9 @@
                <lb/> into an aisle in form of 
                <figure rend="link">
                   <head>Cox's Sketch of Aisle</head>
+                  <graphic url="SSCox_054_sketch.png"></graphic>
                   <figDesc>
-                     <ref target="https://images.asc.ohio-state.edu/is/image/mediamanager?layer=0&amp;size=180,180&amp;layer=1&amp;src=is{mediamanagerSSCox_054" n="/a/a3a18430-5f12-406b-9522-ab153ad395a6.jpg?scale=0.4&amp;rgn=420,780,180,120&amp;fmt=png}&amp;posN=0,-.25&amp;layer=2&amp;size=180,94&amp;text=\vertalt\cf1\qc\fs20\%20Cox's Sketch of Aisle&amp;posN=0,.5">click to view the sketch</ref>
+                     Cox's sketch of the aisle.
                   </figDesc>
                </figure> 
                <lb/> The sculptured forms all about.
@@ -4009,12 +4047,6 @@
                <lb/> my journal, &amp; will soon be enroute
                <lb/> for the <rs type="city">Eternal City</rs>! Hurrah!
                <lb/> Hurrah!! Hurrah!!!!!
-               <figure rend="link">
-                  <head>Mss. image</head>
-                  <figDesc>
-                     <ref target="https://images.asc.ohio-state.edu/is/image/mediamanager?layer=0&amp;size=600,150&amp;layer=1&amp;src=is{mediamanagerSSCox_085" n="/e/e651e499-baa6-4dd8-9d30-0ba062571d59.jpg?scale=0.4&amp;rgn=20,940,600,100&amp;fmt=png}&amp;posN=0,-.25&amp;layer=2&amp;size=600,100&amp;text=\vertalt\cf1\qc\fs20\%20Mss.%20image&amp;posN=0,.5">Mss. image</ref>
-                  </figDesc>
-               </figure>
             </p>
             
             <!-- Proofed 20080729 by HLU/ED -->                
@@ -4040,12 +4072,6 @@
                   unlike <placeName type="state">Ohio</placeName>—
                <lb/> We saw ruins, fine cattle, wheat, tumuli, castles &amp;
                <lb/>at last—!</add> 
-               <figure rend="link">
-                  <head>This text was most likely added after the following entry was begun.</head>
-                  <figDesc>
-                     <ref target="https://images.asc.ohio-state.edu/is/image/mediamanager?layer=0&amp;size=1085,262.5&amp;layer=1&amp;src=is{mediamanagerSSCox_086" n="/a/a88360ff-a15d-4526-ba7c-6c1bb8f79d8f.jpg?scale=0.7&amp;rgn=0,735,1085,175&amp;fmt=png}&amp;posN=0,-.25&amp;layer=2&amp;size=1085,175&amp;text=\vertalt\cf1\qc\fs51\%20This text was most likely added after the following entry was begun.&amp;posN=0,.5">See note</ref>
-                  </figDesc>
-               </figure>
             </p>
          </div>            
 
@@ -4103,12 +4129,7 @@
                <lb/> last four hours. For as we approach<seg type="softhyphen">
                   <lb/></seg>ed this Eternal city <placeName type="landmark">S<hi rend="superscript">t</hi> Peters</placeName> dome 
                <lb/> hung near us, seemingly within
-               <lb/> a mile or so, until we passed <del type="recoverable" hand="#SSCox_1851_Journal" rend="overstrike">the</del> <figure rend="link">
-                  <head>Overstrike</head>
-                  <figDesc>
-                     <ref target="https://images.asc.ohio-state.edu/is/image/mediamanager?layer=0&amp;size=158,105&amp;layer=1&amp;src=is{mediamanagerSSCox_088" n="/1/16626401-aa4c-48c1-a1ce-d8f70ca4f9b0.jpg?scale=0.7&amp;rgn=1015,333,158,70&amp;fmt=png}&amp;posN=0,-.25&amp;layer=2&amp;size=158,70&amp;text=\vertalt\cf1\qc\fs51\%20Overstrike&amp;posN=0,.5">overstrike</ref>
-                  </figDesc>
-               </figure>
+               <lb/> a mile or so, until we passed <del type="recoverable" hand="#SSCox_1851_Journal" rend="overstrike">the</del> 
                <lb/> through the <placeName type="landmark">Aurelian way</placeName>, &amp; apast
                <lb/> vineyards high walled, and entered
                <lb/> the <placeName type="landmark">Porta <choice><sic>Cavallleggieri</sic><corr>Cavalleggieri</corr></choice></placeName> (where
@@ -4782,7 +4803,7 @@
                <lb/> ready to go off  
                <figure rend="link">
                   <head>Embellishment</head>
-                  <graphic url="SSCox_081_embellishment.jpg"></graphic>
+                  <graphic url="SSCox_108_embellishment.jpg"></graphic>
                   <figDesc>Short inline horozontal flourish curved upward at one end and downlard at the other.</figDesc>
                </figure>
             </p>

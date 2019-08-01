@@ -15,21 +15,21 @@
     <!-- Declare variables that will "localize" references to them in LCSmith-Common.xsl -->
     
     <xsl:variable name="View">Facsimile/Diplomatic View</xsl:variable>
-    <xsl:variable name="aboutView">
-        This view combines facsimiles of manuscript pages with diplomatic transcriptions of the
-        Smith Diaries. Clicking on a page image will open a zoomable view of that page in a new
-        window In the diplomatic transcription, line breaks and page breaks reflect those in the letters;
-        paragraph breaks are not reported. Spelling, punctuation, capitalization, and abbreviations
-        are reported as they appear in the original letters. Text highlighted by correspondents with
-        an underscore is underscored in this view. Recoverable cancellations are reported in red,
-        strikethrough text. Interlinear additions are reported between arrows (↑ ↓) indicating the
-        position of the addition; text added in the margins is reported between pipes (|). All
-        material added by the editors is surrounded by square brackets: uncertain readings are
-        followed by a question mark, apparent errors in the manuscript are indicated by "sic," and
-        text supplied by the editors for clarity is set in italics. Gaps in the manuscript (e.g.,
-        tears, unrecoverable cancellations) are noted by ellipses within square brackets. Links to
-        explanatory notes are indicated by superscript colored numbers.
-    </xsl:variable>
+    <xsl:variable name="aboutView"> This presentation of the Cox journal derives from the project's
+        main XML file, sscox_journal.xml, transformed with sscox_Common.xsl and
+        sscox_CombinedView.xsl. Facsimiles of pages appear next to the edited text, and clicking on
+        a page image will open a full-sized view of that page in a new window . In the text of the
+        letter, line and page breaks follow those in the manuscript; paragraph breaks are not
+        reported. Spelling, punctuation, capitalization, and abbreviations are reported as they
+        appear in the manuscript. Text highlighted by Cox with an underscore is underscored.
+        Recoverable text canceled by Cox is presented in a red, strikethrough font. Uncertain readings are
+        enclosed in square brackets and followed by a question mark. Text added by Cox between
+        lines is preceded by an arrow indicating whether the addition is above or below the line and
+        followed by an arrow indicating the return to the line (&#x2191; &#x2193;); text added in
+        the margins is preceded and followed by a vertical bar (&#x007C;). Text added by Cox
+        in the margins is surrounded by "pipe" characters (|) at the point in the main text that it
+        appears to follow. Links to external materials are colored and underlined, and links to explanatory notes are
+        indicated by superscript colored numbers.</xsl:variable>
     <xsl:variable name="bodyRule">
         body {
         font-family: 'Fanwood Text',georgia, serif;
@@ -59,7 +59,7 @@
         }
         
         .pageview {
-        margin-bottom:200px;
+        margin-bottom:425px;
         float:left;
         }
         .pagebreak {
@@ -134,15 +134,16 @@
     </xsl:variable>
     
    
-    <!-- Include common style sheet for Lucius Clark Smith Diaries. -->
+    <!-- Include common style sheet for Cox journal. -->
     
     <xsl:include href="sscox_Common.xsl"/>
 
     
     <!-- Define templates required for the combined image/text view. -->
     
+    <!-- In this view, place a single line before each page. -->
     <xsl:template match="tei:pb">
-        <br/>
+        <br/><br/><hr/>
         <div class="pagebreak"> [Page&#xA0;-&#xA0;<xsl:number count="tei:pb" format="1"
             level="any"/>&#xA0; (<a><xsl:attribute
                 name="href"><xsl:value-of select="@facs"/>.jpg</xsl:attribute><xsl:attribute name="target">top</xsl:attribute>click to open page image in a new window</a>)]<br/>

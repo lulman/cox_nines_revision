@@ -15,7 +15,9 @@
     <!-- Declare variables that will "localize" references to them in Stephens-Common.xsl -->
 
     <xsl:variable name="View">Reading Text</xsl:variable>
-    <xsl:variable name="aboutView"> In this reading text of the Lucius Clark Smith diaries, line breaks in the
+    <xsl:variable name="aboutView">This presentation of the Cox journal derives from the
+        project's main XML file, sscox_journal.xml, transformed with sscox_Common.xsl and
+        sscox-Reading.xsl. In this "view" of the Cox journal, line breaks in the
         manuscripts are not reported; rather, lines wrap in the browser's window. Similarly, page
         breaks are not reported. Paragraph breaks follow those in the manuscript. Spelling,
         punctuation, capitalization, and abbreviations are reported as they appear in the
@@ -104,6 +106,16 @@
     <xsl:template match="tei:div[@type='Entry']/tei:head/tei:lb">
         <br/><xsl:apply-templates/>
     </xsl:template>
+
+    <!-- Put single line before each entry. -->    
+    <xsl:template match="tei:div[@type='Entry']">
+        <div class="Entry">
+            <xsl:element name="a"><xsl:attribute name="name"><xsl:value-of select="@xml:id"/></xsl:attribute></xsl:element>
+            <hr/><xsl:apply-templates/>
+        </div>
+    </xsl:template>
+    
+    
     <xsl:template match="tei:opener/tei:lb">
         <br/><xsl:apply-templates/>
     </xsl:template>
