@@ -15,20 +15,20 @@
     <!-- Declare variables that will "localize" references to them in Stephens-Common.xsl -->
 
     <xsl:variable name="View">Reading Text</xsl:variable>
-    <xsl:variable name="aboutView">This presentation of the Cox journal derives from the
-        project's main XML file, sscox_journal.xml, transformed with sscox_Common.xsl and
-        sscox-Reading.xsl. In this "view" of the Cox journal, line breaks in the
-        manuscripts are not reported; rather, lines wrap in the browser's window. Similarly, page
-        breaks are not reported. Paragraph breaks follow those in the manuscript. Spelling,
-        punctuation, capitalization, and abbreviations are reported as they appear in the
-        manuscript. Text highlighted by Cox with an underscore is underscored in this
-        view. Canceled text is suppressed. Text added between lines or in the margins is silently
-        incorporated into the reading text. All material added by the editors is surrounded by
-        square brackets: uncertain readings are enclosed in square brackets and followed by a
-        question mark, and text supplied by the editor for clarity is set in italics and surrounded
-        by square brackets. Gaps in the manuscript (e.g., from tears) are indicated by elipses
-        enclosed by square brackets. Links to notes and external materials are colored.
-    </xsl:variable>
+    <xsl:variable name="aboutView">This presentation of the Cox journal derives from the project's
+        main XML file, sscox_journal.xml, transformed with sscox_Common.xsl and sscox-Reading.xsl.
+        In this "view" of the Cox journal, line breaks in the manuscripts are not reported; rather,
+        lines wrap in the browser's window. Similarly, page breaks are not reported. The single
+        horizontal line between daily entries has been added to the text to aid scanning the text;
+        it does not appear in the manuscript. Paragraph breaks follow those in the manuscript.
+        Spelling, punctuation, capitalization, and abbreviations are reported as they appear in the
+        manuscript. Text highlighted by Cox with an underscore is underscored in this view. Canceled
+        text is suppressed. Text added between lines or in the margins is silently incorporated into
+        the reading text. All material added by the editors is surrounded by square brackets:
+        uncertain readings are enclosed in square brackets and followed by a question mark, and text
+        supplied by the editor for clarity is set in italics and surrounded by square brackets. Gaps
+        in the manuscript (e.g., from tears) are indicated by elipses enclosed by square brackets.
+        Links to notes and external materials are colored. </xsl:variable>
     <xsl:variable name="bodyRule">
         body {
         font-family: 'Fanwood Text',georgia, serif;
