@@ -2,12 +2,12 @@
 <xsl:stylesheet xmlns:xsl="http://www.w3.org/1999/XSL/Transform"
     xmlns:xd="http://www.oxygenxml.com/ns/doc/xsl" 
     xmlns:tei="http://www.tei-c.org/ns/1.0"
-    exclude-result-prefixes="xd"
+    exclude-result-prefixes="xd tei"
     version="2.0">
     <xd:doc scope="stylesheet">
         <xd:desc>
-            <xd:p><xd:b>Created on:</xd:b>Jul 24, 2012</xd:p>
-            <xd:p><xd:b>Author:</xd:b>H. Lewis Ulman</xd:p>
+            <xd:p><xd:b>Created on:</xd:b> Oct 29, 2011</xd:p>
+            <xd:p><xd:b>Author:</xd:b> lulman</xd:p>
             <xd:p></xd:p>
         </xd:desc>
     </xd:doc>
@@ -91,6 +91,9 @@
         -moz-border-radius: 10 px;
         border-radius: 10px;	
         }
+        .blockquote {
+        margin-left:0;
+        }
     </xsl:variable>
     
     <!-- Include common style sheet for Smith diaries. -->
@@ -101,14 +104,14 @@
     
     <!-- In this view, place a single line before each page. -->
     <xsl:template match="tei:pb">
-        <br/><br/><hr/>
+        <br/><hr/>
         <span class="pagebreak">[Page&#xA0;-&#xA0;<xsl:number count="tei:pb" format="1" level="any"/>
             &#xA0;(<a><xsl:attribute
                 name="href"><xsl:value-of select="@facs"/>.jpg</xsl:attribute>
             <xsl:attribute name="target">_blank</xsl:attribute>click to open page image in a new window</a>)]</span>
-    <!--    <br/>-->
+        <br/>
     </xsl:template>    
-    <xsl:template match="tei:lb"><br/><a><xsl:attribute name="name"><xsl:number count="tei:lb" format="0001" level="any" from="tei:div[@type='letter']"/></xsl:attribute>
+    <xsl:template match="tei:lb"><br/><a><xsl:attribute name="id"><xsl:number count="tei:lb" format="0001" level="any" from="tei:div[@type='letter']"/></xsl:attribute>
         </a><xsl:number count="tei:lb" format="0001" level="any" from="tei:div[@type='letter']"/>&#xA0;&#xA0;&#xA0;&#xA0;&#xA0;
     </xsl:template>
     <xsl:template match="tei:fileDesc/tei:titleStmt/tei:title/tei:lb">

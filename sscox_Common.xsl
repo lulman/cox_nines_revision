@@ -654,9 +654,9 @@
       </q>
    </xsl:template>
    <xsl:template match="//tei:quote[@type='blockquote']">
-      <p class="blockquote">
+      <div class="blockquote">
          <xsl:apply-templates/>
-      </p>
+      </div>
    </xsl:template>
 
    <!-- Choice Elements -->
