@@ -102,7 +102,6 @@
                
                <notesStmt>
                   <note type="descriptive" resp="ed">
-                     <p>
                         <figure rend="embed" n="250">
                         <head>Cox journal before restoration</head>
                         <graphic url="./image_sscox_orig_spine.jpg"/>
@@ -111,7 +110,6 @@
                         </figDesc>
                      </figure>
                      SPEC.RARE.73
-                     </p>
                      
                      <p>
                         Samuel Sullivan Cox's "Journal of a Tour to Europe" is a leather-bound
@@ -191,12 +189,12 @@
                            The New Pilgrims Progress</title> (1869), <title level="m">A Buckeye
                            Abroad</title> is still far from the first account in English of a "grand
                         tour" of Europe. Both Twain and Cox offer similar <emph rend="italic">apologia</emph> for publishing yet another account of a grand tour. Twain presents
-                        himself as everyman, rather than guide or critic: <q rend="block">Yet
+                        himself as everyman, rather than guide or critic:</p> <q rend="block">Yet
                            notwithstanding it is only a record of a picnic, it has a purpose, which
                            is to suggest to the reader how <emph rend="italic">he</emph> would be
                            likely to see Europe and the East if he looked at them with his own eyes
                            instead of the eyes of those who traveled in those countries before him.
-                           (xvii)</q> Cox presents a similarly self-effacing ethos: <q rend="block">The only merit reserved for a volume of travels is, either that the
+                           (xvii)</q><p> Cox presents a similarly self-effacing ethos:</p> <q rend="block">The only merit reserved for a volume of travels is, either that the
                            ground is untrodden, or that the mode of observation is new and peculiar.
                            The author can lay no claim to the former. Something may be conceded to
                            him, from the fact imported by the title—<title level="m">A Buckeye Abroad</title>. A
@@ -204,7 +202,7 @@
                            State,—may be supposed to look upon the scenes and mingle with
                            the throngs of the Old World with new and peculiar sensations, which may
                            find sympathy, if not with the general reader, at least with readers in
-                           Ohio. (5)</q> Of course, the degree to which Cox (or Twain, for that
+                           Ohio. (5)</q><p> Of course, the degree to which Cox (or Twain, for that
                         matter) presents "new and peculiar" views of Europe to his contemporaries is
                         open to interpretation. In Cox's notes about each stage of
                         his party's journey, however, twenty-first-century readers are sure to find
@@ -266,7 +264,7 @@
                         also draws on a rich—if sometimes overwrought—pictorial
                         imagination, an ability to sketch sentimental and often didactic tableaux in words.
                         Describing a small bird he sees somewhere off the coast of Nova Scotia or
-                        Newfoundland, Cox writes,<q rend="block">How beautiful would be the song of
+                        Newfoundland, Cox writes,</p><q rend="block">How beautiful would be the song of
                            that little chorister upon a "bough swaying in the
                            breeze" in some sequestered nook amid a leafy valley surrounded
                            with green prospects &amp; smiling cultivation. How like a hymn to
@@ -276,7 +274,7 @@
                            from its home in the bosom of the wood by the mysteries of the Unknown, a
                            thing of song in a sea of chaos—soon to [be] whelmed forever! Is it not
                            an epitome of Man when he breaks the golden chords of that harmony which
-                           binds him to his God!</q> Cox's skill at this sort of writing would earn
+                           binds him to his God!</q><p> Cox's skill at this sort of writing would earn
                         him the sobriquet "Sunset Cox" after the appearance in 1853 of an effusive
                         description of a sunset published in <title level="m">The Ohio
                         Statesman</title>, a political journal that he owned and edited in Columbus,
@@ -285,12 +283,12 @@
                         Cox somewhat more modestly characterizes his literary allusions and
                         descriptive prose as spontaneous <foreign xml:lang="fre">plein air</foreign>
                         daguerreotypes of the scenes before
-                        him:<q rend="block">The impressions herein recorded were mostly taken upon
+                        him:</p><q rend="block">The impressions herein recorded were mostly taken upon
                            the spot, and the allusions, historical, classical, or otherwise, were
                            not sought for, but sprung out of the time and locality. Each lineament
                            of each form in Nature or Art, each custom and characteristic were
                            daguerreotyped, though somewhat rapidly, if not imperfectly, from the
-                           original, as it appeared in itself and in its environment. (6)</q> While
+                           original, as it appeared in itself and in its environment. (6)</q> <p>While
                         it lies beyond the scope of this introduction to test Cox's claims, it is
                         worth noting here that the journal, from the early entries onward, provides
                         a rough means of gauging the spontaneity and directness of the writing in <title level="m">A Buckeye Abroad</title> and the degree to which it results from
@@ -435,7 +433,7 @@
                <listBibl>
                   <head>Works Cited in Explanatory Notes and Editorial Introduction</head>              
                   <!-- @n in this list contains an alphabetization key -->
-                  <bibl n="1"><hi rend="italics">NB: We do not
+                  <bibl xml:id="NB" n="1"><hi rend="italics">NB: We do not
                      provide citations to specific editions of canonical works of literature quoted by
                      Cox.</hi>
                   </bibl>

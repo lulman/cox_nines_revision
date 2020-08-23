@@ -193,7 +193,7 @@
                </div> <!-- End div id navigation -->
                
                <div id="titleBar">
-               <p align="center"><span class="projectTitle">Journal of a Tour to Europe</span><br/>by Samuel Sullivan Cox</p>
+                  <p style="text-align: center"><span class="projectTitle">Journal of a Tour to Europe</span><br/>by Samuel Sullivan Cox</p>
                   <hr style="border: 2px solid crimson;"/>
                </div> <!-- END titleBar -->
             </div> <!-- END masthead -->
@@ -456,7 +456,6 @@
 -->      
       
       <hr style="border: 2px solid crimson;"/>
-      <a name="WorksCited"/>
       <h2 id="worksCited">List of Works Cited</h2>
       <hr/>
       <xsl:apply-templates
@@ -475,7 +474,7 @@
       <hr style="border: 2px solid crimson;"/>
       <h2>About this Editorial Introduction</h2>
       <hr/>
-            <p><a name="view"/>Text on this page is derived from the
+            <p><a id="view"/>Text on this page is derived from the
                edition's XML source document <a href="sscox_journal.xml">sscox_journal.xml</a>, transformed
                with the XSL style sheet <a href="sscox_Edintro.xsl">sscox_Edintro.xsl</a>.</p>
             <hr/>
@@ -504,7 +503,6 @@
    <xsl:template
       match="tei:TEI/tei:teiHeader/tei:fileDesc/tei:sourceDesc/tei:biblFull/tei:notesStmt/tei:note[@type='descriptive']">
       <hr style="border: 2px solid crimson;"/>
-      <a name="source"/>
       <h2 id="source">About the Source Document</h2>
       <hr/>
       <p><strong>Title</strong>: "<xsl:value-of select="/tei:TEI/tei:teiHeader/tei:fileDesc/tei:sourceDesc/tei:biblFull/tei:titleStmt/tei:title"/>" 
@@ -522,7 +520,7 @@
       <hr style="border: 2px solid crimson;"/>
       <h2>License</h2>
       <hr/>
-      <p align="left">
+      <p style="text-align: left">
          <xsl:value-of
             select="/tei:TEI/tei:teiHeader/tei:fileDesc/tei:publicationStmt/tei:availability/tei:p[@xml:id='CreativeCommons']"
             disable-output-escaping="yes"/>
@@ -530,9 +528,7 @@
    </xsl:template>
    
    <xsl:template match="tei:TEI/tei:teiHeader/tei:fileDesc/tei:publicationStmt/tei:availability">
-      <p>
             <xsl:apply-templates/>
-      </p>
 <!--      <p>
          <em>
             <xsl:value-of select="/tei:TEI/tei:teiHeader/tei:fileDesc/tei:publicationStmt/tei:pubPlace"/>, <xsl:value-of
@@ -547,9 +543,7 @@
       <hr style="border: 2px solid crimson;"/>
       <h2 id="projectDescription">Project Description</h2>
       <hr/>
-      <p>
          <xsl:apply-templates/>
-      </p>
    </xsl:template>
    
    <xsl:template match="tei:TEI/tei:teiHeader/tei:fileDesc/tei:titleStmt">
@@ -593,7 +587,7 @@
       <xsl:for-each select="tei:bibl">
          <xsl:sort select="@n"/>
          <p class="hang25"><a>
-            <xsl:attribute name="name"><xsl:value-of select="@xml:id"/></xsl:attribute></a>
+            <xsl:attribute name="id"><xsl:value-of select="@xml:id"/></xsl:attribute></a>
             <xsl:apply-templates/></p>
       </xsl:for-each>
    </xsl:template>
@@ -691,9 +685,8 @@
       
    <xsl:template match="tei:TEI/tei:teiHeader/tei:revisionDesc">
       <hr style="border: 2px solid crimson;"/>
-      <a name="revHistory"/>
-         <h2 id="revision">Revision History</h2>
-      <table width="90%" cellpadding="5px">
+         <h2 id="revHistory">Revision History</h2>
+      <table style="width:90%; padding:5px">
          <tr>
             <td>
                <h3>Date</h3>
@@ -707,12 +700,12 @@
          </tr>
          <xsl:for-each select="tei:change">
             <xsl:variable name="ID"><xsl:value-of select="@who"/></xsl:variable>
-            <tr class="revTable" valign="top">
-               <td nowrap="nowrap">
+            <tr class="revTable" style="vertical-align:top">
+               <td style="white-space: nowrap">
                   <xsl:value-of select="tei:date"/>
                </td>
-               <td nowrap="nowrap">
-<!--            OLD CODE             
+               <td style="white-space: nowrap">
+                  <!--            OLD CODE             
                 <xsl:value-of select="//tei:listPerson[@type='editors']/tei:person[@xml:id=$ID]/tei:persName"></xsl:value-of>
 -->               
                <xsl:value-of select="tei:name"/>
@@ -723,7 +716,7 @@
             </tr>
          </xsl:for-each>
       </table>
-      <p><lb/></p>
+      <p></p>
    </xsl:template>
 
    <!-- Format miscellaneous elements -->
@@ -745,9 +738,7 @@
    </xsl:template>
    <xsl:template match="tei:q[@rend='block']">
       <div class="blockquote">
-        <br/>
          <xsl:apply-templates/>
-       <br/>
        <br/>
       </div>
    </xsl:template>
