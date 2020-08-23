@@ -1,14 +1,15 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<xsl:stylesheet xmlns:xsl="http://www.w3.org/1999/XSL/Transform"
-   xmlns:tei="http://www.tei-c.org/ns/1.0" version="2.0">
+<xsl:stylesheet xmlns:tei="http://www.tei-c.org/ns/1.0" xmlns:xsl="http://www.w3.org/1999/XSL/Transform"
+   version="2.0" exclude-result-prefixes="tei">
+   <xsl:output method="html" version="5.0" encoding="UTF-8" indent="yes"/>
    <xd:doc xmlns:xd="http://www.oxygenxml.com/ns/doc/xsl" scope="stylesheet">
       <xd:desc>
-         <xd:p><xd:b>Created on:</xd:b> Jul 24, 2012</xd:p>
+         <xd:p><xd:b>Created on:</xd:b> Feb 19, 2010</xd:p>
          <xd:p><xd:b>Author:</xd:b>H. Lewis Ulman</xd:p>
          <xd:p/>
       </xd:desc>
    </xd:doc>
-
+   
    <!-- This style sheet is divided into the following sections:
       
       HTML WRAPPER
@@ -67,7 +68,7 @@
             </script>
             
             <!-- CALL VARIABLES (Needed here?) -->  
-            <style type="text/css">
+            <style>
                <xsl:value-of select="$maintextRule"/>
                <xsl:value-of select="$navBarRule"/>
                <xsl:value-of select="$bodyRule"/>
@@ -149,7 +150,7 @@
                </div> <!-- End div id navigation -->
                
                <div id="titleBar">
-                  <p align="center"><span class="projectTitle">Journal of a Tour to Europe</span><br/>by Samuel Sullivan Cox</p>
+                  <p style="text-align: center"><span class="projectTitle">Journal of a Tour to Europe</span><br/>by Samuel Sullivan Cox</p>
                   <!-- Horizontal rule beneath page title -->
                   <hr style="border: 2px solid crimson;"/>
                </div> <!-- END titleBar -->
@@ -395,7 +396,7 @@
                <xsl:choose>
                   <xsl:when test="position()>=100">
                      <p class="hang35"><a>
-                        <xsl:attribute name="name">n<xsl:value-of select="@xml:id"/></xsl:attribute>
+                        <xsl:attribute name="id">n<xsl:value-of select="@xml:id"/></xsl:attribute>
                         </a>
                         <xsl:number count="//tei:body//tei:note[@resp='ed']" level="any"
                         />.&#xA0;<xsl:apply-templates/>
@@ -408,7 +409,7 @@
                   </xsl:when>
                   <xsl:when test="position()>=10">
                      <p class="hang25"><a>
-                        <xsl:attribute name="name">n<xsl:value-of select="@xml:id"/></xsl:attribute>
+                        <xsl:attribute name="id">n<xsl:value-of select="@xml:id"/></xsl:attribute>
                         </a>
                         <xsl:number count="//tei:body//tei:note[@resp='ed']" level="any"
                         />.&#xA0;<xsl:apply-templates/>
@@ -421,7 +422,7 @@
                   </xsl:when>
                   <xsl:otherwise>
                      <p class="hang15"><a>
-                           <xsl:attribute name="name">n<xsl:value-of select="@xml:id"/></xsl:attribute>
+                           <xsl:attribute name="id">n<xsl:value-of select="@xml:id"/></xsl:attribute>
                         </a>
                         <xsl:number count="//tei:body//tei:note[@resp='ed']" level="any"/>.&#xA0;<xsl:apply-templates/>
                         <a>
@@ -449,18 +450,18 @@
                <hr style="border: 2px solid crimson;"/>
                <h2 style="text-align:center;">About this View of the Journal</h2>
                <hr/>
-            <p><a name="view"/><xsl:value-of select="$aboutView"/></p>
+            <p><a id="view"/><xsl:value-of select="$aboutView"/></p>
             <hr/>
             <a href="#top">Top of Page</a>
                
             <!-- Insert link to home page, creation date, and licensing statement.-->
-            <p align="left">
+               <p style="text-align: left">
                <br/>
                <br/>
-               <emph>Created: <xsl:apply-templates
-                     select="//tei:TEI/tei:teiHeader/tei:profileDesc/tei:creation/tei:date"/></emph>
+               Created: <xsl:apply-templates
+                     select="//tei:TEI/tei:teiHeader/tei:profileDesc/tei:creation/tei:date"/>
             </p>
-            <p align="center">
+               <p style="text-align: center">
                <xsl:value-of
                   select="//tei:teiCorpus/tei:teiHeader/tei:availability/tei:p[@id='CreativeCommons']"
                   disable-output-escaping="yes"/>
@@ -509,7 +510,7 @@
       <hr/>
       <br/>
       <a>
-         <xsl:attribute name="name">
+         <xsl:attribute name="id">
             <xsl:value-of select="@xml:id"/>
          </xsl:attribute>
       </a>
@@ -528,7 +529,7 @@
          <xsl:sort select="@n"/>
          <p class="hang25">
             <a>
-               <xsl:attribute name="name">
+               <xsl:attribute name="id">
                   <xsl:value-of select="@xml:id"/>
                </xsl:attribute>
             </a>
@@ -574,7 +575,7 @@
 
    <xsl:template match="tei:TEI//tei:ptr[@type='noteAnchor']">
       <a>
-         <xsl:attribute name="name">p<xsl:value-of select="@target"></xsl:value-of>
+         <xsl:attribute name="id">p<xsl:value-of select="@target"></xsl:value-of>
          </xsl:attribute>
          <xsl:attribute name="class">notePointer</xsl:attribute>
       </a>
@@ -675,11 +676,11 @@
    
    <!-- The log of the Asia.  -->
    <xsl:template match="tei:table[@xml:id='log']">
-      <table cellpadding="5px" class="log">
+      <table style="padding:5px" class="log">
          <xsl:for-each select="tei:row">
             <tr>
                <xsl:for-each select="tei:cell">
-               <td class="logcell" nowrap="nowrap">
+                  <td class="logcell" style="white-space: nowrap">
                   <xsl:apply-templates/>               
                </td>
                </xsl:for-each>
@@ -727,7 +728,7 @@
          <xsl:attribute name="href">
             <xsl:value-of select="tei:graphic/@url"/>
          </xsl:attribute>
-         <xsl:attribute name="alt"><xsl:value-of select="tei:figDesc"/> </xsl:attribute>
+         <xsl:attribute name="title"><xsl:value-of select="tei:figDesc"/> </xsl:attribute>
          <xsl:attribute name="target">_blank</xsl:attribute>
          <xsl:value-of select="tei:head"/>
       </a>].
@@ -735,7 +736,7 @@
    
    <xsl:template match="tei:figure[@rend='namedanchor']">
       <a>
-      <xsl:attribute name="name">
+      <xsl:attribute name="id">
          <xsl:value-of select="tei:graphic/@url"/>
       </xsl:attribute>
    </a>

@@ -2,7 +2,7 @@
 <xsl:stylesheet xmlns:xsl="http://www.w3.org/1999/XSL/Transform"
     xmlns:xd="http://www.oxygenxml.com/ns/doc/xsl" 
     xmlns:tei="http://www.tei-c.org/ns/1.0"
-    exclude-result-prefixes="xd"
+    exclude-result-prefixes="xd tei"
     version="2.0">
     <xd:doc scope="stylesheet">
         <xd:desc>
@@ -110,7 +110,7 @@
     <!-- Put single line before each entry. -->    
     <xsl:template match="tei:div[@type='Entry']">
         <div class="Entry">
-            <xsl:element name="a"><xsl:attribute name="name"><xsl:value-of select="@xml:id"/></xsl:attribute></xsl:element>
+            <xsl:element name="a"><xsl:attribute name="id"><xsl:value-of select="@xml:id"/></xsl:attribute></xsl:element>
             <hr/><xsl:apply-templates/>
         </div>
     </xsl:template>
