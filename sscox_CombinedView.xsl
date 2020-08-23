@@ -2,16 +2,16 @@
 <xsl:stylesheet xmlns:xsl="http://www.w3.org/1999/XSL/Transform"
     xmlns:xd="http://www.oxygenxml.com/ns/doc/xsl" 
     xmlns:tei="http://www.tei-c.org/ns/1.0"
-    exclude-result-prefixes="xd"
+    exclude-result-prefixes="xd tei"
     version="2.0">
     <xd:doc scope="stylesheet">
         <xd:desc>
-            <xd:p><xd:b>Created on:</xd:b> Jul 24, 2012</xd:p>
-            <xd:p><xd:b>Author:</xd:b>H. Lewis Ulman</xd:p>
+            <xd:p><xd:b>Created on:</xd:b> Oct 29, 2011</xd:p>
+            <xd:p><xd:b>Author:</xd:b> lulman</xd:p>
             <xd:p></xd:p>
         </xd:desc>
     </xd:doc>
-
+    
     <!-- Declare variables that will "localize" references to them in LCSmith-Common.xsl -->
     
     <xsl:variable name="View">Facsimile/Diplomatic View</xsl:variable>
@@ -154,6 +154,7 @@
                 <img class="pageview">
                     <xsl:attribute name="src"><xsl:value-of select="@facs"/>_small.jpg</xsl:attribute>
                     <xsl:attribute name="width">425</xsl:attribute>
+                    <xsl:attribute name="alt">thumbnail of manuscript facsimile</xsl:attribute>
                 </img>
             </a>
         </div>
@@ -162,7 +163,7 @@
     <xsl:template match="tei:lb">
         <br/>
         <a>
-            <xsl:attribute name="name">
+            <xsl:attribute name="id">
                 <xsl:number count="tei:lb" format="0001" level="any" from="tei:div[@type='letter']"/>
             </xsl:attribute>
         </a>
