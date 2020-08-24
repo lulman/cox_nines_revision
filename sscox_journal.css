@@ -505,3 +505,7 @@ td.logcell {
 	color:#F30;
     text-decoration:line-through;
 }
+
+.pagebreak {
+    border-top:thin solid black;
+}

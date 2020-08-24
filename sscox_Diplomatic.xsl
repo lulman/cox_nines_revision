@@ -103,14 +103,16 @@
     <!-- Define templates required for the diplomatic view. -->
     
     <!-- In this view, place a single line before each page. -->
-    <xsl:template match="tei:pb">
-        <br/><hr/>
+    
+    <xsl:template match="tei:pb">       
+        <br/><br/>
         <span class="pagebreak">[Page&#xA0;-&#xA0;<xsl:number count="tei:pb" format="1" level="any"/>
             &#xA0;(<a><xsl:attribute
                 name="href"><xsl:value-of select="@facs"/>.jpg</xsl:attribute>
             <xsl:attribute name="target">_blank</xsl:attribute>click to open page image in a new window</a>)]</span>
         <br/>
-    </xsl:template>    
+    </xsl:template> 
+    
     <xsl:template match="tei:lb"><br/><a><xsl:attribute name="id"><xsl:number count="tei:lb" format="0001" level="any" from="tei:div[@type='letter']"/></xsl:attribute>
         </a><xsl:number count="tei:lb" format="0001" level="any" from="tei:div[@type='letter']"/>&#xA0;&#xA0;&#xA0;&#xA0;&#xA0;
     </xsl:template>
