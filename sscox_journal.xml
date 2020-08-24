@@ -863,14 +863,12 @@
          <div type="endpaper" xml:id="CoxFrontCover">
             <pb facs="SSCox_001"/>
             <p>
-               <unclear reason="Title scratched into leather binding">
                   <lb/><persName>S. Cox</persName>,
                   <placeName><lb/>Zanesville
                   <lb/>Ohio
                      <lb/>(<choice><abbr>U.S.A.</abbr><expan>United States of America</expan></choice>)
                   </placeName>
-               </unclear>
-            </p>
+             </p>
             
             <!-- Proofed 20080619 by HLU/ED -->
             
@@ -878,8 +876,9 @@
          <div type="endpaper" xml:id="CoxFrontNote">
          <pb facs="SSCox_004"/>
             <p>
+               <lb/>
             <figure rend="link">
-               <head>Sold By / Wm. W. Rose. / Stationer, / 19 Wall St. N.Y.</head>
+               <head>Sold By | Wm. W. ROSE. | Stationer, | 19 Wall St. N.Y.</head>
                <graphic url="SSCox_004_label.jpg"></graphic>
                <figDesc>
                   Stationer's label
@@ -889,7 +888,7 @@
             
             <!-- Very faint text on this page. May not be recoverable. -->
             
-            <p>[Penciled note on endpaper is too faint to read. It may have been erased.]</p>
+            <p><lb/>[A penciled note on the endpaper is too faint to read.]</p>
             
          </div>
          <div type="endpaper" xml:id="CoxTitlePage">
@@ -899,7 +898,7 @@
 
             <p>
                <handShift medium="pencil" new="#UNK"/>
-               [Penciled note on title page is too faint to read. It may have been erased.]
+               <lb/>[A penciled note on the title page is too faint to read.]
             </p>
 
             <p>
@@ -920,7 +919,7 @@
          <div type="Entry" xml:id="CoxAsiaLog">
          <pb facs="SSCox_006"/>
             
-            <head> Log of the <name type="ship">Asia</name>
+            <head><lb/> Log of the <name type="ship">Asia</name>
                <ptr type="noteAnchor" target="N320Asia"/><note resp="ed" xml:id="N320Asia" anchored="true">
                The <name type="ship">Asia</name> was built in <date>1850</date> 
                for the <orgName>British and North American Royal Mail Steam Packet Company</orgName>
