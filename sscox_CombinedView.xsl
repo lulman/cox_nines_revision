@@ -144,9 +144,9 @@
     <!-- In this view, place a border around each pagebreak. -->
     <xsl:template match="tei:pb">
         <br/><br/>
-        <div class="pagebreak"> [Page&#xA0;-&#xA0;<xsl:number count="tei:pb" format="1"
+        <div class="pagebreak"> Page&#xA0;-&#xA0;<xsl:number count="tei:pb" format="1"
             level="any"/>&#xA0; (<a><xsl:attribute
-                name="href"><xsl:value-of select="@facs"/>.jpg</xsl:attribute><xsl:attribute name="target">top</xsl:attribute>click to open page image in a new window</a>)]<br/>
+                name="href"><xsl:value-of select="@facs"/>.jpg</xsl:attribute><xsl:attribute name="target">top</xsl:attribute>click to open page image in a new window</a>)<br/>
             <a>
                 <xsl:attribute
                     name="href"><xsl:value-of select="@facs"/>.jpg</xsl:attribute>
