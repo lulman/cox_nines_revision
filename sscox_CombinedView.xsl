@@ -141,7 +141,7 @@
     
     <!-- Define templates required for the combined image/text view. -->
     
-    <!-- In this view, place a borde around each pagebreak. -->
+    <!-- In this view, place a border around each pagebreak. -->
     <xsl:template match="tei:pb">
         <br/><br/>
         <div class="pagebreak"> [Page&#xA0;-&#xA0;<xsl:number count="tei:pb" format="1"

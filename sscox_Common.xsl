@@ -665,8 +665,12 @@
    </xsl:template>
    <xsl:template match="tei:choice/tei:expan"/>
    <xsl:template match="tei:choice/tei:sic">
-      <span class="sic"><xsl:apply-templates/>[sic]</span>
+      <span class="sic"><xsl:apply-templates/> [<xsl:element name="span"><xsl:attribute name="style">font-style: italic;</xsl:attribute>sic</xsl:element>]</span>
    </xsl:template>
+   <xsl:template match="tei:sic">
+      <xsl:apply-templates/> [<xsl:element name="span"><xsl:attribute name="style">font-style: italic;</xsl:attribute>sic</xsl:element>]
+   </xsl:template>
+   
 <!--  Suppress this markup in this edition (see following rule)
    <xsl:template match="tei:choice/tei:corr">
       <span class="corr corrtoggle"><xsl:apply-templates/></span>
