@@ -507,6 +507,5 @@ td.logcell {
 }
 
 .pagebreak {
-    border-top:thin solid black;
-    border-bottom:thin solid black;
+    background-color:rgba(117, 190, 218, 0.20);
 }
