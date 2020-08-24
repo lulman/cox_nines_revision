@@ -141,9 +141,9 @@
     
     <!-- Define templates required for the combined image/text view. -->
     
-    <!-- In this view, place a single line before each page. -->
+    <!-- In this view, place a borde around each pagebreak. -->
     <xsl:template match="tei:pb">
-        <br/><br/><hr/>
+        <br/><br/>
         <div class="pagebreak"> [Page&#xA0;-&#xA0;<xsl:number count="tei:pb" format="1"
             level="any"/>&#xA0; (<a><xsl:attribute
                 name="href"><xsl:value-of select="@facs"/>.jpg</xsl:attribute><xsl:attribute name="target">top</xsl:attribute>click to open page image in a new window</a>)]<br/>
