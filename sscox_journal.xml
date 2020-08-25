@@ -623,10 +623,10 @@
             </list>
             
             <listWit>
-               <witness xml:id="Cox1851a">The original text of Samuel S. Cox's journal, typically written in pencil
+               <witness xml:id="Cox1851a">The original text of Samuel S. Cox's journal, presumably written in pencil
                   when he is onboard a ship at sea and in ink when he is on a ship lying at anchor or he is on land.</witness>
-               <witness xml:id="Cox1851b">The fragmentary copy of Samuel S. Cox's journal written in ink over the penciled
-                  entries composed when he is on a ship at sea.</witness>
+               <witness xml:id="Cox1851b">The fragmentary copy of Samuel S. Cox's journal written in ink over penciled
+                  text.</witness>
             </listWit>
             
             
@@ -787,7 +787,10 @@
                semi-diplomatic. The basic transcription follows the manuscript verbatim. Various
                manuscript features (e.g., cancellations, interlinear or marginal additions, tears in
                pages) are encoded, as are regularized versions of proper names and dates and
-               standard versions of nonstandard spellings and expansions of abbreviations.
+               standard versions of nonstandard spellings and expansions of abbreviations. In several
+               places throughout the diary, Cox copies over original penciled text in ink. We report only
+               instances in which the ink copy differs from the underlying penciled text,
+               and readers can toggle between the two versions. 
             </p>
             <p>
                <emph rend="bold">Extensions to the TEI DTD</emph>. While the markup for this edition
@@ -994,7 +997,7 @@
                <cell>"</cell>
                <cell>
                   <app xml:id="T838">
-                     <lem wit="#Cox1851a"><num type="nauticalMiles">3<add place="infralinear">1</add><del>7</del>6</num></lem>
+                     <lem wit="#Cox1851a"><num type="nauticalMiles">316<add place="supralinear">376</add></num></lem>
                      <rdg wit="#Cox1851b"><num type="nauticalMiles">316</num></rdg>
                   </app>                  
                </cell>
@@ -1013,7 +1016,7 @@
                <cell> </cell>
                <cell><num type="nauticalMiles">2748</num><ptr type="noteAnchor" target="Miscalc"/>
                   <note resp='ed' xml:id="Miscalc" anchored="true">Cox miscalculates the total miles, which
-                  add up to 2738, using the figures in his transcription of the ship's log.</note>
+                  add up to 2738, using the figures in his corrected transcription of the ship's log.</note>
                </cell>   
                <cell> </cell>
                <cell> </cell>
@@ -1054,8 +1057,7 @@
                      land or on a ship lying at anchor. The penciled passages overwritten in ink
                      were presumably composed at sea and overwritten later, perhaps to create a copy
                      less prone to fading. Because the pencil and superimposed ink copies of
-                     passages vary so little, we have not indicated the differences in the displayed
-                     text, but differences between the pencil and ink text have been encoded, and we
+                     passages vary so little, only differences between the pencil and ink text have been encoded, and we
                      provide a button allowing readers to display each version.</note>
                  </dateline>
               </opener> 
@@ -1090,9 +1092,12 @@
                <lb/> All the passengers on the deck<app xml:id="T1434">
                     <lem wit="#Cox1851a">,</lem>
                     <rdg wit="#Cox1851b"> </rdg>
-                </app>
-                &amp; the
-               <lb/> <unclear>dark</unclear> crowded our friends were there—                
+                </app> &amp; the
+                
+               <lb/> <app xml:id="T1097">
+                  <lem wit="#Cox1851a"><unclear>dock</unclear></lem>
+                  <rdg wit="#Cox1851b"><unclear>dark</unclear></rdg>
+               </app> crowded our friends were there—                
                <add hand="#SSC" place="infralinear">The crowd cheered as we left— </add>
                <lb/> 
                   Six times our guns fired as we
@@ -1130,9 +1135,12 @@
                         <lem wit="#Cox1851a">and</lem>
                         <rdg wit="#Cox1851b">&amp;</rdg>
                      </app>
-                <lb/> we moved away throbbingly—We
-                <lb/> were not out of land-sight be<seg type="softhyphen">
-                <lb/></seg>fore there was seen a something
+                <lb/> we moved away throbbingly—We 
+                <lb/> were not out of land-sight 
+               <app xml:id="T1140">
+                  <lem wit="#Cox1851a">before<lb/>there was seen a something spouting</lem>
+                  <rdg wit="#Cox1851b">be<seg type="softhyphen">-<lb/></seg>fore there was seen a something</rdg>
+               </app>
                 <lb/> spouting salt water against the
                 <lb/> sky. An old naval officer—a
                 <lb/> regular <choice><sic>Johny</sic><corr>Johnny</corr></choice> Bull who sat near
