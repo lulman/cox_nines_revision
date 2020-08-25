@@ -151,7 +151,7 @@
                         The journal is written mostly in brown ink on off-white paper that has taken on a bluish tint over time.
                         When at sea, Cox often wrote first in pencil, then at some later time traced over his text in ink,
                         perhaps to avoid spilling or smearing ink when the seas were rough. In most places where this overwriting 
-                        occurs, it closely follows and all but obscures the pencilled text. Where the texts diverge, the differences
+                        occurs, it closely follows and all but obscures the penciled text. Where the texts diverge, the differences
                         typically consist of changes to line breaks or punctuation that do not alter meaning. Nevertheless,
                         in order to reflect this unique palimpsest-like character of the text, we encode passages consisting of both 
                         pencil and ink versions in which differences are legible<!-- with the following markings: [p&gt;] . . . [&lt;p] for 
@@ -788,7 +788,6 @@
                manuscript features (e.g., cancellations, interlinear or marginal additions, tears in
                pages) are encoded, as are regularized versions of proper names and dates and
                standard versions of nonstandard spellings and expansions of abbreviations. In several
-               places throughout the diary, Cox copies over original penciled text in ink. We report only
                instances in which the ink copy differs from the underlying penciled text,
                and readers can toggle between the two versions. 
             </p>
