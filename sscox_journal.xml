@@ -1141,10 +1141,22 @@
                   <lem wit="#Cox1851a">before<lb/>there was seen a something spouting</lem>
                   <rdg wit="#Cox1851b">be<seg type="softhyphen">-<lb/></seg>fore there was seen a something</rdg>
                </app>
-                <lb/> spouting salt water against the
-                <lb/> sky. An old naval officer—a
-                <lb/> regular <choice><sic>Johny</sic><corr>Johnny</corr></choice> Bull who sat near
-                <lb/> us said it was a young Whale.
+               <app xml:id="T1144">
+                  <lem wit="#Cox1851a"><lb/>salt water against the sky.</lem>
+                  <rdg wit="#Cox1851b"><lb/> spouting salt water against the</rdg>
+               </app>
+               <app xml:id="T1148">
+                  <lem wit="#Cox1851a"><lb/> An old naval officer—a regular</lem>
+                  <rdg wit="#Cox1851b"><lb/> sky. An old naval officer—a</rdg>
+               </app>
+               <app xml:id="T1152">
+                  <lem wit="#Cox1851a"><lb/> <choice><sic>Johny</sic><corr>Johnny</corr></choice> Bull who sat near us</lem>
+                  <rdg wit="#Cox1851b"><lb/> regular <choice><sic>Johny</sic><corr>Johnny</corr></choice> Bull who sat near</rdg>
+               </app>
+               <app xml:id="T1156">
+                  <lem wit="#Cox1851a"><lb/> said it was a young Whale.</lem>
+                  <rdg wit="#Cox1851b"><lb/> us said it was a young Whale.</rdg>
+               </app>
                 <lb/> Hurrah! He spouted away
                 <lb/> throwing the spray 20 ft. high.
                 <lb/> No sensation of sickness yet.
