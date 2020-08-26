@@ -649,9 +649,7 @@
 
    <!-- Quotes -->
    <xsl:template match="tei:q">
-      <q>
       <xsl:apply-templates/>
-      </q>
    </xsl:template>
    <xsl:template match="//tei:quote[@type='blockquote']">
       <div class="blockquote">
