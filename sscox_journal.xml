@@ -1464,12 +1464,12 @@
                <lb/> a strange little wanderer—
                <app xml:id="T1802">
                   <lem wit="#Cox1851a">
-                     <lb/> 1500 miles from either hemis<seg type="softhyphen">-
-                     <lb/></seg>phere, playing hide &amp; go
-                  </lem>
-                  <rdg wit="#Cox1851b">
                      <lb/> 1500 miles from either hemi<seg type="softhyphen">-
                      <lb/></seg>sphere, playing hide &amp; go
+                  </lem>
+                  <rdg wit="#Cox1851b">
+                     <lb/> 1500 miles from either hemis<seg type="softhyphen">-
+                     <lb/></seg>phere, playing hide &amp; go
                   </rdg>
                </app>
                <lb/> seek in the Northern billows.
@@ -1591,8 +1591,8 @@
             <p>
                <lb/> If it were not for this Melan<seg type="softhyphen">
                <lb/></seg>choly sea sickness—
-               <lb/> <q>"all other griefs to this are Jolly
-               <lb/> Naught so damned is Melancholy"</q>
+               <lb/> <q>all other griefs to this are Jolly
+               <lb/> Naught so damned is Melancholy</q>
                <ptr type="noteAnchor" target="N863grief"/><note resp="ed" xml:id="N863grief" anchored="true">See Burton, <title level="m">Anatomy of Melancholy</title> (1660),
                "<title level="a">The Author's Abstract of Melancholy</title>": "All my griefs to this are jolly, / Naught so damn'd
                as melancholy" (xiv).</note>
@@ -1609,10 +1609,10 @@
                <lb/> I wish <persName>Julia</persName> felt as well as I
                <lb/> this <choice><abbr>morng</abbr><expan>morning</expan></choice>. It is quite a relief
                <lb/> to be able thus to give vent
-               <lb/> <q>"No pent up Utica<sic>"</sic>
+               <lb/> <q>No pent up Utica<sic>"</sic>
                   <ptr type="noteAnchor" target="N881utica"/><note resp="ed" xml:id="N881utica" anchored="true">Jonathan M. Sewall, <title level="m">Epilogue to Cato</title> (1778).</note>
                can contract
-               <lb/> my powers"</q> now,— for we
+               <lb/> my powers</q> now,— for we
                <lb/> are aloof from all the <choice><sic>res<seg type="softhyphen">-
                   
            <!-- Proofed 20080620 by Lewis Ulman/ED -->
@@ -1641,8 +1641,8 @@
                <lb/> As to my personnel—I am
                <lb/> a—Beauty! hirsute for a week—
                <lb/> pale &amp; haggard; an exhalation
-               <lb/> from <q>"Death the Skeleton and
-               <lb/> Time; the Shadow!"</q>.<ptr type="noteAnchor" target="N925death"/><note resp="ed" xml:id="N925death" anchored="true">William Wordsworth, <title level="a">Yew Trees</title></note>
+               <lb/> from <q>Death the Skeleton and
+               <lb/> Time; the Shadow!</q>.<ptr type="noteAnchor" target="N925death"/><note resp="ed" xml:id="N925death" anchored="true">William Wordsworth, <title level="a">Yew Trees</title></note>
                This is
                <lb/> <hi rend="underline">pleasure</hi> travelling. The less
                <lb/> that is said about the better.
@@ -1687,8 +1687,8 @@
                <ptr type="noteAnchor" target="N911cary"/><note resp="ed" xml:id="N911cary" anchored="true">Wilson's Storm Petrel (<name type="binomial">Oceanites oceanicus</name>) 
                   (<bibl><author>Turnbull</author>; <author>Patuxent Wildlife Research Center</author></bibl>).</note>
                I
-               <lb/> saw too, a little tiny bird, <q>"all
-               <lb/> alone—all alone"</q>
+               <lb/> saw too, a little tiny bird, <q>all
+               <lb/> alone—all alone</q>
                <ptr type="noteAnchor" target="N957alone"/><note resp="ed" xml:id="N957alone" anchored="true">Presumably an allusion to Coleridge's <title level="m">The Ancient Mariner</title>: 
                   "Alone, alone, all alone; / Alone on a wide, wide sea" (pt. IV, st. 3).</note>
                seemingly
@@ -1705,8 +1705,8 @@
                <lb/> own sphere of Knowledge.
                <lb/> How beautiful would be the
                <lb/> song of that little chorister
-               <lb/> upon a <q>"bough swaying in
-               <lb/> the breeze,"</q> in some sequestered
+               <lb/> upon a <q>bough swaying in
+               <lb/> the breeze,</q> in some sequestered
                <lb/> nook amid a leafy valley
                <lb/> surrounded with green prospects
                <lb/> &amp; smiling cultivation. How like
@@ -1735,7 +1735,7 @@
             <p>
                <lb/> Methinks <foreign xml:lang="fre"><hi rend="underline">ma petite oiseau</hi></foreign>
                <lb/> has been somewhat similarly
-               <lb/> situated only with Hope's
+               <lb/> situated, only with Hope's
                <lb/> untiring flutter to support
                <lb/> her sinking spirit!
             </p>
@@ -1859,8 +1859,8 @@
             </p>
             <p>
                <lb/> Not a sail is set. The wind is
-               <lb/> against us. <q>"We scud under bare
-               <lb/> poles on this raging canal."</q>
+               <lb/> against us. <q>We scud under bare
+               <lb/> poles on this raging canal.</q>
             </p>
             <p>
                <lb/> Just passed me that English Cockney
@@ -1876,7 +1876,7 @@
             </p>
             <p>
                <lb/> <choice><abbr>Capt.</abbr><expan>Captain</expan></choice> of the deck is in a
-               <lb/> stew. "<q>Stir it! Men stir it out!
+               <lb/> stew. <q>Stir it! Men stir it out!
                   
           <!-- Proofed 20080721 by HLU/ED -->
                   
@@ -1885,7 +1885,7 @@
                <lb/> Men in the rigging want help.
                <lb/> Hammers—coal chisels &amp; I can't
                <lb/> tell you what all—coming down 
-               <lb/> on us</q>."—Whew!—They are taking
+               <lb/> on us</q>.—Whew!—They are taking
                <lb/> down the horizontal beam: If it
                <lb/> is not the <hi rend="underline">boom</hi>—<foreign xml:lang="fre">Je ne 
                   <choice><sic>scais</sic><corr>sçais</corr></choice> quoi</foreign>.
