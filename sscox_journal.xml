@@ -3190,7 +3190,7 @@
                <lb/> much have we seen! Crossed
                <lb/> Straits yesterday night in a few 
                <lb/> hours. We came into <placeName>Paris</placeName> at 
-               <lb/> 9 A.M; had to stay all day, <unclear><del type="recoverable" hand="#SSC" rend="overwritten">unt</del>and</unclear> 
+               <lb/> 9 A.M; had to stay all day, <del type="recoverable" hand="#SSC" rend="overwritten">unt</del>and 
                <lb/> <del type="recoverable" hand="#SSC" rend="overwritten">to</del>until tomorrow in order to get 
                <lb/> passports. We visited <placeName type="landmark">Champs
                   
@@ -3234,7 +3234,7 @@
 
                        <pb facs="SSCox_060"/>
                        
-                           <lb/> valley to <placeName>Chalon</placeName>. took boat down
+                           <lb/> <choice><sic>vally</sic><corr>valley</corr></choice> to <placeName>Chalon</placeName>. took boat down
                            <lb/><placeName type="river">Saône</placeName>—fine Scenery—all been                        
                    <lb/> described—vineyards, windmills
                    <lb/> donkeys, Lombardys. all; Old
@@ -3322,8 +3322,8 @@
                       <lb/> their roads. near anything glorious.
                       <lb/> The clouds looked fine &amp; the Sun
                       <lb/> glanced through <del type="recoverable" hand="#SSC" rend="overwritten">W</del>then in <hi rend="underline">raw</hi>
-                      <lb/> <hi rend="underline">brilliancy</hi>. The radii from the Sun
-                      <lb/> as it drew water, looked finely.
+                      <lb/> <hi rend="underline">brilliancy</hi>. The radii from the
+                      <lb/> Sun as it drew water, looked finely.
                       <lb/> We passed an old tower &amp; a church,
                       <lb/> and stopped at <placeName type="town">Vienne</placeName>—Up
                       <lb/> came cripples of all kinds—
@@ -3341,12 +3341,12 @@
                       <lb/>with white flowers &amp; brown moss.
                       <lb/>A splendid scene after we 
                       <lb/>left <placeName type="town">Vienne</placeName>. The pretty little
-                      <lb/>houses of the vine dressers speck<seg type="softhyphen">
+                      <lb/>houses of the vine <choice><sic>dresses</sic><corr>dressers</corr></choice> speck<seg type="softhyphen">
                       <lb/></seg>led the hills; goats hung upon 
                       <lb/>the hill sides, while an old
                       <lb/>chateau loomed up prominent.
                       <lb/>This is the France, with her
-                      <lb/>wealth of silk worms &amp; clusters!
+                      <lb/>wealth of silk worms &amp; cloisters!
                       <lb/>The town of <placeName type="town">Vienne</placeName> burned
                       <lb/>like fire in the Sun—<add place="infralinear">We gathered
                       <lb/>flowers at <placeName type="town">Vienne</placeName>—pressed them.</add>                      
