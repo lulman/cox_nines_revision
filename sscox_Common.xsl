@@ -723,7 +723,17 @@
          <xsl:apply-templates/>
       </sup>
    </xsl:template>
-
+   <xsl:template match="tei:hi[@rend='italics']">
+      <xsl:element name="span"><xsl:attribute name="style">font-style:italic;</xsl:attribute>
+      <xsl:apply-templates/>
+      </xsl:element>
+   </xsl:template>
+   <xsl:template match="tei:hi[@rend='smallcaps']">
+      <xsl:element name="span"><xsl:attribute name="style">font-variant:small-caps;</xsl:attribute>
+         <xsl:apply-templates/>
+      </xsl:element>
+   </xsl:template>
+   
    <!-- LINK OR EMBED IMAGES AND OTHER NON-TEXTUAL MATERIALS -->
 
    <xsl:template match="tei:figure[@rend='link']"> [<a>
