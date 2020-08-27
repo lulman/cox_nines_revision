@@ -3392,7 +3392,7 @@
                        
      <pb facs="SSCox_065"/>
      
-                       <lb/>The prominent ruin was <add place="supralinear" rend="caret">called <placeName type="landmark">chateau de Mont Dragon</placeName></add>, some
+                       <lb/>The prominent ruin was <add place="supralinear" rend="caret">called <placeName type="landmark">chateau de Mont Dragon</placeName>,</add> some
                        <lb/>30, or 40 miles from Avignon. It
                        <lb/>was a large pallisade, built by 
                        <lb/>nature as a strong hold. The 
@@ -3422,7 +3422,7 @@
                        <lb/>to us &amp; its convex to the hill. It 
                        <lb/>frowned like an old Roman.
                        <lb/>As we passed on, I turned round
-                       <lb/>&amp; looked into it. &amp; there saw
+                       <lb/>&amp; looked into it; &amp; there saw
                        <lb/>the arranged places. Here was 
                        <lb/>martyred to Wild beasts, the
                        <lb/>prisoners of the Roman. 
@@ -3575,12 +3575,12 @@
                
                <lb/> of <placeName>Marseilles</placeName>. It is a large city.              
                <lb/> Found some <choice><sic>Moroccos</sic><corr>Moroccans</corr></choice> there. Spoke  
-               <lb/> in French to the "<hi rend="underline">Emperor</hi>" with            
+               <lb/> in French to the '<hi rend="underline">Emperor</hi>' with            
                <lb/> white beard. He offered the Ameri<seg type="softhyphen">-
                <lb/></seg>can snuff; the American with               
                <lb/> a "remorse" took a  pinch, &amp;
                <lb/> when he had got out the "<q><foreign xml:lang="fre">bon</foreign>
-               <lb/> <foreign xml:lang="fre">jouies</foreign>"—Sneeze—!Sneeze—!<choice><sic>Sne<seg type="softhyphen">-
+               <lb/> <foreign xml:lang="fre">jours</foreign>"—Sneeze—!Sneeze—!<choice><sic>Sne<seg type="softhyphen">-
                <lb/></seg>eeze</sic><corr>Sneeze</corr></choice>—!</q>" to the amusement of              
                <lb/> <persName>Julia</persName> &amp; 
                      Lucy; &amp; no doubt
@@ -3686,7 +3686,7 @@
                <lb/> in sight of <placeName>Genoa</placeName>,—a cresent city
                <lb/> called the Superb. Went ashore
                <lb/> without difficulty,—stopped at
-               <lb/> the Hotel <hi rend="underline"><choice><sic>Des</sic><corr>de</corr></choice> Londies</hi>, a splendid
+               <lb/> the Hotel <hi rend="underline"><choice><sic>Des</sic><corr>de</corr></choice> Londres</hi>, a splendid
                <lb/> palace. <persName>Julia</persName> said
                      '<q>this was just
                <lb/> her idea of the old Italian palaces,
@@ -3774,7 +3774,7 @@
             <ptr type="noteAnchor" target="Maria"/><note resp="ed" xml:id="Maria" anchored="true">The Church of Santa Maria (<title level="m">A Buckeye Abroad</title> 100).
                </note> All the others betrayed
             <lb/> a mixture of Gothic &amp; <choice><sic>Sarcenic</sic><corr>Saracenic</corr></choice>,
-            <lb/> of the <unclear/> in fact.—We 
+            <lb/> of the <unclear>alludes</unclear> in fact.—We 
             <lb/> went to the <placeName type="building">Ducal palace</placeName>, entered
                   
        <!-- Proofed 20080715 by HLU/ED --> 
@@ -3785,7 +3785,7 @@
             <lb/> casts put in by <persName>Bonaparte</persName> when the
             <lb/> feast was given. The <unclear>original</unclear> casts
             <lb/> were destroyed by the French in 
-                  <del type="recoverable" hand="#SSC" rend="overwritten">18</del>1797.
+                  1<del type="recoverable" hand="#SSC" rend="overwritten">8</del>797.
             <lb/> In all the paintings I saw can
             <lb/> remember but few, — the Circumcis<seg type="softhyphen">
             <lb/></seg>ion by <persName>Rubens</persName>; the Christ &amp; the
