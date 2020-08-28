@@ -714,9 +714,9 @@
    <!-- Text highlighted in the source document -->
 
    <xsl:template match="tei:hi[@rend='underline']">
-      <em>
+      <xsl:element name="span"><xsl:attribute name="style">text-decoration:underline;</xsl:attribute>
          <xsl:apply-templates/>
-      </em>
+      </xsl:element>
    </xsl:template>
    <xsl:template match="tei:hi[@rend='superscript']">
       <sup>
