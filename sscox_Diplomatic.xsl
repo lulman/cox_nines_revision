@@ -125,7 +125,7 @@
     <xsl:template match="tei:add[@place='margin']"> | <xsl:apply-templates/> | </xsl:template>
     
     <!-- Highlight recoverable cancelations -->
-    <xsl:template match="tei:del[@rend='overstrike']"><span class="cancel"><xsl:apply-templates></xsl:apply-templates></span></xsl:template>
+    <xsl:template match="tei:del[@rend='overstrike']">[<span class="cancel"><xsl:apply-templates></xsl:apply-templates></span>]</xsl:template>
     <xsl:template match="tei:del[@rend='overwritten']">[<xsl:apply-templates></xsl:apply-templates>]</xsl:template>
     <xsl:template match="tei:del[@rend='erased']">[<xsl:apply-templates></xsl:apply-templates>]</xsl:template>
     
