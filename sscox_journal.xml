@@ -1181,9 +1181,7 @@
             </p>
          </div>
          <div xml:id="Cox18510508a" type="Entry">
- <lb/>
-
-              <opener>
+              <lb/><opener>
                   <dateline>
                     <date when="1851-05-08">Thursday May 8<hi rend="underline"><hi rend="superscript">th</hi></hi></date>
                   </dateline>
@@ -5016,7 +5014,7 @@
             <opener>
                <lb/>
                <dateline>
-                <date when="1851-06-18">June 1<del type="recoverable" rend="overwritten"/>8. 1851</date>
+                <date when="1851-06-18">June 1<del type="recoverable" rend="overwritten">7</del>8. 1851</date>
                </dateline>
             </opener>
             <p>
@@ -5066,7 +5064,7 @@
                <lb/> out of an oak. Afternoon we
                <lb/> went to see <persName>Virgils</persName> tomb, rode
                <lb/> amidst splendid scenery, saw
-               <lb/> the isles and bay from different
+               <lb/> the isles &amp; bay from different
                <lb/> points, saw fine little romantic
                <lb/> spots on bay; drove up &amp; down
                <lb/> <choice><sic>amdst</sic><corr>amidst</corr></choice> the beauty and wealth
@@ -5100,14 +5098,14 @@
          <div type="Entry" xml:id="Cox18510620a">
             <opener>
                <lb/>
-               <dateline><date when="1851-06-20">June <del type="recoverable" rend="overwritten">8</del>
+               <dateline><date when="1851-06-20">June 
                   <del type="recoverable" rend="overstrike">19</del><add place="supralinear">20<hi rend="superscript">th</hi></add>. 1851</date>.</dateline>
             </opener>
             <p>
                <lb/> Visited the Museum, saw the won<seg type="softhyphen">-
                <lb/></seg>ders of Pompeii &amp; Herculaneum — 
                <lb/> remarkable statues &amp; pictures;
-               <lb/> a picture <hi rend="underline"><unclear>modern</unclear></hi> of the 4 ages was
+               <lb/> a picture <unclear><hi rend="underline">modern</hi></unclear> of the 4 ages was
                <lb/> fine. The Farnese Bull &amp; Hercules
                
         <!-- Proofed 20080811 by HLU/ED -->
@@ -5147,7 +5145,7 @@
                
                <pb facs="SSCox_118"/>
 
-               <lb/> stopped at our Bankers:
+               <lb/> stopped at our Bankers;
                <lb/> ate fruit too plentifully —
                <lb/> came home to dine &amp; write
                <lb/> to Col. M. — Leave here Mon<seg type="softhyphen">-

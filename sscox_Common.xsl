@@ -477,20 +477,17 @@
    <!-- MAJOR DOCUMENT STRUCTURES: These elements include the front, body, and back
       elements of you XML documents in the result tree of your output.-->
 
-<!-- DEALT WITH IN EACH VIEW
     <xsl:template match="tei:div[@type='Entry']">
-         <div class="Entry">
-            <xsl:element name="a"><xsl:attribute name="name"><xsl:value-of select="@xml:id"/></xsl:attribute></xsl:element>
-            <hr/><xsl:apply-templates/>
-         </div>
+         <div class="Entry"><xsl:element name="a"><xsl:attribute name="name"><xsl:value-of select="@xml:id"/></xsl:attribute></xsl:element><xsl:apply-templates/></div>
    </xsl:template>
--->   
-   <xsl:template match="tei:div[@type='Entry']/tei:dateline">
+   
+<!--   <xsl:template match="tei:div[@type='Entry']/tei:dateline">
       <strong>
+         <xsl:element name="a"><xsl:attribute name="name"><xsl:value-of select="@xml:id"/></xsl:attribute></xsl:element>
          <xsl:apply-templates/>
       </strong>
    </xsl:template>
-   
+-->   
 
    <!-- PAGE, COLUMN, AND LINE BREAKS; Page Layout: These template rules determine how page breaks and
       line breaks will be encoded, or whether they will be included, in your Web page. -->
