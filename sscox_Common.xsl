@@ -476,11 +476,16 @@
 
    <!-- MAJOR DOCUMENT STRUCTURES: These elements include the front, body, and back
       elements of you XML documents in the result tree of your output.-->
+   
+<xsl:template match="tei:opener">
+   <xsl:element name="a"><xsl:attribute name="id"><xsl:value-of select="parent::tei:div/@xml:id"/></xsl:attribute></xsl:element>
+   <xsl:apply-templates/>
+</xsl:template>
 
-    <xsl:template match="tei:div[@type='Entry']">
+<!--    <xsl:template match="tei:div[@type='Entry']">
          <div class="Entry"><xsl:element name="a"><xsl:attribute name="name"><xsl:value-of select="@xml:id"/></xsl:attribute></xsl:element><xsl:apply-templates/></div>
    </xsl:template>
-   
+-->   
 <!--   <xsl:template match="tei:div[@type='Entry']/tei:dateline">
       <strong>
          <xsl:element name="a"><xsl:attribute name="name"><xsl:value-of select="@xml:id"/></xsl:attribute></xsl:element>

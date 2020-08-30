@@ -509,3 +509,8 @@ td.logcell {
 .pagebreak {
     background-color:rgba(117, 190, 218, 0.20);
 }
+
+.Entry {
+    padding-top:0px;
+    margin-top:0px;
+}
