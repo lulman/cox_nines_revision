@@ -376,6 +376,13 @@ margin-top: -180px;
 height: 180px;
 visibility: hidden;	
 }
+a.entrylink:before {
+display: inline-block;
+content: " ";
+margin-top: -180px;
+height: 180px;
+visibility: hidden;	    
+}
 sup.noteAnchor {
   font-size:.85em;
   font-weight: bold;
