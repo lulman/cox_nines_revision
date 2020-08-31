@@ -526,7 +526,7 @@
                   </bibl>
                   
                   <bibl xml:id="SSCox" n="Lind">
-                     Lindsey, David. <title level="m">"Sunset" Cox, Irrepressible Democrat</title>
+                     Lindsey, David. <title level="m">"Sunset" Cox, Irrepressible Democrat</title>. Wayne State University Press, 1959.
                      <pubPlace>Detroit, MI</pubPlace>
                      <publisher>Wayne State UP</publisher>
                      <date>1959</date>
@@ -555,9 +555,16 @@
                      Pollock, Robert. <title level="m">The Course of Time</title>. Illus. ed. Edinburgh and London. William Blackwood and Sons, 1857.
                   </bibl>               
                   <bibl xml:id="EOR" n="Rand">
-                     Randall, E. O. <title level="a">Samuel Sullivan Cox: His Famous Word Picture</title>. <title level="m">Ohio History</title>. 19 (1910): 331–332. http://publications.ohiohistory.org/ohstemplate.cfm?action=detail&amp;Page=0019331.html&amp;StartPage=319&amp;EndPage=332&amp;volume=19&amp;newtitle=Volume%2019%20Page%20319.
+                     Randall, E. O. <title level="a">Samuel Sullivan Cox: His Famous Word Picture</title>. <title level="m">Ohio History Journal</title>. 19 (1910): 331–332. http://publications.ohiohistory.org/ohstemplate.cfm?action=detail&amp;Page=0019331.html&amp;StartPage=319&amp;EndPage=332&amp;volume=19&amp;newtitle=Volume%2019%20Page%20319.
                      1998. 10 Mar. 2007.
                   </bibl>
+               <bibl xml:id="Dorn" n="Dorn"> Dorn, Helen P. <title level="a">Samuel Medary,
+                     Journalist and Politician, 1801-1864.</title>
+                  <title level="j">Ohio History Journal</title>. 1944 (53.1): pp. 14–38.</bibl>
+               <bibl xml:id="Samuel" n="Samuel">
+                  <title level="a">Samuel Medary.</title>
+                  <title level="j">Ohio History Journal</title>. 1925 (34.3): pp. 424–425. </bibl>
+                  
                   <bibl xml:id="NHHATS" n="Sole">
                      Solem, Børge, and Trond Austeim. <title level="a">S/S Asia (1), Cunard Line</title>. <title level="m">Norway-Heritage: Hands Across the Sea</title>
                      http://www.norwayheritage.com/p_ship.asp?sh=asiaa.
@@ -1051,10 +1058,10 @@
                      sections written in pencil, sections written in ink, and sections in which text
                      written originally in pencil is overwritten (and, in a very few cases, altered)
                      in ink. Based on the headings and content of the journal entries, we assume
-                     that the original text of Cox's journal was written in pencil when he was
+                     that the original text of Cox's journal was typically written in pencil when he was
                      onboard a ship at sea (perhaps to avoid spilling ink) and in ink when he was on
                      land or on a ship lying at anchor. The penciled passages overwritten in ink
-                     were presumably composed at sea and overwritten later, perhaps to create a copy
+                     were perhaps overwritten later to create a copy
                      less prone to fading. Because the pencil and superimposed ink copies of
                      passages vary so little, only differences between the pencil and ink text have been encoded, and we
                      provide a button allowing readers to display each version.</note>
@@ -1107,7 +1114,7 @@
                <ptr type="noteAnchor" target="N504Julia"/><note resp="ed" xml:id="N504Julia" anchored="true">Samuel Sullivan Cox and Julia Ann Buckingham were married in October 1849 (Lindsey 8).</note>
                &amp; <persName>Lucy</persName>
                <ptr type="noteAnchor" target="N507Lucy"/><note resp="ed" xml:id="N507Lucy" anchored="true">According to David Lindsey, Lucy was a cousin of Julia and her brother, Philo
-               Buckinham (205).</note>
+               Buckingham (205).</note>
                trembled at each
                <lb/> report. A few tears—! <placeName>
                   <choice><abbr>NY</abbr><expan>New York</expan></choice></placeName> began to
@@ -1293,10 +1300,13 @@
                <lb/> fit for the spectre of Melan<seg type="softhyphen">-
                <lb/></seg>choly, to wit, "<q>a gibed Cat
                <lb/> in a garret.</q>"
-                  <ptr type="noteAnchor" target="N638gibe"/><note resp="ed" xml:id="N638gibe" anchored="true">Possibly an allusion to Washington Irving's <title level="m">Tales of a Traveller</title>. In "<title level="a">Buckthorne: or, The Young Man of
-                  Great Expectations</title>," Irving writes, "whatever may be said of the gravity of a
-                  monkey, or the melancholy of a gibed cat, there is no more melancholy creature in
-                  existence than a mountebank off duty" (107).</note>
+                  <ptr type="noteAnchor" target="N638gibe"/>
+               <note resp="ed" xml:id="N638gibe" anchored="true">Possibly an allusion to Washington
+                  Irving's <title level="m">Tales of a Traveller</title>. In <title level="a"
+                     >Buckthorne: or, The Young Man of Great Expectations,</title> Irving writes,
+                  "whatever may be said of the gravity of a monkey, or the melancholy of a gibed
+                  cat, there is no more melancholy creature in existence than a mountebank off duty"
+                  (107).</note>
                   Had many
                <lb/> of these I loathed. "<q>Have
                <lb/> anything to day</q>"—says kind
@@ -1371,9 +1381,9 @@
                describes the contemporary understanding of the currents that carry icebergs to the coast of Newfoundland:
                "cold waters, as they come down from the Arctic Ocean through Davis's Straits, press upon the warm waters 
                of the Gulf Stream, and curve their channel into a horse-shoe. . . . This 'bend' is the great receptacle of 
-               the icebergs which drift down from the north" (241–42).
+               the icebergs which drift down from the north" (241–42)   
                   <figure rend="link">
-                     <head>Maury, Plate VI)</head>
+                     <head>Maury, Plate VI</head>
                      <graphic url="image_sscox_gulf_stream.jpg"></graphic>
                      <figDesc>
                        Map of the Gulf Stream in the North Atlantic.
@@ -1592,7 +1602,7 @@
                <lb/> "<q>all other griefs to this are Jolly
                <lb/> Naught so damned is Melancholy</q>"
                <ptr type="noteAnchor" target="N863grief"/><note resp="ed" xml:id="N863grief" anchored="true">See Burton, <title level="m">Anatomy of Melancholy</title> (1660),
-               "<title level="a">The Author's Abstract of Melancholy</title>": "All my griefs to this are jolly, / Naught so damn'd
+               <title level="a">The Author's Abstract of Melancholy</title>: "All my griefs to this are jolly, / Naught so damn'd
                as melancholy" (xiv).</note>
               <lb/> of this nature!
             </p>
@@ -1640,7 +1650,9 @@
                <lb/> a—Beauty! hirsute for a week—
                <lb/> pale &amp; haggard; an exhalation
                <lb/> from "<q>Death the Skeleton and
-               <lb/> Time; the Shadow!</q>"<ptr type="noteAnchor" target="N925death"/><note resp="ed" xml:id="N925death" anchored="true">William Wordsworth, <title level="a">Yew Trees</title></note>
+               <lb/> Time; the Shadow!</q>"<ptr type="noteAnchor" target="N925death"/>
+               <note resp="ed" xml:id="N925death" anchored="true">William Wordsworth, <title
+                     level="a">Yew Trees.</title></note>
                This is
                <lb/> <hi rend="underline">pleasure</hi> travelling. The less
                <lb/> that is said about the better.
@@ -1682,8 +1694,10 @@
             <p>
                <lb/> We passed last week some of
                <lb/> Mother Cary's chickens— 
-               <ptr type="noteAnchor" target="N911cary"/><note resp="ed" xml:id="N911cary" anchored="true">Wilson's Storm Petrel (<name type="binomial">Oceanites oceanicus</name>) 
-                  (<bibl><author>Turnbull</author>; <author>Patuxent Wildlife Research Center</author></bibl>).</note>
+               <ptr type="noteAnchor" target="N911cary"/>
+               <note resp="ed" xml:id="N911cary" anchored="true">Wilson's Storm Petrel (<name
+                     type="binomial">Oceanites oceanicus</name>) <bibl><author>Turnbull</author>;
+                        <author>Patuxent Wildlife Research Center</author></bibl>.</note>
                I
                <lb/> saw too, a little tiny bird, <q>all
                <lb/> alone—all alone</q>
@@ -2178,9 +2192,9 @@
                   <persName>Samuel Medary</persName> was referred to as Colonel <persName>Samuel Medary</persName>. 
                   This article also states that Colonel <persName>Samuel Medary</persName> was granted the postmastership in 
                   <placeName type="city">Columbus, Ohio</placeName>. <persName>Samuel Medary's</persName> 
-                  obituary in <title>Ohio History</title> connects <persName>Medary's</persName> 
+                  obituary in <title level="m">Ohio History Journal</title> connects <persName>Medary's</persName> 
                   work as editor of the <title>Ohio Statesman</title> and postmaster 
-                  in <placeName>Columbus, Ohio</placeName>. 
+                  in <placeName>Columbus, Ohio</placeName> (Dorn; "Samuel Medary"). 
                </note> giving full <choice><abbr>acc'ts</abbr><expan>accounts</expan></choice> of
                <lb/> our trip.—<persName>Julia</persName> has been so
                <lb/> much better, having finished
@@ -2312,7 +2326,7 @@
                 <ptr type="noteAnchor" target="petal"/><note resp="ed" xml:id="petal" anchored="true">Presumably, Cox refers to a sketch of a flower that he inserts at this point in
                 the text:  
                    <figure rend="link">
-                      <head>Cox's sketch of a Johnny Jump-Up (<emph rend="italic">Viola cornuta</emph>).</head>
+                      <head>Cox's sketch of a Johnny Jump-Up (<name type="binomial">Viola cornuta</name>)</head>
                       <graphic url="SSCox_037_sketch.jpg"></graphic>
                       <figDesc>
                          Cox's sketch of a Johnny Jump-Up (<emph rend="italic">Viola cornuta</emph>)
@@ -2805,7 +2819,7 @@
             <p>
                <ptr type="noteAnchor" target="oopsy"/><note resp="ed" xml:id="oopsy" anchored="true">Cox corrects this dateline twice, crossing out "Friday"
                   and overwriting the "4" in "24" with a "3," resulting in an impossible date of
-                  Thursday, May 23, 1851. Judging from the dates of other entried, the dateline
+                  Thursday, May 23, 1851. Judging from the dates of other entries, the dateline
                   should probably read Thursday, May 22, 1851 ("Calendar").</note>
                <lb/><persName>Philo</persName> &amp; I took a cab, called
                <lb/> on <persName>M<hi rend="superscript">r</hi> Laurence</persName>, the Minister, treated
@@ -2823,7 +2837,7 @@
                famous and controversial statue by American Neoclassical sculptor, Hiram Powers (1805-1873) (Crane 203).</note>
                tomorrow 4 P.M; Thence
                <lb/> to <orgName type="institution">Baring &amp; Bro<hi rend="superscript">s</hi></orgName>, 
-               <ptr type="noteAnchor" target="bb2740"/><note resp="ed" xml:id="bb2740" anchored="true">Barings and Brothers was a London based merchant bank
+               <ptr type="noteAnchor" target="bb2740"/><note resp="ed" xml:id="bb2740" anchored="true">Barings and Brothers was a London-based merchant bank
                   established in 1763 (<title level="m">Encyclopædia Britannica</title>). 
                </note> through <placeName type="street">Picca<seg type="softhyphen">-
                <lb/></seg>dilly</placeName>,<placeName type="street"> Fleet,</placeName> <placeName type="street"> Threadneedle</placeName> &amp;
@@ -3712,11 +3726,11 @@
             <lb/> out—Ladies with <persName>Miss Pratt</persName>
              <ptr type="noteAnchor" target="JPratt"/><note resp="ed" xml:id="JPratt" anchored="true"><persName>Julia Pratt</persName>, only daughter of 
                <persName>Zadock Pratt</persName> of <placeName type="region">New York</placeName> (<ref target="http://www.prattmuseum.com/pratts-five-wives.html"><title>Zadock Pratt 
-                  Museum</title></ref>.)
+                  Museum</title></ref>).
             </note> &amp; 
             <lb/> <persName>Mrs. Stephens</persName>          
-             <ptr type="noteAnchor" target="AnnStephens"/><note resp="ed" xml:id="AnnStephens" anchored="true"><persName>Ann Sophia Stephens</persName> is the authoress 
-               of <hi rend="italics">Dime Novel No. 1</hi>. She worked as an authoress, editor, and magazine publisher. 
+             <ptr type="noteAnchor" target="AnnStephens"/><note resp="ed" xml:id="AnnStephens" anchored="true"><persName>Ann Sophia Stephens</persName> is the author 
+               of <hi rend="italics">Dime Novel No. 1</hi>. She worked as an author, editor, and magazine publisher. 
                She dedicated one of her poems to the Honorable <persName>Zadock Pratt</persName> 
                of <placeName type="region">New York</placeName> 
                (<ref target="http://www.niulib.niu.edu/badndp/stephens_ann.html"><title>Northern Illinois University Library</title></ref>).
