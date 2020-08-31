@@ -6069,14 +6069,14 @@
                           the consul 
                           who accompanied Cox's party on their journey through Constantinople (219).</note>
                <!-- How to encode the spaces left by Cox? -->
-               <lb/> <handShift medium="pencil"/>our consul, — was very <hi rend="underline">very</hi> po<seg type="softhyphen">-
+               <lb/> <handShift medium="pencil"/>our Consul, — was very <hi rend="underline">very</hi> po<seg type="softhyphen">-
                <lb/></seg>lite. Went to the bazaars,— saw all 
                <lb/> classes in their peculiar costumes,
                <lb/> Jews, Arminians &amp; Persians. The latter
                <lb/> with long, sugar loaf, curly black hats;
                <lb/> The Turks take it easiest in their big
                <lb/> turbans.— Was not very well — went to 
-               <lb/> bed early. <persName>Julia</persName> &amp; I both staied at
+               <lb/> bed early. <persName>Julia</persName> &amp; I both staid at
                <lb/> home in <choice><abbr>Evg</abbr><expan>Evening</expan></choice>.         
             </p>
          </div>
@@ -6086,7 +6086,7 @@
                <lb/>
                <dateline>               
                <placeName>Constantinople</placeName>
-               <date when="1851-07-03">July 3<hi rend="superscript">d</hi>/<del type="recoverable" rend="overwritten">4</del>51</date>.     
+               <date when="1851-07-03">July 3<hi rend="superscript">d</hi>/<del type="unrecoverable" rend="overwritten"></del>51</date>.     
                </dateline>
             </opener>
 
@@ -6132,7 +6132,7 @@
                <lb/></seg>mitted <persName>Julia</persName> to carry away a 
                <lb/> fine boquet. We then went to the 
                <lb/> National Armory. The arms are
-               <lb/> elegantly stacked after, the fashion
+               <lb/> elegantly stacked, after the fashion
 
              <!-- Proofed 20080819 by HLU/ED -->                           
              
@@ -6141,16 +6141,16 @@
              <lb/> of the Turks, pointing like the
              <lb/> minarets. Old arms were there,
              <lb/> Old Turkish Knights in armor.
-             <lb/> We then started for the mosques..
+             <lb/> We then started for the mosques.
              <lb/> While waiting in expectancy of ad<seg type="softhyphen">-
-             <lb/></seg>mission we were hailed with 
+             <lb/></seg>mission, we were hailed with 
              <lb/> the appearance of a black slave
              <lb/> with a whip, who told our firman
              <lb/> &amp; the Officer sent by the Prime 
              <lb/> Minister  "<q><hi rend="underline">to go to hell</hi>, that they
              <lb/> brought the <choice><sic>Gaiours</sic><corr>Giaours</corr></choice>  
                 <ptr type="noteAnchor" target="C16"/><note resp="ed" xml:id="C16" anchored="true">See Cox's fuller version of this
-                     scolding in <title level="m">A Buckeye Aboard</title> (220–221).</note> here; that 
+                     scolding in <title level="m">A Buckeye Abroad</title> (220–221).</note> here; that 
              <lb/> the time was <choice><sic>Ramadzin</sic><corr>Ramadan</corr></choice></q>" — a 
              <lb/> holy month, in which the Turks
              <lb/> fast &amp; sleep all day; &amp; smoke
@@ -6164,7 +6164,7 @@
             </p>
             <p>   
           
-             <lb/> Our Consul called of us to 
+             <lb/> Our Consul called for us to 
               <lb/> go &amp; see the "<quote>Sweet Waters
               <lb/> of Europe</quote>," which is a very beau<seg type="softhyphen">- 
               <lb/></seg>tiful valley, with trees in it. The 
@@ -6184,12 +6184,12 @@
               <lb/> (they are rare, are carriages,)
               <lb/> drove down to the next palace —
               <lb/> Then up upon the Jews' buryground,
-              <lb/> white  with tombs — <hi rend="underline"><foreign xml:lang="lat"><unclear cert="medium" resp="#HLU">Quod quie</unclear></foreign></hi> — (Jewish
+              <lb/> white  with tombs — <unclear cert="medium" resp="#HLU"><hi rend="underline"><foreign xml:lang="lat">Quod quie</foreign></hi></unclear> — (Jewish
               <lb/> custom, rise in Jehoshaphat.) There are
                <!-- Need help from someone who reads Latin: what is he trying to write? -->
               <lb/> no trees on it. The view was splendid
               <lb/> of Asia &amp; Europe; with the Bospho<seg type="softhyphen">- 
-              <lb/></seg>rus, Mamara, &amp; the Golden Horn;
+              <lb/></seg>rus, Marmara, &amp; the Golden Horn;
               <lb/> &amp; the Cities of <placeName>Parea, Scutari</placeName> &amp;
                <!-- Where is Parea? -->
               <lb/> <choice><abbr>Const.</abbr><expan>Constantinople</expan></choice> between. The tall mosques
@@ -6252,7 +6252,7 @@
                <lb/> After driving along the road
                <lb/> apast the <choice><sic>Arminian</sic><corr>Armenian</corr></choice> grave yard, 
                <lb/> used for promenades &amp; places 
-               <lb/> of amusement here — we turn<seg type="softhyphen">
+               <lb/> of Amusement here — we turn<seg type="softhyphen">
                <lb/></seg>ed again into the narrow streets, &amp;
                <lb/> went homeward.   
               
@@ -6500,7 +6500,7 @@
                <lb/> am a Christian &amp; can't go it."</q>
                <lb/> Philo remarked "<q>that the fellow
                <lb/> would make a fortune in <placeName>NY</placeName>.</q>"
-               <lb/> "<q>Dont talk <persName>Philo</persName>!</q>""<q>How do you
+               <lb/> "<q>Dont talk <persName>Philo</persName>!</q>" "<q>How do you
                <lb/> feel <persName>Sam</persName></q>" — Oh! in Elysium—.
                
                <!-- Proofed 20080819 by HLU/ED -->       
@@ -6508,7 +6508,7 @@
                <pb facs="SSCox_152"/>
                
                <lb/> How do you feel—?" "Sleepy"—So do
-               <lb/> I?" Don't let—us—c-o-n-ve—rse
+               <lb/> I? "Don't let—us—c-o-n-ve—rse
                <lb/> a-n-y."— &amp; sinking back in
                <lb/> a pillow, I find myself gradually
                <lb/> transformed into an Ottoman seek<seg type="softhyphen">-
