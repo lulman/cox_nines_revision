@@ -344,7 +344,7 @@
             <!-- END THE VERTICAL IMAGE BAR -->
             <!-- START RIGHT MENU -->   
             <div id="viewMenu">
-               <p class="aboutView"><a href="#View">About this view.</a></p>
+               <p class="aboutView"><a href="#view">About this view.</a></p>
                <div class="container">
                   <p class="font-size-label">Font Size <button id="up">+</button> <button id="down">-</button></p>
                   <!--<p id="font-size"></p>-->
@@ -354,7 +354,7 @@
                      <span class="pencil">Original text displayed.</span>
                       <span class="ink inktoggle">Ink changes displayed.</span>
                   </p>
-                                                     
+                  
                   <!-- Start NINES Widget -->
                   <form method="get"
                      style="font-size-adjust:none;font-style:normal;font-variant:normal;font-weight:normal;line-height:1.231;color:#000000;"

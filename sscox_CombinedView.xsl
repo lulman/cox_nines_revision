@@ -25,8 +25,7 @@
         Recoverable text canceled by Cox is presented in a red, strikethrough font. Uncertain readings are
         enclosed in square brackets and followed by a question mark. Text added by Cox between
         lines is preceded by an arrow indicating whether the addition is above or below the line and
-        followed by an arrow indicating the return to the line (&#x2191; &#x2193;); text added in
-        the margins is preceded and followed by a vertical bar (&#x007C;). Text added by Cox
+        followed by an arrow indicating the return to the line (&#x2191; &#x2193;); text added by Cox
         in the margins is surrounded by "pipe" characters (|) at the point in the main text that it
         appears to follow. Links to external materials are colored and underlined, and links to explanatory notes are
         indicated by superscript colored numbers.</xsl:variable>
