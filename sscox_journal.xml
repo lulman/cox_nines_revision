@@ -440,15 +440,15 @@
                   
                   <bibl xml:id="Bartlett" n="Bart">
                      Bartlett, Joseph Gardner. <title level="m">Robert Coe, Puritan: His Ancestors and Descendants, 1340–1910; with Notices of other
-                        Coe Families</title>. Boston, MA. J. Garner Bartlett. 1911.
+                        Coe Families</title>. J. Garner Bartlett, 1911.
                   </bibl>
                   <bibl xml:id="BrownU" n="Brow">
-                     Brown University. <title level="m">Historical Catalogue of Brown University, Providence, Rhode Island, 1764–1894</title>. Providence, R. I.:
-                     P. S. Remington &amp; Co. 1895.
+                     Brown University. <title level="m">Historical Catalogue of Brown University, Providence, Rhode Island, 1764–1894</title>.
+                     P. S. Remington &amp; Co., 1895.
                   </bibl>
                   
                   <bibl xml:id="Davis" n="Davi">
-                     Davis, Albert Henry. <title level="m">History of the Davis Family</title>. Washington, D.C.: T.A. Wright. 1888.
+                     Davis, Albert Henry. <title level="m">History of the Davis Family</title>. T.A. Wright, 1888.
                   </bibl>
                   
                   <bibl xml:id="ML" n="Lloy">
@@ -464,7 +464,7 @@
                   </bibl>
                   
                   <bibl xml:id="SC" n="Cran">
-                     Crane, Sylvia. <title level="m">White Silence: Greenough,Powers and Crawford</title>.
+                     Crane, Sylvia. <title level="m">White Silence: Greenough, Powers and Crawford</title>. University of Miami Press, 1972.
                      <pubPlace>Coral Gables, FL</pubPlace>
                      <publisher>University of Miami Press</publisher>
                      <date>1972</date>
@@ -483,31 +483,28 @@
                   </bibl>
                   
                   <bibl xml:id="MB2" n="Coxb">
-                     Cox, Samuel. <title>A Buckeye Abroad</title>. New York, NY. George B. Putnam, 1852.
+                     Cox, Samuel. <title level="m">A Buckeye Abroad</title>. George B. Putnam, 1852.
                   </bibl>
                   
                   <bibl xml:id="FLB" n="Babc">
-                     Babcock, F. Laurence. <title level="m">Spanning the Atlantic</title>. New York, NY. Knopf. 1931
+                     Babcock, F. Laurence. <title level="m">Spanning the Atlantic</title>. Knopf, 1931.
                   </bibl>
                   
                   <bibl xml:id="SSC1851" n="Coxb">
-                     Cox, Samuel Sullivan. <title level="m">A Buckeye abroad; or, Wanderings in Europe and in the Orient</title>. New York: Putnam, 1852. http://www.hti.umich.edu/cgi/t/text/pageviewer-idx?c=moa&amp;cc=moa&amp;idno=adl7930.0001.001&amp;q1=buckeye+abroad&amp;frm=frameset&amp;view=image&amp;seq=9.
+                     Cox, Samuel Sullivan. <title level="m">A Buckeye abroad; or, Wanderings in Europe and in the Orient</title>. Putnam, 1852. http://www.hti.umich.edu/cgi/t/text/pageviewer-idx?c=moa&amp;cc=moa&amp;idno=adl7930.0001.001&amp;q1=buckeye+abroad&amp;frm=frameset&amp;view=image&amp;seq=9.
                   </bibl>
                   
                   <bibl xml:id="SSC1854" n="Coxc">
-                     Cox, Samuel Sullivan. <title level="m">A Buckeye abroad; or, Wanderings in Europe and in the Orient</title>. Cincinnati, OH: Moore, Wilstach &amp; Keys, 1854.                   
+                     Cox, Samuel Sullivan. <title level="m">A Buckeye abroad; or, Wanderings in Europe and in the Orient</title>. Moore, Wilstach &amp; Keys, 1854.                   
                   </bibl>
                   
                   <bibl xml:id="SSC1859" n="Coxd">
                      Cox, Samuel Sullivan. <title level="m">A Buckeye abroad; or, Wanderings in Europe and in the Orient</title>.
-                     7th ed.
-                     Columbus, OH:
-                     Follet, Foster, and Company,
-                     1859.
+                     7th ed. Follet, Foster, and Company, 1859.
                   </bibl>
                   
                   <bibl xml:id="SSCBio" n="Coxe">
-                     Cox, William Van Zandt, and Milton Harlow Northrup. <title level="m">Life of Samuel Sullivan Cox</title>. New York: M.H. Northup, 1899.
+                     Cox, William Van Zandt, and Milton Harlow Northrup. <title level="m">Life of Samuel Sullivan Cox</title>. M.H. Northup, 1899.
                   </bibl>
                   
                   <bibl xml:id="QM2" n="Cuna">
@@ -519,7 +516,7 @@
                   </bibl>
                   
                   <bibl xml:id="FEH" n="Hyde">
-                     Hyde, Francis, E. <title level="m">Cunard and the North Atlantic, 1840-1973</title>
+                     Hyde, Francis, E. <title level="m">Cunard and the North Atlantic, 1840-1973</title>. Macmillan, 1975.
                      <pubPlace>London</pubPlace>
                      <publisher>Macmillan</publisher>
                      <date>1975</date>
@@ -533,21 +530,20 @@
                   </bibl>
                   
                   <bibl xml:id="Maury" n="Maur">
-                     Maury, M. F. <title level="m">The Physical Geography of the Sea</title>
-                     <edition>2nd</edition>
+                     Maury, M. F. <title level="m">The Physical Geography of the Sea</title>. 2nd ed., Harper, 1855.
                      <pubPlace>New York, NY</pubPlace>
                      <publisher>Harper</publisher>
                      <date>1855</date>
                   </bibl>
                   
                   <bibl xml:id="PWRC" n="Patu">
-                     Patuxent Wildlife Research Center, U.S. Geological Survey. <title level="a">Wilson's storm-petrel<name type="binomial">Oceanites oceanicus</name></title>. <title level="m">Patuxent Bird Identification InfoCenter</title>. Patuxent Wildlife Research Center.
+                     Patuxent Wildlife Research Center, U.S. Geological Survey. <title level="a">Wilson's storm-petrel <name type="binomial">Oceanites oceanicus</name>.</title> <title level="m">Patuxent Bird Identification InfoCenter</title>. Patuxent Wildlife Research Center.
                      http://www.mbr-pwrc.usgs.gov/id/framlst/i1090id.html
                      N.d. 10 Feb 2007.
                   </bibl>
                   
                   <bibl xml:id="Peskin" n="Pesk">
-                     Peskin, Allan. <title level="a">Cox, Samuel Sullivan</title>.
+                     Peskin, Allan. <title level="a">Cox, Samuel Sullivan.</title>
                      <title level="m">American National Biography Online</title>. Oxford University Press.
                      http://www.anb.org.proxy.lib.ohio-state.edu/articles/04/04-00274.html. Feb. 2000. 7 Mar 2007
                   </bibl>
@@ -555,8 +551,7 @@
                      Pollock, Robert. <title level="m">The Course of Time</title>. Illus. ed. Edinburgh and London. William Blackwood and Sons, 1857.
                   </bibl>               
                   <bibl xml:id="EOR" n="Rand">
-                     Randall, E. O. <title level="a">Samuel Sullivan Cox: His Famous Word Picture</title>. <title level="m">Ohio History Journal</title>. 19 (1910): 331–332. http://publications.ohiohistory.org/ohstemplate.cfm?action=detail&amp;Page=0019331.html&amp;StartPage=319&amp;EndPage=332&amp;volume=19&amp;newtitle=Volume%2019%20Page%20319.
-                     1998. 10 Mar. 2007.
+                     Randall, E. O. <title level="a">Samuel Sullivan Cox: His Famous Word Picture.</title> <title level="m">Ohio History Journal</title>. 19 (1910): 331–332.
                   </bibl>
                <bibl xml:id="Dorn" n="Dorn"> Dorn, Helen P. <title level="a">Samuel Medary,
                      Journalist and Politician, 1801-1864.</title>
@@ -571,11 +566,11 @@
                      N.d. 23 Feb. 2007.
                   </bibl>
                   <bibl xml:id="TSL" n="Swig">
-                     Swiggum, S., and M. Kohli. <title level="a">Cunard Line / The British and North American Royal Mail Steam-Packet Company / Cunard Steamship Company, Limited</title>. <title level="m">TheShipsList</title>.
+                     Swiggum, S., and M. Kohli. <title level="a">Cunard Line / The British and North American Royal Mail Steam-Packet Company / Cunard Steamship Company, Limited.</title> <title level="m">The Ships List</title>.
                      http://www.theshipslist.com/ships/lines/cunard.html. 1997. 23 Feb. 2007.
                   </bibl>
                   <bibl xml:id="SSComp" n="Turn">
-                     Turnbull, Paul. <title level="a">Mother Cary's Chickens (Wilson's Petrel)</title>.
+                     Turnbull, Paul. <title level="a">Mother Cary's Chickens (Wilson's Petrel).</title>
                      <title level="m">South Seas Companion</title>. National Library of Australia. http://nla.gov.au/nla.cs-ss-biogs-P000125.
                      N.d. 
                      10 Feb 2007.
@@ -648,8 +643,11 @@
                and Manuscripts Library (RBMS) at The Ohio State University Libraries. Other editions
                include "Selected Entries from the Lucius Clark Smith Diaries,
                30 July 1862 to 31 December 1862"; "My Dear Elizabeth," five letters written by Sophia Peabody Hawthorne to her
-               sister Elizabeth Palmer Peabody between ca. 1837 and 1868; and Louisa A. Doane's "Journal
-               of Two Ocean Voyages (1852-1853)."</p>
+               sister Elizabeth Palmer Peabody between ca. 1837 and 1868; Louisa A. Doane's "Journal
+               of Two Ocean Voyages (1852-1853);" "William B. Anderson's Civil War Correspondence, 1862-1864";
+               and "Selected Letters from the Ivan S. Gilbert Collection of 
+               Stephens Family Travel Letters and Ephemera."
+            </p>
             
             <p>Each text was initially edited in connection with an undergraduate or graduate course
                on electronic textual editing offered by H. Lewis Ulman, Associate Professor of
@@ -667,7 +665,7 @@
                explored four threads inextricably woven into the work of electronic textual editing:
                the lives and historical milieu evoked by the texts; the history, characteristics,
                and preservation of physical and digital texts; the editorial processes and decisions
-               that shape particular interpretations and presentations texts; and the mediation of
+               that shape particular interpretations and presentations of texts; and the mediation of
                electronic delivery systems.</p>
             
             <p>These conceptual focuses, along with the time constraints of academic terms and the
@@ -690,14 +688,7 @@
                representations of single documents—designed to provide wider exposure and access to
                manuscript materials that might otherwise be overlooked, and to provide users with a
                variety of tools for studying those texts.</p>
-            
-            <p>While providing a reliable textual edition is a <foreign xml:lang="lat"><hi
-               style="font-style:italic;">sine qua non</hi></foreign>, the Stephens edition also
-               explores ways of telling four stories inextricably woven into our work: the lives and
-               historical milieu evoked by the texts, the history of the physical documents, the
-               editorial process that gave rise to this particular interpretation of the texts, and the
-               mediation of our electronic delivery system. </p>
-            
+                        
             <p> Over the course of several years following the classes in which students worked on
                the editions, Professor Ulman revised the introductory materials to ensure stylistic
                consistency and proofed the transcription and encoding. He also redesigned the
@@ -710,7 +701,7 @@
          <editorialDecl xml:id="CoxEtextDescription">
             <p>
                <emph rend="bold">Scanning</emph>. The manuscript pages were scanned as 24-bit TIFF images
-               at 400 dots per inch (dpi), then coverted to 8-bit JPEG images at 400 dpi and full
+               at 400 dots per inch (dpi), then converted to 8-bit JPEG images at 400 dpi and full
                quality. All edges were overscanned by at least 1/4 inch. No color correction was used at any stage of image
                preparation, but a scan of a photographer's 18% grey card on the same scanner
                produced RGB values at the center of 91/95/107 after applying a 150% Gaussian Blur in
@@ -726,7 +717,7 @@
                the presentation in each view of the letters can be read via the "About this View" link
                at the top of each view's page.</p>
             
-            <p><emph rend="bold">Markup and Annotation</emph>. XML encoding of the Anderson letters follows The
+            <p><emph rend="bold">Markup and Annotation</emph>. XML encoding of the Cox journal follows The
                Text Encoding Initiative's (TEI) <title level="m">P5: Guidelines for Electronic Text Encoding and Interchange</title>,
                as customized for the project using the TEI's ODD ("One Document Does it All") process.
                This editorial introduction and the three "views" of the letters were generated from the main XML file
@@ -743,11 +734,12 @@
             <p>
                <emph rend="bold">Proofing</emph>. Students who created the original transcriptions proofread their own
                transcription and encoding. In preparation for peer review by NINES and preservation in The Ohio State University's 
-               Knowledge Bank, the transcriptions and encoding were once again proofread by Professor Ulman.
+               Knowledge Bank, the transcriptions and encoding were once again proofread by Professor Ulman and, in
+               a few cases, by assistants who are credited in the relevant editions.
             </p>
             <p>
                <emph rend="bold">Peer Review</emph>. Anonymous reviewers for NINES provided peer-reviews for the editions, in response to 
-               which they were revised and then reviewed by NINES editors before being listed in the NINES database.
+               which the editions were revised and then reviewed by NINES editors before being listed in the NINES database.
             </p>
             <p>
                <emph rend="bold">Production and Archival Location of Digital Assets</emph>.
@@ -853,7 +845,8 @@
          
       </profileDesc>
       <revisionDesc xml:id="CoxRevisionHistory">
-         <change><date>2018-08-??</date><label>Principal editor</label><persName>H. Lewis Ulman</persName>Revision of encoding to align with design peer-reviewed by NINES.</change>
+         <change><date>2020-09</date><label>Principal editor</label><persName>H.Lewis Ulman</persName>Final proofreading.</change>
+         <change><date>2018-08</date><label>Principal editor</label><persName>H. Lewis Ulman</persName>Revision of encoding to align with design peer-reviewed by NINES.</change>
          <change><date>2011-08-11</date><label>Principal editor</label><persName>H. Lewis Ulman</persName>Final editing of bibliography and XSL style sheets.</change>
          <change><date>2011-01-14</date><label>Principal editor</label><persName>H. Lewis Ulman</persName>Removal of the unfinished audio version of the edition; proofing of annotations
                and bibliography.</change>

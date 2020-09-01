@@ -763,11 +763,17 @@
    <xsl:template match="tei:name[@type='ship']">
       <i><xsl:apply-templates/></i>
    </xsl:template>
+   <xsl:template match="tei:name[@type='binomial']">
+      <xsl:element name="span"><xsl:attribute name="style">font-style:italic;</xsl:attribute>
+         <xsl:apply-templates/>
+      </xsl:element>
+   </xsl:template>
    <xsl:template match="tei:foreign">
       <i>
          <xsl:apply-templates/>
       </i>
    </xsl:template>
+
    <xsl:template match="tei:hi[@rend='bold']">
       <strong>
          <xsl:apply-templates/>
