@@ -322,7 +322,7 @@
       <p><strong>Markup of Textual Structure.</strong> The <strong>journal
             entry</strong> constitutes the primary textual
          structure represented in the markup. It is encoded
-         by a &lt;div1&gt; element with the attribute-value pair "type='Entry,'"         an
+         by a &lt;div&gt; element with the attribute-value pair "type='Entry,'"         an
          &quot;id&quot; attribute with the unique value &quot;CoxYYYYMMDDa&quot; (where
          the date corresponds to the date of the entry and the trailing letter
          allows for multiple entries on a given day). Each entry contains an &lt;opener&gt; element&mdash;which
@@ -330,7 +330,7 @@
          one or more paragraphs. Each dateline may include a &lt;name&gt; element
          with (optionally) a "type" attribute
          containing one of the following values: city, region; and a &lt;date&gt; element
-         with a "value" attribute whose value is in the form YYYY-MM-DD.  </p>
+         with a "when" attribute whose value is in the form YYYY-MM-DD.  </p>
    <p>Entries consist of a series of paragraphs. Where indicated
          by indentation of a line from the left margin of a page, line breaks
          part-way across a page, or additional white space between lines, <strong>paragraphs</strong> are
