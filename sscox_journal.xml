@@ -2108,7 +2108,7 @@
                <lb/> rapidly approaching <placeName>Liverpool</placeName>,
                <lb/> passed the <placeName type="county">Cork</placeName> coast in the night.
                <lb/> The tide will be against us. At
-               <lb/> this time we have passed <placeName>Cansore
+               <lb/> this time we have passed <placeName><sic>Cansore</sic>
                <lb/> Point, Ireland</placeName>; &amp; are pushing up
                <lb/> the channel between <placeName type="country">Wales</placeName> &amp;
                <lb/> <placeName type="country">Ireland</placeName>, not far from sight
@@ -2248,7 +2248,7 @@
               
             <pb facs="SSCox_036"/>
                 
-            <lb/> Made the  acquaintance of <persName>M<hi rend="superscript">r</hi> Wallen</persName>
+            <lb/> Made the  acquaintance of <persName>M<hi rend="superscript">r</hi> Waller</persName>
             <lb/> of <placeName type="city">Florence</placeName>, who will be useful. Our
             <lb/> passengers that are worth remembering
               <lb/> are <persName> M<hi rend="superscript">r</hi> Kelley</persName> &amp; 
@@ -6073,7 +6073,7 @@
                <lb/> then went to <placeName type="building">Hotel D'Anglaterre</placeName> —
                <lb/> after washing up saw <choice><abbr>M<hi rend="superscript">r</hi></abbr><expan>Mister</expan></choice>
                <handShift new="#UNK" medium="pencil"/>
-               <persName>Dannez</persName>
+               <persName><choice><sic>Dannez</sic><corr>Dainese</corr></choice></persName>
                <ptr type="noteAnchor" target="C19"/><note resp="ed" xml:id="C19" anchored="true">According to <title level="m">A Buckeye Abroad, </title>Mr. Dainese was 
                           the consul 
                           who accompanied Cox's party on their journey through Constantinople (219).</note>

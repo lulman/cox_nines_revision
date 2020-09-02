@@ -595,6 +595,7 @@
    <xsl:template match="tei:listPerson[@type='mentioned']">
       <hr/>
       <h3 id="peopleMentioned">List of People Mentioned in Samuel Sullivan Cox's Diary</h3>
+      <xsl:apply-templates select="tei:head"/>
       <xsl:for-each select="tei:person">
          <xsl:sort select="tei:persName[1]"/>
          <p>
@@ -621,7 +622,8 @@
       <xsl:template match="tei:listOrg">
          <hr/>
       <h3 id="organizationsMentioned">List of Organizations Mentioned in Samuel Sullivan Cox's Diary</h3>
-      <xsl:for-each select="tei:org">
+         <xsl:apply-templates select="tei:head"/>
+         <xsl:for-each select="tei:org">
          <xsl:sort select="tei:orgName[1]"/>
          <p>
             <strong><xsl:value-of select="tei:orgName"/></strong>:
@@ -636,7 +638,8 @@
       <xsl:template match="tei:listPlace">
          <hr/>
       <h3 id="placesMentioned">List of Places Mentioned in Samuel Sullivan Cox's Diary</h3>
-      <xsl:for-each select="tei:place">
+         <xsl:apply-templates select="tei:head"/>
+         <xsl:for-each select="tei:place">
          <xsl:sort select="tei:geogName"/>
          <xsl:sort select="tei:placeName[1]"/>
          <p>
@@ -656,6 +659,7 @@
    <xsl:template match="tei:list[@type='ships']">
       <hr/>
       <h3 id="shipsMentioned">List of Ships Mentioned in Samuel Sullivan Cox's Diary</h3>
+      <xsl:apply-templates select="tei:head"/>
       <xsl:for-each select="tei:item">
          <xsl:sort select="tei:name[1]"/>
          <p>
