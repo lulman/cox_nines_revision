@@ -592,10 +592,10 @@
    
    <xsl:template match="tei:listPerson[@type='mentioned']">
       <hr/>
-      <h3 id="peopleMentioned">List of People Mentioned in Samuel Sullivan Cox's Diary</h3>
+      <h3 id="peopleMentioned">List of People Mentioned in Cox's Diary</h3>
       <xsl:apply-templates select="tei:head"/>
       <xsl:for-each select="tei:person">
-         <xsl:sort select="tei:persName[1]"/>
+         <xsl:sort select="@xml:id"/>
          <p>
             <strong><xsl:value-of select="tei:persName"/></strong>
             <xsl:if test="tei:birth or tei:death">
@@ -617,6 +617,7 @@
       </xsl:for-each>
    </xsl:template>
    
+<!--   NOT USED IN THIS EDITION      
       <xsl:template match="tei:listOrg">
          <hr/>
       <h3 id="organizationsMentioned">List of Organizations Mentioned in Samuel Sullivan Cox's Diary</h3>
@@ -629,13 +630,13 @@
          </p>
       </xsl:for-each>
    </xsl:template>
-   
+-->   
    
 <!--   <xsl:template match="tei:listPerson[@type='editors']"/>  -->  
    
       <xsl:template match="tei:listPlace">
          <hr/>
-      <h3 id="placesMentioned">List of Places Mentioned in Samuel Sullivan Cox's Diary</h3>
+      <h3 id="placesMentioned">List of Places Visited During Cox's Tour</h3>
          <xsl:apply-templates select="tei:head"/>
          <xsl:for-each select="tei:place">
          <xsl:sort select="tei:geogName"/>
@@ -654,7 +655,8 @@
       </xsl:for-each>
    </xsl:template>
    
-   <xsl:template match="tei:list[@type='ships']">
+<!--   NOT USED IN THIS EDITION 
+      <xsl:template match="tei:list[@type='ships']">
       <hr/>
       <h3 id="shipsMentioned">List of Ships Mentioned in Samuel Sullivan Cox's Diary</h3>
       <xsl:apply-templates select="tei:head"/>
@@ -668,7 +670,7 @@
          </p>
       </xsl:for-each>
    </xsl:template>
-   
+-->   
    
 
 <!--  NOT USED IN THIS EDITION

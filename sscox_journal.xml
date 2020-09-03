@@ -580,14 +580,238 @@
                </listBibl>
             
             <listPerson type="mentioned">
-              <head>List of Selected People Mentioned in Cox's Journal</head>
-               <person xml:id="SSC" source="XXX">
+               <head>This list identifies living persons whom Cox encounters, observes, or mentions
+                  corresponding with, serving as a dramatis personae for the journal. It does not
+                  include authors whose work he cites or historical figures he names in passing, who
+                  are typically identified in annotations to the text of the edition.</head>
+               <person xml:id="COXS">
                   <persName>Cox, Samuel Sullivan</persName>
-                  <note type="biographical">Bio note about Cox.</note>
-                  <birth when="1824"><placeName></placeName></birth>
-                  <death when="1889"><placeName></placeName></death>
-                  <bibl></bibl>
+                  <note type="biographical">Cox served as a Democratic congressman in the United States
+                     House of Representative from 1856 until his death, save for a few short
+                     interruptions, first representing his native Ohio
+                     and then, from 1868 onward, his adopted state of New York. As a public servant,
+                     he is most remembered, even revered, for strengthening the Life-Saving Service
+                     (a precursor to the Coast Guard) and improving the working conditions of mail
+                     carriers. As a Democratic politician, his legacy is marred by his oft-assumed
+                     role as spokesperson for his party's resistance to abolition and emancipation
+                     during the years leading up to the Civil War. As an author, Cox published
+                     articles and books throughout his life on political and popular subjects,
+                     including six travel books.</note>
+                  <birth when="1824-09-30"><placeName>Zanesville, OH</placeName></birth>
+                  <death when="1889-09-10"><placeName></placeName></death>
                </person>
+               <person xml:id="CLAR">
+                  <persName>Henry Clark</persName>
+                  <note type="biographical">Presumably an acquaintance of Cox's who was present at the dock
+                  when Cox's party embarked.</note>
+               </person>
+               <person xml:id="JUDK">
+                  <persName>Captain C. H. E. Judkins</persName>
+                  <note type="biographical">Commodore of the Cunard Line.</note>
+               </person>
+               <person xml:id="COXJ">
+                  <persName>Julia Cox (née Buckingham)</persName>
+                  <note type="biographical">Julia Ann Buckingham and Samuel Cox were married October 9, 1849.</note>
+                  <birth when="1829"><placeName></placeName></birth>
+               </person>
+               <person xml:id="BUCL">
+                  <persName>Lucy Sturges Buckingham</persName>
+                  <note type="biographical">A cousin of Julia Buckingham Cox.</note>
+                  <birth when="1831"><placeName></placeName></birth>
+                  <death when="1889"><placeName></placeName></death>
+               </person>
+               <person xml:id="BUCKP">
+                  <persName>Philo Buckingham</persName>
+                  <note type="biographical">Julia Cox's brother.</note>
+                  <birth when="1825"><placeName></placeName></birth>
+                  <death when="1853"><placeName></placeName></death>
+               </person>
+               <person xml:id="MEDE">
+                  <persName>Samuel Medary</persName>
+                  <note type="biographical">Served in the Ohio House of Representatives and Ohio State Senate
+                  before purchasing a newspaper (later the <title level="j">Ohio Statesman</title>), which he 
+                     edited at the time of Cox's tour of Europe.
+                 </note>
+                  <birth when="1801"><placeName></placeName></birth>
+                  <death when="1864"><placeName></placeName></death>
+               </person>
+               <person xml:id="WALL">
+                  <persName>Mr. Waller</persName>
+                  <note type="biographical">Cox meets a "Mr. Waller of Florence" in Liverpool.</note>
+               </person>
+               <person xml:id="VICT">
+                  <persName>Queen Victoria</persName>
+                  <note type="biographical">Cox encounters Queen Victoria and two of her
+                  children driving by on Oxford street in London.</note>
+                  <birth when="1819"><placeName></placeName></birth>
+                  <death when="1901"><placeName></placeName></death>
+               </person>
+               <person xml:id="COXE">
+                  <persName>Ezekiel Taylor Cox</persName>
+                  <note type="biographical">Samuel Sullivan Cox's father, who served as
+                  an Ohio state senator.</note>
+                  <birth when="1795"><placeName></placeName></birth>
+                  <death when="1873"><placeName></placeName></death>
+               </person>
+               <person xml:id="STRA">
+                  <persName>Claude Bowes-Lyon, 13th Earl of Strathmore and Kinghorne</persName>
+                  <note type="biographical">Presumably the Lord Strathmore who "ran bump against"
+                  Cox's party on their way to the races at Epsom.</note>
+                  <birth when="1824"><placeName></placeName></birth>
+                  <death when="1904"><placeName></placeName></death>
+               </person>
+               <person xml:id="LAUR">
+                  <persName>Mr. Laurence</persName>
+                  <note type="biographical">A Mr. Laurence ("the Minister") gives Cox's party
+                  tickets during their stay in London, perhaps to the London Exhibition or to attend the session of 
+                  Parliament that Cox attends on May 24.</note>
+               </person>
+               <person xml:id="MALA">
+                  <persName>Henri Abraham César Malan</persName>
+                  <note type="biographical">Possibly the "Dr. Malans" with whom Cox's party meets
+                     in London on May 22.
+                  </note>
+                  <birth when="1787"><placeName></placeName></birth>
+                  <death when="1864"><placeName></placeName></death>
+               </person>
+               <person xml:id="DUNC">
+                  <persName>Thomas Slingsby Duncombe</persName>
+                  <note type="biographical">Member of Paliament whom Cox observes during a debate on May 24.
+                  </note>
+                  <birth when="1796"><placeName></placeName></birth>
+                  <death when="1861"><placeName></placeName></death>
+               </person>
+               <person xml:id="ROEB">
+                  <persName>John Arthur Roebuck</persName>
+                  <note type="biographical">Member of Paliament whom Cox observes during a debate on May 24.</note>
+                  <birth when="1802"><placeName></placeName></birth>
+                  <death when="1879"><placeName></placeName></death>
+               </person>
+               <person xml:id="STUR">
+                  <persName>Russell Sturgis</persName>
+                  <note type="biographical">Boston merchant and head of Baring Brothers in London
+                  at the time of Cox's visit.</note>
+                  <birth when="1805"><placeName></placeName></birth>
+                  <death when="1887"><placeName></placeName></death>
+               </person>
+               <person xml:id="KEOG">
+                  <persName>William Keogh</persName>
+                  <note type="biographical">Member of Paliament whom Cox observes during a debate on May 24.</note>
+                  <birth when="1817"><placeName></placeName></birth>
+                  <death when="1878"><placeName></placeName></death>
+               </person>
+               <person xml:id="WALP">
+                  <persName>Spencer Horatio Walpole</persName>
+                  <note type="biographical">Member of Paliament whom Cox observes during a debate on May 24.</note>
+                  <birth when="1806"><placeName></placeName></birth>
+                  <death when="1898"><placeName></placeName></death>
+               </person>
+               <person xml:id="THES">
+                  <persName>Frederic Thesiger, 1st Baron Chelmsford</persName>
+                  <note type="biographical">Member of Paliament whom Cox observes during a debate on May 24.</note>
+                  <birth when="1794"><placeName></placeName></birth>
+                  <death when="1878"><placeName></placeName></death>
+               </person>
+               <person xml:id="HENL">
+                  <persName>Mr. Henley</persName>
+                  <note type="biographical"></note>
+                  <birth when="1800-01-01"><placeName></placeName></birth>
+                  <death when="1800-01-01"><placeName></placeName></death>
+               </person>
+               <person xml:id="MOOR">
+                  <persName>George Henry Moore</persName>
+                  <note type="biographical">Member of Paliament whom Cox observes during a debate on May 24.</note>
+                  <birth when="1810"><placeName></placeName></birth>
+                  <death when="1870"><placeName></placeName></death>
+               </person>
+               <person xml:id="BARR">
+                  <persName>Sir Henry Barron, 1st Baronet</persName>
+                  <note type="biographical">Member of Paliament whom Cox observes during a debate on May 24.</note>
+                  <birth when="1795"><placeName></placeName></birth>
+                  <death when="1872"><placeName></placeName></death>
+               </person>
+               <person xml:id="RUSS">
+                  <persName>John Russell, 1st Earl Russell</persName>
+                  <note type="biographical">Member of Paliament whom Cox observes during a debate on May 24.</note>
+                  <birth when="1792"><placeName></placeName></birth>
+                  <death when="1878"><placeName></placeName></death>
+               </person>
+               <person xml:id="GRAY">
+                  <persName>Sir George Grey, 2nd Baronet</persName>
+                  <note type="biographical">Member of Paliament whom Cox observes during a debate on May 24.</note>
+                  <birth when="1799"><placeName></placeName></birth>
+                  <death when="1882"><placeName></placeName></death>
+               </person>
+               <person xml:id="MINT">
+                  <persName>William Elliot-Murray-Kynynmound, 3rd Earl of Minto</persName>
+                  <note type="biographical">Member of Paliament whom Cox observes during a debate on May 24.</note>
+                  <birth when="1814"><placeName></placeName></birth>
+                  <death when="1891"><placeName></placeName></death>
+               </person>
+               <person xml:id="STEP">
+                  <persName>Ann Sophia Stephens</persName>
+                  <note type="biographical">American novelist and magazine editor with whom Cox's party met
+                  in Marseilles and sailed with aboard the <name type="ship">Languedoc</name>.</note>
+                  <birth when="1810"><placeName></placeName></birth>
+                  <death when="1886"><placeName></placeName></death>
+               </person>
+               <person xml:id="PRAJ">
+                  <persName>Julia Harriet Pratt Ingersoll</persName>
+                  <note type="biographical">Daughter of Judge and U.S. Congressman Zadock Pratt. Met Cox's party 
+                     in Marseilles and sailed with aboard the <name type="ship">Languedoc</name>.</note>
+                  <birth when="1832"><placeName></placeName></birth>
+                  <death when="1898"><placeName></placeName></death>
+               </person>
+               <person xml:id="PRAG">
+                  <persName>George Watson Pratt</persName>
+                  <note type="biographical">Son of Judge and U.S. Congressman Zadock Pratt (1790–1871). Met Cox's party 
+                     in Marseilles and sailed with aboard the <name type="ship">Languedoc</name>.</note>
+                  <birth when="1830"><placeName></placeName></birth>
+                  <death when="1862"><placeName></placeName></death>
+               </person>
+               <person xml:id="NELS">
+                  <persName>William "Bull" Nelson</persName>
+                  <note type="biographical">U.S naval officer who became an Union General during the Civil War. 
+                  He served as a Lieutenant on the USS <name type="ship">Mississippi</name> when Cox's party
+                  tours the boat at Leghorn (Livorno), Italy.</note>
+                  <birth when="1824"><placeName></placeName></birth>
+                  <death when="1862"><placeName></placeName></death>
+               </person>
+               <person xml:id="RUTL">
+                  <persName>Lieutenant Rutledge</persName>
+                  <note type="biographical">Lieutenant on the USS <name type="ship">Mississippi</name> when Cox's party
+                     tours the boat at Leghorn (Livorno), Italy.</note>
+               </person>
+               <person xml:id="POWE">
+                  <persName>Hiram Powers</persName>
+                  <note type="biographical">American sculptor whom Cox's party meets aboard the USS
+                        <name type="ship">Mississippi</name> in Leghorn, Italy. Powers is known especially for his marble
+                     statue, <title level="m">The Greek Slave</title>, which was exhibited at the
+                     Crystal Palace Exhibition that Cox's party toured in London.</note>
+                  <birth when="1805"><placeName></placeName></birth>
+                  <death when="1873"><placeName></placeName></death>
+               </person>
+               <person xml:id="DAIN">
+                  <persName>Francis Dainese</persName>
+                  <note type="biographical">U.S. Consul in Constantiople, 1849–1852.</note>
+               </person>
+               <person xml:id="DOMI">
+                  <persName>Dominicho</persName>
+                  <note type="biographical">The Cox party's guide in Venice.</note>
+               </person>
+               <person xml:id="ANTO">
+                  <persName>Antonio</persName>
+                  <note type="biographical">The Cox party's guide in Naples, Pompeii &amp; Herculaneum.</note>
+               </person>
+               <person xml:id="STEF">
+                  <persName>Stefano</persName>
+                  <note type="biographical">The Cox party's guide in Rome.</note>
+               </person>
+               <person xml:id="MILL">
+                  <persName>John Miller</persName>
+                  <note type="biographical">The Cox party's servant aboard the <name type="ship">Asia</name>.</note>
+               </person>
+               
             </listPerson>
             
             <listPlace>
@@ -603,7 +827,9 @@
                </place>
              </listPlace>
             
-            <listOrg>
+<!-- NOT USED IN THIS EDITION
+               
+               <listOrg>
                <head>List of Selected Organizations Mentioned in Cox's Journal</head>
                <org xml:id="BNARMSPC" source="XXX">
                   <orgName>British and North American Royal Mail Steam Packet Company</orgName>
@@ -625,7 +851,7 @@
                   <bibl></bibl>
                </item>
             </list>
-            
+-->            
             <listWit>
                <witness xml:id="Cox1851a">The original text of Samuel S. Cox's journal, presumably written in pencil
                   when he is onboard a ship at sea and in ink when he is on a ship lying at anchor or he is on land.</witness>
@@ -3945,7 +4171,8 @@
                
                <pb facs="SSCox_082"/>
                
-               <lb/> remind me of <persName>D<hi rend="superscript">r</hi> Wayland</persName>.  <rs type="person">She</rs> gave
+               <lb/> remind me of <persName>D<hi rend="superscript">r</hi> Wayland</persName>.<ptr type="noteAnchor" target="way"/><note resp="ed" xml:id="way">
+                  Possibly Francis Wayland, whose <title level="m">The Elements of Moral Science</title> was published in 1835.</note>  <rs type="person">She</rs> gave
                <lb/> <del type="recoverable" rend="overwritten">up</del>us a copy of her verses at <placeName>Rome</placeName>,
                <lb/> On the occasion of the celebration
                <lb/> of <persName>Washington</persName>'s birth Day at 
@@ -4222,7 +4449,11 @@
                <lb/> latter we examined fully —
                <lb/> <persName>Julia</persName> got up in the <quote>"rent of 
                <lb/> ruin,"</quote> &amp; I after her; read
-               <lb/> <persName>Byron.</persName> Marked <persName>Murray</persName>:
+               <lb/> <persName>Byron.</persName> Marked <persName>Murray</persName>:<ptr type="noteAnchor" target="Murray"/>
+               <note resp="ed" xml:id="Murray">John Murray's Handbooks for Travellers were published in
+                  London beginning in 1836. Cox might have used several of the travel guides,
+                  including <title level="m">A Hand-book for Travellers on the Continent</title>
+                  (5th ed., 1845).</note>
                <lb/> &amp; after scaring <del type="unrecoverable" rend="overwritten"/><choice><sic>lizzards</sic><corr>lizards</corr></choice> and 
                <lb/> birds came home. 
             </p>            
