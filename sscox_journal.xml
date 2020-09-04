@@ -815,7 +815,8 @@
             </listPerson>
             
             <listPlace>
-               <head>List of Selected Places Mentioned in Cox's Journal</head>
+               <head>Cox's journal mentions scores of regions, cities, landmarks, buildings, attractions—
+               he seem to be checking off items in Murray Handbook.</head>
                <place type="city" xml:id="NYC" source="#TGN">
                   <placeName>New York City</placeName>
                   <desc>They left from New York on [date].</desc>
@@ -6227,7 +6228,7 @@
             
             <p>
                <lb/> Let us recur for a moment to Smyr<seg type="softhyphen">-
-               <lb/>na</seg>. Its parting view is worth a word.
+               <lb/></seg>na. Its parting view is worth a word.
                <lb/> It lies along a slope hill-side. On the right
                <lb/> hand, is a large grove of cypress, pointing
                <lb/> out the <choice><sic>cemetary</sic><corr>cemetery</corr></choice>. The roofs are brown;
