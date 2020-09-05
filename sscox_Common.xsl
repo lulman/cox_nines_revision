@@ -476,7 +476,11 @@
       elements of you XML documents in the result tree of your output.-->
    
 <xsl:template match="tei:opener">
-   <xsl:element name="a"><xsl:attribute name="class">entrylink</xsl:attribute><xsl:attribute name="id"><xsl:value-of select="parent::tei:div/@xml:id"/></xsl:attribute></xsl:element>
+   <xsl:apply-templates/>
+</xsl:template>
+   
+<xsl:template match="tei:dateline">
+   <xsl:element name="a"><xsl:attribute name="class">entrylink</xsl:attribute><xsl:attribute name="id"><xsl:value-of select="ancestor::tei:div/@xml:id"/></xsl:attribute></xsl:element>
    <xsl:apply-templates/>
 </xsl:template>
 

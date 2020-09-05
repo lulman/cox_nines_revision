@@ -376,7 +376,7 @@ margin-top: -180px;
 height: 180px;
 visibility: hidden;	
 }
-a.entrylink:before {
+a.entrylink::before {
 display: inline-block;
 content: " ";
 margin-top: -180px;

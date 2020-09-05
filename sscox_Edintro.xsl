@@ -638,7 +638,28 @@
          <hr/>
       <h3 id="placesMentioned">List of Places Visited During Cox's Tour</h3>
          <xsl:apply-templates select="tei:head"/>
-         <xsl:for-each select="tei:place">
+         <table style="width:90%; padding:5px; border:none;">
+            <tr>
+               <td style="white-space: nowrap; border:none;">
+                  <h2>Date</h2>
+               </td>
+               <td style="white-space: nowrap; border:none;">
+                  <h2>Port of Call</h2>
+               </td>
+            </tr>
+            <xsl:for-each select="tei:place">
+               <tr style="vertical-align:top">
+                  <td style="white-space: nowrap; border:none;">
+                     <xsl:element name="a"><xsl:attribute name="href">./sscox_journal-by-entry.html<xsl:value-of select="tei:event/@source"/></xsl:attribute><xsl:value-of select="tei:event"/></xsl:element>
+                  </td>
+                  <td style="white-space: nowrap; border:none;">
+                     <xsl:apply-templates select="tei:desc"/>
+                  </td>
+               </tr>
+            </xsl:for-each>
+         </table>         
+<!-- HANDLED DIFFERENTLY FOR THE COX EDITION
+       <xsl:for-each select="tei:place">
          <xsl:sort select="tei:geogName"/>
          <xsl:sort select="tei:placeName[1]"/>
          <p>
@@ -653,7 +674,7 @@
             <xsl:value-of select="tei:desc"/>
          </p>
       </xsl:for-each>
-   </xsl:template>
+-->   </xsl:template>
    
 <!--   NOT USED IN THIS EDITION 
       <xsl:template match="tei:list[@type='ships']">
@@ -693,13 +714,13 @@
       <table style="width:90%; padding:5px">
          <tr>
             <td>
-               <h3>Date</h3>
+               <h2>Date</h2>
             </td>
             <td>
-               <h3>Name</h3>
+               <h2>Name</h2>
             </td>
             <td>
-               <h3>Change</h3>
+               <h2>Change</h2>
             </td>
          </tr>
          <xsl:for-each select="tei:change">
@@ -765,7 +786,9 @@
       <xsl:apply-templates/>
    </xsl:template>
    <xsl:template match="tei:name[@type='ship']">
-      <i><xsl:apply-templates/></i>
+      <xsl:element name="span"><xsl:attribute name="style">font-style:italic;</xsl:attribute>
+         <xsl:apply-templates/>
+      </xsl:element>
    </xsl:template>
    <xsl:template match="tei:name[@type='binomial']">
       <xsl:element name="span"><xsl:attribute name="style">font-style:italic;</xsl:attribute>
@@ -773,9 +796,9 @@
       </xsl:element>
    </xsl:template>
    <xsl:template match="tei:foreign">
-      <i>
+      <xsl:element name="span"><xsl:attribute name="style">font-style:italic;</xsl:attribute>
          <xsl:apply-templates/>
-      </i>
+      </xsl:element>
    </xsl:template>
 
    <xsl:template match="tei:hi[@rend='bold']">

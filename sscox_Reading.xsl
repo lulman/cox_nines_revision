@@ -110,8 +110,8 @@
     <!-- Put single line before each entry. -->    
     <xsl:template match="tei:div[@type='Entry']">
         <div class="Entry">
-            <xsl:element name="a"><xsl:attribute name="id"><xsl:value-of select="@xml:id"/></xsl:attribute></xsl:element>
-            <hr/><xsl:apply-templates/>
+<!--            <xsl:element name="a"><xsl:attribute name="class">entrylink</xsl:attribute><xsl:attribute name="id"><xsl:value-of select="@xml:id"/></xsl:attribute></xsl:element>
+-->            <hr/><xsl:apply-templates/>
         </div>
     </xsl:template>
     

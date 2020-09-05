@@ -815,16 +815,16 @@
             </listPerson>
             
             <listPlace>
-               <head>Cox's journal mentions scores of regions, cities, landmarks, buildings, attractions—
-               he seem to be checking off items in Murray Handbook.</head>
-               <place type="city" xml:id="NYC" source="#TGN">
+               <head>Cox's journal mentions scores of cities, landmarks, buildings and events that
+                  he and his party visit during their grand tour in 1851. Most of the sites are well-known:
+                  often, he notes that they have visited a site he has marked in his copy of a
+                  Murray's Handbook. The following itinery provide links to the entry in which Cox's
+                  party first visits a given place.</head>
+               <place xml:id="NEWY">
+                  <event when="1851-05-07" source="#Cox18510507a"><p>May 7</p></event>
                   <placeName>New York City</placeName>
-                  <desc>They left from New York on [date].</desc>
                   <country>United States</country>
-                  <region type="state">New York</region>
-                  <location>
-                     <geo>40.7000 -74.0000</geo>
-                  </location>
+                  <desc>Cox's party embarks from New York (Jersey City Docks) on the <name type="ship">Asia</name>.</desc>
                </place>
              </listPlace>
             

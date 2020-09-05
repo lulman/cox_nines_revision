@@ -51,7 +51,7 @@
         <moduleRef key="header" include="availability biblFull change classDecl creation edition editionStmt editorialDecl encodingDesc extent fileDesc handNote idno keywords language langUsage notesStmt profileDesc projectDesc publicationStmt refsDecl revisionDesc sourceDesc taxonomy teiHeader textClass titleStmt"/>
         <moduleRef key="textstructure" include="body dateline div opener TEI text"/>
         <!-- optional modules: -->
-        <moduleRef key="namesdates" include="birth country death geo listOrg listPerson listPlace location org orgName persName person place placeName region state"/>
+        <moduleRef key="namesdates" include="birth country death event geo listOrg listPerson listPlace location org orgName persName person place placeName region state"/>
         <moduleRef key="transcr" include="handNotes handShift supplied"/>
         <moduleRef key="linking" include="seg"/>
         <moduleRef key="figures" include="cell figDesc figure row table"/>
