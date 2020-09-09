@@ -638,21 +638,21 @@
          <hr/>
       <h3 id="placesMentioned">List of Places Visited During Cox's Tour</h3>
          <xsl:apply-templates select="tei:head"/>
-         <table style="width:90%; padding:5px; border:none;">
+         <table style="width:610px; padding:5px; border:none;">
             <tr>
                <td style="white-space: nowrap; border:none;">
                   <h2>Date</h2>
                </td>
-               <td style="white-space: nowrap; border:none;">
+               <td style="border:none;">
                   <h2>Port of Call</h2>
                </td>
             </tr>
             <xsl:for-each select="tei:place">
                <tr style="vertical-align:top">
                   <td style="white-space: nowrap; border:none;">
-                     <xsl:element name="a"><xsl:attribute name="href">./sscox_journal-by-entry.html<xsl:value-of select="tei:event/@source"/></xsl:attribute><xsl:value-of select="tei:event"/></xsl:element>
+                     <xsl:element name="a"><xsl:attribute name="target">blank</xsl:attribute><xsl:attribute name="href">./sscox_journal-by-entry.html<xsl:value-of select="tei:event/@source"/></xsl:attribute><xsl:value-of select="tei:event"/></xsl:element>
                   </td>
-                  <td style="white-space: nowrap; border:none;">
+                  <td style="border:none;">
                      <xsl:apply-templates select="tei:desc"/>
                   </td>
                </tr>
