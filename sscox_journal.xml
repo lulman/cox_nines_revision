@@ -816,17 +816,190 @@
             
             <listPlace>
                <head>Cox's journal mentions scores of cities, landmarks, buildings and events that
-                  he and his party visit during their grand tour in 1851. Most of the sites are well-known:
-                  often, he notes that they have visited a site he has marked in his copy of a
-                  Murray's Handbook. The following itinery provide links to the entry in which Cox's
-                  party first visits a given place.</head>
+                  he and his party visited during their grand tour in 1851. Most of the sites are
+                  well-known; often, he notes that he has marked a site in his copy of a Murray's
+                  Handbook. The following itinery provide links to the entry in which Cox's party
+                  first visits major stops on their trip (click on the date to view the corresponding entry).</head>
                <place xml:id="NEWY">
                   <event when="1851-05-07" source="#Cox18510507a"><p>May 7</p></event>
                   <placeName>New York City</placeName>
                   <country>United States</country>
-                  <desc>Cox's party embarks from New York (Jersey City Docks) on the <name type="ship">Asia</name>.</desc>
+                  <desc>Cox's party embarks from <emph rend="bold">New York</emph> (Jersey City Docks) on the <name type="ship">Asia</name>.</desc>
                </place>
-             </listPlace>
+               <place xml:id="NEWB">
+                  <event when="1851-05-13" source="#Cox18510513a"><p>May 13</p></event>
+                  <placeName>Newfoundland Banks</placeName>
+                  <country>Canada</country>
+                  <desc>Off the <emph rend="bold">Newfoundland Banks</emph>, aboard the <name type="ship">Asia</name>.</desc>
+               </place>
+               <place xml:id="IREN">
+                  <event when="1851-05-17" source="#Cox18510517a"><p>May 17</p></event>
+                  <placeName>Ireland</placeName>
+                  <country>Ireland</country>
+                  <desc>Off the coasts of <emph rend="bold">Ireland</emph> and <emph rend="bold">England</emph></desc>
+               </place>
+               <place xml:id="LIVE">
+                  <event when="1851-05-18" source="#Cox18510518a"><p>May 18</p></event>
+                  <placeName>Liverpool</placeName>
+                  <country>England</country>
+                  <desc><emph rend="bold">Liverpool</emph></desc>
+               </place>
+               <place xml:id="STAF">
+                  <event when="1851-05-19" source="#Cox18510519a"><p>May 19</p></event>
+                  <placeName>Stafford</placeName>
+                  <country>England</country>
+                  <desc><emph rend="bold">Stafford</emph></desc>
+               </place>
+               <place xml:id="LOND">
+                  <event when="1851-05-20" source="#Cox18510520a"><p>May 20</p></event>
+                  <placeName>London</placeName>
+                  <country>England</country>
+                  <desc><emph rend="bold">London</emph></desc>
+               </place>
+               <place xml:id="EPSO">
+                  <event when="1851-05-21" source="#Cox18510521a"><p>May 21</p></event>
+                  <placeName>Epson</placeName>
+                  <country>England</country>
+                  <desc>Attend the races at <emph rend="bold">Epson</emph>.</desc>
+               </place>
+               <place xml:id="SURR">
+                  <event when="1851-05-26" source="#Cox18510526a"><p>May 26</p></event>
+                  <placeName>Surrey</placeName>
+                  <country>England</country>
+                  <desc><emph rend="bold">Surrey</emph></desc>
+               </place>
+               <place xml:id="PARI">
+                  <event when="1851-05-27" source="#Cox18510527a"><p>May 27</p></event>
+                  <placeName>Paris</placeName>
+                  <country>France</country>
+                  <desc><emph rend="bold">Paris</emph></desc>
+               </place>
+               <place xml:id="DIJO">
+                  <event when="1851-05-28" source="#Cox18510528aa"><p>May 28</p></event>
+                  <placeName>Dijon</placeName>
+                  <country>France</country>
+                  <desc><emph rend="bold">Dijon</emph>, <emph rend="bold">Chalon</emph>, <emph rend="bold">Macon</emph></desc>
+               </place>
+               <place xml:id="ORAN">
+                  <event when="1851-05-29" source="#Cox18510529a"><p>May 29</p></event>
+                  <placeName>Orange</placeName>
+                  <country>France</country>
+                  <desc><emph rend="bold">Orange</emph>, <emph rend="bold">Avignon</emph></desc>
+               </place>
+               <place xml:id="MARS">
+                  <event when="1851-05-31" source="#Cox18510531a"><p>May 31</p></event>
+                  <placeName>Marseilles</placeName>
+                  <country>France</country>
+                  <desc><emph rend="bold">Marseilles</emph></desc>
+               </place>
+               <place xml:id="GENO">
+                  <event when="1851-06-02" source="#Cox18510602a"><p>June 2</p></event>
+                  <placeName>Genoa</placeName>
+                  <country>Italy</country>
+                  <desc><emph rend="bold">Genoa</emph></desc>
+               </place>
+               <place xml:id="LEGH">
+                  <event when="1851-06-04" source="#Cox18510604a"><p>June 4</p></event>
+                  <placeName>Leghorn</placeName>
+                  <country>Italy</country>
+                  <desc><emph rend="bold">Leghorn</emph>, <emph rend="bold">Civita Vecchia</emph></desc>
+               </place>
+               <place xml:id="ROME">
+                  <event when="1851-06-05" source="#Cox18510605a"><p>June 5</p></event>
+                  <placeName>Rome</placeName>
+                  <country>Italy</country>
+                  <desc><emph rend="bold">Rome</emph></desc>
+               </place>
+               <place xml:id="NAPL">
+                  <event when="1851-06-17" source="#Cox18510617a"><p>June 17</p></event>
+                  <placeName>Naples</placeName>
+                  <country>Italy</country>
+                  <desc><emph rend="bold">Naples</emph></desc>
+               </place>
+               <place xml:id="POMP">
+                  <event when="1851-06-18" source="#Cox18510618a"><p>June 18</p></event>
+                  <placeName>Pompeii</placeName>
+                  <country >Italy</country>
+                  <desc><emph rend="bold">Pompeii</emph></desc>
+               </place>
+               <place xml:id="SESO">
+                  <event when="1851-06-24" source="#Cox18510624a"><p>June 24</p></event>
+                  <placeName></placeName>
+                  <desc><name type="ship">Sesostris</name></desc>
+               </place>
+               <place xml:id="MALT">
+                  <event when="1851-06-25" source="#Cox18510623a"><p>June 25</p></event>
+                  <placeName>Malta</placeName>
+                  <country>Country</country>
+                  <desc><emph rend="bold">Malta</emph></desc>
+               </place>
+               <place xml:id="EGYP">
+                  <event when="1851-06-26" source="#Cox18510626a"><p>June 26</p></event>
+                  <placeName>City</placeName>
+                  <country>Country</country>
+                  <desc><name type="ship">Egyptus</name></desc>
+               </place>
+               <place xml:id="ATHE">
+                  <event when="1851-06-28" source="#Cox18510628a"><p>June 28</p></event>
+                  <placeName>Athens</placeName>
+                  <country>Greece</country>
+                  <desc><emph rend="bold">Athens</emph></desc>
+               </place>
+               <place xml:id="SMYR">
+                  <event when="1851-06-30" source="#Cox18510630a"><p>June 30</p></event>
+                  <placeName>Smyrna</placeName>
+                  <country>Country</country>
+                  <desc><emph rend="bold">Smyrna</emph></desc>
+               </place>
+               <place xml:id="CONS">
+                  <event when="1851-07-03" source="#Cox18510703a"><p>July 3</p></event>
+                  <placeName>Constantinople</placeName>
+                  <country>Country</country>
+                  <desc><emph rend="bold">Constantinople</emph></desc>
+               </place>
+               <place xml:id="SYRA">
+                  <event when="1851-07-07" source="#Cox18510707a"><p>July 7</p></event>
+                  <placeName>Syra</placeName>
+                  <country>Country</country>
+                  <desc><emph rend="bold">Syra</emph>, aboard the <name type="ship">Imperatore</name></desc>
+               </place>
+               <place xml:id="CORF">
+                  <event when="1851-07-11" source="#Cox18510711a"><p>July 11</p></event>
+                  <placeName>Corfu</placeName>
+                  <country>Country</country>
+                  <desc><emph rend="bold">Corfu</emph></desc>
+               </place>
+               <place xml:id="TRIE">
+                  <event when="1851-07-13" source="#Cox18510713a"><p>July 13</p></event>
+                  <placeName>Trieste</placeName>
+                  <country>Country</country>
+                  <desc><emph rend="bold">Trieste</emph></desc>
+               </place>
+               <place xml:id="VENI">
+                  <event when="1851-07-15" source="#Cox18510715a"><p>July 15</p></event>
+                  <placeName>Venice</placeName>
+                  <country>Country</country>
+                  <desc><emph rend="bold">Venice</emph></desc>
+               </place>
+               <place xml:id="VERO">
+                  <event when="1851-07-15" source="#"><p>July 15</p></event>
+                  <placeName>Verona</placeName>
+                  <country>Country</country>
+                  <desc><emph rend="bold">Verona</emph></desc>
+               </place>
+               <place xml:id="MILA">
+                  <event when="1851-07-16" source="#Cox18510716a"><p>July 16</p></event>
+                  <placeName>Milan</placeName>
+                  <country>Country</country>
+                  <desc><emph rend="bold">Milan</emph></desc>
+               </place>
+               <place xml:id="COMO">
+                  <event when="1851-07-18" source="#"><p>July 18</p></event>
+                  <placeName>Lake Como</placeName>
+                  <country>Country</country>
+                  <desc><emph rend="bold">Lake Como</emph></desc>
+               </place>
+            </listPlace>
             
 <!-- NOT USED IN THIS EDITION
                
@@ -4149,7 +4322,7 @@
                 </figure>
              </p>      
          </div>
-         <div type="Entry" xml:id="cox18510604b">
+         <div type="Entry" xml:id="Cox18510604a">
             <lb/>   <opener><dateline>
                <placeName>Leghorn</placeName>,
                <date when="1851-06-04"> June 4 /51</date>
@@ -4689,7 +4862,7 @@
                </dateline>
             </opener>
             <p>
-               <lb/> <persName>Julia</persName> has posted up a fine journ<seg type="softhypen">
+               <lb/> <persName>Julia</persName> has posted up a fine journ<seg type="softhyphen">
                <lb/></seg>al of to day, &amp; I must refer to it.
                <lb/> As I make up letters about to days
                <lb/> walk, I can only indicate the
