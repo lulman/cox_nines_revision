@@ -581,11 +581,10 @@
             
             <listPerson type="mentioned">
                <head>This list identifies living persons whom Cox encounters, observes, or mentions
-                  corresponding with, serving as a dramatis personae for the journal. It does not
-                  include authors whose work he cites or historical figures he names in passing, who
-                  are typically identified in annotations to the text of the edition.</head>
+                  corresponding with, thus serving as a dramatis personae for the journal. It does not
+                  include authors whose work he cites or historical figures he names in passing.</head>
                <person xml:id="COXS">
-                  <persName>Cox, Samuel Sullivan</persName>
+                  <persName>Samuel Sullivan Cox</persName>
                   <note type="biographical">Cox served as a Democratic congressman in the United States
                      House of Representative from 1856 until his death, save for a few short
                      interruptions, first representing his native Ohio
@@ -714,9 +713,7 @@
                </person>
                <person xml:id="HENL">
                   <persName>Mr. Henley</persName>
-                  <note type="biographical"></note>
-                  <birth when="1800-01-01"><placeName></placeName></birth>
-                  <death when="1800-01-01"><placeName></placeName></death>
+                  <note type="biographical">Member of Paliament whom Cox observes during a debate on May 24.</note>
                </person>
                <person xml:id="MOOR">
                   <persName>George Henry Moore</persName>
@@ -816,9 +813,9 @@
             
             <listPlace>
                <head>Cox's journal mentions scores of cities, landmarks, buildings and events that
-                  he and his party visited during their grand tour in 1851. Most of the sites are
-                  well-known; often, he notes that he has marked a site in his copy of a Murray's
-                  Handbook. The following itinery provide links to the entry in which Cox's party
+                  he and his party visit during their grand tour in 1851. Most of the sites are
+                  well-known—often, he notes that he has marked a site in his copy of a Murray's
+                  Handbook. The following itinery provides links to the entries in which Cox's party
                   first visits major stops on their trip (click on the date to view the corresponding entry).</head>
                <place xml:id="NEWY">
                   <event when="1851-05-07" source="#Cox18510507a"><p>May 7</p></event>
@@ -860,7 +857,7 @@
                   <event when="1851-05-21" source="#Cox18510521a"><p>May 21</p></event>
                   <placeName>Epsom</placeName>
                   <country>England</country>
-                  <desc>A visit the races at <emph rend="bold">Epsom</emph>.</desc>
+                  <desc>A visit to the races at <emph rend="bold">Epsom</emph>.</desc>
                </place>
                <place xml:id="SURR">
                   <event when="1851-05-26" source="#Cox18510526a"><p>May 26</p></event>
@@ -885,7 +882,7 @@
                   <event when="1851-05-29" source="#Cox18510529a"><p>May 29</p></event>
                   <placeName>Orange</placeName>
                   <country>France</country>
-                  <desc>A day tour of "Roman monuments in Gaul, with stops in <emph rend="bold">Orange</emph> and <emph rend="bold">Avignon</emph>.</desc>
+                  <desc>A day tour of "Roman monuments in Gaul," with stops in <emph rend="bold">Orange</emph> and <emph rend="bold">Avignon</emph>.</desc>
                </place>
                <place xml:id="MARS">
                   <event when="1851-05-31" source="#Cox18510531a"><p>May 31</p></event>
@@ -897,7 +894,7 @@
                   <event when="1851-06-02" source="#Cox18510602a"><p>June 2</p></event>
                   <placeName>Genoa</placeName>
                   <country>Italy</country>
-                  <desc><emph rend="bold">Genoa</emph>.</desc>
+                  <desc>Stopover in <emph rend="bold">Genoa</emph>.</desc>
                </place>
                <place xml:id="LEGH">
                   <event when="1851-06-04" source="#Cox18510604a"><p>June 4</p></event>
@@ -910,7 +907,7 @@
                   <event when="1851-06-05" source="#Cox18510605a"><p>June 5</p></event>
                   <placeName>Rome</placeName>
                   <country>Italy</country>
-                  <desc>First day of a twelve-day stay in <emph rend="bold">Rome</emph>, "the city of past secular Power, &amp; present Spiritual Power.</desc>
+                  <desc>First day of a twelve-day stay in <emph rend="bold">Rome</emph>, "the city of past secular Power, &amp; present Spiritual Power."</desc>
                </place>
                <place xml:id="NAPL">
                   <event when="1851-06-17" source="#Cox18510617a"><p>June 17</p></event>
