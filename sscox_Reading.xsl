@@ -31,7 +31,7 @@
         Links to notes and external materials are colored. </xsl:variable>
     <xsl:variable name="bodyRule">
         body {
-        font-family: 'Fanwood Text',georgia, serif;
+        font-family: Times, Times New Roman, serif;
         font-size: 1em;
         width: 800px;
         margin-left: 50px;

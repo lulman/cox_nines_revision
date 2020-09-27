@@ -73,11 +73,7 @@
                <xsl:value-of select="$navBarRule"/>
                <xsl:value-of select="$bodyRule"/>
             </style>
-            
-            <!-- DECLARE FONTS -->
-            <link href='http://fonts.googleapis.com/css?family=Droid+Sans:400,700' rel='stylesheet' type='text/css'/>
-            <link href='http://fonts.googleapis.com/css?family=Fanwood+Text' rel='stylesheet' type='text/css'/>
-                   
+                               
          </head>
          
          <!-- BUILD THE BODY OF THE HTML PAGE -->
@@ -610,7 +606,7 @@
          <xsl:value-of select="@unit"/>)</em>] </xsl:template>
 
    <!-- Editorial emendations -->
-   <xsl:template match="tei:supplied">[<xsl:apply-templates/>] </xsl:template>
+   <xsl:template match="tei:supplied">[<xsl:element name="span"><xsl:attribute name="style" >font-style: italic</xsl:attribute><xsl:apply-templates/></xsl:element>] </xsl:template>
 
    <!-- Additions by the author or another hand. -->
    <xsl:template match="tei:add">

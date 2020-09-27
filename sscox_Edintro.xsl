@@ -14,7 +14,7 @@
       
    <xsl:variable name="bodyRule">
       body {
-      font-family: 'Fanwood Text',georgia, serif;
+      font-family: Times, Times New Roman, serif;
       font-size: 1em;
       width: 800px;
       margin-left: 50px;
@@ -116,11 +116,7 @@
                <xsl:value-of select="$navBarRule"/>
                <xsl:value-of select="$bodyRule"/>
             </style>
-            
-            <!-- DECLARE FONTS-->
-            <link href='http://fonts.googleapis.com/css?family=Droid+Sans:400,700' rel='stylesheet' type='text/css'/>
-            <link href='http://fonts.googleapis.com/css?family=Fanwood+Text' rel='stylesheet' type='text/css'/>
-            
+                        
          </head>
          
          <!-- BUILD THE BODY OF THE HTML PAGE -->
@@ -658,7 +654,8 @@
                </tr>
             </xsl:for-each>
          </table>         
-<!-- HANDLED DIFFERENTLY FOR THE COX EDITION
+
+         <!-- HANDLED DIFFERENTLY FOR THE COX EDITION
        <xsl:for-each select="tei:place">
          <xsl:sort select="tei:geogName"/>
          <xsl:sort select="tei:placeName[1]"/>

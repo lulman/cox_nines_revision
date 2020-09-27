@@ -820,7 +820,7 @@
                <place xml:id="NEWY">
                   <event when="1851-05-07" source="#Cox18510507a"><p>May 7</p></event>
                   <placeName>New York City</placeName>
-                  <country>United States</country>
+                  <country>United States of America</country>
                   <desc>Cox's party embarks from <emph rend="bold">New York</emph> (Jersey City Docks) on the <name type="ship">Asia</name>.</desc>
                </place>
                <place xml:id="NEWB">
