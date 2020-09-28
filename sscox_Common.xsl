@@ -137,7 +137,7 @@
                            <li><a href="./sscox_Edintro.xsl">XSL: Ed. Intro</a></li>
                            <li><a href="./sscox_journal.css">CSS: Style Sheet</a></li>
                            <li><a href="./sscox_Current.odd.txt">ODD: TEI Customization</a></li>
-                           <li><a href="./sscox_Current.rng.txt">RNG: Schema</a></li>
+                           <li><a href="./sscox_Current.rnc.txt">RNC: Schema</a></li>
                         </ul>
                      </li>
                   </ul> <!-- End ul class nav -->
