@@ -566,7 +566,12 @@
          </xsl:for-each>.
          </p>
       </xsl:for-each>
-   </xsl:template>
+      <p style="text-align: left">
+         <xsl:value-of
+            select="/tei:TEI/tei:teiHeader/tei:fileDesc/tei:publicationStmt/tei:availability/tei:p[@xml:id='CreativeCommons']"
+            disable-output-escaping="yes"/>
+      </p>      
+    </xsl:template>
    
    <xsl:template match="tei:TEI/tei:teiHeader/tei:encodingDesc/tei:editorialDecl">
       <hr style="border: 2px solid crimson;"/>
