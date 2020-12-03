@@ -131,7 +131,7 @@
                      </p>
                      <p>
                         The state of the original volume makes complete description conjectural, but the following comparison
-                        between the orginal and restored volumes will help users relate the page images contained in this
+                        between the original and restored volumes will help users relate the page images contained in this
                         edition to the two states of the journal.
                      </p>
                      <p>
@@ -675,14 +675,14 @@
                </person>
                <person xml:id="DUNC">
                   <persName>Thomas Slingsby Duncombe</persName>
-                  <note type="biographical">Member of Paliament whom Cox observes during a debate on May 24.
+                  <note type="biographical">Member of Parliament whom Cox observes during a debate on May 24.
                   </note>
                   <birth when="1796"><placeName></placeName></birth>
                   <death when="1861"><placeName></placeName></death>
                </person>
                <person xml:id="ROEB">
                   <persName>John Arthur Roebuck</persName>
-                  <note type="biographical">Member of Paliament whom Cox observes during a debate on May 24.</note>
+                  <note type="biographical">Member of Parliament whom Cox observes during a debate on May 24.</note>
                   <birth when="1802"><placeName></placeName></birth>
                   <death when="1879"><placeName></placeName></death>
                </person>
@@ -695,53 +695,53 @@
                </person>
                <person xml:id="KEOG">
                   <persName>William Keogh</persName>
-                  <note type="biographical">Member of Paliament whom Cox observes during a debate on May 24.</note>
+                  <note type="biographical">Member of Parliament whom Cox observes during a debate on May 24.</note>
                   <birth when="1817"><placeName></placeName></birth>
                   <death when="1878"><placeName></placeName></death>
                </person>
                <person xml:id="WALP">
                   <persName>Spencer Horatio Walpole</persName>
-                  <note type="biographical">Member of Paliament whom Cox observes during a debate on May 24.</note>
+                  <note type="biographical">Member of Parliament whom Cox observes during a debate on May 24.</note>
                   <birth when="1806"><placeName></placeName></birth>
                   <death when="1898"><placeName></placeName></death>
                </person>
                <person xml:id="THES">
                   <persName>Frederic Thesiger, 1st Baron Chelmsford</persName>
-                  <note type="biographical">Member of Paliament whom Cox observes during a debate on May 24.</note>
+                  <note type="biographical">Member of Parliament whom Cox observes during a debate on May 24.</note>
                   <birth when="1794"><placeName></placeName></birth>
                   <death when="1878"><placeName></placeName></death>
                </person>
                <person xml:id="HENL">
                   <persName>Mr. Henley</persName>
-                  <note type="biographical">Member of Paliament whom Cox observes during a debate on May 24.</note>
+                  <note type="biographical">Member of Parliament whom Cox observes during a debate on May 24.</note>
                </person>
                <person xml:id="MOOR">
                   <persName>George Henry Moore</persName>
-                  <note type="biographical">Member of Paliament whom Cox observes during a debate on May 24.</note>
+                  <note type="biographical">Member of Parliament whom Cox observes during a debate on May 24.</note>
                   <birth when="1810"><placeName></placeName></birth>
                   <death when="1870"><placeName></placeName></death>
                </person>
                <person xml:id="BARR">
                   <persName>Sir Henry Barron, 1st Baronet</persName>
-                  <note type="biographical">Member of Paliament whom Cox observes during a debate on May 24.</note>
+                  <note type="biographical">Member of Parliament whom Cox observes during a debate on May 24.</note>
                   <birth when="1795"><placeName></placeName></birth>
                   <death when="1872"><placeName></placeName></death>
                </person>
                <person xml:id="RUSS">
                   <persName>John Russell, 1st Earl Russell</persName>
-                  <note type="biographical">Member of Paliament whom Cox observes during a debate on May 24.</note>
+                  <note type="biographical">Member of Parliament whom Cox observes during a debate on May 24.</note>
                   <birth when="1792"><placeName></placeName></birth>
                   <death when="1878"><placeName></placeName></death>
                </person>
                <person xml:id="GRAY">
                   <persName>Sir George Grey, 2nd Baronet</persName>
-                  <note type="biographical">Member of Paliament whom Cox observes during a debate on May 24.</note>
+                  <note type="biographical">Member of Parliament whom Cox observes during a debate on May 24.</note>
                   <birth when="1799"><placeName></placeName></birth>
                   <death when="1882"><placeName></placeName></death>
                </person>
                <person xml:id="MINT">
                   <persName>William Elliot-Murray-Kynynmound, 3rd Earl of Minto</persName>
-                  <note type="biographical">Member of Paliament whom Cox observes during a debate on May 24.</note>
+                  <note type="biographical">Member of Parliament whom Cox observes during a debate on May 24.</note>
                   <birth when="1814"><placeName></placeName></birth>
                   <death when="1891"><placeName></placeName></death>
                </person>
@@ -961,7 +961,7 @@
                   <event when="1851-07-07" source="#Cox18510707a"><p>July 7</p></event>
                   <placeName>Syra</placeName>
                   <country>Country</country>
-                  <desc>A day in <emph rend="bold">Smyrna</emph>, while enroute on the Austrian steamer <name type="ship">Imperatore</name>. Cox
+                  <desc>A day in <emph rend="bold">Smyrna</emph>, while en route on the Austrian steamer <name type="ship">Imperatore</name>. Cox
                   and Philo take a Turkish bath.</desc>
                </place>
                <place xml:id="SYRA">
