@@ -27,7 +27,7 @@
         the reading text. All material added by the editors is surrounded by square brackets:
         uncertain readings are enclosed in square brackets and followed by a question mark, and text
         supplied by the editor for clarity is set in italics and surrounded by square brackets. Gaps
-        in the manuscript (e.g., from tears) are indicated by elipses enclosed by square brackets.
+        in the manuscript (e.g., from tears) are indicated by ellipses enclosed by square brackets.
         Links to notes and external materials are colored. </xsl:variable>
     <xsl:variable name="bodyRule">
         body {

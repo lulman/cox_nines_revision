@@ -493,15 +493,15 @@
                   </bibl>
                   
                   <bibl xml:id="SSC1851" n="Coxb">
-                     Cox, Samuel Sullivan. <title level="m">A Buckeye abroad; or, Wanderings in Europe and in the Orient</title>. Putnam, 1852. http://www.hti.umich.edu/cgi/t/text/pageviewer-idx?c=moa&amp;cc=moa&amp;idno=adl7930.0001.001&amp;q1=buckeye+abroad&amp;frm=frameset&amp;view=image&amp;seq=9.
+                     Cox, Samuel Sullivan. <title level="m">A Buckeye Abroad; or, Wanderings in Europe and in the Orient</title>. Putnam, 1852. http://www.hti.umich.edu/cgi/t/text/pageviewer-idx?c=moa&amp;cc=moa&amp;idno=adl7930.0001.001&amp;q1=buckeye+abroad&amp;frm=frameset&amp;view=image&amp;seq=9.
                   </bibl>
                   
                   <bibl xml:id="SSC1854" n="Coxc">
-                     Cox, Samuel Sullivan. <title level="m">A Buckeye abroad; or, Wanderings in Europe and in the Orient</title>. Moore, Wilstach &amp; Keys, 1854.                   
+                     Cox, Samuel Sullivan. <title level="m">A Buckeye Abroad; or, Wanderings in Europe and in the Orient</title>. Moore, Wilstach &amp; Keys, 1854.                   
                   </bibl>
                   
                   <bibl xml:id="SSC1859" n="Coxd">
-                     Cox, Samuel Sullivan. <title level="m">A Buckeye abroad; or, Wanderings in Europe and in the Orient</title>.
+                     Cox, Samuel Sullivan. <title level="m">A Buckeye Abroad; or, Wanderings in Europe and in the Orient</title>.
                      7th ed. Follet, Foster, and Company, 1859.
                   </bibl>
                   
@@ -1546,7 +1546,7 @@
                 <lb/> we moved away throbbingly—We 
                 <lb/> were not out of land-sight 
                <app xml:id="T1140">
-                  <lem wit="#Cox1851a">before<lb/>there was seen a something spouting</lem>
+                  <lem wit="#Cox1851a">before<lb/> there was seen a something spouting</lem>
                   <rdg wit="#Cox1851b">be<seg type="softhyphen">-<lb/></seg>fore there was seen a something</rdg>
                </app>
                <app xml:id="T1144">
@@ -3276,7 +3276,7 @@
                   
             <pb facs="SSCox_051"/>
                <lb/></seg>mons</placeName>, got in the Lord's lobby, 
-               <lb/> Was suprised at the Scene.
+               <lb/> Was surprised at the Scene.
                <lb/> The hats of Members on—the
                <lb/>confusion. The following was 
                <lb/>the <unclear>debate</unclear> 
@@ -3366,7 +3366,7 @@
                   <lb/> to interfere with spiritual functions.
                <lb/>                  
                <lb/> The <hi rend="smallcaps">Attorney-General</hi> objected to the amend<seg type="softhyphen">-
-                  <lb/></seg>ment, which would involve the inconguity of de<seg type="softhyphen">-
+                  <lb/></seg>ment, which would involve the incongruity of de<seg type="softhyphen">-
                   <lb/></seg>claring the rescript, and all jurisdiction conferred
                   <lb/> thereby, unlawful and void, and at the same time
                   <lb/> recognizing its validity for certain purposes.
@@ -3749,7 +3749,7 @@
                       <lb/>to get near our diligence. Sol<seg type="softhyphen">-
                       <lb/></seg>diers, <choice><sic>cafès</sic><corr>cafés</corr></choice>, barracks,⁓We passed
                       <lb/>straw covered <choice><sic>waggons</sic><corr>wagons</corr></choice>—Burr mill
-                      <lb/>stone factorys— &amp; walls covered
+                      <lb/>stone <choice><sic>factorys</sic><corr>factories</corr></choice>— &amp; walls covered
                       <lb/>with white flowers &amp; brown moss.
                       <lb/>A splendid scene after we 
                       <lb/>left <placeName type="town">Vienne</placeName>. The pretty little
@@ -3806,7 +3806,7 @@
      
                        <lb/>The prominent ruin was <add place="supralinear" rend="caret">called <placeName type="landmark">chateau de Mont Dragon</placeName>,</add> some
                        <lb/>30, or 40 miles from Avignon. It
-                       <lb/>was a large pallisade, built by 
+                       <lb/>was a large <choice><sic>pallisade</sic><corr>palisade</corr></choice>, built by 
                        <lb/>nature as a strong hold. The 
                        <lb/>walls run up perpendicularly
                        <lb/>over 175 feet. A wall is built
@@ -3977,7 +3977,7 @@
                      went yesterday to
                <lb/> see the Turc cafè. A glittering
                <lb/> mirror painted finely. We as<seg type="softhyphen">-
-               <lb/></seg>sended a point near the Medi<seg type="softhyphen">-
+               <lb/></seg>cended a point near the Medi<seg type="softhyphen">-
                <lb/></seg>terranean, which overlooked
                <lb/> the city—we had a fine view
                
@@ -4095,7 +4095,7 @@
                <lb/> children of <persName>Hon Z. Pratt</persName> N.Y.) quite
                <lb/> as pleasant as we could desire.
                <lb/> On the morning of the 2<hi rend="superscript">d</hi>, we hove
-               <lb/> in sight of <placeName>Genoa</placeName>,—a cresent city
+               <lb/> in sight of <placeName>Genoa</placeName>,—a <choice><sic>cresent</sic><corr>crescent</corr></choice> city
                <lb/> called the Superb. Went ashore
                <lb/> without difficulty,—stopped at
                <lb/> the Hotel <hi rend="underline"><choice><sic>Des</sic><corr>de</corr></choice> Londres</hi>, a splendid
@@ -4103,7 +4103,7 @@
                      '<q>this was just
                <lb/> her idea of the old Italian palaces,
                <lb/> black &amp; white marble floors.—
-               <lb/> painted ceilings, rich canopys
+               <lb/> painted ceilings, rich <choice><sic>canopys</sic><corr>canopies</corr></choice>
                <lb/> and outside painted so queer.</q>
                <lb/> It was all stone—so cool, so
                <lb/> delightful. After passing from
@@ -4391,7 +4391,7 @@
                <lb/> son to West Point. <persName>Powers</persName> wore a 
                <lb/> flabby sort of round topped hat;
                <lb/> had a rotund pleasant face, and
-               <lb/> an intilligent big eye of brightness. 
+               <lb/> an intelligent big eye of brightness. 
                <lb/> <persName>Mrs Stephens</persName> &amp; myself disagreed as 
                <lb/> to our opinions of his "Greek
                <lb/> Slave." We could not disagree as
@@ -4742,7 +4742,7 @@
                <lb/> Went to <placeName>Santa <choice><sic>Cruce</sic><corr>Croce</corr></choice></placeName>, where
                <lb/> the real cross <hi rend="underline">is</hi>! (405) Saw
                <lb/> temples of <placeName>Venus and Cupid</placeName>; &amp; the
-               <lb/> great gate, with the aquaducts  
+               <lb/> great gate, with the <choice><sic>aquaducts</sic><corr>aqueducts</corr></choice>  
                <lb/> three. — Saw Minerva Medici,
                <lb/> a large pile of ruins; then the 
                <lb/> <placeName>Basilica S<hi rend="superscript">t</hi> Mary Maggiore</placeName>,
@@ -4945,7 +4945,7 @@
                <lb/> Cannon ball struck it.  We passed 
                <lb/> out of it regretfully, apast the 
                <lb/> <placeName type="landmark">baths of <persName>Constantine</persName></placeName> used as Stables
-               <lb/> up — up — admist oranges &amp; lemon
+               <lb/> up — up — amidst oranges &amp; lemon
                <lb/> to the old <placeName>temple of the Sun</placeName>; got 
                <lb/> a piece of it &amp; a Scolding from
                <lb/> Custodian. It presented a fine
@@ -5076,7 +5076,7 @@
                <lb/> of statuary. Saw <choice><sic><hi rend="underline">Laoccoon</hi></sic><corr>Laocoön</corr></choice>.
                <lb/> in its terrible glory of Power &amp;
                <lb/> convulsion — the <choice><sic><hi rend="underline">Appollo Belvi</hi><seg type="softhyphen">-
-               <lb/></seg><hi rend="underline">dere</hi></sic><corr>Apollo Belvedere</corr></choice>, the light &amp; beautious God
+               <lb/></seg><hi rend="underline">dere</hi></sic><corr>Apollo Belvedere</corr></choice>, the light &amp; beauteous God
                <lb/> of Day &amp; Poesy. Never was I so 
                <lb/> struck with human form, as when we
                <lb/> entered that part. The Laocoon
@@ -5284,7 +5284,7 @@
                <lb/> passed through it last eve, "at set of 
                <lb/> sun. the <del type="unrecoverable" rend="overwritten"/>bridge &amp; Castle of San Angelo
                <lb/> towered up round against the mellow
-               <lb/> twlight sky. S<hi rend="superscript">t</hi> Peters looked dark &amp;
+               <lb/> twilight sky. S<hi rend="superscript">t</hi> Peters looked dark &amp;
                <lb/> its colonnades gloomy; but how finely
                <lb/> did the twin sheafs of water bend
                <lb/> over with the rich harvesting of spray,
@@ -5418,7 +5418,7 @@
                <lb/> bride of the Mediterranean
                <lb/> <choice><sic>alseep</sic><corr>asleep</corr></choice> &amp; <choice><sic>recumbant</sic><corr>recumbent</corr></choice>, while
                <lb/> her forehead was gleaming with
-               <lb/> a coronel of Gems. ⁓ For the 
+               <lb/> a <choice><sic>coronel</sic><corr>coronal</corr></choice> of Gems. ⁓ For the 
                <lb/> rest see <persName>Julia's</persName> letter &amp; mine to Col M
                
                <!-- Proofed 20080811 by HLU/ED --> 
@@ -5685,7 +5685,7 @@
                <lb/> dangerous. The waves glistened blue &amp; bright,
                <lb/> Oh! how clearly, transparently blue! The
                <lb/> sailors had just washed the decks &amp; were
-               <lb/> busy washing &amp; burnishing the metalic
+               <lb/> busy washing &amp; burnishing the <choice><sic>metalic</sic><corr>metallic</corr></choice>
                <lb/> portions of the deck: The whistle of the
                <lb/> boatswain &amp; the bustle of the sailors, the
                <lb/> cries of the officers to the pilot announces
@@ -5709,7 +5709,7 @@
                <lb/> which overtop &amp; surround it. Almonds,
                <lb/> lemons, &amp; other rich fruits grow upon
                <lb/> them.  We pass under the guns of the
-               <lb/> fort; are soon sorrounded with boats.
+               <lb/> fort; are soon surrounded with boats.
                <lb/> Such a jabber as they &amp; the hands on deck
                <lb/> make. French, you see! At breakfast
                <lb/> we were deserted by green almonds, yellow
@@ -5738,7 +5738,7 @@
                <!-- Bourbon house fell in July 1830 revolution. Annotate? -->
                <lb/> Revolution of 1848, which for a time
                <lb/> separated <placeName type="region">Sicily</placeName> from <placeName>Naples</placeName>, had
-               <lb/> proved unsuccesful, she was again
+               <lb/> proved unsuccessful, she was again
                
                <!-- Proofed 20080812 by HLU/ED -->
                
@@ -6445,7 +6445,7 @@
                
                <pb facs="SSCox_139"/>
                
-               <lb/> the point &amp; entered the staits of
+               <lb/> the point &amp; entered the straits of
                <lb/> <placeName type="region"/>Dardanelles. We stopped two hours
                <lb/> at the Town: Ran near the shore.
                <lb/> The land was fine, rolling &amp; cul<seg type="softhyphen">-
@@ -6455,7 +6455,7 @@
                <lb/> ourselves opposite fine little towers,
                <lb/> well built towers from furnaces.
                <lb/> Soon the city of the Moslem came in
-               <lb/> view. It dissappointed us at first. The
+               <lb/> view. It disappointed us at first. The
                <lb/> fog hung over it; &amp; the City looked
                <lb/> so indifferent. Not so, when leav<seg type="softhyphen">-
                <lb/></seg>ing the <placeName type="region">Sea of <choice><sic>Marmora</sic><corr>Marmara</corr></choice></placeName>, we pass<seg type="softhyphen">
@@ -6645,7 +6645,7 @@
               <lb/> Music strikes up — Pashas with 
               <lb/> slaves are on the look out.
               <lb/> We stood before one. Clever fel<seg type="softhyphen">-
-              <lb/></seg>lows some — especally that one (a
+              <lb/></seg>lows some — especially that one (a
               <lb/> Bey) we got acquainted with
               <lb/> on the Boat &amp; with whom I 
               <lb/> got thick. Well — a few offi<seg type="softhyphen">-
@@ -6727,12 +6727,12 @@
                <lb/> like a baby. Just got to the quay
                <lb/> in time to see the Sultan descend
                <lb/> from the mosque &amp; mount his white
-               <lb/> charger. He looked pale, darkeyed,
+               <lb/> charger. He looked pale, dark eyed,
                <lb/> indolent, but carried himself
                <lb/> well. The officers allowed us to
                <lb/> stand in front. Oh! but the music
                <lb/> was fine. — We returned; Amidst
-               <lb/> the wavy clarency of the whitest
+               <lb/> the wavy <choice><sic>clarency</sic><corr>clarity</corr></choice> of the whitest
                <lb/> clearest water in the world, the
                <lb/> gulls swam about. I left for
                <lb/> the hotel; the others to shop.
@@ -6853,7 +6853,7 @@
                   obsolete term for Tahitian (OED).</note> with a gem 
                <lb/> therein. The ears were tremulous &amp; dan<seg type="softhyphen">-
                <lb/></seg>cing in their prismatic drops. The 
-               <lb/> forehead gleamed with its coronel. A
+               <lb/> forehead gleamed with its <choice><sic>coronel</sic><corr>coronal</corr></choice>. A
                
                <!-- Proofed 20080819 by HLU/ED -->       
                
@@ -6905,7 +6905,7 @@
                <lb/> towels, over the shoulders, around 
                <lb/> the waist &amp; with a larger turban on
                <lb/> the head, we looked like a very 
-               <lb/> luxurious old Sensous Turk in
+               <lb/> luxurious old Sensuous Turk in
                <lb/> one of the baths of the palace.
                <lb/> Thus arrayed, almost dreamy with
                <lb/> delight, we are taken into the
@@ -7112,14 +7112,14 @@
               <lb/>  had it. Good bye to the East with its nar<seg type="softhyphen">-
               <lb/></seg>gileh; its sea where Christianity first traver<seg type="softhyphen">-
               <lb/></seg>sed its westward way; its gazelles, its little
-              <lb/>  mocha coffeee cups; its henna fingered
+              <lb/>  mocha coffee cups; its henna fingered
               <lb/>  damsels in white crape; its condemned
               <lb/>  souls; its sacred standard (Mahomet's
               <lb/>  breeches;) its gleaming crescents, its angel
               <lb/>  built Saint Sophia where Crysostrom
               <lb/>  spoke with lips of gold; to its mas<seg type="softhyphen">-
               <lb/></seg>querading people; its land which fulfils
-              <lb/>  every requistition of the Imagination. All
+              <lb/>  every requisition of the Imagination. All
               <lb/>  I regret is — that we <unclear>did't</unclear>, "stand within
               <lb/>  thy gates O Jerusalem." But we may
               <lb/>  turn aside perhaps thankfully, as
@@ -7172,7 +7172,7 @@
                <lb/>so very common. We drove around to the
                <lb/>East, along the <placeName type="sea">Adriatic</placeName> — an exquisite
                <lb/>drive — others were out. Everybody out on
-               <lb/>Sunday, either prominading or riding. —
+               <lb/>Sunday, either promenading or riding. —
                <lb/><choice><sic>Gayety</sic><corr>Gaiety</corr></choice> seems to prevail, — Returned — passed
                <lb/>some fine fountains with sculpture; then
                <lb/>went further along up a valley (in which
@@ -7338,7 +7338,7 @@
                <lb/>level country which lies between the
                <lb/>Tyrol and the <placeName type="sea">Adriatic</placeName>. Mulberries fes<seg type="softhyphen">-
                <lb/></seg>tooned with vines hung one from the
-               <lb/>other made vistas of exceding beauty.
+               <lb/>other made vistas of exceeding beauty.
                <lb/>The trees all seemed joined in greenly
                <lb/>hands &amp; ready to dance jubilant
                <lb/>at the merry grape gushing Season.
@@ -7373,10 +7373,10 @@
                <add hand="#SSC" place="infralinear">The willows turned white in the breeze along the <placeName type="river">Adigo</placeName>.</add>
                <lb/>We looked for the obelisk which
                <lb/>marks the battle of Arcoli — the place
-               <lb/>where <choice><abbr>Nap.</abbr><expan>Napoleon</expan></choice> got away from his gaurds, &amp;
+               <lb/>where <choice><abbr>Nap.</abbr><expan>Napoleon</expan></choice> got away from his guards, &amp;
                <lb/>was surrounded, where <persName>Lannes</persName> was des<seg type="softhyphen">-
                <lb/></seg>perately wounded in the swamps; &amp; the
-               <lb/>cry of "<q>Save the General</q>," brot out the
+               <lb/>cry of "<q>Save the General</q>," bro't out the
                <lb/>child of Destiny. <persName>Julia</persName> said she
                <lb/>saw the obelisk. The <del type="unrecoverable" rend="overwritten"/>Adigo flowed by
                <lb/>the gate of the Boscarre received us at
@@ -7407,7 +7407,7 @@
                <lb/>our way thro' a fertile &amp; irrigated Coun<seg type="softhyphen">-
                <lb/></seg>try into the vernal heart of <placeName>Lombardy</placeName>,
                <lb/>untill we at last reached here at
-               <lb/>4 P.M. The noticable objects along this way
+               <lb/>4 P.M. The noticeable objects along this way
                <lb/>from <placeName>Venice</placeName>  to <placeName>Milan</placeName> 
                were many. Indeed it
                <lb/>is a <choice><sic>gardee</sic><corr>garden</corr></choice>, not run to seed, but in the very
@@ -7418,7 +7418,7 @@
                
                <lb/>height of cultivation &amp; luxuriance. We saw
                <lb/>women working the corn fields &amp; vineyards
-               <lb/>between the mulbery rows. Silk is the 
+               <lb/>between the mulberry rows. Silk is the 
                <lb/><choice><sic>principle</sic><corr>principal</corr></choice> product. At every town, the 
                <lb/>women serve the reel &amp; untwist from
                <lb/>the silkworm's tomb the glossy fibre.
@@ -7431,7 +7431,7 @@
             <p>
                <lb/>As we pass the <choice><sic>woman</sic><corr>women</corr></choice> in big hats
                <lb/>look up &amp; lean on spades, pondering
-               <lb/>our appearence. The <del type="unrecoverable" rend="overwritten"/>harvest was in. Be<seg type="softhyphen">-
+               <lb/>our appearance. The <del type="unrecoverable" rend="overwritten"/>harvest was in. Be<seg type="softhyphen">-
                <lb/></seg>fore we passed into <placeName><choice><sic>Treveglio</sic><corr>Treviglio</corr></choice></placeName> we saw
                <lb/>men flailing out the <del type="unrecoverable" rend="overwritten"/>grain. Shrines <hi rend="underline">lit</hi>
                <lb/>lined the way. Big loaded 2 wheeled
@@ -7443,7 +7443,7 @@
                <lb/>We enter the fine station at Trevig<seg type="softhyphen">-
                <lb/></seg>lio, where taking something to eat,
                <lb/>we got into the cars. The car — ar<seg type="softhyphen">- 
-               <lb/></seg>rangments are fine. The bell taps,
+               <lb/></seg>rangements are fine. The bell taps,
                <lb/>the baggage is put on — Tap! &amp; the 
                <lb/>door opens, &amp; 1<hi rend="superscript">st</hi> Class enter; Tap!
                <lb/>&amp; 2<hi rend="superscript">d</hi> class — no difficulty or rush.
@@ -7479,7 +7479,7 @@
                <lb/>We were up 222 <choice><abbr>ft.</abbr><expan>feet</expan></choice> Grace Church N.Y.
                <lb/>is on top. — We could not but glance about us
                <lb/>to see <placeName>Milan</placeName> now in its prime — went on 
-               <lb/>every side. The <placeName type="region">Alps</placeName> were not — tho' gererally
+               <lb/>every side. The <placeName type="region">Alps</placeName> were not — tho' generally
                <lb/>visible. Went to the Arena, piazza d' Ar<seg type="softhyphen">-
                <lb/></seg>mi, buildings by Napoleon — to a church of 16
                <lb/>old columns, drove about the city. This
