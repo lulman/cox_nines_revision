@@ -352,7 +352,7 @@ a:link {
   text-decoration: none;
 }
 
-p.hang15 a:before, p.hang25 a:before, p.hang35 a:before {
+p.hang15 > a[id^="n"], p.hang25 > a[id^="n"] {
 display: inline-block;
 content: " ";
 margin-top: -180px;
@@ -369,20 +369,22 @@ p.aboutView {
     margin-left:25px;
 }
 
-a.notePointer:before {
+a.notePointer {
 display: inline-block;
 content: " ";
 margin-top: -180px;
 height: 180px;
 visibility: hidden;	
 }
-a.entrylink::before {
-display: inline-block;
+
+div[id^="Cox"] {
+display: block;
 content: " ";
 margin-top: -180px;
 height: 180px;
-visibility: hidden;	    
+visibility: hidden;
 }
+
 sup.noteAnchor {
   font-size:.85em;
   font-weight: bold;
@@ -431,12 +433,6 @@ sup.noteAnchor {
 	width: 850px;
 	left: 50px;
 	clear: both;
-}
-
-.COHUsig {
-	position: absolute;
-	width: 250px;
-	left: 50px;
 }
 
 .accessibility {
