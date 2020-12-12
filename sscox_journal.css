@@ -377,6 +377,14 @@ height: 180px;
 visibility: hidden;	
 }
 
+div.Entry > a.entrylink {
+display: inline-block;
+content: " ";
+margin-top: -180px;
+height: 180px;
+visibility: hidden;	    
+}
+
 div[id^="Cox"] {
 display: block;
 content: " ";
