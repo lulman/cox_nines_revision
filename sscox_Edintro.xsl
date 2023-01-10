@@ -637,7 +637,7 @@
    
       <xsl:template match="tei:listPlace">
          <hr/>
-      <h3 id="placesMentioned">List of Places Visited During Cox's Tour</h3>
+      <h3 id="placesMentioned">List of Major Landmarks and Ports of Call Visited During Cox's Tour</h3>
          <xsl:apply-templates select="tei:head"/>
          <table style="width:610px; padding:5px; border:none;">
             <tr>

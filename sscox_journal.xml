@@ -921,25 +921,20 @@
                   <country >Italy</country>
                   <desc>A day on foot exploring <emph rend="bold">Pompeii</emph>.</desc>
                </place>
-               <place xml:id="SESO">
-                  <event when="1851-06-24" source="#Cox18510624a"><p>June 24</p></event>
-                  <placeName></placeName>
-                  <desc>On board the French war steamer <name type="ship">Sesostris</name>, bound for Malta.</desc>
-               </place>
                <place xml:id="MALT">
                   <event when="1851-06-25" source="#Cox18510623a"><p>June 25</p></event>
                   <placeName>Malta</placeName>
-                  <country>Country</country>
+                  <country>Malta</country>
                   <desc>A short stay in <emph rend="bold">Malta</emph>.</desc>
                </place>
-               <place xml:id="EGYP">
+<!--               <place xml:id="EGYP">
                   <event when="1851-06-26" source="#Cox18510626a"><p>June 26</p></event>
-                  <placeName>City</placeName>
+                  <placeName>Egyptus</placeName>
                   <country>Country</country>
                   <desc>On board the French war steamer <emph rend="bold"><name type="ship">Egyptus</name></emph>, reading in his Murray's Handbook about
                      "the scenes of Grecian story and glory."</desc>
                </place>
-               <place xml:id="ATHE">
+-->               <place xml:id="ATHE">
                   <event when="1851-06-28" source="#Cox18510628a"><p>June 28</p></event>
                   <placeName>Athens</placeName>
                   <country>Greece</country>
@@ -948,67 +943,67 @@
                <place xml:id="SMYR">
                   <event when="1851-06-30" source="#Cox18510630a"><p>June 30</p></event>
                   <placeName>Smyrna</placeName>
-                  <country>Country</country>
+                  <country>Greece</country>
                   <desc>Arrival in <emph rend="bold">Smyrna</emph>.</desc>
                </place>
                <place xml:id="CONS">
                   <event when="1851-07-03" source="#Cox18510703a"><p>July 3</p></event>
                   <placeName>Constantinople</placeName>
-                  <country>Country</country>
+                  <country>Turkey</country>
                   <desc>Beginning of a three-day stop in <emph rend="bold">Constantinople</emph>.</desc>
                </place>
                <place xml:id="SMYR2">
                   <event when="1851-07-07" source="#Cox18510707a"><p>July 7</p></event>
-                  <placeName>Syra</placeName>
-                  <country>Country</country>
+                  <placeName>Smyrna</placeName>
+                  <country>Greece</country>
                   <desc>A day in <emph rend="bold">Smyrna</emph>, while en route on the Austrian steamer <name type="ship">Imperatore</name>. Cox
                   and Philo take a Turkish bath.</desc>
                </place>
                <place xml:id="SYRA">
                   <event when="1851-07-08" source="#Cox18510708a"><p>July 8</p></event>
-                  <placeName>Syra</placeName>
-                  <country>Country</country>
+                  <placeName type="island">Syra</placeName>
+                  <country>Greece</country>
                   <desc>Lying in quarantine at <emph rend="bold">Syra</emph>.</desc>
                </place>
                <place xml:id="CORF">
                   <event when="1851-07-11" source="#Cox18510711a"><p>July 11</p></event>
                   <placeName>Corfu</placeName>
-                  <country>Country</country>
+                  <country>Greece</country>
                   <desc>Near <emph rend="bold">Corfu</emph>: "Good bye to the East."</desc>
                </place>
                <place xml:id="TRIE">
                   <event when="1851-07-13" source="#Cox18510713a"><p>July 13</p></event>
                   <placeName>Trieste</placeName>
-                  <country>Country</country>
+                  <country>Italy</country>
                   <desc>First day of a two-day stop at <emph rend="bold">Trieste</emph>.</desc>
                </place>
                <place xml:id="VENI">
                   <event when="1851-07-15" source="#Cox18510715a"><p>July 15</p></event>
                   <placeName>Venice</placeName>
-                  <country>Country</country>
+                  <country>Ital</country>
                   <desc>Tour of <emph rend="bold">Venice</emph>.</desc>
                </place>
                <place xml:id="VERO">
                   <event when="1851-07-15" source="#"><p>July 15</p></event>
                   <placeName>Verona</placeName>
-                  <country>Country</country>
+                  <country>Italy</country>
                   <desc>A short stop in <emph rend="bold">Verona</emph>.</desc>
                </place>
                <place xml:id="MILA">
                   <event when="1851-07-16" source="#Cox18510716a"><p>July 16</p></event>
                   <placeName>Milan</placeName>
-                  <country>Country</country>
+                  <country>Italy</country>
                   <desc>A day in <emph rend="bold">Milan</emph>.</desc>
                </place>
                <place xml:id="COMO">
                   <event when="1851-07-18" source="#"><p>July 18</p></event>
                   <placeName>Lake Como</placeName>
-                  <country>Country</country>
+                  <country>Italy</country>
                   <desc>A sail on <emph rend="bold">Como Lake</emph> and reflection on travels to date.</desc>
                </place>
             </listPlace>
             
-<!-- NOT USED IN THIS EDITION
+<!-- NOT USED IN THIS EDITION (The information is handled in notes.)
                
                <listOrg>
                <head>List of Selected Organizations Mentioned in Cox's Journal</head>
@@ -1444,11 +1439,12 @@
               <opener>
                <lb/>
                   <dateline>
-                  <placeName>
+                  <placeName ref="#NEWY">
                      <app xml:id="T1371">
                         <lem wit="#Cox1851a">New York,</lem>
                         <rdg wit="#Cox1851b">New York</rdg>
-                     </app></placeName>
+                     </app>
+                  </placeName>
                   <date when="1851-05-07">
                      <app xml:id="T1378">
                         <lem wit="#Cox1851a">May 7, 1851.</lem>
@@ -1518,7 +1514,7 @@
                <ptr type="noteAnchor" target="N507Lucy"/><note resp="ed" xml:id="N507Lucy" anchored="true">According to David Lindsey, Lucy was a cousin of Julia and her brother, Philo
                Buckingham (205).</note>
                trembled at each
-               <lb/> report. A few tears—! <placeName>
+               <lb/> report. A few tears—! <placeName ref="#NEWY">
                   <choice><abbr>NY</abbr><expan>New York</expan></choice></placeName> began to
                <lb/> die away in the distance. The lines
                <lb/> of masts grew thinner. The <placeName>Battery </placeName>
@@ -1841,7 +1837,7 @@
             <p>
                <lb/> We have had rough times
                <lb/> since Saturday—running over
-               <lb/> the <placeName>New foundland banks</placeName>.
+               <lb/> the <placeName ref="#NEWB">New foundland banks</placeName>.
                <lb/> I had no idea we had to
                <lb/> run into these Hyperborean
                <lb/> regions. N. W. has been our
@@ -2202,7 +2198,7 @@
                <lb/> of hot water for Julia's feet.
                <lb/> These boats are cold—not
                <lb/> much danger from fire—
-               <lb/> We shall soon be in <placeName><hi rend="underline">Liver</hi><seg type="softhyphen">-
+               <lb/> We shall soon be in <placeName ref="#LIVE"><hi rend="underline">Liver</hi><seg type="softhyphen">-
                <lb/></seg><hi rend="underline">pool</hi></placeName>. How liquidly the
                <lb/> name will melt in the
                <lb/> mouth. This relief to the
@@ -2210,7 +2206,7 @@
                <lb/> will be relieved. Philo
                <lb/> returns. It is time to
                <lb/> be abed. Won't be in
-               <lb/> <placeName>Liverpoool</placeName> till 9 o'clock
+               <lb/> <placeName ref="#LIVE">Liverpoool</placeName> till 9 o'clock
                <lb/> Saturday, on account of
                <lb/> the tide—Wind's in our teeth.
                <lb/> Well, <hi rend="underline">we hope for</hi> the best —
@@ -2511,14 +2507,14 @@
                <opener><lb/> <dateline><date when="1851-05-17"><hi rend="underline">Saturday</hi>, May 17. 1851.</date></dateline></opener>
             <p>
                <lb/> Land in sight. We are running
-               <lb/> along the coast of <placeName type="country">Ireland</placeName>, &amp;
-               <lb/> rapidly approaching <placeName>Liverpool</placeName>,
+               <lb/> along the coast of <placeName ref="#IREN" type="country">Ireland</placeName>, &amp;
+               <lb/> rapidly approaching <placeName ref="#LIVE">Liverpool</placeName>,
                <lb/> passed the <placeName type="county">Cork</placeName> coast in the night.
                <lb/> The tide will be against us. At
                <lb/> this time we have passed <placeName><sic>Cansore</sic>
                <lb/> Point, Ireland</placeName>; &amp; are pushing up
                <lb/> the channel between <placeName type="country">Wales</placeName> &amp;
-               <lb/> <placeName type="country">Ireland</placeName>, not far from sight
+               <lb/> <placeName ref="#IREN" type="country">Ireland</placeName>, not far from sight
                <lb/> of <placeName>Braichen point</placeName>; The Officer
                <lb/> by my side who is guiding our
                <lb/> noble ship, says that we are
@@ -2530,7 +2526,7 @@
                <pb facs="SSCox_033"/>
 
                <lb/> be out of sight of land at any time. The
-               <lb/> land visible in <placeName type="country">Ireland</placeName>, is not the
+               <lb/> land visible in <placeName ref="#IREN" type="country">Ireland</placeName>, is not the
                <lb/> coast, but the mountains. "Heavy a
                <lb/> port" says the officer, &amp; the deflection
                <lb/> Eastward continues.—
@@ -2625,7 +2621,7 @@
            </p>
              
            <p>
-             <lb/> We reached <placeName>Liverpool</placeName> last night
+             <lb/> We reached <placeName ref="#LIVE">Liverpool</placeName> last night
              <lb/> about 11. How I can describe my               
              <lb/> feelings at the grand illumination
              <lb/> which flanked us up the <placeName type="river">Mersey</placeName>. I would
@@ -2634,13 +2630,13 @@
             <lb/> elegant residences; but no! a richer 
             <lb/> treat was afforded. The <placeName type="river">Mersey</placeName> looks
             <lb/> to be a mile wide, &amp; as we approached
-            <lb/> <placeName>Liverpool</placeName> the gas lights played like fairies
+            <lb/> <placeName ref="#LIVE">Liverpool</placeName> the gas lights played like fairies
             <lb/> about us. The huge docks of <placeName>Birkenhead</placeName>
             <lb/> looked dark and gloomy as we passed.  
             <lb/> They allow no fire about them. Fires
             <lb/> are rare here. As we would come
             <lb/> in range of one of the fine streets of 
-            <lb/> <placeName>Liverpool</placeName> the lights would form
+            <lb/> <placeName ref="#LIVE">Liverpool</placeName> the lights would form
             <lb/> a regiment of fires, extending the
             <lb/> perspective so finely! The vessel could
             <lb/> not be docked. The tide running out
@@ -2721,7 +2717,7 @@
              <lb/> with muffins &amp; chops, all four, <persName>Julia</persName>
              <lb/> presiding Tea Divinity, in our own 
              <lb/> parlor. Didn't we Enjoy it?
-             <lb/> Read <placeName>London</placeName> papers; &amp; here, with 
+             <lb/> Read <placeName ref="#LOND">London</placeName> papers; &amp; here, with 
              <lb/> a good fire, a drizzly day &amp; with
              <lb/> a room scented with flowers, of
              <lb/> which this petal
@@ -2754,7 +2750,7 @@
         <pb facs="SSCox_038"/>
          
 	   <opener>
-	      <lb/><dateline><placeName>Liverpool</placeName>, 
+	      <lb/><dateline><placeName ref="#LIVE">Liverpool</placeName>, 
 	         <date when="1851-05-18">Sunday afternoon</date>.
 	         </dateline>
 	   </opener>   
@@ -2853,7 +2849,7 @@
         </div>
         <div type="Entry" xml:id="Cox18510519a">
             <opener>
-               <lb/><dateline>On the cars at <placeName>Stafford</placeName>,
+               <lb/><dateline>On the cars at <placeName ref="#STAF">Stafford</placeName>,
                   <date when="1851-05-19">Monday</date><lb/> after 12:
                </dateline>
             </opener>
@@ -2864,7 +2860,7 @@
                <lb/> the <title level="j" type="newspaper">'times'</title>—The country which we have
                <lb/> passed through, has been one perfect
                <lb/> succession of rural beauties. After
-               <lb/> leaving <placeName>Liverpool</placeName>, we walked around
+               <lb/> leaving <placeName ref="#LIVE">Liverpool</placeName>, we walked around
                <lb/> to the rail way,— I got my life insured
                <lb/> for 3<choice><abbr>d.</abbr><expan>pence</expan></choice> during our trip!
             </p>
@@ -2886,7 +2882,7 @@
                <lb/> a beautiful tower upon the hill at
                <lb/> our left. The peculiar chimneys &amp;
                <lb/> the very red bricks of the houses, give
-               <lb/> <placeName>Stafford</placeName> an air of rural comfort, only
+               <lb/> <placeName ref="#STAF">Stafford</placeName> an air of rural comfort, only
                <lb/> equalled by every other part of this mag<seg type="softhyphen">
                <lb/></seg>nificent country. Nature seems as
                <lb/> if just washed in a shower, and so
@@ -2923,7 +2919,7 @@
                <lb/> many of them, were all ivied over, except
                <lb/> the high thatched roofs of slate or straw.
                <lb/> The land was of a reddish tinge, until
-               <lb/> as we approached <placeName type="city"/>London,—near <placeName>Layton</placeName>,
+               <lb/> as we approached <placeName ref="#LOND" type="city"/>London,—near <placeName>Layton</placeName>,
                <lb/> a chalk formation appeared. Our agri<seg type="softhyphen">-
                <lb/></seg>culturist <persName>P.</persName> was perfectly struck
                <lb/> dumb at what Art had done for
@@ -2999,7 +2995,7 @@
                <lb/> residences &amp; fine <unclear>grassed</unclear> plats. Singing
                <lb/> birds all around us. A cab soon
                <lb/> brought us wondering into famous
-               <lb/> <placeName>London</placeName> town, where at <choice><abbr>N<hi rend="superscript">o</hi></abbr><expan>number</expan></choice> 13 
+               <lb/> <placeName ref="#LOND">London</placeName> town, where at <choice><abbr>N<hi rend="superscript">o</hi></abbr><expan>number</expan></choice> 13 
                <choice><abbr>Edw.</abbr><expan>Edward</expan></choice>
                <lb/> Street Hampstead <choice><sic>Rhodes</sic><corr>Road</corr></choice>, we slept,
                <lb/> until the
@@ -3124,8 +3120,8 @@
                They have
                <lb/> deteriorated—heard a piece called the
                <lb/>'<placeName type="title">Alhambra</placeName>'.—a rich piece. Came home
-               <lb/> tired. The <placeName>London</placeName> theatre does not exceed
-               <lb/> those of <placeName>N.Y.</placeName>                  
+               <lb/> tired. The <placeName ref="#LOND">London</placeName> theatre does not exceed
+               <lb/> those of <placeName ref="#NEWY">N.Y.</placeName>                  
             </p>
          </div>
          <div xml:id="Cox18510521a" type="Entry">
@@ -3163,7 +3159,7 @@
                <lb/> in the pell mell, dashing hurrah
                <lb/> route to the Derby,—What a close
                <lb/> time we had. When 15 miles from
-               <lb/> <placeName>Epsom</placeName> we were compelled to walk.
+               <lb/> <placeName ref="#EPSO">Epsom</placeName> we were compelled to walk.
                <lb/> <del type="recoverable" rend="overwritten" hand="#SSC">Even</del>And even stand still. Every kind
                <lb/> of vehicle from a dog cart to the 
                <lb/> <unclear>Prussian</unclear> royal carriage, with cream
@@ -3437,7 +3433,7 @@
                <lb/> it to <persName>Medary</persName>: wandered home'
                <lb/> <choice><abbr>thro'</abbr><expan>throughout</expan></choice> <placeName>Sussex Place</placeName>
                &amp; the aristo<seg type="softhyphen">-
-               <lb/></seg>cratic part of <placeName>London</placeName>. Ladies  
+               <lb/></seg>cratic part of <placeName ref="#LOND">London</placeName>. Ladies  
                <lb/> had not been out. Stayed at 
                <lb/> home in Evening. I kept a 
                <lb/> memo of all I saw at <choice><abbr>Ex</abbr><expan>Exhibition</expan></choice>.
@@ -3593,7 +3589,7 @@
                <opener>
                  <lb/>
                   <dateline>
-                  <placeName>Paris;</placeName>
+                  <placeName ref="#PARI">Paris;</placeName>
                   <date when="1851-05-27">Tuesday, May 27.</date>
                   </dateline>                                  
               </opener>
@@ -3601,7 +3597,7 @@
                <lb/> What a time in getting here; How 
                <lb/> much have we seen! Crossed
                <lb/> Straits yesterday night in a few 
-               <lb/> hours. We came into <placeName>Paris</placeName> at 
+               <lb/> hours. We came into <placeName ref="#PARI">Paris</placeName> at 
                <lb/> 9 A.M; had to stay all day, <del type="recoverable" hand="#SSC" rend="overwritten">unt</del>and 
                <lb/> <del type="recoverable" hand="#SSC" rend="overwritten">to</del>until tomorrow in order to get 
                <lb/> passports. We visited <placeName type="landmark">Champs
@@ -3624,7 +3620,7 @@
            <lb/></seg>siderably with our cabman. My
            <lb/> proficiency astonished me. Guess
            <lb/> we can get along thro' <placeName type="country">France</placeName>.
-           <lb/> Took at short look at <placeName>Paris</placeName> 
+           <lb/> Took at short look at <placeName ref="#PARI">Paris</placeName> 
            <lb/> by gaslight; but tired, I retired—
            <lb/> Next <choice><abbr>morn'g</abbr><expan>morning</expan></choice> commenced a letter 
            <lb/> to <persName>Medary</persName>; but had to take an 
@@ -3639,7 +3635,7 @@
                   <lb/> left in dilligence—amid tooting &amp;<hi rend="superscript">c</hi>.
                   <lb/> great old things, how they go, &amp;
                   <lb/> rattle. Got on the cars, went
-                  <lb/> through <placeName>Dijon</placeName> 
+                  <lb/> through <placeName ref="#DIJO">Dijon</placeName> 
                        down <placeName type="river">the Seine</placeName>                        
 
         <!-- Proofed 20080701 by HLU/ED -->
@@ -3788,7 +3784,7 @@
                        <lb/>beautiful. A long range of mountains 
                        <lb/>some beneath the cloud showed
                        <lb/>themselves all day. As we passed 
-                       <lb/><placeName type="town">Orange</placeName>,
+                       <lb/><placeName ref="#ORAN" type="town">Orange</placeName>,
                             we saw one mountain snow
                        <lb/>topped. It shone finely. Our
                        <lb/>road lay along level country, &amp;
@@ -3819,11 +3815,11 @@
                        <lb/></seg>ments, Art had erected its forts.
                        <lb/>The earthen tiled roofs &amp; the 
                        <lb/>willows pass us on our rapid
-                       <lb/>way, until <placeName type="town">Orange</placeName> gleams in 
+                       <lb/>way, until <placeName ref="#ORAN" type="town">Orange</placeName> gleams in 
                        <lb/>the Sun. Here is a grand Amphi<seg type="softhyphen">
                        <lb/></seg>theater of the Romans, and the relic
                        <lb/>ruins of the fortress of the Princes 
-                       <lb/>of <placeName type="town">Orange</placeName> above it upon the hill
+                       <lb/>of <placeName ref="#ORAN" type="town">Orange</placeName> above it upon the hill
                        <lb/>As we passed on, the Amphitheater 
                        <lb/>seemed nearer,—its concave was 
      
@@ -3892,7 +3888,7 @@
                          <lb/>We wished to stay longer; amid
                          <lb/>the strawberries &amp; walls; but the
                          <lb/>cars left at 2: &amp; down we dash 
-                         <lb/>toward <placeName>Marseilles</placeName>. What towns
+                         <lb/>toward <placeName ref="#MARS">Marseilles</placeName>. What towns
                          <lb/>we passed. What olive orchards,
                          <lb/>what black &amp; grey old rocks;
                          <lb/>what vineyards &amp; terraces, we 
@@ -3904,7 +3900,7 @@
                          <lb/>blue appeared; and a storm
                          <lb/>of sunshine beauty came up,
                          <lb/><del type="unrecoverable" rend="overwritten"/>to fling rainbows over our
-                         <lb/>heads as we entered <placeName>Marseilles</placeName>.
+                         <lb/>heads as we entered <placeName ref="#MARS">Marseilles</placeName>.
                          <lb/>I saw one arch of the rainbow
                          <lb/>coming out of an old tower;
                          <lb/>but soon it leaped into the
@@ -3919,7 +3915,7 @@
                          <lb/>sunlustre; and the orb went
                          <lb/>down amidst golden bars of
                          <lb/>clouds. Oh! it was a fine 
-                         <lb/>scene as we entered <placeName>Marseilles</placeName>
+                         <lb/>scene as we entered <placeName ref="#MARS">Marseilles</placeName>
                         </p>  
                         <p>
                          <lb/>Two things deserve record. 
@@ -3953,21 +3949,21 @@
             <opener>
                <lb/>
                <dateline>
-                  <placeName>Marseilles</placeName>
+                  <placeName ref="#MARS">Marseilles</placeName>
                   <date when="1851-05-31">May 31 / 51</date>.
                </dateline>
             </opener>
             <p>
                <lb/> We stayed here all yesterday
-               <lb/> night—can't get off to <placeName>Naples</placeName>
+               <lb/> night—can't get off to <placeName ref="#NAPL">Naples</placeName>
                <lb/> until tomorrow; have come over
-               <lb/> 600 miles from <placeName>Paris</placeName>. Here we
+               <lb/> 600 miles from <placeName ref="#PARI">Paris</placeName>. Here we
                <lb/> stopped at the <orgName>Imperial Hotel</orgName>,
                <lb/> excellent,—English <choice><sic>servents</sic><corr>servants</corr></choice>—
                <lb/> Have visited with cabmen,
                <lb/> the <placeName type="landmark">Chateau de fleurs</placeName>, a
                <lb/> paradise of Beauty above
-               <lb/> <placeName>Marseilles</placeName>. Flowers of every
+               <lb/> <placeName ref="#MARS">Marseilles</placeName>. Flowers of every
                <lb/> hue—beds laid off every way,
                <lb/> places for amusement &amp; exer<seg type="softhyphen">-
                <lb/></seg>cise, lakes with swans, hills,
@@ -3985,7 +3981,7 @@
                
         <pb facs="SSCox_071"/>
                
-               <lb/> of <placeName>Marseilles</placeName>. It is a large city.              
+               <lb/> of <placeName ref="#MARS">Marseilles</placeName>. It is a large city.              
                <lb/> Found some <choice><sic>Moroccos</sic><corr>Moroccans</corr></choice> there. Spoke  
                <lb/> in French to the '<hi rend="underline">Emperor</hi>' with            
                <lb/> white beard. He offered the Ameri<seg type="softhyphen">-
@@ -4027,7 +4023,7 @@
                </dateline>
             </opener>
             <p>
-               <lb/> Still at <placeName>Marseilles</placeName>: got up late,
+               <lb/> Still at <placeName ref="#MARS">Marseilles</placeName>: got up late,
                <lb/> wrote letters, sent them off:—Just
                <lb/> got fairly into a letter home when 11
                <lb/> o clock struck: Forgot to men<seg type="softhyphen">-
@@ -4095,7 +4091,7 @@
                <lb/> children of <persName>Hon Z. Pratt</persName> N.Y.) quite
                <lb/> as pleasant as we could desire.
                <lb/> On the morning of the 2<hi rend="superscript">d</hi>, we hove
-               <lb/> in sight of <placeName>Genoa</placeName>,—a <choice><sic>cresent</sic><corr>crescent</corr></choice> city
+               <lb/> in sight of <placeName ref="#GENO">Genoa</placeName>,—a <choice><sic>cresent</sic><corr>crescent</corr></choice> city
                <lb/> called the Superb. Went ashore
                <lb/> without difficulty,—stopped at
                <lb/> the Hotel <hi rend="underline"><choice><sic>Des</sic><corr>de</corr></choice> Londres</hi>, a splendid
@@ -4125,19 +4121,19 @@
             <lb/> After resting some time, we started
             <lb/> out—Ladies with <persName>Miss Pratt</persName>
              <ptr type="noteAnchor" target="JPratt"/><note resp="ed" xml:id="JPratt" anchored="true"><persName>Julia Pratt</persName>, only daughter of 
-               <persName>Zadock Pratt</persName> of <placeName type="region">New York</placeName> (<ref target="http://www.prattmuseum.com/pratts-five-wives.html"><title>Zadock Pratt 
+               <persName>Zadock Pratt</persName> of <placeName ref="#NEWY" type="region">New York</placeName> (<ref target="http://www.prattmuseum.com/pratts-five-wives.html"><title>Zadock Pratt 
                   Museum</title></ref>).
             </note> &amp; 
             <lb/> <persName>Mrs. Stephens</persName>          
              <ptr type="noteAnchor" target="AnnStephens"/><note resp="ed" xml:id="AnnStephens" anchored="true"><persName>Ann Sophia Stephens</persName> is the author 
                of <hi rend="italics">Dime Novel No. 1</hi>. She worked as an author, editor, and magazine publisher. 
                She dedicated one of her poems to the Honorable <persName>Zadock Pratt</persName> 
-               of <placeName type="region">New York</placeName> 
+               of <placeName ref="#NEWY" type="region">New York</placeName> 
                (<ref target="http://www.niulib.niu.edu/badndp/stephens_ann.html"><title>Northern Illinois University Library</title></ref>).
             </note>, we with <persName>Pratt</persName>              
              <ptr type="noteAnchor" target="GPratt"/><note resp="ed" xml:id="GPratt" anchored="true"><persName>George
                Pratt</persName> (b. April 18, 1830), only son of 
-               <persName>Zadock Pratt</persName> of <placeName type="region">New York</placeName> (<ref target="http://www.prattmuseum.com/colonel-george-pratt.html"><title>Zadock Pratt Museum</title></ref>).
+               <persName>Zadock Pratt</persName> of <placeName ref="#NEWY" type="region">New York</placeName> (<ref target="http://www.prattmuseum.com/colonel-george-pratt.html"><title>Zadock Pratt Museum</title></ref>).
             </note>—                  
             <lb/>went down the narrow streets—                 
             <lb/> so narrow some of them, you
@@ -4210,7 +4206,7 @@
             <lb/> room, of gold⁓It was a rare
             <lb/> gleam of splendor. But the
             <lb/> paintings. Oh! how I would love 
-            <lb/> to linger at <placeName>Genoa</placeName>. What a mind
+            <lb/> to linger at <placeName ref="#GENO">Genoa</placeName>. What a mind
             <lb/> of Genius has been here amidst
             <lb/> this blazonry of painting. How
             <lb/> many throbs, wild &amp; great, has
@@ -4222,7 +4218,7 @@
      <pb facs="SSCox_078"/> 
                
             <lb/> worked, and here the nobles of
-            <lb/> ancient <placeName>Genoa</placeName> themselves handled
+            <lb/> ancient <placeName ref="#GENO">Genoa</placeName> themselves handled
             <lb/> the pencil with true genius. How
             <lb/> many scenes of Joy &amp; Sorrow, has
             <lb/> this genius embodied; not of ideal
@@ -4269,7 +4265,7 @@
            <lb/> supper, &amp; politics were discussed
            <lb/> considerably. Made <placeName type="region">Italy</placeName> run 
            <lb/> quite away. We sunk her for the
-           <lb/> Nonce. As <placeName>Genoa</placeName> glided away,                
+           <lb/> Nonce. As <placeName ref="#GENO">Genoa</placeName> glided away,                
            <lb/> I stood upon the deck with my
            <lb/> ever dear Companion (whom may 
            <lb/> God bless!) and gazed into the
@@ -4311,7 +4307,7 @@
      <pb facs="SSCox_081"/>
             <lb/> <rs type="person">wife</rs> has retired to her <choice><sic>birth</sic><corr>berth</corr></choice>, having
             <lb/> valiantly began her journal.
-            <lb/> Our touch at <placeName>Genoa</placeName> it seems to
+            <lb/> Our touch at <placeName ref="#GENO">Genoa</placeName> it seems to
             <lb/> me, cannot be blotted out by
             <lb/> even the Glories of the <rs type="city">Eternal City</rs>,
             <lb/> for have we not seen Beauty,
@@ -4319,7 +4315,7 @@
             <lb/> than the seven hills; &amp; does she
             <lb/> always choose the place of
             <lb/> Power? Tomorrow we touch at
-                <lb/> <placeName>Leghorn</placeName>.
+                <lb/> <placeName ref="#LEGH">Leghorn</placeName>.
                 <figure rend="link">
                    <head>Embellishment</head>
                    <graphic url="SSCox_081_embellishment.jpg"></graphic>
@@ -4329,17 +4325,17 @@
          </div>
          <div type="Entry" xml:id="Cox18510604a">
             <lb/>   <opener><dateline>
-               <placeName>Leghorn</placeName>,
+               <placeName ref="#LEGH">Leghorn</placeName>,
                <date when="1851-06-04"> June 4 /51</date>
             </dateline></opener>
             <p>
-               <lb/> Woke up to find ourselves at <placeName>Leg<seg type="softhyphen">-
+               <lb/> Woke up to find ourselves at <placeName ref="#LEGH">Leg<seg type="softhyphen">-
                <lb/></seg>horn</placeName>; <persName>Philo</persName> went <del type="unrecoverable" rend="overwritten"/>on shore
                <lb/> with <persName>Miss Pratt</persName>, to whom he is
                <lb/> growing o'er fond for his happiness;
                <lb/> <persName>Julia</persName> waited for me — who having
                <lb/> written till late to send a letter off
-               <lb/> at <placeName>Leghorn</placeName> to <rs type="person">father</rs>, lay abed till
+               <lb/> at <placeName ref="#LEGH">Leghorn</placeName> to <rs type="person">father</rs>, lay abed till
                <lb/> 7 AM. Well, arrived at Leghorn,
                <lb/> we stopped with <persName>Mrs. Stephens</persName>. She
                <lb/> has a peculiarly vigorous mind,
@@ -4352,11 +4348,11 @@
                
                <lb/> remind me of <persName>D<hi rend="superscript">r</hi> Wayland</persName>.<ptr type="noteAnchor" target="way"/><note resp="ed" xml:id="way">
                   Possibly Francis Wayland, whose <title level="m">The Elements of Moral Science</title> was published in 1835.</note>  <rs type="person">She</rs> gave
-               <lb/> <del type="recoverable" rend="overwritten">up</del>us a copy of her verses at <placeName>Rome</placeName>,
+               <lb/> <del type="recoverable" rend="overwritten">up</del>us a copy of her verses at <placeName ref="#ROME">Rome</placeName>,
                <lb/> On the occasion of the celebration
                <lb/> of <persName>Washington</persName>'s birth Day at 
-               <placeName>Rome</placeName>
-               <lb/> last Winter.— <placeName>Leghorn</placeName> is a motley
+               <placeName ref="#ROME">Rome</placeName>
+               <lb/> last Winter.— <placeName ref="#LEGH">Leghorn</placeName> is a motley
                <lb/> place. There is a statue of a Son
                <lb/> of a Duke, supported by the figures
                <lb/> of 4 by Algerine pirates. The
@@ -4418,7 +4414,7 @@
                <lb/> We saw a gun that fired 130 times
                <lb/> at <placeName type="landmark">San Juan D'Ulloa</placeName> in the 
                <lb/> Mexican War. The <rs type="ship">Miss</rs>, it is
-               <lb/> said, is going to <placeName>Constantinople</placeName> to
+               <lb/> said, is going to <placeName ref="#CONS">Constantinople</placeName> to
                <lb/> take <persName>Kossuth</persName> &amp; his companions aboard.
             </p>
             <p>
@@ -4450,13 +4446,13 @@
                <pb facs="SSCox_085"/>
                
                <lb/> I write. The course of our Journey
-               <lb/> has been changed from <placeName>Naples</placeName>
-               <lb/> until we visit <placeName>Rome</placeName>.  The U.S.
+               <lb/> has been changed from <placeName ref="#NAPL">Naples</placeName>
+               <lb/> until we visit <placeName ref="#ROME">Rome</placeName>.  The U.S.
                <lb/> Consul arranged it right clever<seg type="softhyphen">-
                <lb/></seg>ly. We had some trouble here;
                <lb/> but not much, considering —
                <lb/> the <hi rend="underline">pauls</hi> have to be paid; but 
-               <lb/> <hi rend="underline">Rome</hi> is near! Glorious <placeName>Rome</placeName>!
+               <lb/> <hi rend="underline">Rome</hi> is near! Glorious <placeName ref="#ROME">Rome</placeName>!
             </p>
             <p>
                <lb/> <placeName>Civita Vecchia</placeName> is a heavy
@@ -4495,7 +4491,7 @@
                <ptr type="noteAnchor" target="R2"/><note resp="ed" xml:id="R2" anchored="true">The <name type="ship">U.S.S. Mississippi</name> cruised the Mediterranean from 1847-1851. 
                   According to <title level="m">A Buckeye Abroad</title>, the officers assisted the passengers of the <name type="ship">Asia</name> in 
                   visiting the grave of Tobias Smollet (104).</note> for charging 
-               <lb/>us double.⁓<add place="inline" hand="#SSC">The road to <placeName>Rome</placeName> is rolling, not 
+               <lb/>us double.⁓<add place="inline" hand="#SSC">The road to <placeName ref="#ROME">Rome</placeName> is rolling, not 
                   unlike <placeName type="state">Ohio</placeName>—
                <lb/> We saw ruins, fine cattle, wheat, tumuli, castles &amp;
                <lb/>at last—!</add> 
@@ -4504,7 +4500,7 @@
 
          <div xml:id="Cox18510605a" type="Entry">
             <opener>
-               <dateline><placeName>Rome</placeName>, Eternal <placeName>Rome</placeName>!
+               <dateline><placeName ref="#ROME">Rome</placeName>, Eternal <placeName ref="#ROME">Rome</placeName>!
                   <lb/><date when="1851-06-05">Thursday June 5, 1851</date></dateline>                
             </opener>
             <p>
@@ -4587,7 +4583,7 @@
          <div xml:id="Cox18510606a" type="Entry"><opener>
             <dateline><date when="1851-06-06">June 
                <del type="recoverable" hand="#SSCox_1851_Journal" rend="overwritten">5</del>6. 1851.</date></dateline> morning of
-               <lb/> the <hi rend="underline">first Day</hi> in <placeName>Rome.</placeName>           
+               <lb/> the <hi rend="underline">first Day</hi> in <placeName ref="#ROME">Rome.</placeName>           
          </opener>
             <p>
                <lb/> Went to see <persName>M<hi rend="superscript">r</hi> Cass</persName> — <orgName>Torlonia &amp; Co</orgName>
@@ -4596,7 +4592,7 @@
                <lb/> city, we went to the <placeName type="landmark">Capitol 
                <lb/> Tower</placeName> &amp; looked around: got
                <lb/> acquainted with the objects around
-               <lb/> it &amp; the portion of <placeName>Rome</placeName>.
+               <lb/> it &amp; the portion of <placeName ref="#ROME">Rome</placeName>.
             </p>
          </div>
          
@@ -4914,7 +4910,7 @@
             </p>
             <p>
                <lb/> Next to the <placeName type="landmark">Pantheon;</placeName>
-               <lb/> "pride of <placeName type="city">Rome</placeName>!" It exceeded my 
+               <lb/> "pride of <placeName ref="#ROME" type="city">Rome</placeName>!" It exceeded my 
                <lb/> idea of proportionate severe,
                <lb/> perfect architecture.  A large
                <lb/> aperture at top, niches for Gods,
@@ -5412,7 +5408,7 @@
                <lb/> not afraid, tho' even in going
                <lb/> up. It was a funny scene,
                <lb/> that of going down by torches
-               <lb/> while <placeName>Naples</placeName> danced below
+               <lb/> while <placeName ref="#NAPL">Naples</placeName> danced below
                <lb/> in her ball costume all glitter<seg type="softhyphen">
                <lb/></seg>ing with jewels; rather like the
                <lb/> bride of the Mediterranean
@@ -5437,7 +5433,7 @@
                </dateline>
             </opener>
             <p>
-               <lb/> Started early at 12 for <placeName>Pompeii</placeName>—
+               <lb/> Started early at 12 for <placeName ref="#POMP">Pompeii</placeName>—
                <lb/> lunched outside the city, took up
                <lb/> our line of march thro' street &amp;
                <lb/> theatre, baker shop &amp; tomb. Saw
@@ -5446,7 +5442,7 @@
                <lb/> paintings &amp; singular domestic
                <lb/> arrangements. A history such
                <lb/> as has never been written. 
-               <lb/> <placeName>Pompeii</placeName> lies beyond the Volcano,
+               <lb/> <placeName ref="#POMP">Pompeii</placeName> lies beyond the Volcano,
                <lb/> &amp; was flooded from that side.
                <lb/> Its theatres were great. A queer
                <lb/> comic genius sang for us in
@@ -5487,7 +5483,7 @@
                <lb/> points, saw fine little romantic
                <lb/> spots on bay; drove up &amp; down
                <lb/> <choice><sic>amdst</sic><corr>amidst</corr></choice> the beauty and wealth
-               <lb/> of <placeName>Naples</placeName>, far excelling any 
+               <lb/> of <placeName ref="#NAPL">Naples</placeName>, far excelling any 
                <lb/> thing yet seen of the Kind.—then
                <lb/> came home for the Opera.
             </p>
@@ -5745,7 +5741,7 @@
                <pb facs="SSCox_122"/>
                
                <lb/> reduced under the control of <persName>Ferdinand
-               <lb/> II</persName>: the brutal despot of <placeName>Naples</placeName>.  
+               <lb/> II</persName>: the brutal despot of <placeName ref="#NAPL">Naples</placeName>.  
                      We have
                <lb/> not been ashore. As I write we are
                <lb/> moving away from <placeName><choice><sic>Massena</sic><corr>Messina</corr></choice></placeName>.
@@ -5766,7 +5762,7 @@
                <lb/> truly, the "isle of the Sun."—
             </p>
             <p>
-               <lb/> Our banker at <placeName>Naples</placeName> is bright. He 
+               <lb/> Our banker at <placeName ref="#NAPL">Naples</placeName> is bright. He 
                <lb/> paid us $160. too much in gold. The
                <lb/> banking house is away up in a
                <lb/> steeple of a Church, not so high as
@@ -5803,13 +5799,13 @@
                <lb/></seg>zation; the old, absorbed the individual in
                <lb/> the state; the new has released the individ<seg type="softhyphen">-
                <lb/></seg>ual. Domestic comfort (as may be seen
-               <lb/> in <placeName>Pompeii</placeName>) was not known then as
+               <lb/> in <placeName ref="#POMP">Pompeii</placeName>) was not known then as
                <lb/> now. Home was the country not the 
                <lb/> house. Even yet this appears in
                <lb/><placeName type="region">Italy.</placeName>
             </p>
             <p>
-               <lb/> <placeName>Naples</placeName> is hopelessly enslaved
+               <lb/> <placeName ref="#NAPL">Naples</placeName> is hopelessly enslaved
                <lb/> politically. The King has such forts &amp;
                <lb/> arms as to preclude all resistance.
                <lb/> Another <persName><choice><sic>Mansaniella</sic><corr>Masaniello</corr></choice></persName> may arise
@@ -5832,7 +5828,7 @@
                <lb/> We are sliding off the toe of her 
                <lb/> boot into other lands. Today we
                <lb/> pass where <persName>Paul</persName> did en route
-               <lb/> to <placeName>Rome</placeName>, saw <placeName>Syracuse</placeName> where he stop<seg type="softhyphen">-
+               <lb/> to <placeName ref="#ROME">Rome</placeName>, saw <placeName>Syracuse</placeName> where he stop<seg type="softhyphen">-
                <lb/></seg>ped I believe to get a compass.  It is
                <lb/> a pretty place on a barren sort of place,
                <lb/> The sun was going down as we passed
@@ -5857,7 +5853,7 @@
                <lb/> our forward way, brings us into the
                <lb/> region of Intellectual Supremacy,
                <lb/> exercised by the Eye of the world,
-               <lb/> <placeName>Athens.</placeName> We rocked considerably
+               <lb/> <placeName ref="#ATHE">Athens.</placeName> We rocked considerably
                <lb/> in the night —, had an unpleasant
                <lb/> time with vermin; woke up in
             </p>
@@ -5872,7 +5868,7 @@
             <opener>
                <lb/>
                <dateline>
-                  <date when="1851-06-25"><placeName type="region"><hi rend="underline">Malta</hi></placeName>, June 25/1851</date>.
+                  <date when="1851-06-25"><placeName ref="#MALT" type="region"><hi rend="underline">Malta</hi></placeName>, June 25/1851</date>.
                </dateline>
             </opener>
             <p>
@@ -5928,7 +5924,7 @@
             </p>
             <p>
                <lb/> We entered the sides of the French War
-               <lb/> steamer <name type="ship">Egyptus</name> for <placeName>Athens</placeName>. Just before
+               <lb/> steamer <name type="ship">Egyptus</name> for <placeName ref="#ATHE">Athens</placeName>. Just before
                <lb/> we left, Music was heard below in
                <lb/> a boat, 4 fellows smoking &amp; fiddling.
                <lb/> Not a cent did they get. On the<supplied reason="omitted" resp="#ed">y</supplied> sawed;
@@ -6267,7 +6263,7 @@
                <lb/>
                <opener>
                   <dateline>
-                      <placeName type="City">
+                      <placeName ref="#SMYR" type="City">
                          <app xml:id="T6679">
                            <lem wit="#Cox1851a">Smyrna,</lem>
                            <rdg wit="#Cox1851b"><witStart/>Smyrna <placeName type="region">Asia</placeName>,</rdg>
@@ -6399,7 +6395,7 @@
             <opener>             
                <dateline>
                   <lb/>
-                  <placeName>Constantinople</placeName>
+                  <placeName ref="#CONS">Constantinople</placeName>
                   <date when="1851-07-03">July 3/51</date>             
                </dateline>             
             </opener>
@@ -6423,13 +6419,13 @@
             </p>
             <p>        
               
-               <lb/> Soon we were running out of <placeName type="region">Smyrna</placeName>
+               <lb/> Soon we were running out of <placeName ref="#SMYR" type="region">Smyrna</placeName>
                <lb/> between mainland &amp; <placeName type="region">Mytyline</placeName>   
                           (<placeName type="region">Lesbos</placeName>) 
                <lb/> birth place of <persName>Sappho</persName> — quite a rocky
                <lb/> isle — The valleys raise wine; <placeName> Lesbos</placeName>              
                <lb/> was the rival of <placeName>Rhodes</placeName> 
-                          &amp; <placeName>Athens</placeName>. The
+                          &amp; <placeName ref="#ATHE">Athens</placeName>. The
                <lb/> Ancients were corrupt. Persians held
                <lb/> it once. Venetians then Mahome<seg type="softhyphen">-
                <lb/></seg>dans, now Turks. We saw Tene<seg type="softhyphen">-
@@ -6504,7 +6500,7 @@
             <opener>
                <lb/>
                <dateline>               
-               <placeName>Constantinople</placeName>
+               <placeName ref="#CONS">Constantinople</placeName>
                <date when="1851-07-03">July 3<hi rend="superscript">d</hi>/<del type="unrecoverable" rend="overwritten"></del>51</date>.     
                </dateline>
             </opener>
@@ -6515,7 +6511,7 @@
              <lb/> Consul who had <add place="supralinear">called—</add>promised us and
              <lb/> in connection with several others —
              <lb/> French, Jews, &amp; English we started 
-             <lb/> for <placeName>Constantinople</placeName> proper — crossed
+             <lb/> for <placeName ref="#CONS">Constantinople</placeName> proper — crossed
              <lb/> in one of the neat long painted punts
              <lb/> the <placeName type="region">Golden Horn</placeName>—; waited a long 
              <lb/> time in a café; finally along came
@@ -6797,7 +6793,7 @@
                <lb/> more mosques.  — Went to buy
                <lb/> things — Saw Consul, got ready
                <lb/> my letters, &amp; all harked for
-               <lb/> <placeName type="region">Trieste</placeName>, — leave at 4 P.M.
+               <lb/> <placeName ref="#TRIE" type="region">Trieste</placeName>, — leave at 4 P.M.
             </p>
          </div>
          <div type="Entry" xml:id="Cox18510707a">
@@ -6806,10 +6802,10 @@
                   <lb/> <name type="ship">Imperatore</name>, <date when="1851-07-07">July 7. <hi rend="superscript">th</hi> 1851</date>.</dateline>
             </opener>
             <p>
-               <lb/> We lie at <placeName type="region">Smyrna</placeName>, just 
+               <lb/> We lie at <placeName ref="#SMYR" type="region">Smyrna</placeName>, just 
                <lb/> waiting to go ashore &amp; to take
                <lb/> a bath. We had a fine view 
-               <lb/> of the city of <choice><abbr><placeName type="region">Const.</placeName></abbr><expan>Constantinople</expan></choice> as we
+               <lb/> of the city of <choice><abbr><placeName ref="#CONS" type="city">Const.</placeName></abbr><expan>Constantinople</expan></choice> as we
                <lb/> left. The sun set so cosily on 
                <lb/> the city. Dolphins played around
                <lb/> us &amp; porpoises jumped about.
@@ -6823,7 +6819,7 @@
                
                <lb/> lovely scenes at distance farewell.
                <lb/> I commenced my closing letter about
-               <lb/> <placeName type="region">Constantinople</placeName>: have just finished &amp;
+               <lb/> <placeName ref="#CONS" type="city">Constantinople</placeName>: have just finished &amp;
                <lb/> am well satisfied with it. Hope 
                <lb/> <persName><hi rend="underline">Col. M.</hi></persName> will be. We have taken our
                <lb/> bath. How I can depicture it? Fol<seg type="softhyphen">-
@@ -7042,7 +7038,7 @@
          <div type="Entry" xml:id="Cox18510708a">
             <opener>
                <lb/>
-               <dateline> <placeName>Syra</placeName> — 
+               <dateline> <placeName ref="#SYRA">Syra</placeName> — 
                   <date when="1851-07-08">Tuesday, July 8 / 1851.</date>
                </dateline>
             </opener>            
@@ -7078,7 +7074,7 @@
          <div type="Entry" xml:id="Cox18510711a">
             <opener>
                <lb/>
-               <dateline> <placeName>Corfu</placeName>, 
+               <dateline> <placeName ref="#CORF">Corfu</placeName>, 
                   <date when="1851-07-11">July 11, 1851.</date>
                </dateline>
             </opener>            
@@ -7140,25 +7136,25 @@
                <opener>
                   <lb/>
                   <dateline>Sunday <date when="1851-07-13">June 13/51</date>, 
-                     <placeName><add place="supralinear" hand="#SSC">near </add><hi rend="underline">Trieste.</hi></placeName>
+                     <placeName ref="#TRIE"><add place="supralinear" hand="#SSC">near </add><hi rend="underline">Trieste.</hi></placeName>
                   </dateline>
                   </opener>
             <p> 
-               <lb/>We are coming into <placeName>Trieste</placeName>. Last night
+               <lb/>We are coming into <placeName ref="#TRIE">Trieste</placeName>. Last night
                <lb/>had such a splendid sunset, went up
                <lb/>to see it, come in — on a run. The <placeName type="sea">Adriatic</placeName>
                <lb/>on a high swell; was a gale the other
                <lb/>Night, did not get over. The sunset
                <lb/>made the waves glow like fiery gold!
                <lb/>Have finished all our letters; shall be
-               <lb/>in <placeName>Trieste</placeName> at 3; It is 12 M.  The sea is
+               <lb/>in <placeName ref="#TRIE">Trieste</placeName> at 3; It is 12 M.  The sea is
                <lb/>calm. So I am. ⁓
             </p>
          </div>
          <div xml:id="Cox18510713b" type="Entry">
             <opener>
                <dateline>
-                  <placeName>Trieste</placeName>, <date when="1851-07-13">July 13/51</date>.
+                  <placeName ref="#TRIE">Trieste</placeName>, <date when="1851-07-13">July 13/51</date>.
                </dateline>
             </opener>
             <p>
@@ -7203,13 +7199,13 @@
                <lb/>lolling around upon the grass. The
                <lb/>walks rose higher &amp; higher under the
                <lb/>oaks — &amp; was filled. — Shall not forget
-               <lb/><placeName>Trieste</placeName> on <choice><abbr>a/c</abbr><expan>account</expan></choice> of this novel Sight.
+               <lb/><placeName ref="#TRIE">Trieste</placeName> on <choice><abbr>a/c</abbr><expan>account</expan></choice> of this novel Sight.
                <lb/>The other cafés were also full. ⁓
             </p>
             <p>
-               <lb/>We left on 14<hi rend="superscript">th</hi> for <placeName>Venice</placeName> at 6 Am.
+               <lb/>We left on 14<hi rend="superscript">th</hi> for <placeName ref="#VENI">Venice</placeName> at 6 Am.
                <lb/>got up at ½ past 4. Now onboard.
-               <lb/>The city of <placeName>Trieste</placeName> looked fine under
+               <lb/>The city of <placeName ref="#TRIE">Trieste</placeName> looked fine under
                <lb/>its green hills — its fine villas, the culti<seg type="softhyphen">
                <lb/></seg>vation about, its red roofed fine
                <lb/>buildings. The Sea is a little rough.
@@ -7226,7 +7222,7 @@
                <lb/>glittered on them. — We were right 
                <lb/>glad to get over our Sea voyage. It 
                <lb/>was long &amp; tedious. Hope soon to be
-               <lb/>off for good. <placeName>Venice</placeName> towers up in
+               <lb/>off for good. <placeName ref="#VENI">Venice</placeName> towers up in
                <lb/>the distance rising out of the Sea. At
                <lb/>first it seemed like a few straggling
                <lb/>cypresses. — A few sail are on the sea.
@@ -7272,7 +7268,7 @@
             <lb/>
             <opener>
                <dateline>
-                  <placeName>Venice</placeName> <date when="1851-07-15">15 July 1851</date>.
+                  <placeName ref="#VENI">Venice</placeName> <date when="1851-07-15">15 July 1851</date>.
                </dateline>
             </opener>
             <p>
@@ -7286,8 +7282,8 @@
                <lb/>over the <placeName type="landmark">Bridge of <choice><sic>Sigh</sic><corr>Sighs</corr></choice></placeName> — must not for<seg type="softhyphen">-
                <lb/></seg>get the Library &amp; the old Globe with
                <lb/>the "<hi rend="underline">Floridas</hi>." — Went to <placeName type="landmark">S<hi rend="superscript">t</hi> Mark's</placeName>, then
-               <lb/>up the Tower &amp; saw all <hi rend="underline"><placeName>Venice</placeName></hi>.
-               <lb/>Fine view of tiles &amp; domes. <placeName>Venice</placeName> looked
+               <lb/>up the Tower &amp; saw all <hi rend="underline"><placeName ref="#VENI">Venice</placeName></hi>.
+               <lb/>Fine view of tiles &amp; domes. <placeName ref="#VENI">Venice</placeName> looked
                <lb/>as isle. No canals seem. It rained good.
                <lb/>We expect a good parting view of the City, as
                <lb/>we ride up <add place="supralinear">to</add> the rail road.
@@ -7328,11 +7324,11 @@
                <lb/>
                <opener>
                   <dateline>
-                     <placeName>Venice</placeName> — <placeName>Verona</placeName> —
+                     <placeName ref="#VENI">Venice</placeName> — <placeName ref="#VERO">Verona</placeName> —
                   </dateline>
                </opener>
             <p>  
-               <lb/><placeName>Venice</placeName> was left behind, and after get<seg type="softhyphen">-
+               <lb/><placeName ref="#VENI">Venice</placeName> was left behind, and after get<seg type="softhyphen">-
                <lb/></seg>ting out of the marshy land, we struck
                <lb/>into the garden<del type="recoverable" rend="overstrike">s</del> of gardens — the splendid
                <lb/>level country which lies between the
@@ -7358,7 +7354,7 @@
                <lb/>fields between the lines of trees, or
                <lb/>the harvesting. The second crop was
                <lb/>being ploughed for — Viz, millet. Soon the
-               <lb/>eye was on the look out for <placeName>Verona</placeName>. <choice><sic>Vi<seg type="softhyphen">-
+               <lb/>eye was on the look out for <placeName ref="#VERO">Verona</placeName>. <choice><sic>Vi<seg type="softhyphen">-
                <lb/></seg>censa</sic><corr>Vincenza</corr></choice> was on the lofty <del type="unrecoverable" rend="overwritten"/>hill — a beau<seg type="softhyphen">-
                   
                <!-- Proofed 20080917 by HLU -->
@@ -7396,7 +7392,7 @@
             <lb/>
             <opener>
                <dateline>
-                  <date when="1851-07-16"><placeName>Milan</placeName> July 16/51</date>.
+                  <date when="1851-07-16"><placeName ref="#MILA">Milan</placeName> July 16/51</date>.
                </dateline>
             </opener>
             
@@ -7408,7 +7404,7 @@
                <lb/></seg>try into the vernal heart of <placeName>Lombardy</placeName>,
                <lb/>untill we at last reached here at
                <lb/>4 P.M. The noticeable objects along this way
-               <lb/>from <placeName>Venice</placeName>  to <placeName>Milan</placeName> 
+               <lb/>from <placeName ref="#VENI">Venice</placeName>  to <placeName ref="#MILA">Milan</placeName> 
                were many. Indeed it
                <lb/>is a <choice><sic>gardee</sic><corr>garden</corr></choice>, not run to seed, but in the very
                
@@ -7447,7 +7443,7 @@
                <lb/>the baggage is put on — Tap! &amp; the 
                <lb/>door opens, &amp; 1<hi rend="superscript">st</hi> Class enter; Tap!
                <lb/>&amp; 2<hi rend="superscript">d</hi> class — no difficulty or rush.
-               <lb/>Soon we are on our way to <placeName>Milan</placeName>.
+               <lb/>Soon we are on our way to <placeName ref="#MILA">Milan</placeName>.
                <lb/>The road was lined with locusts, &amp;
                <lb/>it was hard to see the view. Bergamo
                <lb/>was toward the <placeName type="region">Alps</placeName>.
@@ -7457,7 +7453,7 @@
             <pb facs="SSCox_164"/>
             
                <lb/>Lodi to our South, we crossed the <placeName type="river">Adra</placeName>
-               <lb/>and soon were in the outskirts of <placeName>Milan</placeName>.
+               <lb/>and soon were in the outskirts of <placeName ref="#MILA">Milan</placeName>.
                <lb/>We entered the Posta gate, drove
                <lb/>under long promenades of seeming Buck<seg type="softhyphen">-
                <lb/></seg>eyes to the <placeName type="building"><hi rend="underline">Hotel de Ville</hi></placeName>; a splendid one.
@@ -7478,7 +7474,7 @@
                <lb/>Indeed every niche &amp; pinnacle has a form.
                <lb/>We were up 222 <choice><abbr>ft.</abbr><expan>feet</expan></choice> Grace Church N.Y.
                <lb/>is on top. — We could not but glance about us
-               <lb/>to see <placeName>Milan</placeName> now in its prime — went on 
+               <lb/>to see <placeName ref="#MILA">Milan</placeName> now in its prime — went on 
                <lb/>every side. The <placeName type="region">Alps</placeName> were not — tho' generally
                <lb/>visible. Went to the Arena, piazza d' Ar<seg type="softhyphen">-
                <lb/></seg>mi, buildings by Napoleon — to a church of 16
@@ -7498,7 +7494,7 @@
             <opener> 
                <lb/>
                <dateline>
-                  <placeName type="lake">Como Lake</placeName>.
+                  <placeName ref="#COMO" type="lake">Como Lake</placeName>.
                   <date when="1851-07-18">July 18/51</date>.
                </dateline>
             </opener>             
@@ -7519,7 +7515,7 @@
                <lb/></seg>ing on the shore. The air is clear. The hill
                <lb/>in front radiating up from the point
                <lb/>lose their tops in the clouds. Red tower
-               <lb/>looks out on the <placeName type="region">Lake</placeName>. Truly this is the 
+               <lb/>looks out on the <placeName ref="#COMO" type="region">Lake</placeName>. Truly this is the 
                <lb/>spot for Pauline to love or Claude to
                <lb/>picture. Music from the fort comes
                <lb/>over the water, &amp; the sound of the drum
@@ -7531,9 +7527,9 @@
                <lb/>are lined in clouds — Every variety of
                <lb/>land &amp; water view are here painted.
                <lb/>Groves of <choice><sic>maytle</sic><corr>myrtle</corr></choice> seem to cluster &amp; gol<seg type="softhyphen">-
-               <lb/></seg>den fruitage are reflected in the <rs type="lake">lake</rs>
+               <lb/></seg>den fruitage are reflected in the <rs ref="#COMO" type="lake">lake</rs>
                <lb/>near perpendicular strata. The chimes
-               <lb/>are rung from the city. <placeName type="lake">Como</placeName> seems to be 
+               <lb/>are rung from the city. <placeName ref="#COMO" type="lake">Como</placeName> seems to be 
                <lb/>in the lake, so low in its green setting.
                <lb/>We reach the point; the <placeName type="building">Villa</placeName> is at the
                
@@ -7551,7 +7547,7 @@
                <lb/>a hurry &amp; we pull for the shore.
             </p>
             <p>
-               <lb/>Our ride from <placeName>Milan</placeName> was fine
+               <lb/>Our ride from <placeName ref="#MILA">Milan</placeName> was fine
                <lb/>Did not see much of <placeName>Monza</placeName>,
                <lb/>though we much desired to visit
                <lb/>the Iron crowm &amp; the relics of
@@ -7562,7 +7558,7 @@
             <p>
                <lb/>We are already at 
                <del type="unrecoverable" rend="erased">  </del><add place="margin" hand="#SSC" rend="line"><placeName>Varese</placeName></add>
-               <lb/>between <placeName type="region">Como Lake</placeName> and 
+               <lb/>between <placeName ref="#COMO" type="region">Como Lake</placeName> and 
                <placeName type="region">Maggiore
                <lb/>Lake</placeName>; having dined; &amp; are about
                <lb/>to go to the latter to cross for the
