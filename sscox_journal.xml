@@ -432,152 +432,143 @@
             </biblFull>
                <!--List of Works Cited begins here-->
                
-               <listBibl>
-                  <head>Works Cited in Explanatory Notes and Editorial Introduction</head>              
-                  <!-- @n in this list contains an alphabetization key -->
-                  <bibl xml:id="NB" n="1"><hi rend="italics">NB: We do not
-                     provide citations to specific editions of canonical works of literature quoted by
-                     Cox.</hi>
-                  </bibl>
-                  
-                  <bibl xml:id="Bartlett" n="Bart">
-                     Bartlett, Joseph Gardner. <title level="m">Robert Coe, Puritan: His Ancestors and Descendants, 1340–1910; with Notices of other
-                        Coe Families</title>. J. Garner Bartlett, 1911.
-                  </bibl>
-                  <bibl xml:id="BrownU" n="Brow">
-                     Brown University. <title level="m">Historical Catalogue of Brown University, Providence, Rhode Island, 1764–1894</title>.
-                     P. S. Remington &amp; Co., 1895.
-                  </bibl>
-                  
-                  <bibl xml:id="Davis" n="Davi">
-                     Davis, Albert Henry. <title level="m">History of the Davis Family</title>. T.A. Wright, 1888.
-                  </bibl>
-                  
-                  <bibl xml:id="ML" n="Lloy">
-                     Lloyd, Matthew. <title level="m">Princess Theatre</title>. http://www.arthurlloyd.co.uk/Princess.htm">http://www.arthurlloyd.co.uk/Princess.htm. 28 May 2007. 15 May 2007.
-                  </bibl>
-                  
-                  <bibl xml:id="OED2" n="Oxfo">
-                     <title level="m">Oxford English Dictionary Online</title>. 2007. http://www.oed.com/
-                  </bibl>
-                  
-                  <bibl xml:id="TAD" n="Cale">
-                     <title level="a">Calender for year 1851 (United States)</title>. <title level="m">Time and Date</title>. Time and Date. http://www.timeanddate.com/calendar/?year=1851&amp;country=1. N.d. 16 May 2007.
-                  </bibl>
-                  
-                  <bibl xml:id="SC" n="Cran">
-                     Crane, Sylvia. <title level="m">White Silence: Greenough, Powers and Crawford</title>. University of Miami Press, 1972.
-                     <pubPlace>Coral Gables, FL</pubPlace>
-                     <publisher>University of Miami Press</publisher>
-                     <date>1972</date>
-                  </bibl>
-                  
-                  <bibl xml:id="KnoxCounty" n="Hist">
-                     <title level="m">History of Knox County</title>. http://www.heritagepursuit.com/Knox/KnoxFile8.htm. N.d. 23 May 2007.              
-                  </bibl>
-                  
-                  <bibl xml:id="GJPratt" n="Zadock">
-                     Zadock Pratt Museum. <title level="m">Prattsville History Highlights</title>. 12 August 2002. 23 May 2007. http://www.prattmuseum.com/history/History_new.html
-                  </bibl>
-                  
-                  <bibl xml:id="AnnSStephens" n="Northern">
-                     Northern Illinois University Library. <title level="m">Stephens, Ann S.</title>. Northern Illinois University. N. d. 11 August 2011 http://www.ulib.niu.edu/badndp/stephens_ann.html.
-                  </bibl>
-                  
-                  <bibl xml:id="MB2" n="Coxb">
-                     Cox, Samuel. <title level="m">A Buckeye Abroad</title>. George B. Putnam, 1852.
-                  </bibl>
-                  
-                  <bibl xml:id="FLB" n="Babc">
-                     Babcock, F. Laurence. <title level="m">Spanning the Atlantic</title>. Knopf, 1931.
-                  </bibl>
-                  
-                  <bibl xml:id="SSC1851" n="Coxb">
-                     Cox, Samuel Sullivan. <title level="m">A Buckeye Abroad; or, Wanderings in Europe and in the Orient</title>. Putnam, 1852. http://www.hti.umich.edu/cgi/t/text/pageviewer-idx?c=moa&amp;cc=moa&amp;idno=adl7930.0001.001&amp;q1=buckeye+abroad&amp;frm=frameset&amp;view=image&amp;seq=9.
-                  </bibl>
-                  
-                  <bibl xml:id="SSC1854" n="Coxc">
-                     Cox, Samuel Sullivan. <title level="m">A Buckeye Abroad; or, Wanderings in Europe and in the Orient</title>. Moore, Wilstach &amp; Keys, 1854.                   
-                  </bibl>
-                  
-                  <bibl xml:id="SSC1859" n="Coxd">
-                     Cox, Samuel Sullivan. <title level="m">A Buckeye Abroad; or, Wanderings in Europe and in the Orient</title>.
-                     7th ed. Follet, Foster, and Company, 1859.
-                  </bibl>
-                  
-                  <bibl xml:id="SSCBio" n="Coxe">
-                     Cox, William Van Zandt, and Milton Harlow Northrup. <title level="m">Life of Samuel Sullivan Cox</title>. M.H. Northup, 1899.
-                  </bibl>
-                  
-                  <bibl xml:id="QM2" n="Cuna">
-                     Cunard Line. <title level="m">Queen Mary 2: Ship Facts</title>. n.d. 10 Mar 2007. http://www.cunard.co.uk/OurShips/default.asp?Ship=QM2&amp;main=int&amp;sub=fac.
-                  </bibl>
-                  
-                  <bibl xml:id="EB" n="Ency">
-                     <title level="m">Encyclopædia Britannica Online</title>. 7 Mar 2007. http://www.britannica.com
-                  </bibl>
-                  
-                  <bibl xml:id="FEH" n="Hyde">
-                     Hyde, Francis, E. <title level="m">Cunard and the North Atlantic, 1840-1973</title>. Macmillan, 1975.
-                     <pubPlace>London</pubPlace>
-                     <publisher>Macmillan</publisher>
-                     <date>1975</date>
-                  </bibl>
-                  
-                  <bibl xml:id="SSCox" n="Lind">
-                     Lindsey, David. <title level="m">"Sunset" Cox, Irrepressible Democrat</title>. Wayne State University Press, 1959.
+            <listBibl>
+               <head>Works Cited in Explanatory Notes and Editorial Introduction</head>
+               <!-- @n in this list contains an alphabetization key -->
+               <bibl xml:id="NB" n="1"><hi rend="italics">NB: We do not provide citations to
+                     specific editions of canonical works of literature quoted by Cox.</hi>
+               </bibl>
+
+               <bibl xml:id="Bartlett" n="Bart"> Bartlett, Joseph Gardner. <title level="m">Robert
+                     Coe, Puritan: His Ancestors and Descendants, 1340–1910; with Notices of other
+                     Coe Families</title>. J. Garner Bartlett, 1911. </bibl>
+               <bibl xml:id="BrownU" n="Brow"> Brown University. <title level="m">Historical
+                     Catalogue of Brown University, Providence, Rhode Island, 1764–1894</title>. P.
+                  S. Remington &amp; Co., 1895. </bibl>
+
+               <bibl xml:id="Davis" n="Davi"> Davis, Albert Henry. <title level="m">History of the
+                     Davis Family</title>. T.A. Wright, 1888. </bibl>
+
+               <bibl xml:id="ML" n="Lloy"> Lloyd, Matthew. <title level="m">Princess
+                  Theatre</title>.
+                  http://www.arthurlloyd.co.uk/Princess.htm">http://www.arthurlloyd.co.uk/Princess.htm.
+                  28 May 2007. 15 May 2007. </bibl>
+
+               <bibl xml:id="OED2" n="Oxfo">
+                  <title level="m">Oxford English Dictionary Online</title>. 2007.
+                  http://www.oed.com/ </bibl>
+
+               <bibl xml:id="TAD" n="Cale">
+                  <title level="a">Calender for year 1851 (United States)</title>. <title level="m"
+                     >Time and Date</title>. Time and Date.
+                  http://www.timeanddate.com/calendar/?year=1851&amp;country=1. N.d. 16 May 2007. </bibl>
+
+               <bibl xml:id="SC" n="Cran"> Crane, Sylvia. <title level="m">White Silence: Greenough,
+                     Powers and Crawford</title>. University of Miami Press, 1972. <pubPlace>Coral
+                     Gables, FL</pubPlace>
+                  <publisher>University of Miami Press</publisher>
+                  <date>1972</date>
+               </bibl>
+
+               <bibl xml:id="KnoxCounty" n="Hist">
+                  <title level="m">History of Knox County</title>.
+                  http://www.heritagepursuit.com/Knox/KnoxFile8.htm. N.d. 23 May 2007. </bibl>
+
+               <bibl xml:id="GJPratt" n="Zadock"> Zadock Pratt Museum. <title level="m">Prattsville
+                     History Highlights</title>. 12 August 2002. 23 May 2007.
+                  http://www.prattmuseum.com/history/History_new.html </bibl>
+
+               <bibl xml:id="AnnSStephens" n="Northern"> Northern Illinois University Library.
+                     <title level="m">Stephens, Ann S.</title>. Northern Illinois University. N. d.
+                  11 August 2011 http://www.ulib.niu.edu/badndp/stephens_ann.html. </bibl>
+
+               <bibl xml:id="MB2" n="Coxb"> Cox, Samuel. <title level="m">A Buckeye Abroad</title>.
+                  George B. Putnam, 1852. </bibl>
+
+               <bibl xml:id="FLB" n="Babc"> Babcock, F. Laurence. <title level="m">Spanning the
+                     Atlantic</title>. Knopf, 1931. </bibl>
+
+               <bibl xml:id="SSC1851" n="Coxb"> Cox, Samuel Sullivan. <title level="m">A Buckeye
+                     Abroad; or, Wanderings in Europe and in the Orient</title>. Putnam, 1852.
+                  http://www.hti.umich.edu/cgi/t/text/pageviewer-idx?c=moa&amp;cc=moa&amp;idno=adl7930.0001.001&amp;q1=buckeye+abroad&amp;frm=frameset&amp;view=image&amp;seq=9. </bibl>
+
+               <bibl xml:id="SSC1854" n="Coxc"> Cox, Samuel Sullivan. <title level="m">A Buckeye
+                     Abroad; or, Wanderings in Europe and in the Orient</title>. Moore, Wilstach
+                  &amp; Keys, 1854. </bibl>
+
+               <bibl xml:id="SSC1859" n="Coxd"> Cox, Samuel Sullivan. <title level="m">A Buckeye
+                     Abroad; or, Wanderings in Europe and in the Orient</title>. 7th ed. Follet,
+                  Foster, and Company, 1859. </bibl>
+
+               <bibl xml:id="SSCBio" n="Coxe"> Cox, William Van Zandt, and Milton Harlow Northrup.
+                     <title level="m">Life of Samuel Sullivan Cox</title>. M.H. Northup, 1899. </bibl>
+
+               <bibl xml:id="QM2" n="Cuna"> Cunard Line. <title level="m">Queen Mary 2: Ship
+                     Facts</title>. n.d. 10 Mar 2007.
+                  http://www.cunard.co.uk/OurShips/default.asp?Ship=QM2&amp;main=int&amp;sub=fac. </bibl>
+
+               <bibl xml:id="EB" n="Ency">
+                  <title level="m">Encyclopædia Britannica Online</title>. 7 Mar 2007.
+                  http://www.britannica.com </bibl>
+
+               <bibl xml:id="FEH" n="Hyde"> Hyde, Francis, E. <title level="m">Cunard and the North
+                     Atlantic, 1840-1973</title>. Macmillan, 1975. <pubPlace>London</pubPlace>
+                  <publisher>Macmillan</publisher>
+                  <date>1975</date>
+               </bibl>
+
+               <bibl xml:id="SSCox" n="Lind"> Lindsey, David. <title level="m">"Sunset" Cox,
+                     Irrepressible Democrat</title>. Wayne State University Press, 1959.
                      <pubPlace>Detroit, MI</pubPlace>
-                     <publisher>Wayne State UP</publisher>
-                     <date>1959</date>
-                  </bibl>
-                  
-                  <bibl xml:id="Maury" n="Maur">
-                     Maury, M. F. <title level="m">The Physical Geography of the Sea</title>. 2nd ed., Harper, 1855.
-                     <pubPlace>New York, NY</pubPlace>
-                     <publisher>Harper</publisher>
-                     <date>1855</date>
-                  </bibl>
-                  
-                  <bibl xml:id="PWRC" n="Patu">
-                     Patuxent Wildlife Research Center, U.S. Geological Survey. <title level="a">Wilson's storm-petrel <name type="binomial">Oceanites oceanicus</name>.</title> <title level="m">Patuxent Bird Identification InfoCenter</title>. Patuxent Wildlife Research Center.
-                     http://www.mbr-pwrc.usgs.gov/id/framlst/i1090id.html
-                     N.d. 10 Feb 2007.
-                  </bibl>
-                  
-                  <bibl xml:id="Peskin" n="Pesk">
-                     Peskin, Allan. <title level="a">Cox, Samuel Sullivan.</title>
-                     <title level="m">American National Biography Online</title>. Oxford University Press.
-                     http://www.anb.org.proxy.lib.ohio-state.edu/articles/04/04-00274.html. Feb. 2000. 7 Mar 2007
-                  </bibl>
-                  <bibl xml:id="PollokBib" n="Poll">
-                     Pollock, Robert. <title level="m">The Course of Time</title>. Illus. ed. Edinburgh and London. William Blackwood and Sons, 1857.
-                  </bibl>               
-                  <bibl xml:id="EOR" n="Rand">
-                     Randall, E. O. <title level="a">Samuel Sullivan Cox: His Famous Word Picture.</title> <title level="m">Ohio History Journal</title>. 19 (1910): 331–332.
-                  </bibl>
+                  <publisher>Wayne State UP</publisher>
+                  <date>1959</date>
+               </bibl>
+
+               <bibl xml:id="Maury" n="Maur"> Maury, M. F. <title level="m">The Physical Geography
+                     of the Sea</title>. 2nd ed., Harper, 1855. <pubPlace>New York, NY</pubPlace>
+                  <publisher>Harper</publisher>
+                  <date>1855</date>
+               </bibl>
+
+               <bibl xml:id="PWRC" n="Patu"> Patuxent Wildlife Research Center, U.S. Geological
+                  Survey. <title level="a">Wilson's storm-petrel <name type="binomial">Oceanites
+                        oceanicus</name>.</title>
+                  <title level="m">Patuxent Bird Identification InfoCenter</title>. Patuxent
+                  Wildlife Research Center. http://www.mbr-pwrc.usgs.gov/id/framlst/i1090id.html
+                  N.d. 10 Feb 2007. </bibl>
+
+               <bibl xml:id="Peskin" n="Pesk"> Peskin, Allan. <title level="a">Cox, Samuel
+                     Sullivan.</title>
+                  <title level="m">American National Biography Online</title>. Oxford University
+                  Press. http://www.anb.org.proxy.lib.ohio-state.edu/articles/04/04-00274.html. Feb.
+                  2000. 7 Mar 2007 </bibl>
+               <bibl xml:id="PollokBib" n="Poll"> Pollock, Robert. <title level="m">The Course of
+                     Time</title>. Illus. ed. Edinburgh and London. William Blackwood and Sons,
+                  1857. </bibl>
+               <bibl xml:id="EOR" n="Rand"> Randall, E. O. <title level="a">Samuel Sullivan Cox: His
+                     Famous Word Picture.</title>
+                  <title level="m">Ohio History Journal</title>. 19 (1910): 331–332. </bibl>
                <bibl xml:id="Dorn" n="Dorn"> Dorn, Helen P. <title level="a">Samuel Medary,
                      Journalist and Politician, 1801-1864.</title>
                   <title level="j">Ohio History Journal</title>. 1944 (53.1): pp. 14–38.</bibl>
                <bibl xml:id="Samuel" n="Samuel">
                   <title level="a">Samuel Medary.</title>
                   <title level="j">Ohio History Journal</title>. 1925 (34.3): pp. 424–425. </bibl>
-                  
-                  <bibl xml:id="NHHATS" n="Sole">
-                     Solem, Børge, and Trond Austeim. <title level="a">S/S Asia (1), Cunard Line</title>. <title level="m">Norway-Heritage: Hands Across the Sea</title>
-                     http://www.norwayheritage.com/p_ship.asp?sh=asiaa.
-                     N.d. 23 Feb. 2007.
-                  </bibl>
-                  <bibl xml:id="TSL" n="Swig">
-                     Swiggum, S., and M. Kohli. <title level="a">Cunard Line / The British and North American Royal Mail Steam-Packet Company / Cunard Steamship Company, Limited.</title> <title level="m">The Ships List</title>.
-                     http://www.theshipslist.com/ships/lines/cunard.html. 1997. 23 Feb. 2007.
-                  </bibl>
-                  <bibl xml:id="SSComp" n="Turn">
-                     Turnbull, Paul. <title level="a">Mother Cary's Chickens (Wilson's Petrel).</title>
-                     <title level="m">South Seas Companion</title>. National Library of Australia. http://nla.gov.au/nla.cs-ss-biogs-P000125.
-                     N.d. 
-                     10 Feb 2007.
-                  </bibl>                 
-               </listBibl>
+
+               <bibl xml:id="NHHATS" n="Sole"> Solem, Børge, and Trond Austeim. <title level="a">S/S
+                     Asia (1), Cunard Line</title>. <title level="m">Norway-Heritage: Hands Across
+                     the Sea</title> http://www.norwayheritage.com/p_ship.asp?sh=asiaa. N.d. 23 Feb.
+                  2007. </bibl>
+               <bibl xml:id="TSL" n="Swig"> Swiggum, S., and M. Kohli. <title level="a">Cunard Line
+                     / The British and North American Royal Mail Steam-Packet Company / Cunard
+                     Steamship Company, Limited.</title>
+                  <title level="m">The Ships List</title>.
+                  http://www.theshipslist.com/ships/lines/cunard.html. 1997. 23 Feb. 2007. </bibl>
+               <bibl xml:id="SSComp" n="Turn"> Turnbull, Paul. <title level="a">Mother Cary's
+                     Chickens (Wilson's Petrel).</title>
+                  <title level="m">South Seas Companion</title>. National Library of Australia.
+                  http://nla.gov.au/nla.cs-ss-biogs-P000125. N.d. 10 Feb 2007. </bibl>
+            </listBibl>
             
             <listPerson type="mentioned">
                <head>This list identifies living persons whom Cox encounters, observes, or mentions
@@ -1024,7 +1015,6 @@
                   <persName type="Captain">Judkins</persName>
                   <orgName type="owner">British and North American Royal Mail Steam Packet Company</orgName>
                   <desc>The ship on which Cox sailed to Europe.</desc>
-                  <bibl></bibl>
                </item>
             </list>
 -->            
@@ -1334,7 +1324,7 @@
                and an indicated horse-power 2,150, making it, along with its sister ship
                <name type="ship">Africa</name> (built by Steele &amp; Son the same year), the largest ship at the time 
                in the Cunard fleet (Swiggum and Kohli; Hyde 326–327). The <name type="ship">Asia</name> departed
-               on its maiden voyage, from Liverpool to New York, on May 18, 1850 (Solem and Austheim).</note>
+               on its maiden voyage, from Liverpool to New York, on May 18, 1850 <bibl><ref target="#NHHATS">Solem and Austheim</ref></bibl>.</note>
                
             </head>
             
@@ -1512,7 +1502,7 @@
                <ptr type="noteAnchor" target="N504Julia"/><note resp="ed" xml:id="N504Julia" anchored="true">Samuel Sullivan Cox and Julia Ann Buckingham were married in October 1849 (Lindsey 8).</note>
                &amp; <persName>Lucy</persName>
                <ptr type="noteAnchor" target="N507Lucy"/><note resp="ed" xml:id="N507Lucy" anchored="true">According to David Lindsey, Lucy was a cousin of Julia and her brother, Philo
-               Buckingham (205).</note>
+               Buckingham <bibl><ref target="#Lind">205</ref></bibl>.</note>
                trembled at each
                <lb/> report. A few tears—! <placeName ref="#NEWY">
                   <choice><abbr>NY</abbr><expan>New York</expan></choice></placeName> began to
