@@ -176,10 +176,10 @@
                         throughout his life on political and popular subjects, including six travel
                         books. But in May 1851, Cox was a twenty-six-year-old Brown University
                         graduate who had moved back to Ohio to practice law and had recently married
-                        (Peskin). On May 7, he and his wife Julia (née Buckingham, whom he married
+                        <bibl><ref target="#Peskin">Peskin</ref></bibl>. On May 7, he and his wife Julia (née Buckingham, whom he married
                         in October 1849), along with her brother Philo Buckingham and a cousin, Lucy Sturges, set sail
-                        on a long-delayed honeymoon tour of Europe and the Orient (Linsey
-                        204–205).
+                        on a long-delayed honeymoon tour of Europe and the Orient <bibl><ref target="#SSCox">Linsey
+                        204–205</ref></bibl>.
                      </p>
                      <p>The manuscript journal presented in this edition records Cox's experiences
                         and reflections during the trip, but it also serves as a sketch pad for an
@@ -194,7 +194,7 @@
                            is to suggest to the reader how <emph rend="italic">he</emph> would be
                            likely to see Europe and the East if he looked at them with his own eyes
                            instead of the eyes of those who traveled in those countries before him.
-                           (xvii)</q><p> Cox presents a similarly self-effacing ethos:</p> <q rend="block">The only merit reserved for a volume of travels is, either that the
+                           <bibl><ref target="#SSC1851">xvii</ref></bibl></q><p> Cox presents a similarly self-effacing ethos:</p> <q rend="block">The only merit reserved for a volume of travels is, either that the
                            ground is untrodden, or that the mode of observation is new and peculiar.
                            The author can lay no claim to the former. Something may be conceded to
                            him, from the fact imported by the title—<title level="m">A Buckeye Abroad</title>. A
@@ -202,7 +202,7 @@
                            State,—may be supposed to look upon the scenes and mingle with
                            the throngs of the Old World with new and peculiar sensations, which may
                            find sympathy, if not with the general reader, at least with readers in
-                           Ohio. (5)</q><p> Of course, the degree to which Cox (or Twain, for that
+                           Ohio. <bibl><ref target="#SSC1851">5</ref></bibl></q><p> Of course, the degree to which Cox (or Twain, for that
                         matter) presents "new and peculiar" views of Europe to his contemporaries is
                         open to interpretation. In Cox's notes about each stage of
                         his party's journey, however, twenty-first-century readers are sure to find
@@ -237,8 +237,8 @@
                         before Cox's trip, was a wooden-hulled sidewheeler, 266 feet long by 40 wide
                         with a gross tonnage of 2,226. By contrast, the current flagship of the
                         Cunard Line, the <name type="ship">Queen Mary 2</name>, is 1,132 feet long
-                        by 135 feet wide abeam with an approximate gross tonnage of 151,400 (Cunard
-                        Line). The ride, in short, was rough in any seas. These early pages of Cox's
+                        by 135 feet wide abeam with an approximate gross tonnage of 151,400 <bibl><ref target="#QM2">Cunard
+                        Line</ref></bibl>. The ride, in short, was rough in any seas. These early pages of Cox's
                         journal also contain more subtle evidence of how violently the ship would
                         pitch and roll. While most of the journal is written in ink, the pages
                         composed at sea are written first in pencil, then traced over at some later
@@ -254,7 +254,7 @@
                         steamship travel, particularly the competition between the British Cunard
                         Line and the American Collins Line during the 1850s to build ever bigger,
                         more powerful ships that would provide the fastest, most elegant
-                        transatlantic crossing (Babcock 91–101). Cox provides a front-row
+                        transatlantic crossing <bibl><ref target="#FLB">Babcock 91–101</ref></bibl>. Cox provides a front-row
                         view of that international competition in his description of the <name type="ship">Asia's</name> encounter with the U.S. steamer <name type="ship">Humboldt</name> (not a Collins ship) and his speculation that the
                            <name type="ship">Asia</name> will beat the best crossing time of the
                         Collins steamer <name type="ship">Pacific</name>.</p>
@@ -281,7 +281,7 @@
                         description of a sunset published in <title level="m">The Ohio
                         Statesman</title>, a political journal that he owned and edited in Columbus,
                         Ohio. Introducing a reprint of Cox's sunset essay in a 1910 volume of <title level="m">Ohio History</title>, E. O. Randall calls Cox a "master word
-                        painter" (331). However, in his Preface to <title level="m">A Buckeye Abroad</title>,
+                        painter" <bibl><ref target="#EOR">331</ref></bibl>. However, in his Preface to <title level="m">A Buckeye Abroad</title>,
                         Cox somewhat more modestly characterizes his literary allusions and
                         descriptive prose as spontaneous <foreign xml:lang="fre">plein air</foreign>
                         daguerreotypes of the scenes before
@@ -290,7 +290,7 @@
                            not sought for, but sprung out of the time and locality. Each lineament
                            of each form in Nature or Art, each custom and characteristic were
                            daguerreotyped, though somewhat rapidly, if not imperfectly, from the
-                           original, as it appeared in itself and in its environment. (6)</q> <p>While
+                           original, as it appeared in itself and in its environment. <bibl><ref target="#SSC1851">6</ref></bibl></q> <p>While
                         it lies beyond the scope of this introduction to test Cox's claims, it is
                         worth noting here that the journal, from the early entries onward, provides
                         a rough means of gauging the spontaneity and directness of the writing in <title level="m">A Buckeye Abroad</title> and the degree to which it results from
@@ -404,7 +404,7 @@
                         the mind; not intense &amp; thrilling; but mellowed &amp; tender as a sunset would produce or 
                         a picture of Murillo. Soon P &amp; I began to throw the warm water at each other; in the mean 
                         time the sweat running, &amp; the sensation robbing the body of all save enjoyment."  
-                        Not surprisingly, Cox omits most of this private description  from <title level="m">A 
+                        Not surprisingly, Cox omits most of this private description from <title level="m">A 
                         Buckeye Abroad</title>.
                      </p>
                      <p rend="h3" xml:id="trieste">Trieste, Venetia, and Lombardy</p> 
@@ -435,8 +435,7 @@
             <listBibl>
                <head>Works Cited in Explanatory Notes and Editorial Introduction</head>
                <!-- @n in this list contains an alphabetization key -->
-               <bibl xml:id="NB" n="1"><hi rend="italics">NB: We do not provide citations to
-                     specific editions of canonical works of literature quoted by Cox.</hi>
+               <bibl xml:id="NB" n="1"><hi rend="italics">NB: We do not list canonical works of literature quoted by Cox.</hi>
                </bibl>
 
                <bibl xml:id="Bartlett" n="Bart"> Bartlett, Joseph Gardner. <title level="m">Robert
@@ -568,6 +567,9 @@
                      Chickens (Wilson's Petrel).</title>
                   <title level="m">South Seas Companion</title>. National Library of Australia.
                   http://nla.gov.au/nla.cs-ss-biogs-P000125. N.d. 10 Feb 2007. </bibl>
+               <bibl xml:id="Hymns" n="Miss">"Missionary Hymn." <title level="m">Hymns of the Kingdom of
+                     God</title>. Henry Sloane Coffin and Ambrose White Vernon, eds., New York:
+                  The A. S. Barnes Company, 1910. #167.</bibl>
             </listBibl>
             
             <listPerson type="mentioned">
@@ -1476,7 +1478,7 @@
                <lb/> Coe <foreign xml:lang="lat">et <hi rend="underline"><choice><abbr>ux</abbr><expan>uxor</expan></choice></hi></foreign>
                   (just married yesterday)<ptr type="noteAnchor" target="HICoe"/>
                <note resp="ed" xml:id="HICoe" anchored="true">Presumably Rev. Henry Issac Coe (b. 1826). A classmate of Cox's at Brown University,
-               Coe married Laura Ann Fletcher on May 6, 1851 (Davis 115–116; Brown University 151; Bartlett 261–261).</note>
+               Coe married Laura Ann Fletcher on May 6, 1851 <bibl><ref target="#Davis">Davis</ref> 115–116; <ref target="#BrownU">Brown University</ref> 151; <ref target="#Bartlett">Bartlett</ref> 261–261</bibl>.</note>
                <lb/> came over—<persName>Henry Clark </persName>we saw,                              
                <lb/> &amp; spoke to, on the dock. We began
                <lb/> to move away at 12 <choice><abbr>M.</abbr><expan>meridies</expan></choice>—
@@ -1499,7 +1501,7 @@
                   <placeName>Castle gar<seg type="softhyphen">
                <lb/></seg>den</placeName>. <persName>
                Julia</persName>
-               <ptr type="noteAnchor" target="N504Julia"/><note resp="ed" xml:id="N504Julia" anchored="true">Samuel Sullivan Cox and Julia Ann Buckingham were married in October 1849 (Lindsey 8).</note>
+               <ptr type="noteAnchor" target="N504Julia"/><note resp="ed" xml:id="N504Julia" anchored="true">Samuel Sullivan Cox and Julia Ann Buckingham were married in October 1849 <bibl><ref target="#SSCox">Lindsey</ref> 8</bibl>.</note>
                &amp; <persName>Lucy</persName>
                <ptr type="noteAnchor" target="N507Lucy"/><note resp="ed" xml:id="N507Lucy" anchored="true">According to David Lindsey, Lucy was a cousin of Julia and her brother, Philo
                Buckingham <bibl><ref target="#Lind">205</ref></bibl>.</note>
@@ -1769,7 +1771,7 @@
                describes the contemporary understanding of the currents that carry icebergs to the coast of Newfoundland:
                "cold waters, as they come down from the Arctic Ocean through Davis's Straits, press upon the warm waters 
                of the Gulf Stream, and curve their channel into a horse-shoe. . . . This 'bend' is the great receptacle of 
-               the icebergs which drift down from the north" (241–42)   
+               the icebergs which drift down from the north" <bibl><ref target="#Maury">241–42</ref></bibl>   
                   <figure rend="link">
                      <head>Maury, Plate VI</head>
                      <graphic url="image_sscox_gulf_stream.jpg"></graphic>
@@ -1959,7 +1961,7 @@
                   <name type="ship">Atlantic</name>, were somewhat larger than the <name type="ship">Asia</name>
                   at 282 feet, with a gross tonnage of 2,800 and an indicated horse-power of 2,000. While
                   the lines' competition extended to passenger accommodations and rates charged for freight,
-                  the speed of the Atlantic crossing especially caught the public's imagination (Babcock 92–95).
+                  the speed of the Atlantic crossing especially caught the public's imagination <bibl><ref target="#FLB">Babcock 92–95</ref></bibl>.
                </note>
                
             </p>
@@ -2084,8 +2086,8 @@
                <lb/> Mother Cary's chickens— 
                <ptr type="noteAnchor" target="N911cary"/>
                <note resp="ed" xml:id="N911cary" anchored="true">Wilson's Storm Petrel (<name
-                     type="binomial">Oceanites oceanicus</name>) <bibl><author>Turnbull</author>;
-                        <author>Patuxent Wildlife Research Center</author></bibl>.</note>
+                     type="binomial">Oceanites oceanicus</name>) <bibl><ref target="#SSComp">Turnbull</ref>;
+                        <ref target="#PWRC">Patuxent Wildlife Research Center</ref></bibl>.</note>
                I
                <lb/> saw too, a little tiny bird, <q>all
                <lb/> alone—all alone</q>
@@ -2224,7 +2226,7 @@
                <lb/> as that which Softly blows
                <lb/> <quote rend="blockquote">O'er Ceylon's isle</quote><ptr type="noteAnchor" target="Ceylon"/>
                <note resp="ed" xml:id="Ceylon" anchored="true">See the missionary hymn "From Greenland's Icy Mountains," by Bishop Reginal Heber:
-               "What though the spicy breezes / Blow soft o'er Ceylon's isle" (Robinson 446).</note>
+               "What though the spicy breezes / Blow soft o'er Ceylon's isle" <bibl><ref target="#Hymns">"Missionary Hymn"</ref></bibl>.</note>
                <lb/> I sit now on the steps of the upper
                <lb/> deck, the sailors are putting up
                <lb/> their ropes into snaky coils, the sound
@@ -2232,7 +2234,7 @@
                <lb/> with the '<quote>profound Eternal bass</quote>'<ptr type="noteAnchor" target="Pollok"/>
                <note resp="ed" xml:id="Pollok" anchored="true">See <title level="m">The Course of Time</title>, by Robert Pollok (1798–1827): "Great Ocean! stongest of 
                   creation's sons, / Unconquerable, unreposed, untired, / that rolled the wild, profound, eternal bass, / In nature's
-                  anthem" (239).</note> of
+                  anthem" <bibl><ref target="#PollokBib">239</ref></bibl>.</note> of
                <lb/> Ocean's roar. French fops and
                <lb/> English cockneys smoke cigars, whose
                <lb/> light vapor darts away to blend
@@ -2582,7 +2584,7 @@
                   <placeName type="city">Columbus, Ohio</placeName>. <persName>Samuel Medary's</persName> 
                   obituary in <title level="m">Ohio History Journal</title> connects <persName>Medary's</persName> 
                   work as editor of the <title>Ohio Statesman</title> and postmaster 
-                  in <placeName>Columbus, Ohio</placeName> (Dorn; "Samuel Medary"). 
+                  in <placeName>Columbus, Ohio</placeName> <bibl><ref target="#Dorn">Dorn</ref>; <ref target="#Samuel">"Samuel Medary"</ref></bibl>. 
                </note> giving full <choice><abbr>acc'ts</abbr><expan>accounts</expan></choice> of
                <lb/> our trip.—<persName>Julia</persName> has been so
                <lb/> much better, having finished
@@ -2791,7 +2793,7 @@
                       <lb/> Historian of the Medici. It recal<seg type="softhyphen">-
                       <lb/></seg>led his name &amp; <persName>Irving's</persName> Eloquent
                       <lb/> tribute.<ptr type="noteAnchor" target="n2497tribute"/>
-               <note resp="ed" xml:id="n2497tribute" anchored="true">See <title level="m">The Sketch Book of Geoffrey
+               <note resp="ed" xml:id="n2497tribute" anchored="true">See "Roscoe," in Washington Irving's <title level="m">The Sketch Book of Geoffrey
                   Crayon</title>.</note> Next came the Docks,
                       <lb/> which we reached by passing <choice><abbr>thro'</abbr><expan>through</expan></choice>
                       <lb/> a grave yard, over grave stones,
@@ -3102,7 +3104,7 @@
                <lb/> ½ past 12. Have returned
                <lb/> from <placeName type="place"/>Princess' Theatre,  
                <ptr type="noteAnchor" target="PrincessT"/><note resp="ed" xml:id="PrincessT" anchored="true">The Princess Theatre was built just 10 years before
-                  Cox takes in the show (Lloyd).</note> where we heard
+                  Cox takes in the show <bibl><ref target="#ML">Lloyd</ref></bibl>.</note> where we heard
                <lb/><persName type="person"/><persName type="person"/>M<hi rend="superscript">r</hi> 
                and M<hi rend="superscript">rs</hi> Kean in 'Pauline'. 
                <ptr type="noteAnchor" target="Pauline"/><note resp="ed" xml:id="Pauline" anchored="true">Cox refers to Dion Boucicault's <title level="m">Pauline</title> (1851).
@@ -3121,7 +3123,7 @@
                <dateline>
                   <date>May <unclear>23</unclear>/5</date><ptr type="noteAnchor" target="N2810"/>
             <note resp="ed" xml:id="N2810" anchored="true">Based on subsequent entries and calendar data for 1851, it appears that Cox has misdated
-            this entry, which should probably read May 21, 1851 ("Calendar").</note>
+            this entry, which should probably read May 21, 1851 <bibl><ref target="#TAD">"Calendar"</ref></bibl>.</note>
                </dateline>
             </opener>
             
@@ -3206,7 +3208,7 @@
                <ptr type="noteAnchor" target="oopsy"/><note resp="ed" xml:id="oopsy" anchored="true">Cox corrects this dateline twice, crossing out "Friday"
                   and overwriting the "4" in "24" with a "3," resulting in an impossible date of
                   Thursday, May 23, 1851. Judging from the dates of other entries, the dateline
-                  should probably read Thursday, May 22, 1851 ("Calendar").</note>
+                  should probably read Thursday, May 22, 1851 <bibl><ref target="#TAD">"Calendar"</ref></bibl>.</note>
                <lb/><persName>Philo</persName> &amp; I took a cab, called
                <lb/> on <persName>M<hi rend="superscript">r</hi> Laurence</persName>, the Minister, treated
                <lb/> us very kindly, gave us tickets,
@@ -3220,11 +3222,11 @@
                <pb facs="SSCox_050"/>
                <lb/>who agreed to meet us at <placeName type="Artwork">Greek
                   <lb/> Slave</placeName>  <ptr type="noteAnchor" target="gs2739"/><note resp="ed" xml:id="gs2739" anchored="true">The Greek Slave is a 
-               famous and controversial statue by American Neoclassical sculptor, Hiram Powers (1805-1873) (Crane 203).</note>
+               famous and controversial statue by American Neoclassical sculptor, Hiram Powers (1805-1873) <bibl><ref target="#SC">Crane 203</ref></bibl>.</note>
                tomorrow 4 P.M; Thence
                <lb/> to <orgName type="institution">Baring &amp; Bro<hi rend="superscript">s</hi></orgName>, 
                <ptr type="noteAnchor" target="bb2740"/><note resp="ed" xml:id="bb2740" anchored="true">Barings and Brothers was a London-based merchant bank
-                  established in 1763 (<title level="m">Encyclopædia Britannica</title>). 
+                  established in 1763 <bibl><ref target="#EB"><title level="m">Encyclopædia Britannica</title></ref></bibl>. 
                </note> through <placeName type="street">Picca<seg type="softhyphen">-
                <lb/></seg>dilly</placeName>,<placeName type="street"> Fleet,</placeName> <placeName type="street"> Threadneedle</placeName> &amp;
                <lb/>such familiar streets. <persName>M<hi rend="superscript">r</hi>.
@@ -3243,7 +3245,7 @@
                   <date when="1851-05-23"> Friday, May 24/51</date> 
                </dateline>
             <ptr type="noteAnchor" target="wrd"/><note resp="ed" xml:id="wrd" anchored="true">Cox  erroneously dates
-               this entry; the dateline should read May 23, 1851 ("Calendar").</note>
+               this entry; the dateline should read May 23, 1851 <bibl><ref target="#TAD">"Calendar"</ref></bibl>.</note>
             </opener> 
             <p>
                <lb/> Went to <placeName>Exhibition</placeName>, all through
@@ -4111,19 +4113,19 @@
             <lb/> After resting some time, we started
             <lb/> out—Ladies with <persName>Miss Pratt</persName>
              <ptr type="noteAnchor" target="JPratt"/><note resp="ed" xml:id="JPratt" anchored="true"><persName>Julia Pratt</persName>, only daughter of 
-               <persName>Zadock Pratt</persName> of <placeName ref="#NEWY" type="region">New York</placeName> (<ref target="http://www.prattmuseum.com/pratts-five-wives.html"><title>Zadock Pratt 
-                  Museum</title></ref>).
+               <persName>Zadock Pratt</persName> of <placeName ref="#NEWY" type="region">New York</placeName> <bibl><ref target="#GJPratt"><title>Zadock Pratt 
+                  Museum</title></ref></bibl>.
             </note> &amp; 
             <lb/> <persName>Mrs. Stephens</persName>          
              <ptr type="noteAnchor" target="AnnStephens"/><note resp="ed" xml:id="AnnStephens" anchored="true"><persName>Ann Sophia Stephens</persName> is the author 
                of <hi rend="italics">Dime Novel No. 1</hi>. She worked as an author, editor, and magazine publisher. 
                She dedicated one of her poems to the Honorable <persName>Zadock Pratt</persName> 
                of <placeName ref="#NEWY" type="region">New York</placeName> 
-               (<ref target="http://www.niulib.niu.edu/badndp/stephens_ann.html"><title>Northern Illinois University Library</title></ref>).
+               <bibl><ref target="#AnnSStephens"><title>Northern Illinois University Library</title></ref></bibl>.
             </note>, we with <persName>Pratt</persName>              
              <ptr type="noteAnchor" target="GPratt"/><note resp="ed" xml:id="GPratt" anchored="true"><persName>George
                Pratt</persName> (b. April 18, 1830), only son of 
-               <persName>Zadock Pratt</persName> of <placeName ref="#NEWY" type="region">New York</placeName> (<ref target="http://www.prattmuseum.com/colonel-george-pratt.html"><title>Zadock Pratt Museum</title></ref>).
+               <persName>Zadock Pratt</persName> of <placeName ref="#NEWY" type="region">New York</placeName> <bibl><ref target="#GJPratt"><title>Zadock Pratt Museum</title></ref></bibl>.
             </note>—                  
             <lb/>went down the narrow streets—                 
             <lb/> so narrow some of them, you
@@ -4169,7 +4171,7 @@
             <lb/> colored, caught the Eye. One
             <lb/> church however was entirely
             <lb/> white.
-            <ptr type="noteAnchor" target="Maria"/><note resp="ed" xml:id="Maria" anchored="true">The Church of Santa Maria (<title level="m">A Buckeye Abroad</title> 100).
+            <ptr type="noteAnchor" target="Maria"/><note resp="ed" xml:id="Maria" anchored="true">The Church of Santa Maria <bibl><ref target="#SSC1851"><title level="m">A Buckeye Abroad</title> 100</ref></bibl>.
                </note> All the others betrayed
             <lb/> a mixture of Gothic &amp; <choice><sic>Sarcenic</sic><corr>Saracenic</corr></choice>,
             <lb/> of the <unclear>alludes</unclear> in fact.—We 
@@ -4480,7 +4482,7 @@
                <lb/></seg>onetted off the "<name type="ship">Mississippi</name>', 
                <ptr type="noteAnchor" target="R2"/><note resp="ed" xml:id="R2" anchored="true">The <name type="ship">U.S.S. Mississippi</name> cruised the Mediterranean from 1847-1851. 
                   According to <title level="m">A Buckeye Abroad</title>, the officers assisted the passengers of the <name type="ship">Asia</name> in 
-                  visiting the grave of Tobias Smollet (104).</note> for charging 
+                  visiting the grave of Tobias Smollet <bibl><ref target="#SSC1851">104</ref></bibl>.</note> for charging 
                <lb/>us double.⁓<add place="inline" hand="#SSC">The road to <placeName ref="#ROME">Rome</placeName> is rolling, not 
                   unlike <placeName type="state">Ohio</placeName>—
                <lb/> We saw ruins, fine cattle, wheat, tumuli, castles &amp;
@@ -4615,10 +4617,10 @@
                <lb/> <persName>Julia</persName> got up in the <quote>"rent of 
                <lb/> ruin,"</quote> &amp; I after her; read
                <lb/> <persName>Byron.</persName> Marked <persName>Murray</persName>:<ptr type="noteAnchor" target="Murray"/>
-               <note resp="ed" xml:id="Murray">John Murray's Handbooks for Travellers were published in
+               <note resp="ed" xml:id="Murray">John Murray's handbooks for travellers were published in
                   London beginning in 1836. Cox might have used several of the travel guides,
                   including <title level="m">A Hand-book for Travellers on the Continent</title>
-                  (5th ed., 1845).</note>
+                  <bibl><ref>5th ed., 1845</ref></bibl>.</note>
                <lb/> &amp; after scaring <del type="unrecoverable" rend="overwritten"/><choice><sic>lizzards</sic><corr>lizards</corr></choice> and 
                <lb/> birds came home. 
             </p>            
@@ -6472,7 +6474,7 @@
                <persName><choice><sic>Dannez</sic><corr>Dainese</corr></choice></persName>
                <ptr type="noteAnchor" target="C19"/><note resp="ed" xml:id="C19" anchored="true">According to <title level="m">A Buckeye Abroad, </title>Mr. Dainese was 
                           the consul 
-                          who accompanied Cox's party on their journey through Constantinople (219).</note>
+                          who accompanied Cox's party on their journey through Constantinople <bibl><ref target="#SSC1851">219</ref></bibl>.</note>
                <!-- How to encode the spaces left by Cox? -->
                <lb/> <handShift medium="pencil"/>our Consul, — was very <hi rend="underline">very</hi> po<seg type="softhyphen">-
                <lb/></seg>lite. Went to the bazaars,— saw all 
@@ -6555,7 +6557,7 @@
              <lb/> Minister  "<q><hi rend="underline">to go to hell</hi>, that they
              <lb/> brought the <choice><sic>Gaiours</sic><corr>Giaours</corr></choice>  
                 <ptr type="noteAnchor" target="C16"/><note resp="ed" xml:id="C16" anchored="true">See Cox's fuller version of this
-                     scolding in <title level="m">A Buckeye Abroad</title> (220–221).</note> here; that 
+                     scolding in <title level="m">A Buckeye Abroad</title> <bibl><ref target="#SSC1851">220–221</ref></bibl>.</note> here; that 
              <lb/> the time was <choice><sic>Ramadzin</sic><corr>Ramadan</corr></choice></q>" — a 
              <lb/> holy month, in which the Turks
              <lb/> fast &amp; sleep all day; &amp; smoke
@@ -6733,7 +6735,7 @@
          <lb/> Also observed the petitions going
          <lb/> on after the crowd which conduc<seg type="softhyphen">-
             <lb/></seg>ted the Sultan.<ptr type="noteAnchor" target="U11"/><note resp="ed" xml:id="U11" anchored="true">In <title level="m">
-            A Buckeye Abroad</title>, Cox identifies the current Sultan as Abd-ul-Mejid (209).</note> The Sultanas
+            A Buckeye Abroad</title>, Cox identifies the current Sultan as Abd-ul-Mejid <bibl><ref target="#SSC1851">209</ref></bibl>.</note> The Sultanas
          <lb/> were hid behind the lattice of
          <lb/> the large Seraglio. Poor fellows!
          <lb/> They looked bad at the Ramazan
@@ -6836,7 +6838,7 @@
                <lb/> Embodied ooziness. The nose was 
                <lb/> pendant like an Otaheitan
                <ptr type="noteAnchor" target="U20"/><note resp="ed" xml:id="U20" anchored="true">Cox is probably using (and misspelling) a now
-                  obsolete term for Tahitian (OED).</note> with a gem 
+                  obsolete term for Tahitian <bibl><ref target="#OED2"><title level="m">OED</title></ref></bibl>.</note> with a gem 
                <lb/> therein. The ears were tremulous &amp; dan<seg type="softhyphen">-
                <lb/></seg>cing in their prismatic drops. The 
                <lb/> forehead gleamed with its <choice><sic>coronel</sic><corr>coronal</corr></choice>. A
