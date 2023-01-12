@@ -7,28 +7,28 @@
          <titleStmt>
             <title>Samuel Sullivan Cox's "Journal of a Tour to Europe" (1851).</title>
              
-            <editor role="editor">Andrea Avenido</editor>
-            <editor role="editor">Puja Batra-Wells</editor>
-            <editor role="editor">MariaTeresa Beltran-Aponte</editor>
-            <editor role="editor">Karen M. Beyer</editor>
-            <editor role="editor">Mike Bubenik</editor>
-            <editor role="editor">Frances Caroline Buschur</editor>
-            <editor role="editor">Johaun Cheng</editor>
-            <editor role="editor">Katrina F. Cook</editor>
-            <editor role="editor">Bill W. Dantowitz</editor>
-            <editor role="editor">Sam Eilerman</editor>
-            <editor role="editor">Nate Ellis</editor>
-            <editor role="editor">Rachel Fouch</editor>
-            <editor role="editor">Brian Keller</editor>
-            <editor role="editor">Riley Lease</editor>
-            <editor role="editor">Mike Liddy</editor>
-            <editor role="editor">Nick Long</editor>
-            <editor role="editor">Jennifer Lee Schneider</editor>
-            <editor role="principalEditor"><persName ref="HLU">H. Lewis Ulman</persName></editor>
-            <editor role="editor">Victoria R. Urban</editor>
-            <editor role="editor">Derrick Whan</editor>
-            <editor role="editor">Derek Craig Zoladz</editor>
+            <editor role="editor" ref="#Avenido">Andrea Avenido</editor>
+            <editor role="editor" ref="#BatraWells">Puja Batra-Wells</editor>
+            <editor role="editor" ref="#BeltronAponte">MariaTeresa Beltran-Aponte</editor>
+            <editor role="editor" ref="#Beyer">Karen M. Beyer</editor>
+            <editor role="editor" ref="#Bubenik">Mike Bubenik</editor>
+            <editor role="editor" ref="#Bushur">Frances Caroline Buschur</editor>
+            <editor role="editor" ref="#Cheng">Johaun Cheng</editor>
+            <editor role="editor" ref="#Cook">Katrina F. Cook</editor>
+            <editor role="editor" ref="#Dantowitz">Bill W. Dantowitz</editor>
             <editor role="proofreader">Envera Dukaj</editor>
+            <editor role="editor" ref="#Eilerman">Sam Eilerman</editor>
+            <editor role="editor" ref="#Ellis">Nate Ellis</editor>
+            <editor role="editor" ref="#Fouch">Rachel Fouch</editor>
+            <editor role="editor" ref="#Keller">Brian Keller</editor>
+            <editor role="editor" ref="#Lease">Riley Lease</editor>
+            <editor role="editor" ref="#Liddy">Mike Liddy</editor>
+            <editor role="editor" ref="#Long">Nick Long</editor>
+            <editor role="editor" ref="#Schneider">Jennifer Lee Schneider</editor>
+            <editor role="principalEditor"><persName ref="#Ulman">H. Lewis Ulman</persName></editor>
+            <editor role="editor" ref="#Urban">Victoria R. Urban</editor>
+            <editor role="editor" ref="#Whan">Derrick Whan</editor>
+            <editor role="editor" ref="#Zoladz">Derek Craig Zoladz</editor>
             
             <respStmt>
                <resp>Creation of initial machine-readable transcript: </resp>
@@ -431,6 +431,165 @@
                
             </biblFull>
                <!--List of Works Cited begins here-->
+            
+            <listPerson type="editors">
+               <head>Editors</head>
+               <person xml:id="Avenido">
+                  <persName>Andrea Avenido</persName>
+                  <note type="biographical">Andrea Avenido is a recent graduate of The Ohio State
+                     University with a major in English. During college she was involved in Greek
+                     Life and is looking forward to a career in editing.</note>
+               </person>
+               <person xml:id="BatraWells">
+                  <persName>Puja Batra-Wells</persName>
+                  <note type="biographical">Puja Batra-Wells is a graduate of The Ohio State
+                     University. Her academic interests are in the fields of critical theory as well
+                     as cultural and nature studies, which she hopes to pursue further in graduate
+                     school.</note>
+               </person>
+               <person xml:id="BeltronAponte">
+                  <persName>MaríaTeresa Beltran-Aponte</persName>
+                  <note type="biographical">MaríaTeresa Beltran-Aponte is a Ph.D. candidate in
+                     Hispanic Literatures and Cultures and a Graduate Teaching Associate in the
+                     Department of Spanish and Portuguese at The Ohio State University. Her research
+                     interests include visual culture, literacy, and contemporary literature, in
+                     particular the relationships between text and image.</note>
+               </person>
+               <person xml:id="Beyer">
+                  <persName>Karen M. Beyer</persName>
+                  <note type="biographical">Karen M. Beyer is a recent graduate of The Ohio State
+                     University. She holds a B.A. in English, with a focus in American Literature,
+                     and a minor in professional writing. Karen now works as an Assistant Production
+                     Editor for the McGraw-Hill Companies' School-Solutions Group.</note>
+               </person>
+               <person xml:id="Bubenik">
+                  <persName>Mike Bubenik</persName>
+                  <note type="biographical">Mike Bubenik is a recent graduate of The Ohio State
+                     University with a major in political science.</note>
+               </person>
+               <person xml:id="Bushur">
+                  <persName>Frances Buschur</persName>
+                  <note type="biographical">Frances Buschur is a graduate student in the Department
+                     of Design at The Ohio State University, and holds a BFA in Fine Arts Graphic
+                     Design from Ohio University. Before returning to gradate studies she worked
+                     professionally in the fields of Visual Communication and Corporate
+                     Identity.</note>
+               </person>
+               <person xml:id="Cheng">
+                  <persName>Johaun Cheng</persName>
+                  <note type="biographical">Johaun Cheng is a senior from Vandalia, Ohio majoring in
+                     English. Like many, he is uncertain about his future but excited for the ride
+                     to come.</note>
+               </person>
+               <person xml:id="Cook">
+                  <persName>Katrina Cook</persName>
+                  <note type="biographical">Katrina Cook is a first-year doctoral student working
+                     toward a Ph.D. in literacy at The Ohio State University. She holds a M.Ed. in
+                     reading and hopes to pursue a career working with school curricula.</note>
+               </person>
+               <person xml:id="Dantowitz">
+                  <persName>Bill W. Dantowitz</persName>
+                  <note type="biographical">Bill W. Dantowitz is a third-year English major from
+                     Boston, Massachusetts. He enjoys writing short fiction and plans to teach
+                     English in Latin America if and when he graduates.</note>
+               </person>
+               <person xml:id="Dukaj">
+                  <persName>Envera Dukaj</persName>
+                  <note type="biographical">Envera Dukaj is a graduate student in the Department of English.</note>
+               </person>
+               <person xml:id="Eilerman">
+                  <persName>Sam Eilerman</persName>
+                  <note type="biographical">Sam Eilerman is a senior English major at The Ohio State
+                     University, originally from Lima, Ohio. Upon graduation he plans on pursuing a
+                     career in professional writing.</note>
+               </person>
+               <person xml:id="Ellis">
+                  <persName>Nate Ellis</persName>
+                  <note type="biographical">Nate Ellis is a senior from Middletown, OH majoring in
+                     English. He plans to attend graduate school before pursuing a writing
+                     career.</note>
+               </person>
+               <person xml:id="Fouch">
+                  <persName>Rachel Fouch</persName>
+                  <note type="biographical">Rachel Fouch is a recent graduate from The Ohio State
+                     University with a major in Textiles and Clothing and a minor in English. Soon
+                     after graduation she plans to move to Chicago where she will pursue a career in
+                     the textile and fashion industry.</note>
+               </person>
+               <person xml:id="Keller">
+                  <persName>Brian Keller</persName>
+                  <note type="biographical">Brian Keller is a third-year undergraduate student
+                     studying English and Professional Writing at The Ohio State University. After
+                     finishing his program, he wants to continue writing in one form or
+                     another.</note>
+               </person>
+               <person xml:id="Lease">
+                  <persName>Riley Lease</persName>
+                  <note type="biographical">Riley Lease is a third-year English major at The Ohio
+                     State University. He currently works as a supervisor within the offices of
+                     University Development, while also aspiring to make a career out of music and
+                     writing.</note>
+               </person>
+               <person xml:id="Liddy">
+                  <persName>Mike Liddy</persName>
+                  <note type="biographical">Mike Liddy is a senior in English with a focus in
+                     Corporate Communication and a minor in Business at The Ohio State University.
+                     He currently works as a New Business Development Consultant at UnitedHealthcare
+                     and plans to pursue a corporate career in the health insurance industry.
+                  </note>
+               </person>
+               <person xml:id="Long">
+                  <persName>Nicholas Long</persName>
+                  <note type="biographical">Nicholas Long is a senior English major with a
+                     concentration in contemporary literature. He currently works as a student
+                     intern at WOSU Public Media as a production assistant on Fred Andrle's <title
+                        level="m">Open Line</title> program.</note>
+               </person>
+               <person xml:id="Schneider">
+                  <persName>Jennifer Schneider</persName>
+                  <note type="biographical">Jennifer Schneider is a first-year graduate student in
+                     the English Education at The Ohio State University. She holds a BFA in Art
+                     Education and Art History. Upon completion of her current program, she is
+                     planning to pursue a Ph.D. and continue her work in writing centers. </note>
+               </person>
+               <person xml:id="Ulman">
+                  <persName>Ulman, H. Lewis</persName>
+                  <note type="biographical">H. Lewis Ulman, Principal Editor, is Associate Professor
+                     of English at The Ohio State University and Assistant Dean for Instructional
+                     and Research Technology in the College of Humanities. He has edited <title
+                        level="m">The Minutes of the Aberdeen Philosophical Society,
+                        1758–1773</title> (Aberdeen University Press, 1990) and, with Dennis Quon,
+                     “Semiotics in Eighteenth-century Aberdeen: Thomas Gordon’s Contributions to the
+                     Aberdeen Philosophical Society” (<title level="j">Studies on Voltaire and the
+                        Eighteenth-Century</title> 317 (1994): 57–115) and has published <title
+                        level="m">Things, Thoughts, Words, and Actions: The Problem of Language in
+                        Late Eighteenth-Century British Rhetorical Theory</title> (Southern Illinois
+                     University Press, 1994). He is delighted to be living and working at a time
+                     when print culture and digital culture are encountering and accommodating one
+                     another, allowing him and his students to learn more about both media than they
+                     could by studying either in isolation.</note>
+               </person>
+               <person xml:id="Urban">
+                  <persName>victoria R. Urban</persName>
+                  <note type="biographical">Victoria R. Urban is currently a senior at Ohio State
+                     University with a major in English.</note>
+               </person>
+               <person xml:id="Whan">
+                  <persName>Wonkyu Derrick Whan</persName>
+                  <note type="biographical">Wonkyu Derrick Whan is a senior at The Ohio State
+                     University. He is majoring in English and hopes to become a high school teacher
+                     one day. </note>
+               </person>
+               <person xml:id="Zoladz">
+                  <persName>Derek Craig Zoladz</persName>
+                  <note type="biographical">Derek Craig Zoladz is a senior in the Department of
+                     Comparative Studies at The Ohio State University. His academic interests
+                     include 20th-century thought, radical music and identity. At home, you might
+                     find him composing music for Plexiglas® sheets, reading Jean Baudrillard, or
+                     listening to Edgard Varese. His current research focuses on early 20th-century
+                     concert hall riots.</note>
+               </person>
+            </listPerson>
                
             <listBibl>
                <head>Works Cited in Explanatory Notes and Editorial Introduction</head>
