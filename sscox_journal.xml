@@ -1241,7 +1241,7 @@
          
       </profileDesc>
       <revisionDesc xml:id="CoxRevisionHistory">
-         <change><date>2020-09</date><label>Principal editor</label><persName>H.Lewis Ulman</persName>Final proofreading.</change>
+         <change><date>2020-09</date><label>Principal editor</label><persName ref="#H">H.Lewis Ulman</persName>Final proofreading.</change>
          <change><date>2018-08</date><label>Principal editor</label><persName>H. Lewis Ulman</persName>Revision of encoding to align with design peer-reviewed by NINES.</change>
          <change><date>2011-08-11</date><label>Principal editor</label><persName>H. Lewis Ulman</persName>Final editing of bibliography and XSL style sheets.</change>
          <change><date>2011-01-14</date><label>Principal editor</label><persName>H. Lewis Ulman</persName>Removal of the unfinished audio version of the edition; proofing of annotations
@@ -1261,7 +1261,7 @@
          <div type="endpaper" xml:id="CoxFrontCover">
             <pb facs="SSCox_001"/>
             <p>
-                  <lb/><persName>S. Cox</persName>,
+                  <lb/><persName ref="#COXS">S. Cox</persName>,
                   <placeName><lb/>Zanesville
                   <lb/>Ohio
                      <lb/>(<choice><abbr>U.S.A.</abbr><expan>United States of America</expan></choice>)
@@ -1306,7 +1306,7 @@
                <lb/> <date when="1851-05-06">May 6/51</date> ~ <ptr type="noteAnchor" target="N1215"/><note resp="ed" xml:id="N1215" anchored="true">Cox leaves space on this line to the right of the tilde, presumably to enter the end
                date of the journal entries in this notebook. In his entry for July 18, 1851, he reports that he purchased a second journal in Milan,
                but that journal has not been located.</note>
-               <lb/> <persName><choice><abbr>Sam.l.</abbr><expan>Samuel</expan></choice> <choice><abbr>S.</abbr><expan>Sullivan</expan></choice> Cox</persName>
+               <lb/> <persName ref="#COXS"><choice><abbr>Sam.l.</abbr><expan>Samuel</expan></choice> <choice><abbr>S.</abbr><expan>Sullivan</expan></choice> Cox</persName>
                <lb/> <placeName>Zanesville, Ohio</placeName>,
                <lb/> <placeName type="country"><choice><abbr>U.S.A.</abbr><expan>United States of America</expan></choice></placeName>
             </p>
@@ -1467,7 +1467,7 @@
                    <lem wit="#Cox1851a"> </lem>
                    <rdg wit="#Cox1851b">—</rdg>
                </app>
-                <persName>
+                <persName ref="#JUDK">
                   <choice><abbr>Capt</abbr><expan>Captain</expan></choice>
                <lb/> Judkins. <choice><abbr>Ret.</abbr><expan>Retired</expan></choice></persName> The day was fine, the
                <lb/> Sun shone—no white caps to the
@@ -1479,7 +1479,7 @@
                   (just married yesterday)<ptr type="noteAnchor" target="HICoe"/>
                <note resp="ed" xml:id="HICoe" anchored="true">Presumably Rev. Henry Issac Coe (b. 1826). A classmate of Cox's at Brown University,
                Coe married Laura Ann Fletcher on May 6, 1851 <bibl><ref target="#Davis">Davis</ref> 115–116; <ref target="#BrownU">Brown University</ref> 151; <ref target="#Bartlett">Bartlett</ref> 261–261</bibl>.</note>
-               <lb/> came over—<persName>Henry Clark </persName>we saw,                              
+               <lb/> came over—<persName ref="#CLAR">Henry Clark </persName>we saw,                              
                <lb/> &amp; spoke to, on the dock. We began
                <lb/> to move away at 12 <choice><abbr>M.</abbr><expan>meridies</expan></choice>—
             </p>
@@ -1499,10 +1499,10 @@
                   Six times our guns fired as we
                <lb/> swept past <placeName>the battery </placeName> &amp; 
                   <placeName>Castle gar<seg type="softhyphen">
-               <lb/></seg>den</placeName>. <persName>
+               <lb/></seg>den</placeName>. <persName ref="#COXJ">
                Julia</persName>
                <ptr type="noteAnchor" target="N504Julia"/><note resp="ed" xml:id="N504Julia" anchored="true">Samuel Sullivan Cox and Julia Ann Buckingham were married in October 1849 <bibl><ref target="#SSCox">Lindsey</ref> 8</bibl>.</note>
-               &amp; <persName>Lucy</persName>
+               &amp; <persName ref="#BUCL">Lucy</persName>
                <ptr type="noteAnchor" target="N507Lucy"/><note resp="ed" xml:id="N507Lucy" anchored="true">According to David Lindsey, Lucy was a cousin of Julia and her brother, Philo
                Buckingham <bibl><ref target="#SSCox">205</ref></bibl>.</note>
                trembled at each
@@ -1560,7 +1560,7 @@
                 <lb/> Sun go down in splendor—
                 <lb/> Joyed in the round sweep of
                 <lb/> the horizon, &amp; in the prospect
-                <lb/> beyond.— <persName>Julia</persName>
+                <lb/> beyond.— <persName ref="#COXJ">Julia</persName>
                       began to
                 <lb/> grow a little uneasy. She
                 <lb/> went to her <choice><sic>birth</sic><corr>berth</corr></choice> &amp; soon drop<seg type="softhyphen">-
@@ -1586,11 +1586,11 @@
             <p>
                <lb/> Sick to day, but able to be 
                <lb/> about. Dont think this Kind
-               <lb/> of sea sickness so bad. <persName>Philo</persName>
-               <lb/> &amp; <persName>Lucy</persName> are not affected at all
+               <lb/> of sea sickness so bad. <persName ref="#BUCKP">Philo</persName>
+               <lb/> &amp; <persName ref="#BUCL">Lucy</persName> are not affected at all
                <lb/> was about more or less all
                <lb/> day—went to bed early &amp;
-               <lb/> slept sound. <persName>Julia</persName> pretty
+               <lb/> slept sound. <persName ref="#COXJ">Julia</persName> pretty
                <lb/> sick. I had to keep on deck to
                <lb/> day—or give in.
             </p>
@@ -1629,7 +1629,7 @@
 
                <lb/> when will the end come?
                <lb/> Not for more than a week—
-               <lb/> Poor <persName>Julia</persName>—have not seen
+               <lb/> Poor <persName ref="#COXJ">Julia</persName>—have not seen
                <lb/> her all day—
             </p>
          </div>
@@ -1664,7 +1664,7 @@
                   <ptr type="noteAnchor" target="N1595"/>
                   <note resp="ed" xml:id="N1595" anchored="true">In <title level="m">Much Ado About Nothing</title>, Act 3, Scene 3, Dogberry says
                      "<quote>for the watch to babble and to / talk is most tolerable and not to be endured.</quote>"</note>                 
-                  <persName>Julia</persName>
+                  <persName ref="#COXJ">Julia</persName>
                <lb/> is yet in her <choice><sic>birth </sic><corr>berth</corr></choice>—somewhat
                   <app xml:id="T1609">
                      <lem wit="#Cox1851a">
@@ -1702,10 +1702,10 @@
                <lb/> anything to day</q>"—says kind
                   <app xml:id="T642colon">
                      <lem wit="#Cox1851a">
-                        <lb/> <persName>John Miller</persName>, our <choice><sic>servent</sic><corr>servant</corr></choice>—
+                        <lb/> <persName ref="#MILL">John Miller</persName>, our <choice><sic>servent</sic><corr>servant</corr></choice>—
                      </lem>
                      <rdg wit="#Cox1851b">
-                        <lb/> <persName>John Miller</persName>, our <choice><sic>servent</sic><corr>servant</corr></choice>:
+                        <lb/> <persName ref="#MILL">John Miller</persName>, our <choice><sic>servent</sic><corr>servant</corr></choice>:
                      </rdg>
                   </app>
                <lb/> "<q>No!</q>" is the sharp retort
@@ -1980,9 +1980,9 @@
                
                <lb/> in person upon the shores of
                <lb/> our progenitors—the land of 
-               <lb/> Shakespeare, Milton, Cromwell,
-               <lb/> Pilgrims, Blackstone, Guy
-               <lb/> Fawkes, <persName>Brougham</persName>, 
+               <lb/> <persName>Shakespeare</persName>, <persName>Milton</persName>, <persName>Cromwell</persName>,
+               <lb/> Pilgrims, <persName>Blackstone</persName>, Guy
+               <lb/> <persName>Fawkes</persName>, <persName>Brougham</persName>, 
                   Walter
                <lb/> Scott, et cet—Is it not great?
             </p>
@@ -2004,7 +2004,7 @@
                <lb/> Scotch are!—
             </p>
             <p>
-               <lb/> I wish <persName>Julia</persName> felt as well as I
+               <lb/> I wish <persName ref="#COXJ">Julia</persName> felt as well as I
                <lb/> this <choice><abbr>morng</abbr><expan>morning</expan></choice>. It is quite a relief
                <lb/> to be able thus to give vent
                <lb/> "<q>No pent up Utica<sic>"</sic>
@@ -2163,7 +2163,7 @@
                <lb/> Coal-ballast. The sailors sing
                <lb/> merrilly as they tug at the ropes.
                <lb/> Philo &amp; Lucy are above. I
-               <lb/> have just left <persName>Julia</persName> in her
+               <lb/> have just left <persName ref="#COXJ">Julia</persName> in her
                <lb/> <choice><sic>birth</sic><corr>berth</corr></choice>, where we have had a
                <lb/> good conversional time. Lucy
                <lb/> has just joined her. Since Mon<seg type="softhyphen">-
@@ -2175,7 +2175,7 @@
                <lb/> vessel to the South.  Have filled
                <lb/> or killed Time in reading Scott
                <lb/> novels—<title level="m">Black Dwarf</title> and
-               <lb/> <title level="m">old Mortality</title>. <persName>Julia</persName> is
+               <lb/> <title level="m">old Mortality</title>. <persName ref="#COXJ">Julia</persName> is
                <lb/> reading them after me—
                
                <!-- Proofed 20080721 by HLU/ED -->
@@ -2572,21 +2572,21 @@
                <lb/> Old <placeName type="country">England</placeName>, with all her 
                <lb/> <choice><sic>reccollections</sic><corr>recollections</corr></choice> so glorious.
                <lb/> I have written to Father &amp;
-               <lb/> <persName>Medary</persName>,                 
-               <ptr type="noteAnchor" target="ColM"/><note resp="ed" xml:id="ColM" anchored="true">This is probably a reference to Colonel <persName>Samuel Medary</persName>, 
-                  then editor of the <title level="m">Ohio Statesman</title>. Upon <persName>
+               <lb/> <persName ref="#MEDE">Medary</persName>,                 
+               <ptr type="noteAnchor" target="ColM"/><note resp="ed" xml:id="ColM" anchored="true">This is probably a reference to Colonel <persName ref="#MEDE">Samuel Medary</persName>, 
+                  then editor of the <title level="m">Ohio Statesman</title>. Upon <persName ref="#COXS">
                   Cox's</persName> return to the <placeName type="region">United States</placeName>, he purchased a half share of the 
                   <title level="m">Ohio Statesman</title>. This transaction was made public through a letter signed by 
-                  <persName>S. Medary</persName> that was published in the 
+                  <persName ref="#MEDE">S. Medary</persName> that was published in the 
                   <title level="m">Ohio Statesman</title>. The <title level="m">History of Knox County</title> reveals that 
-                  <persName>Samuel Medary</persName> was referred to as Colonel <persName>Samuel Medary</persName>. 
-                  This article also states that Colonel <persName>Samuel Medary</persName> was granted the postmastership in 
-                  <placeName type="city">Columbus, Ohio</placeName>. <persName>Samuel Medary's</persName> 
-                  obituary in <title level="m">Ohio History Journal</title> connects <persName>Medary's</persName> 
+                  <persName ref="#MEDE">Samuel Medary</persName> was referred to as Colonel <persName ref="#MEDE">Samuel Medary</persName>. 
+                  This article also states that Colonel <persName ref="#MEDE">Samuel Medary</persName> was granted the postmastership in 
+                  <placeName type="city">Columbus, Ohio</placeName>. <persName ref="#MEDE">Samuel Medary's</persName> 
+                  obituary in <title level="m">Ohio History Journal</title> connects <persName ref="#MEDE">Medary's</persName> 
                   work as editor of the <title>Ohio Statesman</title> and postmaster 
                   in <placeName>Columbus, Ohio</placeName> <bibl><ref target="#Dorn">Dorn</ref>; <ref target="#Samuel">"Samuel Medary"</ref></bibl>. 
                </note> giving full <choice><abbr>acc'ts</abbr><expan>accounts</expan></choice> of
-               <lb/> our trip.—<persName>Julia</persName> has been so
+               <lb/> our trip.—<persName ref="#COXJ">Julia</persName> has been so
                <lb/> much better, having finished
                <lb/> her Journal &amp; devoured whole
                <lb/> cargos of bread &amp; butter!—
@@ -2643,7 +2643,7 @@
               
             <pb facs="SSCox_036"/>
                 
-            <lb/> Made the  acquaintance of <persName>M<hi rend="superscript">r</hi> Waller</persName>
+            <lb/> Made the  acquaintance of <persName ref="#WALL">M<hi rend="superscript">r</hi> Waller</persName>
             <lb/> of <placeName type="city">Florence</placeName>, who will be useful. Our
             <lb/> passengers that are worth remembering
               <lb/> are <persName> M<hi rend="superscript">r</hi> Kelley</persName> &amp; 
@@ -2654,8 +2654,8 @@
              <p>                                  
              <lb/> Next came the hurrah &amp; exquisite
              <lb/> delight of landing. We touched the
-             <lb/> dock: &amp; I fairly capered. <persName> Philo</persName>
-             <lb/> looked after <persName> Lucys</persName> trunk, I after
+             <lb/> dock: &amp; I fairly capered. <persName ref="#BUCKP"> Philo</persName>
+             <lb/> looked after <persName ref="#BUCL"> Lucys</persName> trunk, I after
              <lb/> the ladies. We were first accosted by
              <lb/> the veritable <persName type="fictionalCharacter"> <hi rend="underline">O. Twist</hi></persName>,  
                 who in his tatters
@@ -2697,7 +2697,7 @@
              <p>                 
              <lb/> <placeName type="hotel">Waterloo</placeName> is reached. Ladies stood
              <lb/> ready to usher us in—took our names,
-             <lb/> <persName>Julia</persName> ordered rooms, &amp; soon we
+             <lb/> <persName ref="#COXJ">Julia</persName> ordered rooms, &amp; soon we
              <lb/> were so cosily fixed.
              </p>
              
@@ -2706,7 +2706,7 @@
              <lb/> lay awake. The <choice><abbr>morn'g</abbr><expan>morning</expan></choice> was not
              <lb/> long in breaking. Slept till 11. It 
              <lb/> was so nice to take coffee &amp; tea
-             <lb/> with muffins &amp; chops, all four, <persName>Julia</persName>
+             <lb/> with muffins &amp; chops, all four, <persName ref="#COXJ">Julia</persName>
              <lb/> presiding Tea Divinity, in our own 
              <lb/> parlor. Didn't we Enjoy it?
              <lb/> Read <placeName ref="#LOND">London</placeName> papers; &amp; here, with 
@@ -2847,7 +2847,7 @@
             </opener>
             <p>
                 We are temporarily stopped.
-               <lb/> Boys are crying the <title level="j" type="newspaper">"Times,"—</title><persName>M<hi rend="superscript">r</hi> Waller</persName>
+               <lb/> Boys are crying the <title level="j" type="newspaper">"Times,"—</title><persName ref="#WALL">M<hi rend="superscript">r</hi> Waller</persName>
                <lb/> who is with us in the car, is reading from
                <lb/> the <title level="j" type="newspaper">'times'</title>—The country which we have
                <lb/> passed through, has been one perfect
@@ -2913,7 +2913,7 @@
                <lb/> The land was of a reddish tinge, until
                <lb/> as we approached <placeName ref="#LOND" type="city"/>London,—near <placeName>Layton</placeName>,
                <lb/> a chalk formation appeared. Our agri<seg type="softhyphen">-
-               <lb/></seg>culturist <persName>P.</persName> was perfectly struck
+               <lb/></seg>culturist <persName ref="#BUCKP">P.</persName> was perfectly struck
                <lb/> dumb at what Art had done for
                <lb/> Nature here so naturally sterile.
                <lb/> The common roads were all bound in with
@@ -3042,7 +3042,7 @@
                   <lb/> canes, who looked so savage at a
                   <lb/> hack driver, that didn't give way
                   <lb/> immediately.  Pretty soon, we saw
-                  <lb/> hats go off—Hurrah! it's the <persName>Queen!</persName>
+                  <lb/> hats go off—Hurrah! it's the <rs>Queen!</rs>
                   <lb/> I noticed her as they passed, but did
                   <lb/> not observe anything ordinary—The
                   <lb/> little boy was dressed nicely, with a
@@ -3105,7 +3105,7 @@
                <lb/> from <placeName type="place"/>Princess' Theatre,  
                <ptr type="noteAnchor" target="PrincessT"/><note resp="ed" xml:id="PrincessT" anchored="true">The Princess Theatre was built just 10 years before
                   Cox takes in the show <bibl><ref target="#ML">Lloyd</ref></bibl>.</note> where we heard
-               <lb/><persName type="person"/><persName type="person"/>M<hi rend="superscript">r</hi> 
+               <lb/>M<hi rend="superscript">r</hi> 
                and M<hi rend="superscript">rs</hi> Kean in 'Pauline'. 
                <ptr type="noteAnchor" target="Pauline"/><note resp="ed" xml:id="Pauline" anchored="true">Cox refers to Dion Boucicault's <title level="m">Pauline</title> (1851).
                </note>
@@ -3156,9 +3156,9 @@
                <lb/> of vehicle from a dog cart to the 
                <lb/> <unclear>Prussian</unclear> royal carriage, with cream
                <lb/> colored horses, was on the road.
-               <lb/> Never had such a time. Lucy timid—
-               <lb/> Julia <hi rend="underline"><foreign xml:lang="fre">sangfroid.</foreign></hi> 
-               <persName>Lord Strathmore</persName>
+               <lb/> Never had such a time. <persName ref="#BUCL">Lucy</persName> timid—
+               <lb/> <persName ref="#COXJ">Julia</persName> <hi rend="underline"><foreign xml:lang="fre">sangfroid.</foreign></hi> 
+               <persName ref="#STRA">Lord Strathmore</persName>
                <lb/> ran bump against us. At last
                <lb/> after passing through glorious roads
                <lb/> adorned with hedges, &amp; beauteous
@@ -3190,7 +3190,7 @@
                <lb/> meadows; and then through crowds
                <lb/> packed close over <placeName>Westminster
                <lb/> home!</placeName>—Tired enough I wrote to
-               <lb/><persName>Medary</persName> &amp; father, then went to bed
+               <lb/><persName ref="#MEDE">Medary</persName> &amp; father, then went to bed
                <lb/> at 1 <del type="recoverable" hand="#SSC" rend="overwritten">P</del>A.M.—
             </p>   
             
@@ -3209,12 +3209,12 @@
                   and overwriting the "4" in "24" with a "3," resulting in an impossible date of
                   Thursday, May 23, 1851. Judging from the dates of other entries, the dateline
                   should probably read Thursday, May 22, 1851 <bibl><ref target="#TAD">"Calendar"</ref></bibl>.</note>
-               <lb/><persName>Philo</persName> &amp; I took a cab, called
-               <lb/> on <persName>M<hi rend="superscript">r</hi> Laurence</persName>, the Minister, treated
+               <lb/><persName ref="#BUCKP">Philo</persName> &amp; I took a cab, called
+               <lb/> on <persName ref="#LAUR">M<hi rend="superscript">r</hi> Laurence</persName>, the Minister, treated
                <lb/> us very kindly, gave us tickets,
                <lb/> went to the meeting of Americans 
                <lb/> at <placeName><unclear>Muraits.</unclear></placeName> 
-               Then to <persName>D<hi rend="superscript">r</hi> <unclear>Malans</unclear></persName>
+               Then to <persName ref="#MALA">D<hi rend="superscript">r</hi> <unclear>Malans</unclear></persName>
                <!-- Brian Keller's text ends here. -->
                
                <!-- Proofed 20080630 by HLU/ED -->
@@ -3229,7 +3229,7 @@
                   established in 1763 <bibl><ref target="#EB"><title level="m">Encyclopædia Britannica</title></ref></bibl>. 
                </note> through <placeName type="street">Picca<seg type="softhyphen">-
                <lb/></seg>dilly</placeName>,<placeName type="street"> Fleet,</placeName> <placeName type="street"> Threadneedle</placeName> &amp;
-               <lb/>such familiar streets. <persName>M<hi rend="superscript">r</hi>.
+               <lb/>such familiar streets. <persName ref="#STUR">M<hi rend="superscript">r</hi>.
                <lb/> Sturges</persName> one of the firm very
                <lb/> kind. Left my stock business
                <lb/> with him. Also had our passports
@@ -3278,7 +3278,7 @@
                   <lb/></seg>self into a committee upon the Ecclesiastical Titles' 
                   <lb/> Assumption Bill,
                <lb/>                  
-               <lb/> <persName>Mr. T. <hi rend="smallcaps">Duncombe</hi></persName>
+               <lb/> <persName ref="#DUNC">Mr. T. <hi rend="smallcaps">Duncombe</hi></persName>
                   moved that the first clause be 
                   <lb/> postponed until the House was in possession of a 
                   <lb/> copy of the brief, rescript, or letters apostolical
@@ -3292,22 +3292,22 @@
                   <lb/> arguing that the legislation would be founded, not
                   <lb/> upon the rescript, but upon the notorious fact de<seg type="softhyphen">-
                   <lb/></seg>clared in the preamble, that divers of 
-                  <persName><hi rend="smallcaps">Her Ma<seg type="softhyphen">-
-                  <lb/></seg>jesty's</hi></persName> Roman Catholic subjects had assumed certain
+                  <rs><hi rend="smallcaps">Her Ma<seg type="softhyphen">-
+                  <lb/></seg>jesty's</hi></rs> Roman Catholic subjects had assumed certain
                   <lb/> titles of pretended sees in the United Kingdom, 
                   <lb/> under colour of an alleged authority given to them
                   <lb/> for that purpose by a certain brief, rescript, or let<seg type="softhyphen">-
                   <lb/></seg>ters apostolical from the See of Rome. 
                <lb/>                  
-               <lb/> The motion, which was supported by <persName>Mr. <hi rend="smallcaps">Roe<seg type="softhyphen">-
-                  <lb/></seg>buck</hi></persName>, <persName>Mr. <hi rend="smallcaps">Keogh</hi></persName>, and <persName>Mr. <hi rend="smallcaps">Reynolds</hi></persName>, and opposed
+               <lb/> The motion, which was supported by <persName ref="#ROEB">Mr. <hi rend="smallcaps">Roe<seg type="softhyphen">-
+                  <lb/></seg>buck</hi></persName>, <persName ref="#KEOG">Mr. <hi rend="smallcaps">Keogh</hi></persName>, and <persName>Mr. <hi rend="smallcaps">Reynolds</hi></persName>, and opposed
                   <lb/> by the <hi rend="smallcaps">Attorney-General</hi> and 
-                  <persName>Mr. <hi rend="smallcaps">Walpole</hi></persName>, was 
+                  <persName ref="#WALP">Mr. <hi rend="smallcaps">Walpole</hi></persName>, was 
                   <lb/> negatived on a division by 221 against 49.
                <lb/>                  
                <lb/> On the first clause,
                <lb/>                  
-               <lb/> <persName> Sir <hi rend="smallcaps">F. Thesiger</hi></persName> moved, 
+               <lb/> <persName ref="#THES"> Sir <hi rend="smallcaps">F. Thesiger</hi></persName> moved, 
                   instead of the words
                   <lb/> <q>" the said brief, &amp;c.,"</q> to insert the words <q>"all such
                   <lb/> briefs, &amp;c.,"</q>  intending to move corresponding 
@@ -3326,7 +3326,7 @@
                   <lb/> had misconceived the scope and tendency of the 
                   <lb/> clause, which was not intended to revive the Statute
                   <lb/> of Præmunire, which was unnecessary, but, in de<seg type="softhyphen">-
-                  <lb/></seg>ference to the opinion of <persName>Mr.<hi rend="smallcaps">Walpole</hi></persName>, to make a 
+                  <lb/></seg>ference to the opinion of <persName ref="#WALP">Mr.<hi rend="smallcaps">Walpole</hi></persName>, to make a 
                   <lb/> public and solemn declaration with reference to an 
                   <lb/> act of violence and aggression by a foreign poten<seg type="softhyphen">-
                   <lb/></seg>tate, whereby certain subjects of the realm had
@@ -3338,11 +3338,11 @@
                <lb/>A long discussion ensued, in which the legal con<seg type="softhyphen">-
                   <lb/></seg>struction and effects of the clause and the amend<seg type="softhyphen">-
                   <lb/></seg>ment were very fully considered. At the suggestion of 
-                  <lb/><persName>Mr. <hi rend="smallcaps">Henley</hi></persName>,<persName> 
+                  <lb/><persName ref="#HENL">Mr. <hi rend="smallcaps">Henley</hi></persName>,<persName ref="#THES"> 
                      Sir <hi rend="smallcaps">F. Thesiger</hi></persName> 
                   consented to defer
                   <lb/>the motion until the fate of an amendment in the 
-                  <lb/>preamble announced  by <persName>Mr. <hi rend="smallcaps">Walpole</hi></persName>, which had a 
+                  <lb/>preamble announced  by <persName ref="#WALP">Mr. <hi rend="smallcaps">Walpole</hi></persName>, which had a 
                   <lb/>concurrent object, was decided.
                <lb/>                  
                <lb/> The Earl of <hi rend="smallcaps">Arundel</hi> and <hi rend="smallcaps">Surrey</hi> then moved
@@ -3359,9 +3359,9 @@
                   <lb/> thereby, unlawful and void, and at the same time
                   <lb/> recognizing its validity for certain purposes.
                <lb/>                  
-               <lb/> The amendment was supported by <persName>Mr. <hi rend="smallcaps">Moore</hi></persName>,
-                  <lb/> <persName>Mr. <hi rend="smallcaps">Keogh</hi></persName>, and Sir <persName>H. <hi rend="smallcaps">Barron</hi></persName>, and opposed by
-                  <lb/> <persName> Lord J. <hi rend="smallcaps">Russell</hi></persName>.
+               <lb/> The amendment was supported by <persName ref="#MOOR">Mr. <hi rend="smallcaps">Moore</hi></persName>,
+                  <lb/> <persName ref="#KEOG">Mr. <hi rend="smallcaps">Keogh</hi></persName>, and Sir <persName ref="#BARR">H. <hi rend="smallcaps">Barron</hi></persName>, and opposed by
+                  <lb/> <persName ref="#RUSS"> Lord J. <hi rend="smallcaps">Russell</hi></persName>.
                   On a division it was rejected by 
                   <lb/>316 against 61.
                <lb/>                  
@@ -3370,14 +3370,14 @@
             </quote>
             <p>
                <handShift medium="ink" new="#SSC"/>
-               <lb/> Was most pleased with <persName>Mr
-               <lb/> Walpole</persName> as a speaker, Sir <persName>Geo
+               <lb/> Was most pleased with <persName ref="#WALP">Mr
+               <lb/> Walpole</persName> as a speaker, Sir <persName ref="#GRAY">Geo
                <lb/> Gray </persName> 
                as a business man; Lord
-               <lb/> <persName>John Russell</persName> as a shrewd one.
+               <lb/> <persName ref="#RUSS">John Russell</persName> as a shrewd one.
             </p>
             <p>
-               <lb/>Saw the <persName>Earl of Minto </persName> &amp; Lord
+               <lb/>Saw the <persName ref="#MINT">Earl of Minto </persName> &amp; Lord
                <lb/><persName>Hardwicke</persName>, Late Lord High 
                <lb/>Chancellor in the lobby. Rec'd
                
@@ -3422,7 +3422,7 @@
                <lb/> good bye; walked through 
                <lb/> the park, &amp; stopped on the 
                <lb/> bridge, wrote a description of
-               <lb/> it to <persName>Medary</persName>: wandered home'
+               <lb/> it to <persName ref="#MEDE">Medary</persName>: wandered home'
                <lb/> <choice><abbr>thro'</abbr><expan>throughout</expan></choice> <placeName>Sussex Place</placeName>
                &amp; the aristo<seg type="softhyphen">-
                <lb/></seg>cratic part of <placeName ref="#LOND">London</placeName>. Ladies  
@@ -3605,7 +3605,7 @@
            rode about 
             <lb/> in a cab, through the principal 
             <lb/> streets. Wrote a detail of all 
-            <lb/>to <persName>Col. M.</persName> — A perfect day of 
+            <lb/>to <persName ref="#MEDE">Col. M.</persName> — A perfect day of 
             <lb/>wonders—The <placeName type="landmark">Luxembourg</placeName> above 
            <lb/> all. The café mode was good.
            <lb/> Learned to talk <foreign xml:lang="fre">Francais</foreign> con<seg type="softhyphen">-
@@ -3615,7 +3615,7 @@
            <lb/> Took at short look at <placeName ref="#PARI">Paris</placeName> 
            <lb/> by gaslight; but tired, I retired—
            <lb/> Next <choice><abbr>morn'g</abbr><expan>morning</expan></choice> commenced a letter 
-           <lb/> to <persName>Medary</persName>; but had to take an 
+           <lb/> to <persName ref="#MEDE">Medary</persName>; but had to take an 
            <lb/> early breakfast, so as to be 
            <lb/> at the Dilligence …  
            </p>
@@ -3982,7 +3982,7 @@
                <lb/> when he had got out the "<q><foreign xml:lang="fre">bon</foreign>
                <lb/> <foreign xml:lang="fre">jours</foreign>"—Sneeze—!Sneeze—!<choice><sic>Sne<seg type="softhyphen">-
                <lb/></seg>eeze</sic><corr>Sneeze</corr></choice>—!</q>" to the amusement of              
-               <lb/> <persName>Julia</persName> &amp; 
+               <lb/> <persName ref="#COXJ">Julia</persName> &amp; 
                      Lucy; &amp; no doubt
                <lb/> to the amusement of <persName type="nickname">Mahomed</persName>.
                <lb/> Drove down past the theatre, &amp;
@@ -3990,7 +3990,7 @@
             </p>
             <p>
                <lb/> Sent off letters to day to
-               <lb/> <persName>Medary</persName>—Wrote another long
+               <lb/> <persName ref="#MEDE">Medary</persName>—Wrote another long
                <lb/> one;—One more will post up
                <lb/> France; then one to father; &amp;
                <lb/> hurrah for fair <placeName type="country">Italy.</placeName>
@@ -4030,7 +4030,7 @@
                <lb/> of. Met our U.S. Consul at the
                <lb/> boat, or <hi rend="underline"><foreign xml:lang="fre">batteau</foreign></hi>. He was a perfect
                <lb/> gentleman, more than we can say
-               <lb/> of most Consuls. <persName>Mrs. Stephens</persName>,
+               <lb/> of most Consuls. <persName ref="#STEP">Mrs. Stephens</persName>,
                <lb/> the Authoress &amp; some other Ameri<seg type="softhyphen">‐
                <lb/></seg>cans just started from the shore.
                <lb/> Our boat looked really romantic
@@ -4073,8 +4073,8 @@
                <lb/> great old sea hogs!) Have found
                <lb/> M<hi rend="superscript">rs</hi> Anne Stephens (the Authoress)
                <lb/> quite caustically agreeable; &amp; her
-               <lb/> companions <persName>Miss</persName> 
-               and <persName>M<hi rend="superscript">r</hi> Pratt</persName> (
+               <lb/> companions <persName ref="#PRAJ">Miss</persName> 
+               and <persName ref="#PRAG">M<hi rend="superscript">r</hi> Pratt</persName> (
                
     <!-- Proofed 20080721 by HLU/ED -->
                
@@ -4087,7 +4087,7 @@
                <lb/> called the Superb. Went ashore
                <lb/> without difficulty,—stopped at
                <lb/> the Hotel <hi rend="underline"><choice><sic>Des</sic><corr>de</corr></choice> Londres</hi>, a splendid
-               <lb/> palace. <persName>Julia</persName> said
+               <lb/> palace. <persName ref="#COXJ">Julia</persName> said
                      '<q>this was just
                <lb/> her idea of the old Italian palaces,
                <lb/> black &amp; white marble floors.—
@@ -4111,18 +4111,18 @@
             
           <p>
             <lb/> After resting some time, we started
-            <lb/> out—Ladies with <persName>Miss Pratt</persName>
-             <ptr type="noteAnchor" target="JPratt"/><note resp="ed" xml:id="JPratt" anchored="true"><persName>Julia Pratt</persName>, only daughter of 
+            <lb/> out—Ladies with <persName ref="#PRAJ">Miss Pratt</persName>
+             <ptr type="noteAnchor" target="JPratt"/><note resp="ed" xml:id="JPratt" anchored="true"><persName ref="#PRAJ">Julia Pratt</persName>, only daughter of 
                <persName>Zadock Pratt</persName> of <placeName ref="#NEWY" type="region">New York</placeName> <bibl><ref target="#GJPratt"><title>Zadock Pratt 
                   Museum</title></ref></bibl>.
             </note> &amp; 
-            <lb/> <persName>Mrs. Stephens</persName>          
+            <lb/> <persName ref="#STEP">Mrs. Stephens</persName>          
              <ptr type="noteAnchor" target="AnnStephens"/><note resp="ed" xml:id="AnnStephens" anchored="true"><persName>Ann Sophia Stephens</persName> is the author 
                of <hi rend="italics">Dime Novel No. 1</hi>. She worked as an author, editor, and magazine publisher. 
                She dedicated one of her poems to the Honorable <persName>Zadock Pratt</persName> 
                of <placeName ref="#NEWY" type="region">New York</placeName> 
                <bibl><ref target="#AnnSStephens"><title>Northern Illinois University Library</title></ref></bibl>.
-            </note>, we with <persName>Pratt</persName>              
+            </note>, we with <persName ref="#PRAG">Pratt</persName>              
              <ptr type="noteAnchor" target="GPratt"/><note resp="ed" xml:id="GPratt" anchored="true"><persName>George
                Pratt</persName> (b. April 18, 1830), only son of 
                <persName>Zadock Pratt</persName> of <placeName ref="#NEWY" type="region">New York</placeName> <bibl><ref target="#GJPratt"><title>Zadock Pratt Museum</title></ref></bibl>.
@@ -4250,7 +4250,7 @@
               <persName><choice><abbr>Col.</abbr><expan>Colonel</expan></choice>
            <lb/> M</persName>. Sent if off ⁓ Soon we were              
            <lb/> ready again for our steamer; &amp;
-           <lb/> with <persName>Mrs. <choice><sic>Stevens</sic><corr>Stephens</corr></choice></persName>
+           <lb/> with <persName ref="#STEP">Mrs. <choice><sic>Stevens</sic><corr>Stephens</corr></choice></persName>
               &amp; <choice><abbr>Co</abbr><expan>company</expan></choice>, we entered the               
            <lb/> <foreign xml:lang="fre">bateau</foreign> &amp; were aboard at 5 P.M.                
            <lb/> A large <choice><abbr>n<hi rend="superscript">o</hi></abbr><expan>number</expan></choice> of Americans were at
@@ -4322,14 +4322,14 @@
             </dateline></opener>
             <p>
                <lb/> Woke up to find ourselves at <placeName ref="#LEGH">Leg<seg type="softhyphen">-
-               <lb/></seg>horn</placeName>; <persName>Philo</persName> went <del type="unrecoverable" rend="overwritten"/>on shore
-               <lb/> with <persName>Miss Pratt</persName>, to whom he is
+               <lb/></seg>horn</placeName>; <persName ref="#BUCKP">Philo</persName> went <del type="unrecoverable" rend="overwritten"/>on shore
+               <lb/> with <persName ref="#PRAJ">Miss Pratt</persName>, to whom he is
                <lb/> growing o'er fond for his happiness;
-               <lb/> <persName>Julia</persName> waited for me — who having
+               <lb/> <persName ref="#COXJ">Julia</persName> waited for me — who having
                <lb/> written till late to send a letter off
                <lb/> at <placeName ref="#LEGH">Leghorn</placeName> to <rs type="person">father</rs>, lay abed till
                <lb/> 7 AM. Well, arrived at Leghorn,
-               <lb/> we stopped with <persName>Mrs. Stephens</persName>. She
+               <lb/> we stopped with <persName ref="#STEP">Mrs. Stephens</persName>. She
                <lb/> has a peculiarly vigorous mind,
                <lb/> full of prejudices, but grasping facts
                <lb/> &amp; consequences <del hand="#SSC" rend="overwritten" type="recoverable">as</del>so readily, as to
@@ -4357,8 +4357,8 @@
                <lb/> atonement.
             </p>
             <p>
-               <lb/> In company with <choice><abbr>Lieut's.</abbr><expan>lieutenant</expan></choice> <persName>Nelson</persName>
-               <lb/> &amp; <persName>Rutle<del type="recoverable" rend="overwritten">g</del>dge</persName> U.S. Navy of the <rs type="ship">Steamship
+               <lb/> In company with <choice><abbr>Lieut's.</abbr><expan>lieutenant</expan></choice> <persName ref="#NELS">Nelson</persName>
+               <lb/> &amp; <persName ref="#RUTL">Rutle<del type="recoverable" rend="overwritten">g</del>dge</persName> U.S. Navy of the <rs type="ship">Steamship
                <lb/> Mis</rs> — we visited the grave yard,
                <lb/> where among many monuments of
                <lb/> marble that of <persName>Tobias Smollett</persName>
@@ -4373,14 +4373,14 @@
                <lb/> flowers as mementos, then visited
                <lb/> the <name type="ship">Mississippi</name>. The boat looked fine,
                <lb/> the officers treated us finer. Met &amp;
-               <lb/> was introduced to <persName>Powers</persName>, 
+               <lb/> was introduced to <persName ref="#POWE">Powers</persName>, 
                      the Sculp<seg type="softhyphen">
                <lb/></seg>tor, on board. Who was sending his 
-               <lb/> son to West Point. <persName>Powers</persName> wore a 
+               <lb/> son to West Point. <persName ref="#POWE">Powers</persName> wore a 
                <lb/> flabby sort of round topped hat;
                <lb/> had a rotund pleasant face, and
                <lb/> an intelligent big eye of brightness. 
-               <lb/> <persName>Mrs Stephens</persName> &amp; myself disagreed as 
+               <lb/> <persName ref="#STEP">Mrs Stephens</persName> &amp; myself disagreed as 
                <lb/> to our opinions of his "Greek
                <lb/> Slave." We could not disagree as
                <lb/> to his <hi rend="underline">bonhommie</hi>
@@ -4402,7 +4402,7 @@
                
       <pb facs="SSCox_084"/>
                
-               <lb/> <persName>Philo</persName> got a splash getting aboard.
+               <lb/> <persName ref="#BUCKP">Philo</persName> got a splash getting aboard.
                <lb/> We saw a gun that fired 130 times
                <lb/> at <placeName type="landmark">San Juan D'Ulloa</placeName> in the 
                <lb/> Mexican War. The <rs type="ship">Miss</rs>, it is
@@ -4411,7 +4411,7 @@
             </p>
             <p>
                <lb/> After bidding <hi rend="underline"><foreign xml:lang="fre">adieu</foreign></hi> 
-               (Which <persName>Philo</persName>
+               (Which <persName ref="#BUCKP">Philo</persName>
                <lb/> did <hi rend="underline">painfully</hi> no doubt) with our good
                <lb/> company we went ab<del type="recoverable" rend="overwritten">a</del>oard Langue<seg type="softhyphen">-
                <lb/></seg>doc. <add place="supralinear" rend="caret">We saw the Isle of Elba dim 
@@ -4422,8 +4422,8 @@
                <lb/> told us many stories — the one of
                <lb/> the Prussian Crown Prince, himself
                <lb/> &amp; the American ladies was a good
-               <lb/> one. <persName>Mrs. Stephens</persName> will get it in
-               <lb/> her book. He gave <persName>Mrs. S.</persName> <del type="recoverable" rend="overwritten">a</del>letters
+               <lb/> one. <persName ref="#STEP">Mrs. Stephens</persName> will get it in
+               <lb/> her book. He gave <persName ref="#STEP">Mrs. S.</persName> <del type="recoverable" rend="overwritten">a</del>letters
                <lb/> to his noble friends, among whom
                <lb/> were the <persName>Countess Berry</persName>, Mother of
                <lb/> <persName>Henry 5. (</persName>French "Pretender".)
@@ -4523,7 +4523,7 @@
                <lb/> goldenly and <persName>Juvenal</persName> satired
                <lb/> so bitingly! Here <persName>Cato</persName> gave the 
                <lb/> world an example for age, and
-               <lb/> <persName>Quinctillian</persName> canons of criticism
+               <lb/> <persName><choice><sic>Quinctillian</sic><corr>Quintillian</corr></choice></persName> canons of criticism
                <lb/> as eternal as Truth. Can it be that  
                <lb/> yon old round crumbling circle 
                <lb/> of walled massiveness is the <placeName type="landmark"><choice><sic>Colis<seg type="softhyphen">-
@@ -4560,8 +4560,8 @@
                <lb/> it for the <placeName type="landmark">Colliseum</placeName>. I see by the
                <lb/> guide book, it must have been 
                <lb/> a mistake. After a good supper, 
-               <lb/> (<persName>Lucy</persName> &amp; <persName>Philo</persName> being tired, not being good 
-               <lb/> at land travelling) <persName>Julia</persName> &amp; I par<seg type="softhyphen">-
+               <lb/> (<persName ref="#BUCL">Lucy</persName> &amp; <persName ref="#BUCKP">Philo</persName> being tired, not being good 
+               <lb/> at land travelling) <persName ref="#COXJ">Julia</persName> &amp; I par<seg type="softhyphen">-
                   
         <!-- Proofed 20080804 by HLU/ED -->                
                   
@@ -4601,7 +4601,7 @@
                <lb/></seg>gant paintings. The latter has
                <lb/> some old gems, a <persName>Praxiteles</persName>
                <lb/> <persName><choice><sic>Appollo</sic><corr>Apollo</corr></choice></persName> &amp; the <persName>Antinous</persName>
-               <lb/> crowned with Lotus; <persName>Julia</persName> with<seg type="softhypen">
+               <lb/> crowned with Lotus; <persName ref="#COXJ">Julia</persName> with<seg type="softhypen">
                <lb/></seg>out in full of these. The morning
                <lb/> of this day, we devoted so
                
@@ -4614,7 +4614,7 @@
                <lb/> Via</placeName>, <placeName type="landmark">Arch of Septimius Sev<seg type="softhyphen">-
                <lb/></seg>erus</placeName>—&amp; the <placeName type="landmark">Colliseum</placeName>, which
                <lb/> latter we examined fully —
-               <lb/> <persName>Julia</persName> got up in the <quote>"rent of 
+               <lb/> <persName ref="#COXJ">Julia</persName> got up in the <quote>"rent of 
                <lb/> ruin,"</quote> &amp; I after her; read
                <lb/> <persName>Byron.</persName> Marked <persName>Murray</persName>:<ptr type="noteAnchor" target="Murray"/>
                <note resp="ed" xml:id="Murray">John Murray's handbooks for travellers were published in
@@ -4666,7 +4666,7 @@
                <lb/> which he did in Latin. I
                <lb/> <choice><abbr>rec'd</abbr><expan>received</expan></choice> a copy of the sermon. Abso<seg type="softhyphen">
                <lb/></seg>lution being given; we entered S<hi rend="superscript">t</hi>.  
-               <lb/> <persName>Peters</persName>; looked around its ma<seg type="softhyphen">-
+               <lb/> Peters; looked around its ma<seg type="softhyphen">-
                <lb/></seg>jestic departments. The statues
                <lb/> of Popes, the paintings of masters,
                <lb/> and the sacred things, alternate<seg type="softhyphen">
@@ -4816,7 +4816,7 @@
                   <lb/> by moonlight It was beautiful.
                   <lb/> Of today's work, can only
                   <lb/> refer to my letter to father &amp;
-                  <lb/> to <persName type="author">Murray</persName>; as well as to <persName>Julia's</persName>
+                  <lb/> to <persName type="author">Murray</persName>; as well as to <persName ref="#COXJ">Julia's</persName>
                   <lb/> fine journal.  She is now in
                   <lb/> long hair writing away at it.
                   <lb/> She must quit soon &amp; sleep.
@@ -4855,7 +4855,7 @@
                </dateline>
             </opener>
             <p>
-               <lb/> <persName>Julia</persName> has posted up a fine journ<seg type="softhyphen">
+               <lb/> <persName ref="#COXJ">Julia</persName> has posted up a fine journ<seg type="softhyphen">
                <lb/></seg>al of to day, &amp; I must refer to it.
                <lb/> As I make up letters about to days
                <lb/> walk, I can only indicate the
@@ -4889,13 +4889,13 @@
                <lb/> buried without rites.  Two X X are 
                <lb/> over the grave.  Drove next to <placeName><choice><sic>Corsina</sic><corr>Corsini</corr></choice>
                <lb/> palace</placeName>. (p 508 <persName>Murray</persName>) noted
-               <lb/> what was worthy.  <persName>Julia</persName> noted
-               <lb/> &amp; wrote — soon passed it.  <persName>Stefano</persName>
+               <lb/> what was worthy.  <persName ref="#COXJ">Julia</persName> noted
+               <lb/> &amp; wrote — soon passed it.  <persName ref="#STEF">Stefano</persName>
                <lb/> our guide, showed us a "natural
                <lb/> panorama," in the market
                <lb/> place, with <unclear cert="medium" resp="#HLU" reason="unclear">founts</unclear> &amp;c. We next
                <lb/> went to <persName>S<hi rend="superscript">t</hi> Augustine</persName>.  Saw such 
-               <lb/> idolatry (see <persName>Julia's</persName> journal)
+               <lb/> idolatry (see <persName ref="#COXJ">Julia's</persName> journal)
                <lb/> as made the heart sick.  Fine
                <lb/> looking &amp; even intelligent people
                <lb/> kissing the Virgin's Silver toe!!!
@@ -4957,7 +4957,7 @@
                <lb/></seg>lioni Villa</placeName>. Saw ruins aplenty
                <lb/> of Rev. of 1848; but the sweetest
                <lb/> house. The painter's &amp; bed room
-               <lb/> took me.. Could not — but <persName>Julia</persName>
+               <lb/> took me.. Could not — but <persName ref="#COXJ">Julia</persName>
                <lb/> can describe it. Left it reluc<seg type="softhyphen">-
                <lb/></seg>tantly. It was so chaste &amp; un<seg type="softhyphen">-
                <lb/></seg>tinselled. Past the <placeName type="landmark">Popolo gate</placeName>
@@ -5346,7 +5346,7 @@
                <lb/> <choice><sic>exhilerating</sic><corr>exhilarating</corr></choice> company. This
                <lb/> was the <hi rend="underline">real</hi> fun. What a
                <lb/> company we had; under the
-               <lb/> lead of <persName>Antonio</persName>; 
+               <lb/> lead of <persName ref="#ANTO">Antonio</persName>; 
                <del hand="#SSC" type="unrecoverable" rend="overwritten"/>At the base of
                <lb/> the crater part, we took <unclear>it</unclear>
                <lb/> foot, ladies in chairs; ¾ of
@@ -5407,7 +5407,7 @@
                <lb/> <choice><sic>alseep</sic><corr>asleep</corr></choice> &amp; <choice><sic>recumbant</sic><corr>recumbent</corr></choice>, while
                <lb/> her forehead was gleaming with
                <lb/> a <choice><sic>coronel</sic><corr>coronal</corr></choice> of Gems. ⁓ For the 
-               <lb/> rest see <persName>Julia's</persName> letter &amp; mine to Col M
+               <lb/> rest see <persName ref="#COXJ">Julia's</persName> letter &amp; mine to Col M
                
                <!-- Proofed 20080811 by HLU/ED --> 
                
@@ -5703,7 +5703,7 @@
                <lb/> we were deserted by green almonds, yellow
                <lb/> <del type="recoverable" hand="#SSC" rend="overstrike">nectar</del>
                      <del type="unrecoverable" rend="overwritten"/>apricots, cherries, ripe pears. 
-                     <persName>Philo</persName>
+                     <persName ref="#BUCKP">Philo</persName>
                <lb/> bought some ripe figs just pulled, They
                <lb/> looked &amp; tasted like our pawpaws — a
                <lb/> sickly sweet taste.  We <hi rend="underline">feel</hi> ourself in
@@ -5747,8 +5747,8 @@
                      English
                <lb/> friend &amp; he sung, <foreign xml:lang="fre"><hi rend="underline">feu</hi></foreign>! The sailors
                <lb/> leaped into the rigging, tore the sails, &amp;
-               <lb/> with the aid of water, <persName>Lucy's</persName> fears
-               <lb/> (<persName>Julia</persName> had none) were removed.
+               <lb/> with the aid of water, <persName ref="#BUCL">Lucy's</persName> fears
+               <lb/> (<persName ref="#COXJ">Julia</persName> had none) were removed.
                <lb/> How fine is the air &amp; the sky here!
                <lb/> And the isle is it not called by <persName>Homer</persName>
                <lb/> truly, the "isle of the Sun."—
@@ -5870,7 +5870,7 @@
                <lb/></seg>structions as to our progress; visited
                <lb/> <placeName type="landmark">S<hi rend="superscript">t</hi> John's Cathedral</placeName>, saw the tombs of
                <lb/> the "Knights of Malta." — returned home
-               <lb/> to write. Wrote a letter to <persName>Col. M</persName>. &amp; left it
+               <lb/> to write. Wrote a letter to <persName ref="#MED">Col. M</persName>. &amp; left it
                <lb/> with our Consul.
             </p>
             <p>
@@ -6467,11 +6467,11 @@
                
                <lb/> with no carriages or waggons, - poor
                <lb/> donkeys &amp; men carry all. We
-               <lb/> left <persName>Philo</persName> to attend to our baggage
+               <lb/> left <persName ref="#BUCKP">Philo</persName> to attend to our baggage
                <lb/> then went to <placeName type="building">Hotel D'Anglaterre</placeName> —
                <lb/> after washing up saw <choice><abbr>M<hi rend="superscript">r</hi></abbr><expan>Mister</expan></choice>
                <handShift new="#UNK" medium="pencil"/>
-               <persName><choice><sic>Dannez</sic><corr>Dainese</corr></choice></persName>
+               <persName ref="#DAIN"><choice><sic>Dannez</sic><corr>Dainese</corr></choice></persName>
                <ptr type="noteAnchor" target="C19"/><note resp="ed" xml:id="C19" anchored="true">According to <title level="m">A Buckeye Abroad, </title>Mr. Dainese was 
                           the consul 
                           who accompanied Cox's party on their journey through Constantinople <bibl><ref target="#SSC1851">219</ref></bibl>.</note>
@@ -6483,7 +6483,7 @@
                <lb/> with long, sugar loaf, curly black hats;
                <lb/> The Turks take it easiest in their big
                <lb/> turbans.— Was not very well — went to 
-               <lb/> bed early. <persName>Julia</persName> &amp; I both staid at
+               <lb/> bed early. <persName ref="#COXJ">Julia</persName> &amp; I both staid at
                <lb/> home in <choice><abbr>Evg</abbr><expan>Evening</expan></choice>.         
             </p>
          </div>
@@ -6536,7 +6536,7 @@
                <lb/> multiform beauty on every side
                <lb/> the walls were greened; the walls
                <lb/> beflowered: the kind Turks per<seg type="softhyphen">-
-               <lb/></seg>mitted <persName>Julia</persName> to carry away a 
+               <lb/></seg>mitted <persName ref="#COXJ">Julia</persName> to carry away a 
                <lb/> fine boquet. We then went to the 
                <lb/> National Armory. The arms are
                <lb/> elegantly stacked, after the fashion
@@ -6678,7 +6678,7 @@
             </p>
             <p>
                <lb/> Late supper — finished Journal,
-               <lb/> <persName>Julia</persName> writes home — &amp; I 
+               <lb/> <persName ref="#COXJ">Julia</persName> writes home — &amp; I 
                <lb/> close this. —
             </p>
             
@@ -6813,7 +6813,7 @@
                <lb/> I commenced my closing letter about
                <lb/> <placeName ref="#CONS" type="city">Constantinople</placeName>: have just finished &amp;
                <lb/> am well satisfied with it. Hope 
-               <lb/> <persName><hi rend="underline">Col. M.</hi></persName> will be. We have taken our
+               <lb/> <persName ref="#MEDE"><hi rend="underline">Col. M.</hi></persName> will be. We have taken our
                <lb/> bath. How I can depicture it? Fol<seg type="softhyphen">-
                <lb/></seg>lowing Abraham from street to street,
                <lb/> at last we entered a stone building
@@ -6869,7 +6869,7 @@
                <lb/> &amp; thrilling; but mellowed &amp; tender as
                <lb/> a sunset would produce or a
                <lb/> picture of <persName>Murillo</persName>.  
-               Soon <persName><choice><abbr>P</abbr><expan>Philo</expan></choice></persName> &amp; I 
+               Soon <persName ref="#BUCKP"><choice><abbr>P</abbr><expan>Philo</expan></choice></persName> &amp; I 
                <lb/> began to throw the warm water at
                <lb/> each other; in the mean time the sweat
                <lb/> running, &amp; the sensation robbing
@@ -6907,7 +6907,7 @@
                <lb/> am a Christian &amp; can't go it."</q>
                <lb/> Philo remarked "<q>that the fellow
                <lb/> would make a fortune in <placeName>NY</placeName>.</q>"
-               <lb/> "<q>Dont talk <persName>Philo</persName>!</q>" "<q>How do you
+               <lb/> "<q>Dont talk <persName ref="#BUCKP">Philo</persName>!</q>" "<q>How do you
                <lb/> feel <persName>Sam</persName></q>" — Oh! in Elysium—.
                
                <!-- Proofed 20080819 by HLU/ED -->       
@@ -7365,7 +7365,7 @@
                <lb/>was surrounded, where <persName>Lannes</persName> was des<seg type="softhyphen">-
                <lb/></seg>perately wounded in the swamps; &amp; the
                <lb/>cry of "<q>Save the General</q>," bro't out the
-               <lb/>child of Destiny. <persName>Julia</persName> said she
+               <lb/>child of Destiny. <persName ref="#COXJ">Julia</persName> said she
                <lb/>saw the obelisk. The <del type="unrecoverable" rend="overwritten"/>Adigo flowed by
                <lb/>the gate of the Boscarre received us at
                <lb/>Verona — The <q>"two gentlemen"</q> of <persName>W<hi rend="superscript">m</hi>
