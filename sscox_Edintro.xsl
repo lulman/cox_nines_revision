@@ -145,6 +145,9 @@
                            <li><a href="./sscox_journal.html#projectDescription">Project Description</a></li>
                            <li><a href="./sscox_journal.html#source">The Source Document</a></li>
                            <li><a href="./sscox_journal.html#edition">The Electronic Edition</a></li>
+                           <li><a href="./sscox_journal.html#worksCited">Works Cited</a></li>
+                           <li><a href="./sscox_journal.html#peopleMentioned">People Mentioned</a></li>
+                           <li><a href="./sscox_journal.html#placesMentioned">Ports of Call</a></li>
                            <li><a href="./sscox_journal.html#revHistory">Revision History</a></li>
                         </ul>
                      </li>
@@ -162,10 +165,6 @@
                            <li><a href="./appendices-CoxZoomIndex.html">Images of the MS Pages</a></li>
                            <li><a href="./appendices-CoxRestorationHTML5.html">Restoring the MS</a></li>
                            <li><a href="./appendices-CoxTourMaps.html">Maps</a></li>
-                           <li><a href="./sscox_journal.html#peopleMentioned">People</a></li>
-                           <li><a href="./sscox_journal.html#placesMentioned">Places</a></li>
-                           <li><a href="./sscox_journal.html#worksCited">Works Cited</a></li>
-                           <li><a href="./sscox_journal.html#revHistory">Revision History</a></li>
                            <li><a href="./appendices-Acknowledgements.html">Acknowledgements</a></li>
                            <li><a href="./appendices-aboutEditors.html">About the Editors</a></li>
                         </ul>
