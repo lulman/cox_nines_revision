@@ -543,7 +543,7 @@
       <hr style="border: 2px solid crimson;"/>
       <h2 id="edition">About the Electronic Edition</h2>
       <hr/>
-      <p><strong>Title</strong>: <xsl:value-of select="tei:title"/></p>
+      <p><strong>Preferred Citation</strong>: <xsl:value-of select="tei:title"/></p>
          <p><strong>Editors</strong>: <xsl:for-each select="tei:editor">
             <xsl:choose>
                <xsl:when test="current()=//tei:editor[1]">
